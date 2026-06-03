@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tin Tức Di Trú EB-3 | EB3 Vietnam Hub</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
+
+/* NAV */
+.site-nav{display:flex;align-items:center;gap:0;background:#1a2535;border-bottom:1px solid #2d3f55;overflow-x:auto;padding:0 8px}
+.site-nav a{padding:12px 14px;font-size:12px;font-weight:600;color:#64748b;text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:all .15s}
+.site-nav a:hover{color:#94a3b8}
+.site-nav a.active{color:#60a5fa;border-bottom-color:#60a5fa;background:#1e2d42}
+.site-nav .logo{color:#f1f5f9;font-weight:800;font-size:13px;padding:12px 14px;border-bottom:2px solid transparent;margin-right:4px}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
+.hero h1{font-size:20px;font-weight:800;color:#fff}
+.hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
+
+/* MAIN */
+.main{max-width:900px;margin:0 auto;padding:18px 16px}
+
+/* FILTER BAR */
+.filter-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px;align-items:center}
+.filter-bar span{font-size:11.5px;color:#64748b;margin-right:4px}
+.tag-btn{padding:5px 12px;border-radius:16px;font-size:11.5px;font-weight:500;border:1px solid #2d3f55;background:#1a2535;color:#64748b;cursor:pointer;transition:all .12s}
+.tag-btn:hover{border-color:#60a5fa;color:#60a5fa}
+.tag-btn.active{color:#fff;border-color:transparent}
+.tag-btn[data-tag="all"].active{background:#334155}
+.tag-btn[data-tag="EB-3"].active{background:#7c3aed}
+.tag-btn[data-tag="USCIS"].active{background:#1d4ed8}
+.tag-btn[data-tag="DOS"].active{background:#0e7490}
+.tag-btn[data-tag="Phí"].active{background:#b45309}
+.tag-btn[data-tag="CSPA"].active{background:#15803d}
+.tag-btn[data-tag="Premium"].active{background:#9a3412}
+.tag-btn[data-tag="NVC"].active{background:#1e40af}
+.tag-btn[data-tag="DOL"].active{background:#4d7c0f}
+
+/* SEARCH */
+.search-wrap{margin-bottom:14px}
+.search-wrap input{width:100%;padding:9px 14px;border-radius:8px;border:1px solid #2d3f55;background:#1a2535;color:#e2e8f0;font-size:13px;outline:none}
+.search-wrap input:focus{border-color:#60a5fa}
+.search-wrap input::placeholder{color:#475569}
+
+/* COUNT */
+.result-count{font-size:12px;color:#64748b;margin-bottom:14px}
+.result-count b{color:#94a3b8}
+
+/* NEWS GRID */
+.news-grid{display:grid;gap:12px}
+.news-card{background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:16px;transition:border-color .15s}
+.news-card:hover{border-color:#3d5a7a}
+.news-card.hidden{display:none}
+
+.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.card-title{font-size:13.5px;font-weight:700;color:#f1f5f9;line-height:1.4;flex:1}
+.card-tags{display:flex;gap:4px;flex-wrap:wrap;flex-shrink:0}
+
+.tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:8px}
+.tag-EB3{background:#3b1f8c;color:#c4b5fd}
+.tag-USCIS{background:#1e3a8a;color:#93c5fd}
+.tag-DOS{background:#0c4a6e;color:#7dd3fc}
+.tag-Fee{background:#431407;color:#fdba74}
+.tag-CSPA{background:#0a3320;color:#4ade80}
+.tag-Premium{background:#431407;color:#fb923c}
+.tag-NVC{background:#0f2a47;color:#60a5fa}
+.tag-DOL{background:#1a2e05;color:#84cc16}
+.tag-VB{background:#3f1f06;color:#fbbf24}
+
+.card-meta{font-size:11.5px;color:#64748b;margin-bottom:10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.card-meta .date{color:#94a3b8}
+.card-meta .source{font-weight:600;color:#60a5fa}
+.card-desc{font-size:12.5px;color:#94a3b8;line-height:1.7;margin-bottom:8px}
+.card-impact{font-size:12px;color:#fbbf24;line-height:1.6;padding:8px 10px;background:#1c1a08;border:1px solid #854d0e;border-radius:6px}
+.card-impact::before{content:'⚡ Tác động: ';font-weight:600}
+
+.no-results{text-align:center;padding:40px;color:#64748b}
+
+/* DISCLAIMER */
+.disclaimer{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:20px;line-height:1.6}
+.disclaimer b{color:#94a3b8}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <span class="logo">🇺🇸 EB3 Hub</span>
+  <a href="index.html">🏠 Trang chủ</a>
+  <a href="visa-bulletin.html">📅 Visa Bulletin</a>
+  <a href="news.html" class="active">📰 Tin tức</a>
+  <a href="guides.html">📖 Hướng dẫn</a>
+  <a href="faq.html">❓ FAQ</a>
+  <a href="glossary.html">📚 Thuật ngữ</a>
+  <a href="bmv.html">🚗 BMV Indiana</a>
+</nav>
+
+<div class="hero">
+  <h1>📰 Tin Tức & Cập Nhật Chính Sách</h1>
+  <p>Theo dõi các thay đổi USCIS · DOS · NVC · DOL ảnh hưởng đến hồ sơ EB-3</p>
+</div>
+
+<div class="main">
+
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="🔍 Tìm kiếm tin tức..." oninput="filterNews()">
+  </div>
+
+  <div class="filter-bar">
+    <span>Lọc:</span>
+    <button class="tag-btn active" data-tag="all" onclick="setTag('all',this)">Tất cả</button>
+    <button class="tag-btn" data-tag="EB-3" onclick="setTag('EB-3',this)">EB-3</button>
+    <button class="tag-btn" data-tag="USCIS" onclick="setTag('USCIS',this)">USCIS</button>
+    <button class="tag-btn" data-tag="DOS" onclick="setTag('DOS',this)">DOS</button>
+    <button class="tag-btn" data-tag="Phí" onclick="setTag('Phí',this)">Phí</button>
+    <button class="tag-btn" data-tag="CSPA" onclick="setTag('CSPA',this)">CSPA</button>
+    <button class="tag-btn" data-tag="Premium" onclick="setTag('Premium',this)">Premium</button>
+    <button class="tag-btn" data-tag="NVC" onclick="setTag('NVC',this)">NVC</button>
+    <button class="tag-btn" data-tag="DOL" onclick="setTag('DOL',this)">DOL</button>
+    <button class="tag-btn" data-tag="VB" onclick="setTag('VB',this)">Visa Bulletin</button>
+  </div>
+
+  <div class="result-count" id="count"></div>
+
+  <div class="news-grid" id="news-grid"></div>
+
+  <div class="no-results hidden" id="no-results">Không tìm thấy tin phù hợp.</div>
+
+  <div class="disclaimer">
+    <b>Lưu ý:</b> Nội dung trên chỉ mang tính tham khảo, được tổng hợp từ các nguồn chính thức (USCIS, DOS, DOL). Không thay thế tư vấn pháp lý di trú chuyên nghiệp. Luôn kiểm tra lại tại nguồn gốc trước khi ra quyết định.
+  </div>
+</div>
+
+<script>
+const NEWS = [
+  {
+    title: 'EB-3 / EW Annual Limit Reached — FY2025',
+    date: '09/2025', source: 'Department of State',
+    tags: ['EB-3','DOS','VB'],
+    desc: 'DOS tiếp tục thông báo quota EB-3/EW FY2025 đã cạn trước cuối fiscal year (30/09/2025); tình trạng tương tự FY2024.',
+    impact: 'Case current nhưng vẫn có thể không được issue visa nếu quota hết.'
+  },
+  {
+    title: 'Adjustment of Status — Reclassified as Discretionary',
+    date: '2026', source: 'USCIS',
+    tags: ['USCIS','EB-3'],
+    desc: 'USCIS memo mới xem việc Adjustment of Status (I-485) là discretionary benefit "extraordinary", thúc đẩy nhiều applicant phải về nước làm Consular Processing thay vì xin thẻ xanh trong Mỹ.',
+    impact: 'Ảnh hưởng lớn EB-3 trong Mỹ; tăng số case NVC/DS-260/interview ở embassy ngoài Mỹ, tăng rủi ro delay, retrogression, 221(g).'
+  },
+  {
+    title: 'June 2026 Visa Bulletin — Cảnh báo Retrogression',
+    date: '06/2026', source: 'Department of State',
+    tags: ['DOS','VB','EB-3'],
+    desc: 'DOS cảnh báo khả năng retrogression/unavailable với một số EB categories do demand tăng mạnh.',
+    impact: 'Người EB-3 cần theo dõi Visa Bulletin sát hơn; current hôm nay chưa chắc current tháng sau.'
+  },
+  {
+    title: 'Signature Rule on Immigration Benefit Requests',
+    date: '11/05/2026 (HLực: 10/07/2026)', source: 'DHS / Federal Register',
+    tags: ['USCIS','EB-3'],
+    desc: 'Nếu USCIS nhận hồ sơ rồi sau đó phát hiện chữ ký không hợp lệ, USCIS có thể reject hoặc deny toàn bộ hồ sơ.',
+    impact: 'Ảnh hưởng mọi benefit request nộp USCIS, gồm I-140/I-485/I-907; cần kiểm tra chữ ký cực kỹ.'
+  },
+  {
+    title: 'NVC Case Creation Timeframe — Delay Alert',
+    date: '18/05/2026', source: 'Department of State / NVC',
+    tags: ['DOS','NVC'],
+    desc: 'NVC đang xử lý và tạo case cho hồ sơ nhận từ USCIS ngày 05/05/2026; hồ sơ USCIS approved sau ngày này có thể chưa được tạo case và có thể có delay.',
+    impact: 'Sau I-140 approval, thường chờ USCIS chuyển hồ sơ sang NVC rồi NVC tạo case/welcome letter.'
+  },
+  {
+    title: 'Premium Processing Fee Increase — FY2026',
+    date: '09/01/2026', source: 'USCIS / DHS',
+    tags: ['USCIS','Phí','Premium'],
+    desc: 'DHS/USCIS tăng phí premium processing (I-907) theo lạm phát giai đoạn 06/2023–06/2025; đây là lần điều chỉnh định kỳ thứ hai.',
+    impact: 'Tăng chi phí xử lý nhanh I-140; kiểm tra mức phí mới trước khi nộp I-907.'
+  },
+  {
+    title: 'Strengthened Screening and Vetting',
+    date: '30/03/2026', source: 'USCIS',
+    tags: ['USCIS','EB-3'],
+    desc: 'USCIS ban hành quy định tăng cường kiểm tra an ninh và vetting đối với người nộp đơn; áp dụng với các hồ sơ employment-based (I-140, I-485).',
+    impact: 'Có thể làm hồ sơ bị xét kỹ hơn hoặc chậm hơn, nhất là khi có yếu tố background/security.'
+  },
+  {
+    title: 'IV Scheduling Status Tool — DOS ra mắt công cụ mới',
+    date: '2025', source: 'Department of State',
+    tags: ['DOS','NVC'],
+    desc: 'DOS triển khai/cập nhật công cụ xem embassy nào đang schedule immigrant visa đến mốc nào.',
+    impact: 'Hữu ích cho EB-3 đã DQ theo dõi interview scheduling.'
+  },
+  {
+    title: 'CSPA Changed Back to Final Action Dates',
+    date: '08/08/2025 (HLực: 15/08/2025)', source: 'USCIS & DOS',
+    tags: ['USCIS','CSPA'],
+    desc: 'USCIS và DOS dùng Final Action Dates để xác định visa available cho CSPA — đảo ngược policy 2023.',
+    impact: 'Có thể bất lợi hơn cho con phụ thuộc gần 21 tuổi so với policy dùng Dates for Filing (2023).'
+  },
+  {
+    title: 'H.R. 1 Fee Updates — Big Beautiful Bill',
+    date: '18/07/2025', source: 'USCIS',
+    tags: ['USCIS','Phí'],
+    desc: 'USCIS cập nhật một số mức phí immigration theo luật H.R. 1; áp dụng cho nhiều loại đơn gồm I-131, I-485 và các loại phí khác.',
+    impact: 'Cần kiểm tra fee mới nếu nộp form liên quan sau mốc hiệu lực.'
+  },
+  {
+    title: 'EB-3 / EW Annual Limit Reached — FY2024',
+    date: '16/09/2024', source: 'Department of State',
+    tags: ['EB-3','DOS','VB'],
+    desc: 'DOS thông báo toàn bộ quota EB-3/EW FY2024 đã dùng hết trước cuối fiscal year.',
+    impact: 'Không thể cấp thêm EB-3/EW visa đến đầu FY2025; nhiều case DQ phải chờ.'
+  },
+  {
+    title: 'Ability to Pay Policy Guidance — EB-3 Employer',
+    date: '09/2024', source: 'USCIS',
+    tags: ['USCIS','EB-3'],
+    desc: 'USCIS làm rõ cách xét employer\'s ability to pay cho EB-1/EB-2/EB-3; yêu cầu bằng chứng tài chính của nhà tuyển dụng rõ ràng hơn.',
+    impact: 'Ảnh hưởng trực tiếp EB-3 employer-sponsored; có thể tăng RFE/denial nếu employer financial evidence yếu.'
+  },
+  {
+    title: 'EB-3 Retrogression — ROW/Mexico/Philippines',
+    date: '07/2024 & 09/2024', source: 'Department of State',
+    tags: ['EB-3','DOS','VB'],
+    desc: 'DOS lùi ngày Final Action Date của EB-3 (ROW/Mexico/Philippines) do dư cầu visa quá cao; final action date bị retrogress về phía trước.',
+    impact: 'Dù I-140 approved, NVC/interview/visa issuance có thể phải chờ lâu hơn dự kiến.'
+  },
+  {
+    title: 'Employment-Based Fee / Asylum Program Fee Reminder',
+    date: '29/04/2024 & 23/09/2024', source: 'USCIS',
+    tags: ['USCIS','Phí','EB-3'],
+    desc: 'USCIS nhắc petitioner nộp đúng phí I-140, gồm Asylum Program Fee ($600) nếu áp dụng (employer có ≥25 nhân viên).',
+    impact: 'Rất quan trọng cho I-140 nộp mới sau 01/04/2024; sai phí có thể bị reject.'
+  },
+  {
+    title: 'USCIS Fee Final Rule — Tăng phí từ 01/04/2024',
+    date: '30/01/2024 (HLực: 01/04/2024)', source: 'USCIS / DHS',
+    tags: ['USCIS','Phí'],
+    desc: 'Điều chỉnh nhiều loại phí USCIS lần đầu từ 2016; I-140 tăng từ $700 lên $1,315 (gói thường), I-907 Premium từ $2,500 lên $2,805.',
+    impact: 'I-140 và nhiều form liên quan tăng phí; sai phí dễ bị reject. Kiểm tra uscis.gov/fees trước khi nộp.'
+  },
+  {
+    title: 'Concurrent EB Filing Location Change',
+    date: '10/2023', source: 'USCIS',
+    tags: ['USCIS','EB-3'],
+    desc: 'USCIS đổi nơi nộp concurrent filing package I-140/I-485/I-765/I-131/I-824; chuyển về lockbox mới.',
+    impact: 'Sai lockbox có thể bị reject/chậm xử lý toàn bộ package.'
+  },
+  {
+    title: 'I-907 with I-140 Filing Location Change',
+    date: '13/11/2023 & 15/12/2023', source: 'USCIS',
+    tags: ['USCIS','Phí','Premium'],
+    desc: 'Chuyển địa chỉ nộp I-907 (premium processing) kèm I-140 sang lockbox mới theo 2 giai đoạn.',
+    impact: 'Sai địa chỉ có thể bị reject hoặc xử lý chậm; kiểm tra địa chỉ mới nhất trên uscis.gov.'
+  },
+  {
+    title: 'EB-1A Extraordinary Ability — Policy Manual Update',
+    date: '11/2023', source: 'USCIS',
+    tags: ['USCIS'],
+    desc: 'USCIS cập nhật policy manual về tiêu chí chứng minh EB-1A (Extraordinary Ability); làm rõ cách đánh giá bằng chứng và các yếu tố điều kiện (criteria).',
+    impact: 'Ảnh hưởng người nộp I-140 EB-1A; ít ảnh hưởng trực tiếp EB-3 EW.'
+  },
+  {
+    title: 'Premium Processing Fee — Inflation Increase',
+    date: '27/12/2023 (HLực: 26/02/2024)', source: 'USCIS / DHS',
+    tags: ['USCIS','Phí','Premium'],
+    desc: 'USCIS/DHS tăng phí Form I-907 (premium processing) định kỳ theo chỉ số lạm phát (CPI).',
+    impact: 'Tăng chi phí nếu dùng premium cho I-140; phí I-907 điều chỉnh từ $2,500 → $2,805.'
+  },
+  {
+    title: 'CSPA "Sought to Acquire" — Clarification',
+    date: '24/08/2023', source: 'USCIS',
+    tags: ['USCIS','CSPA'],
+    desc: 'Làm rõ yêu cầu phải "seek to acquire" trong vòng 1 năm khi visa available để được bảo vệ tuổi CSPA.',
+    impact: 'Quan trọng nếu có con đi kèm gần 21 tuổi; DS-260/fee/document action có thể xác định "sought to acquire".'
+  },
+  {
+    title: 'CSPA Age Calculation — Dates for Filing Allowed',
+    date: '14/02/2023', source: 'USCIS',
+    tags: ['USCIS','CSPA'],
+    desc: 'USCIS cho phép dùng Dates for Filing (Bảng B) để tính tuổi CSPA trong một số trường hợp AOS.',
+    impact: 'Có thể có lợi cho con phụ thuộc gần 21 tuổi; chủ yếu áp dụng cho AOS (trong Mỹ).'
+  },
+  {
+    title: 'New PERM ETA-9089 / FLAG System Transition',
+    date: '10/2022', source: 'Department of Labor / FLAG',
+    tags: ['DOL','EB-3'],
+    desc: 'DOL chuyển từ legacy PERM Online sang hệ thống FLAG và mẫu ETA-9089 mới; nhiều thay đổi workflow và form.',
+    impact: 'Ảnh hưởng trực tiếp EB-3 PERM filing; nhiều case bị delay/audit do thay đổi form và quy trình.'
+  },
+  {
+    title: 'Final Phase Premium Processing — EB-1/EB-2',
+    date: '12/2023', source: 'USCIS',
+    tags: ['USCIS','Premium'],
+    desc: 'Hoàn tất mở rộng premium processing cho EB-1/EB-2 I-140; áp dụng với tất cả EB-1/EB-2 NIW.',
+    impact: 'EB-1/EB-2 NIW có thêm lựa chọn xử lý nhanh; không áp dụng trực tiếp cho EB-3 EW.'
+  },
+  {
+    title: 'Premium Processing for EB-1/EB-2 I-140 — Giai đoạn 1',
+    date: '24/05/2022', source: 'USCIS',
+    tags: ['USCIS','Premium'],
+    desc: 'Mở premium processing cho một số I-140 EB-1/EB-2 đang pending.',
+    impact: 'Rút ngắn giai đoạn I-140 cho EB-1/EB-2; tiền đề cho việc mở rộng sau này.'
+  },
+  {
+    title: 'Backlog Reduction + Premium Processing Expansion Plan',
+    date: '29/03/2022', source: 'USCIS',
+    tags: ['USCIS'],
+    desc: 'USCIS công bố kế hoạch giảm backlog hồ sơ tồn đọng và mở rộng premium processing cho I-140 EB-1/EB-2.',
+    impact: 'Có lợi cho tốc độ xử lý I-140, nhưng không làm priority date nhanh hơn.'
+  },
+  {
+    title: 'EB-2 NIW Guidance Update',
+    date: '15/01/2025', source: 'USCIS',
+    tags: ['USCIS'],
+    desc: 'USCIS cập nhật hướng dẫn (policy manual) về cách xét EB-2 NIW; làm rõ tiêu chí "advanced degree" và "national interest" theo Matter of Dhanasar.',
+    impact: 'Ảnh hưởng trực tiếp hồ sơ I-140 NIW; ít ảnh hưởng EB-3 EW.'
+  }
+];
+
+let activeTag = 'all';
+
+function getTagClass(tag) {
+  const map = {
+    'EB-3':'tag-EB3','USCIS':'tag-USCIS','DOS':'tag-DOS',
+    'Phí':'tag-Fee','CSPA':'tag-CSPA','Premium':'tag-Premium',
+    'NVC':'tag-NVC','DOL':'tag-DOL','VB':'tag-VB'
+  };
+  return map[tag] || 'tag-USCIS';
+}
+
+function renderNews() {
+  const query = document.getElementById('search').value.toLowerCase();
+  const grid = document.getElementById('news-grid');
+  const noRes = document.getElementById('no-results');
+
+  let visible = 0;
+  grid.innerHTML = '';
+
+  NEWS.forEach(n => {
+    const matchTag = activeTag === 'all' || n.tags.includes(activeTag);
+    const matchSearch = !query ||
+      n.title.toLowerCase().includes(query) ||
+      n.desc.toLowerCase().includes(query) ||
+      n.impact.toLowerCase().includes(query) ||
+      n.source.toLowerCase().includes(query);
+
+    if (!matchTag || !matchSearch) return;
+    visible++;
+
+    const tagsHtml = n.tags.map(t => `<span class="tag ${getTagClass(t)}">${t}</span>`).join('');
+    grid.innerHTML += `
+      <div class="news-card">
+        <div class="card-header">
+          <div class="card-title">${n.title}</div>
+          <div class="card-tags">${tagsHtml}</div>
+        </div>
+        <div class="card-meta">
+          <span class="date">📅 ${n.date}</span>
+          <span class="source">🏛 ${n.source}</span>
+        </div>
+        <div class="card-desc">${n.desc}</div>
+        <div class="card-impact">${n.impact}</div>
+      </div>`;
+  });
+
+  document.getElementById('count').innerHTML = `Hiển thị <b>${visible}</b> / ${NEWS.length} tin`;
+  noRes.classList.toggle('hidden', visible > 0);
+}
+
+function setTag(tag, el) {
+  activeTag = tag;
+  document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderNews();
+}
+
+function filterNews() { renderNews(); }
+
+renderNews();
+</script>
+</body>
+</html>
