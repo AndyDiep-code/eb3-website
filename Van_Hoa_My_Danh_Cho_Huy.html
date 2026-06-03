@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Văn Hóa Mỹ — Cẩm Nang Định Cư</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f4f8; color: #1e293b; }
+
+  .hero { background: linear-gradient(135deg, #0f2a47 0%, #1d4ed8 100%); color: white; padding: 28px 24px 22px; }
+  .hero h1 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+  .hero p { font-size: 13px; opacity: 0.8; }
+
+  .tabs { display: flex; gap: 6px; padding: 14px 16px 0; flex-wrap: wrap; background: white; border-bottom: 1px solid #e2e8f0; }
+  .tab { padding: 7px 14px; border-radius: 20px 20px 0 0; font-size: 12px; font-weight: 500; cursor: pointer; border: none; background: #f1f5f9; color: #64748b; transition: all 0.15s; white-space: nowrap; }
+  .tab.active { background: #1d4ed8; color: white; }
+  .tab:hover:not(.active) { background: #e2e8f0; }
+
+  .content { padding: 18px 16px; max-width: 900px; margin: 0 auto; }
+  .section { display: none; }
+  .section.active { display: block; }
+
+  .section-title { font-size: 16px; font-weight: 700; color: #0f2a47; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+
+  /* Cards grid */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+  @media(max-width:600px){ .grid2,.grid3 { grid-template-columns: 1fr; } }
+
+  .card { background: white; border-radius: 10px; padding: 14px 16px; border: 1px solid #e2e8f0; }
+  .card-title { font-size: 13px; font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+  .card ul { padding-left: 0; list-style: none; }
+  .card ul li { font-size: 12.5px; color: #334155; padding: 3px 0; border-bottom: 1px solid #f1f5f9; line-height: 1.5; display: flex; gap: 6px; }
+  .card ul li:last-child { border-bottom: none; }
+  .card ul li::before { content: '•'; color: #94a3b8; flex-shrink: 0; }
+
+  /* Alert boxes */
+  .alert { border-radius: 8px; padding: 11px 14px; font-size: 12.5px; line-height: 1.6; margin-bottom: 12px; }
+  .alert-red { background: #fef2f2; border-left: 3px solid #ef4444; color: #7f1d1d; }
+  .alert-blue { background: #eff6ff; border-left: 3px solid #3b82f6; color: #1e3a8a; }
+  .alert-green { background: #f0fdf4; border-left: 3px solid #22c55e; color: #14532d; }
+  .alert-amber { background: #fffbeb; border-left: 3px solid #f59e0b; color: #78350f; }
+  .alert b { display: block; margin-bottom: 3px; font-size: 13px; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; background: white; border-radius: 8px; overflow: hidden; margin-bottom: 14px; }
+  th { background: #0f2a47; color: white; padding: 8px 10px; text-align: left; font-size: 12px; }
+  td { padding: 7px 10px; border-bottom: 1px solid #f1f5f9; vertical-align: top; line-height: 1.5; }
+  tr:nth-child(even) td { background: #f8fafc; }
+  .viet { color: #64748b; font-style: italic; }
+  .note { color: #0f766e; font-size: 11.5px; }
+  .do { color: #15803d; font-weight: 600; }
+  .dont { color: #b91c1c; font-weight: 600; }
+
+  /* Comparison */
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+  .compare-card { background: white; border-radius: 8px; padding: 12px 14px; border: 1px solid #e2e8f0; }
+  .compare-card h4 { font-size: 12.5px; font-weight: 600; margin-bottom: 8px; padding: 4px 8px; border-radius: 4px; }
+  .compare-card.vn h4 { background: #fef3c7; color: #92400e; }
+  .compare-card.us h4 { background: #dbeafe; color: #1e3a8a; }
+  .compare-card li { font-size: 12px; color: #334155; padding: 3px 0; list-style: none; display: flex; gap: 5px; line-height: 1.5; }
+  .compare-card li::before { content: '→'; color: #94a3b8; flex-shrink: 0; }
+
+  /* Progress tracker */
+  .tracker { background: white; border-radius: 10px; padding: 14px 16px; border: 1px solid #e2e8f0; margin-bottom: 14px; }
+  .tracker h3 { font-size: 13px; font-weight: 600; color: #0f2a47; margin-bottom: 10px; }
+  .check-item { display: flex; align-items: flex-start; gap: 10px; padding: 6px 0; border-bottom: 1px solid #f1f5f9; cursor: pointer; }
+  .check-item:last-child { border-bottom: none; }
+  .check-item input { margin-top: 2px; width: 15px; height: 15px; cursor: pointer; flex-shrink: 0; }
+  .check-item label { font-size: 12.5px; color: #334155; cursor: pointer; line-height: 1.5; }
+  .check-item input:checked + label { color: #94a3b8; text-decoration: line-through; }
+
+  .badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 10px; margin-left: 6px; }
+  .badge-red { background: #fee2e2; color: #b91c1c; }
+  .badge-blue { background: #dbeafe; color: #1e3a8a; }
+  .badge-green { background: #dcfce7; color: #15803d; }
+  .badge-amber { background: #fef3c7; color: #92400e; }
+
+  .sub-title { font-size: 13px; font-weight: 600; color: #1e3a8a; margin: 14px 0 8px; border-bottom: 2px solid #dbeafe; padding-bottom: 4px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🇺🇸 Văn Hóa Mỹ — Cẩm Nang Định Cư</h1>
+  <p>Chuẩn bị từ bây giờ để không bỡ ngỡ khi đặt chân xuống sân bay Mỹ</p>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="show('giaotiep')">💬 Giao tiếp</button>
+  <button class="tab" onclick="show('congviec')">🏭 Công việc</button>
+  <button class="tab" onclick="show('hocduong')">📚 Học đường</button>
+  <button class="tab" onclick="show('lenhgi')">🎭 Lễ nghi</button>
+  <button class="tab" onclick="show('cuocsong')">🏠 Cuộc sống</button>
+  <button class="tab" onclick="show('taichinh')">💰 Tài chính</button>
+  <button class="tab" onclick="show('checklist')">✅ Checklist</button>
+</div>
+
+<!-- ═══ GIAO TIẾP ═══ -->
+<div id="giaotiep" class="section active content">
+  <div class="section-title">💬 Văn Hóa Giao Tiếp Của Người Mỹ</div>
+
+  <div class="alert alert-blue">
+    <b>🔑 Nguyên tắc vàng</b>
+    Người Mỹ coi trọng <strong>sự thẳng thắn, tôn trọng cá nhân và đúng giờ</strong>. Không phải bất lịch sự — chỉ là văn hóa khác. Càng hiểu sớm, càng dễ hòa nhập.
+  </div>
+
+  <div class="sub-title">Việt Nam vs Mỹ — So sánh trực tiếp</div>
+  <div class="compare">
+    <div class="compare-card vn">
+      <h4>🇻🇳 Ở Việt Nam</h4>
+      <ul>
+        <li>Gọi ông/bà/anh/chị theo tuổi tác</li>
+        <li>Khiêm tốn khi được khen: "không có gì"</li>
+        <li>Im lặng khi không đồng ý (để giữ hòa khí)</li>
+        <li>Hỏi tuổi, lương, tình trạng hôn nhân là bình thường</li>
+        <li>Đến trễ 10-15 phút vẫn chấp nhận được</li>
+        <li>Hay dùng "chờ tí", "xong ngay" dù còn lâu</li>
+        <li>Nói chuyện to, sôi nổi nơi công cộng</li>
+      </ul>
+    </div>
+    <div class="compare-card us">
+      <h4>🇺🇸 Ở Mỹ</h4>
+      <ul>
+        <li>Gọi tên thẳng (kể cả sếp) hoặc Mr./Ms. + họ</li>
+        <li>Được khen thì nói "Thank you!" tự nhiên</li>
+        <li>Nói thẳng khi không đồng ý (lịch sự nhưng rõ ràng)</li>
+        <li>KHÔNG hỏi tuổi, lương, cân nặng — rất thô lỗ</li>
+        <li>Đúng giờ là tôn trọng. Trễ 5 phút cần xin lỗi</li>
+        <li>"I'll be there at 3pm" nghĩa là đúng 3pm</li>
+        <li>Giữ giọng nhỏ, không dùng loa ngoài nơi công cộng</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sub-title">Cách xưng hô — Dễ nhầm nhất</div>
+  <table>
+    <tr><th>Tình huống</th><th>Nên nói</th><th>Không nên nói</th><th>Ghi chú</th></tr>
+    <tr><td>Gặp sếp lần đầu</td><td class="do">"Hi John" hoặc "Hi Mr. Smith"</td><td class="dont">Gọi "Sir" liên tục</td><td class="note">Hỏi luôn: "What should I call you?"</td></tr>
+    <tr><td>Gặp đồng nghiệp mới</td><td class="do">"Hi, I'm [tên bạn]. Nice to meet you!"</td><td class="dont">Im lặng, cúi đầu</td><td class="note">Bắt tay chắc, nhìn vào mắt</td></tr>
+    <tr><td>Khi bị khen</td><td class="do">"Thank you, I appreciate it!"</td><td class="dont">"Không có gì đâu"</td><td class="note">Nhận lời khen tự nhiên là lịch sự</td></tr>
+    <tr><td>Không nghe rõ</td><td class="do">"Sorry, could you repeat that?"</td><td class="dont">Gật đầu như hiểu</td><td class="note">Người Mỹ không ngại nhắc lại</td></tr>
+    <tr><td>Không đồng ý</td><td class="do">"I see your point, but I think..."</td><td class="dont">Im lặng hoặc "Vâng vâng"</td><td class="note">Phản biện lịch sự được tôn trọng</td></tr>
+    <tr><td>Muốn hỏi favor</td><td class="do">"Could you do me a favor?"</td><td class="dont">Nhờ không hỏi trước</td><td class="note">Luôn hỏi trước khi nhờ</td></tr>
+  </table>
+
+  <div class="sub-title">Small Talk — Chuyện phiếm hàng ngày</div>
+  <div class="alert alert-green">
+    <b>💡 Small talk là kỹ năng quan trọng nhất</b>
+    Người Mỹ nói chuyện phiếm với tất cả mọi người — hàng xóm, đồng nghiệp, người lạ xếp hàng. Đây không phải giả tạo — đây là cách họ xây dựng quan hệ. Học 5 chủ đề an toàn dưới đây.
+  </div>
+  <table>
+    <tr><th>Chủ đề an toàn</th><th>Câu mở đầu</th><th>Chủ đề TRÁNH</th></tr>
+    <tr><td>☀️ Thời tiết</td><td>"Can you believe this weather?"</td><td rowspan="5" style="vertical-align:middle; color:#b91c1c; font-size:12px;">❌ Chính trị<br>❌ Tôn giáo<br>❌ Thu nhập<br>❌ Cân nặng/ngoại hình<br>❌ Tình trạng hôn nhân<br><br><span style="color:#64748b">→ Nếu ai hỏi: lịch sự từ chối: "I'd rather not talk about that"</span></td></tr>
+    <tr><td>🏈 Thể thao</td><td>"Did you watch the game last night?"</td></tr>
+    <tr><td>🍕 Ăn uống</td><td>"Have you tried that new place on Main St?"</td></tr>
+    <tr><td>🎬 Phim/TV</td><td>"Have you seen anything good lately?"</td></tr>
+    <tr><td>💼 Công việc (nhẹ)</td><td>"How's work been treating you?"</td></tr>
+  </table>
+</div>
+
+<!-- ═══ CÔNG VIỆC ═══ -->
+<div id="congviec" class="section content">
+  <div class="section-title">🏭 Văn Hóa Công Việc Tại Mỹ</div>
+
+  <div class="alert alert-amber">
+    <b>⚡ Khác biệt lớn nhất với VN</b>
+    Ở Mỹ, <strong>kết quả và trách nhiệm cá nhân</strong> được đánh giá cao hơn thâm niên hay quan hệ. Làm tốt → nói ra. Sai → nhận lỗi ngay. Cả hai đều được tôn trọng.
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="card-title" style="color:#1d4ed8">⏰ Đúng giờ & Kỷ luật</div>
+      <ul>
+        <li>Đến làm trước 5 phút là tốt. Trễ 1 phút cần nhắn tin báo</li>
+        <li>Clock in/out đúng giờ — hệ thống ghi nhận tự động</li>
+        <li>Xin phép nghỉ trước ít nhất 1-2 ngày (không phải sáng hôm đó)</li>
+        <li>Gọi báo ốm trước ít nhất 1 giờ trước ca, càng sớm càng tốt</li>
+        <li>Không dùng điện thoại cá nhân trong giờ làm — nhiều nơi phạt ngay</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#15803d">🤝 Quan hệ với Sếp & Đồng nghiệp</div>
+      <ul>
+        <li>Gọi sếp bằng tên (John, Mike) — không dùng "Sir/Ma'am" liên tục</li>
+        <li>Hỏi khi không hiểu — KHÔNG giả vờ hiểu rồi làm sai</li>
+        <li>Nói "I'm not sure, let me check" thay vì đoán mò</li>
+        <li>Cảm ơn đồng nghiệp khi được giúp — "Thanks, I appreciate it!"</li>
+        <li>Không nói xấu đồng nghiệp với người khác trong công ty</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#c2410c">🦺 Safety Culture — Quan trọng nhất</div>
+      <ul>
+        <li>Safety không phải chọn — là bắt buộc pháp lý. Vi phạm bị đuổi ngay</li>
+        <li>Thấy nguy hiểm → báo ngay, không im lặng</li>
+        <li>Không tự ý sửa máy khi chưa được training — gọi maintenance</li>
+        <li>Mặc đủ PPE dù chỉ đi qua khu vực sản xuất</li>
+        <li>Tai nạn dù nhỏ → báo supervisor + điền incident report ngay</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#6d28d9">📈 Để Được Đánh Giá Cao</div>
+      <ul>
+        <li>Chủ động hỏi: "Is there anything else I can help with?"</li>
+        <li>Làm xong việc trước deadline → báo sếp ngay</li>
+        <li>Đề xuất cải tiến nhỏ (kaizen) — sếp Mỹ rất thích</li>
+        <li>Học thêm kỹ năng → tự report với sếp: "I just got certified in..."</li>
+        <li>Tự lập hơn theo thời gian — không hỏi từng việc nhỏ mãi</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sub-title">Quyền Lợi Lao Động — Bạn cần biết</div>
+  <div class="alert alert-green">
+    <b>📋 Indiana Labor Law cơ bản</b>
+    Lương tối thiểu Indiana: $7.25/giờ (nhưng LGS trả cao hơn ~$15-18/giờ). Overtime (>40h/tuần) = x1.5 lương. Mọi giờ làm phải được trả — nếu bị gian lận có thể khiếu nại lên Department of Labor.
+  </div>
+  <table>
+    <tr><th>Quyền lợi</th><th>Thực tế tại nhà máy</th><th>Nếu vi phạm → làm gì</th></tr>
+    <tr><td>Lương đúng hạn</td><td>Thường 2 tuần/lần (bi-weekly), qua direct deposit</td><td>Hỏi HR, nếu không giải quyết → gọi Indiana DOL: 1-800-457-8283</td></tr>
+    <tr><td>Môi trường an toàn</td><td>Có quyền từ chối việc nguy hiểm mà không bị đuổi</td><td>Báo OSHA: 1-800-321-6742 (ẩn danh được)</td></tr>
+    <tr><td>Không phân biệt đối xử</td><td>Không được đối xử tệ hơn vì là người nhập cư/người Việt</td><td>Báo EEOC: eeoc.gov</td></tr>
+    <tr><td>Nghỉ ngơi</td><td>Indiana không bắt buộc break — nhưng hầu hết hãng cho 2x15' + 30' lunch</td><td>Xem employee handbook khi vào làm</td></tr>
+  </table>
+</div>
+
+<!-- ═══ HỌC ĐƯỜNG ═══ -->
+<div id="hocduong" class="section content">
+  <div class="section-title">📚 Hệ Thống Giáo Dục Mỹ — Cho Cả Nhà</div>
+
+  <div class="sub-title">Sơ đồ hệ thống trường Mỹ</div>
+  <table>
+    <tr><th>Cấp học</th><th>Lớp</th><th>Tuổi</th><th>Ghi chú quan trọng</th></tr>
+    <tr><td><b>Kindergarten</b></td><td>K</td><td>5-6</td><td>Bé An sẽ vào đây — miễn phí, công lập. Học tiếng Anh cực nhanh ở độ tuổi này</td></tr>
+    <tr><td><b>Elementary School</b></td><td>1-5</td><td>6-11</td><td>Tập trung đọc, viết, toán. Không có thi chuyển cấp. GPA chưa quan trọng</td></tr>
+    <tr><td><b>Middle School</b></td><td>6-8</td><td>11-14</td><td>Bắt đầu chọn môn tự chọn. Quan trọng xây nền tảng</td></tr>
+    <tr><td><b>High School</b></td><td>9-12</td><td>14-18</td><td>GPA từ đây ảnh hưởng đại học. Tham gia ngoại khóa!</td></tr>
+    <tr><td><b>Community College</b></td><td colspan="2">18+</td><td>2 năm, học phí thấp. Bạn có thể học nghề buổi tối tại Ivy Tech Community College</td></tr>
+    <tr><td><b>University</b></td><td colspan="2">18+</td><td>4 năm, bằng cử nhân. Chi phí cao nhưng có scholarship cho GPA tốt</td></tr>
+  </table>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="card-title" style="color:#1d4ed8">📝 Trường Mỹ Khác VN Như Thế Nào</div>
+      <ul>
+        <li>Không có đồng phục — ăn mặc thoải mái</li>
+        <li>Học sinh được phát biểu, tranh luận với thầy cô</li>
+        <li>Không có sổ liên lạc — thầy cô email trực tiếp phụ huynh</li>
+        <li>GPA thang điểm A-F (A=xuất sắc, F=rớt)</li>
+        <li>Homework ít hơn VN nhưng project nhiều hơn</li>
+        <li>Không có học thêm — thay bằng tutoring hoặc Khan Academy</li>
+        <li>Bắt nạt (bullying) bị xử lý rất nghiêm — báo ngay</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#15803d">🌟 Con Em — Lợi Thế Khi Sang Mỹ</div>
+      <ul>
+        <li>Toán Việt Nam học nặng hơn → sẽ giỏi hơn bạn cùng lớp ngay</li>
+        <li>Khoa học tự nhiên: nền tảng tốt từ VN</li>
+        <li>ESL class: được hỗ trợ miễn phí, không phải xấu hổ</li>
+        <li>Nên tham gia 1 sport team → kết bạn nhanh nhất</li>
+        <li>GPA từ lớp 9 quan trọng cho college — giữ từ đầu</li>
+        <li>Extracurricular activities = ngoại khóa rất quan trọng cho hồ sơ đại học</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="alert alert-blue">
+    <b>🎓 Ivy Tech Community College Indianapolis</b>
+    Trường nghề lớn nhất Indiana. Có khóa học buổi tối 2-3 đêm/tuần. Electrician Apprenticeship, HVAC, Welding, Manufacturing Technology. Học phí ~$150-200/credit. Sau 12-18 tháng có chứng chỉ → lương tăng lên $25-35/giờ ngay lập tức.
+    <br><br>Website: <strong>ivytech.edu</strong> · Campus gần nhất: 50 W. Fall Creek Pkwy, Indianapolis
+  </div>
+</div>
+
+<!-- ═══ LỄ NGHI ═══ -->
+<div id="lenhgi" class="section content">
+  <div class="section-title">🎭 Lễ Nghi & Văn Hóa Ứng Xử</div>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="card-title" style="color:#b91c1c">🚫 Tuyệt Đối KHÔNG Làm</div>
+      <ul>
+        <li>Không chen hàng — bất kể ở đâu, dù chỉ 1 người</li>
+        <li>Không hỏi lương, tuổi, cân nặng người khác</li>
+        <li>Không đánh/phạt trẻ em nơi công cộng (gọi 911 ngay)</li>
+        <li>Không nói to hay dùng loa ngoài chỗ công cộng</li>
+        <li>Không vứt rác ngoài đường — phạt tiền nặng</li>
+        <li>Không uống rượu nơi công cộng (ngoài bar/nhà hàng có phép)</li>
+        <li>Không lái xe sau khi uống rượu — DUI = tù + mất bằng</li>
+        <li>Không chụp ảnh trẻ em người khác mà không xin phép</li>
+        <li>Không hút thuốc trong nhà, xe, chỗ làm khi chưa hỏi</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#15803d">✅ Nên Làm Để Được Yêu Quý</div>
+      <ul>
+        <li>Giữ cửa cho người đi sau — đây là lịch sự cơ bản</li>
+        <li>Smile và nói "Hi" khi gặp hàng xóm</li>
+        <li>Nói "Excuse me" khi muốn đi qua</li>
+        <li>Nói "Please" và "Thank you" rất thường xuyên</li>
+        <li>Tip 15-20% tại nhà hàng, 10-15% taxi/Uber</li>
+        <li>RSVP đúng hạn khi được mời sự kiện</li>
+        <li>Đúng giờ mọi cuộc hẹn — đây là tôn trọng thời gian người khác</li>
+        <li>Giữ sạch không gian chung (nhà bếp công ty, nhà vệ sinh chung...)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sub-title">Các Ngày Lễ Mỹ — Bạn Cần Biết</div>
+  <table>
+    <tr><th>Ngày lễ</th><th>Khi nào</th><th>Ý nghĩa</th><th>Tại nơi làm việc</th></tr>
+    <tr><td><b>Independence Day</b></td><td>4 tháng 7</td><td>Quốc khánh Mỹ — pháo hoa khắp nơi</td><td>Thường nghỉ 1 ngày. Hãng có thể cho OT x1.5</td></tr>
+    <tr><td><b>Labor Day</b></td><td>Thứ 2 đầu tháng 9</td><td>Ngày của người lao động — BBQ và nghỉ</td><td>Thường nghỉ. Nhiều hãng trả OT nếu làm</td></tr>
+    <tr><td><b>Thanksgiving</b></td><td>Thứ 5 cuối tháng 11</td><td>Lễ tạ ơn — ăn gà tây, sum họp gia đình</td><td>Nghỉ 1-4 ngày. Quan trọng nhất sau Christmas</td></tr>
+    <tr><td><b>Christmas</b></td><td>25 tháng 12</td><td>Lễ Giáng sinh — nghỉ dài nhất trong năm</td><td>Nghỉ thường 2-5 ngày. Hãng hay tặng bonus</td></tr>
+    <tr><td><b>New Year's Day</b></td><td>1 tháng 1</td><td>Năm mới — pháo hoa đêm 31/12</td><td>Nghỉ 1 ngày. Ít ồn ào hơn Thanksgiving</td></tr>
+    <tr><td><b>Memorial Day</b></td><td>Thứ 2 cuối tháng 5</td><td>Tưởng niệm liệt sĩ — BBQ, mở bể bơi</td><td>Nghỉ 1 ngày — "Unofficial start of summer"</td></tr>
+  </table>
+
+  <div class="sub-title">Tipping Culture — Khác Hoàn Toàn VN</div>
+  <div class="alert alert-amber">
+    <b>💵 Tip là một phần lương của nhân viên dịch vụ — không tip là thiếu tôn trọng</b>
+  </div>
+  <table>
+    <tr><th>Dịch vụ</th><th>Mức tip chuẩn</th><th>Ghi chú</th></tr>
+    <tr><td>Nhà hàng (sit-down)</td><td>15-20% tổng bill</td><td>18-20% cho dịch vụ tốt. 15% cho dịch vụ bình thường</td></tr>
+    <tr><td>Giao đồ ăn (DoorDash, Uber Eats)</td><td>$3-5 hoặc 10-15%</td><td>Tip khi đặt, không phải khi nhận</td></tr>
+    <tr><td>Taxi / Uber / Lyft</td><td>10-15%</td><td>App tự tính sẵn, chọn trước khi ra xe</td></tr>
+    <tr><td>Tiệm nail</td><td>15-20%</td><td>Khách Mỹ tip gần như 100%. Đây là thu nhập chính của nail tech</td></tr>
+    <tr><td>Cắt tóc</td><td>$3-5 hoặc 15%</td><td>Thường để tiền mặt trực tiếp cho thợ</td></tr>
+    <tr><td>Fast food / Coffee (counter)</td><td>Không bắt buộc</td><td>App hay hỏi tip — không chọn cũng ổn</td></tr>
+  </table>
+</div>
+
+<!-- ═══ CUỘC SỐNG ═══ -->
+<div id="cuocsong" class="section content">
+  <div class="section-title">🏠 Cuộc Sống Hàng Ngày Tại Indiana</div>
+
+  <div class="sub-title">Thời Tiết Indiana — Chuẩn Bị Từ VN</div>
+  <table>
+    <tr><th>Mùa</th><th>Nhiệt độ</th><th>Chuẩn bị gì</th></tr>
+    <tr><td>❄️ Đông (Dec-Feb)</td><td>-15°C đến 0°C</td><td>Áo phao dày, găng tay, mũ len, ủng chống tuyết. Xe cần làm ấm 5-10 phút trước khi đi</td></tr>
+    <tr><td>🌸 Xuân (Mar-May)</td><td>5°C đến 20°C</td><td>Áo khoác nhẹ. <b>Tornado season — tải app Indiana Weather cảnh báo</b></td></tr>
+    <tr><td>☀️ Hè (Jun-Aug)</td><td>25°C đến 35°C</td><td>Kem chống nắng. Nhà máy thường lạnh (điều hòa mạnh) — mang áo khoác vào ca</td></tr>
+    <tr><td>🍂 Thu (Sep-Nov)</td><td>5°C đến 20°C</td><td>Layering (mặc nhiều lớp). Đẹp nhất trong năm — lá đỏ vàng khắp nơi</td></tr>
+  </table>
+
+  <div class="sub-title">Ăn Uống & Siêu Thị</div>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-title" style="color:#1d4ed8">🛒 Siêu Thị Gần LGS Indianapolis</div>
+      <ul>
+        <li><b>Walmart</b> — rẻ nhất, đủ mọi thứ, mở 24/7 nhiều nơi</li>
+        <li><b>Kroger</b> — quality tốt hơn, có rewards card tiết kiệm</li>
+        <li><b>Aldi</b> — rất rẻ, store brand ngon, không có túi miễn phí</li>
+        <li><b>Asian grocery stores</b> — tìm trên Google "Asian market Indianapolis" — có gạo, mì, nước mắm, rau VN</li>
+        <li><b>H Mart</b> — siêu thị Á Đông lớn, có đồ VN</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#15803d">🍜 Ăn Uống Tiết Kiệm</div>
+      <ul>
+        <li>Nấu ăn mang đi làm: tiết kiệm $8-12/ngày so với mua ngoài</li>
+        <li>Meal prep cuối tuần — nấu 1 lần ăn cả tuần</li>
+        <li>Cơm hộp, mì gói từ Asian store: $1-2/bữa</li>
+        <li>Fast food: $8-12/bữa (McDonald's, Taco Bell)</li>
+        <li>Nhà hàng ngồi: $15-30/người (chưa tip)</li>
+        <li>Tìm quán phở/bún bò Huế người Việt Indianapolis cho đỡ nhớ nhà</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sub-title">Giao Thông & Xe Hơi — Không Có Xe = Không Đi Được</div>
+  <div class="alert alert-red">
+    <b>⚠️ Indianapolis không có public transit đủ dùng</b>
+    Hệ thống xe buýt có nhưng rất hạn chế và chậm. Gần như 100% người dân Indiana đi xe hơi. Mua xe là việc đầu tiên và quan trọng nhất sau khi có bằng lái.
+  </div>
+  <table>
+    <tr><th>Việc</th><th>Thực tế cần biết</th></tr>
+    <tr><td>Mua xe lần đầu</td><td>Honda Civic / Toyota Corolla / Hyundai Elantra 2016-2019, ~$12,000-18,000. Mua từ người Việt trên Facebook Marketplace dễ hỏi thăm nhất</td></tr>
+    <tr><td>Đổ xăng</td><td>Tự phục vụ hoàn toàn — không có người đổ. Biết cách mở nắp bình xăng, chọn loại xăng (Regular = 87 octane là đủ)</td></tr>
+    <tr><td>Bảo hiểm xe</td><td>Bắt buộc ở Indiana: minimum 25/50/25. State Farm, Progressive, Geico. So sánh giá tại comparison sites</td></tr>
+    <tr><td>Đăng kiểm (Registration)</td><td>Hàng năm, qua BMV hoặc online. Khi hết hạn sẽ có sticker mới dán lên biển số</td></tr>
+    <tr><td>Tuyết/băng</td><td>Mua ice scraper và snow brush (~$10 ở Walmart). Làm ấm xe 5-10 phút. Lái chậm hơn 50% trên đường tuyết</td></tr>
+  </table>
+</div>
+
+<!-- ═══ TÀI CHÍNH ═══ -->
+<div id="taichinh" class="section content">
+  <div class="section-title">💰 Tài Chính Cá Nhân Tại Mỹ</div>
+
+  <div class="alert alert-blue">
+    <b>💡 Credit Score — Quan trọng nhất khi mới sang</b>
+    Credit score là "điểm uy tín tài chính" từ 300-850. Mới sang = 0 điểm. Cần xây từ đầu. Ảnh hưởng đến: thuê nhà, mua xe trả góp, lãi suất vay, thậm chí xin việc một số nơi.
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="card-title" style="color:#1d4ed8">📈 Xây Credit Từ Con Số 0</div>
+      <ul>
+        <li><b>Bước 1:</b> Mở Secured Credit Card (đặt cọc $300-500 làm hạn mức)</li>
+        <li><b>Bước 2:</b> Dùng thẻ cho chi tiêu nhỏ (xăng, đồ ăn) mỗi tháng</li>
+        <li><b>Bước 3:</b> Trả TOÀN BỘ số dư trước due date mỗi tháng — không thiếu 1 đồng</li>
+        <li><b>Bước 4:</b> Sau 6 tháng: credit score ~600-650</li>
+        <li><b>Bước 5:</b> Sau 12 tháng: ~700+ — đủ để thuê nhà, mua xe trả góp</li>
+        <li>Secured card tốt: Discover it Secured, Capital One Secured</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#b91c1c">🚨 Sai Lầm Tài Chính Phổ Biến Nhất</div>
+      <ul>
+        <li>Trả minimum payment credit card → lãi chồng lãi, nợ mãi không hết</li>
+        <li>Mua xe mới khi chưa có credit → lãi suất 15-25%/năm</li>
+        <li>Không mua bảo hiểm y tế → 1 lần cấp cứu = $5,000-50,000</li>
+        <li>Gửi tiền về VN quá nhiều trước khi có quỹ khẩn cấp 3 tháng</li>
+        <li>Chi tiêu theo kiểu VN — ở Mỹ mọi thứ đều đắt hơn nhiều</li>
+        <li>Không khai thuế (tax return) — bỏ lỡ tiền hoàn thuế mỗi năm</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sub-title">Thuế Thu Nhập — Cần Hiểu Cơ Bản</div>
+  <table>
+    <tr><th>Loại thuế</th><th>Mức (%)</th><th>Ai thu</th><th>Ghi chú</th></tr>
+    <tr><td>Federal Income Tax</td><td>10-22%</td><td>Liên bang</td><td>Tự động khấu trừ từ lương (withholding). Nộp tax return tháng 4 hàng năm</td></tr>
+    <tr><td>Indiana State Tax</td><td>3.05%</td><td>Tiểu bang Indiana</td><td>Flat rate — giống nhau cho tất cả mức thu nhập</td></tr>
+    <tr><td>Social Security Tax</td><td>6.2%</td><td>Liên bang</td><td>Đóng để sau này hưởng lương hưu và disability</td></tr>
+    <tr><td>Medicare Tax</td><td>1.45%</td><td>Liên bang</td><td>Bảo hiểm y tế khi về già (65+)</td></tr>
+    <tr><td><b>Tổng khấu trừ ~</b></td><td><b>~22-25%</b></td><td colspan="2">Lương gross $3,200 → take-home ~$2,400-2,500</td></tr>
+  </table>
+  <div class="alert alert-green">
+    <b>💸 Tax Refund — Tiền được hoàn lại</b>
+    Nhiều người nộp nhiều hơn thực tế phải đóng → được hoàn lại tiền vào tháng 4. Trung bình $1,000-2,000/năm. Dùng TurboTax (free cho thu nhập thấp) hoặc nhờ người Việt có kinh nghiệm khai hộ năm đầu.
+  </div>
+</div>
+
+<!-- ═══ CHECKLIST ═══ -->
+<div id="checklist" class="section content">
+  <div class="section-title">✅ Checklist Học Văn Hóa Mỹ — Tự Theo Dõi</div>
+
+  <div class="tracker">
+    <h3>📚 Giai đoạn 1: Học tại Việt Nam (2025-2026)</h3>
+    <div class="check-item"><input type="checkbox" id="c1"><label for="c1">Đọc xong toàn bộ sách luật giao thông Indiana (tiếng Việt — đã có trong hồ sơ)</label></div>
+    <div class="check-item"><input type="checkbox" id="c2"><label for="c2">Làm bài test bằng lái Indiana online: <strong>in.gov/bmv</strong> — đạt 42/50 trở lên</label></div>
+    <div class="check-item"><input type="checkbox" id="c3"><label for="c3">Xem ít nhất 10 tập phim Mỹ có phụ đề tiếng Anh (gợi ý: The Office, Modern Family — văn phòng/gia đình)</label></div>
+    <div class="check-item"><input type="checkbox" id="c4"><label for="c4">Học xong 50 câu giao tiếp cơ bản nói được không nhìn giấy</label></div>
+    <div class="check-item"><input type="checkbox" id="c5"><label for="c5">Tìm và join Facebook group "Người Việt tại Indianapolis / Indiana"</label></div>
+    <div class="check-item"><input type="checkbox" id="c6"><label for="c6">Xem YouTube "Living in Indianapolis Indiana" — ít nhất 5 video</label></div>
+    <div class="check-item"><input type="checkbox" id="c7"><label for="c7">Tìm hiểu khu vực nơi làm việc trên Google Maps</label></div>
+    <div class="check-item"><input type="checkbox" id="c8"><label for="c8">Hiểu rõ tipping culture — biết mức tip cho từng tình huống</label></div>
+  </div>
+
+  <div class="tracker">
+    <h3>🏭 Giai đoạn 2: Chuẩn bị công việc LGS (2026-2027)</h3>
+    <div class="check-item"><input type="checkbox" id="d1"><label for="d1">Học thuộc 20 từ safety vocabulary (PPE, forklift zone, emergency exit...)</label></div>
+    <div class="check-item"><input type="checkbox" id="d2"><label for="d2">Luyện thuộc 12 câu giao tiếp hàng ngày tại nhà máy ()</label></div>
+    <div class="check-item"><input type="checkbox" id="d3"><label for="d3">Xem YouTube "production line manufacturing worker USA" — xem thực tế công việc trông như thế nào</label></div>
+    <div class="check-item"><input type="checkbox" id="d4"><label for="d4">Tìm hiểu Ivy Tech Community College Indianapolis: ivytech.edu</label></div>
+    <div class="check-item"><input type="checkbox" id="d5"><label for="d5">Tìm hiểu lương tối thiểu Indiana và quyền lao động cơ bản</label></div>
+    <div class="check-item"><input type="checkbox" id="d6"><label for="d6">Hiểu credit score là gì và cách xây từ đầu</label></div>
+  </div>
+
+  <div class="tracker">
+    <h3>🇺🇸 Giai đoạn 3: Tuần đầu tại Mỹ</h3>
+    <div class="check-item"><input type="checkbox" id="e1"><label for="e1">Xin SSN tại văn phòng SSA <span class="badge badge-red">Ưu tiên cao</span></label></div>
+    <div class="check-item"><input type="checkbox" id="e2"><label for="e2">Mở tài khoản ngân hàng Chase hoặc Bank of America <span class="badge badge-red">Ưu tiên cao</span></label></div>
+    <div class="check-item"><input type="checkbox" id="e3"><label for="e3">Thi Written Test bằng lái tại BMV Indiana <span class="badge badge-red">Ưu tiên cao</span></label></div>
+    <div class="check-item"><input type="checkbox" id="e4"><label for="e4">Đăng ký Medicaid/CHIP cho các con (trong 60 ngày)</label></div>
+    <div class="check-item"><input type="checkbox" id="e5"><label for="e5">Mua sim điện thoại T-Mobile hoặc AT&T prepaid</label></div>
+    <div class="check-item"><input type="checkbox" id="e6"><label for="e6">Báo cáo công ty bảo trợ, xác nhận ngày bắt đầu làm việc</label></div>
+    <div class="check-item"><input type="checkbox" id="e7"><label for="e7">Tìm nhà thuê chính thức trên Zillow hoặc qua người Việt</label></div>
+    <div class="check-item"><input type="checkbox" id="e8"><label for="e8">Mở secured credit card để bắt đầu xây credit</label></div>
+    <div class="check-item"><input type="checkbox" id="e9"><label for="e9">Thi Road Test và lấy bằng lái đầy đủ <span class="badge badge-amber">Trong tháng 3</span></label></div>
+    <div class="check-item"><input type="checkbox" id="e10"><label for="e10">Mua xe cũ + bảo hiểm xe <span class="badge badge-amber">Trong tháng 3</span></label></div>
+    <div class="check-item"><input type="checkbox" id="e11"><label for="e11">Tham gia lớp ESL miễn phí tại thư viện Indianapolis <span class="badge badge-blue">Tháng 2-3</span></label></div>
+    <div class="check-item"><input type="checkbox" id="e12"><label for="e12">Khai thuế (tax return) lần đầu tháng 4 — dùng TurboTax free <span class="badge badge-green">Tháng 4</span></label></div>
+  </div>
+</div>
+
+<script>
+function show(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// Save checkboxes to localStorage
+document.querySelectorAll('input[type=checkbox]').forEach(cb => {
+  const saved = localStorage.getItem(cb.id);
+  if (saved === 'true') cb.checked = true;
+  cb.addEventListener('change', () => localStorage.setItem(cb.id, cb.checked));
+});
+</script>
+</body>
+</html>
