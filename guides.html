@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hướng Dẫn Quy Trình EB-3 | EB3 Vietnam Hub</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
+.site-nav{display:flex;align-items:center;background:#1a2535;border-bottom:1px solid #2d3f55;overflow-x:auto;padding:0 8px}
+.site-nav a{padding:12px 14px;font-size:12px;font-weight:600;color:#64748b;text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:all .15s}
+.site-nav a:hover{color:#94a3b8}
+.site-nav a.active{color:#60a5fa;border-bottom-color:#60a5fa;background:#1e2d42}
+.site-nav .logo{color:#f1f5f9;font-weight:800;font-size:13px;padding:12px 14px;margin-right:4px;white-space:nowrap}
+.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
+.hero h1{font-size:20px;font-weight:800;color:#fff}
+.hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
+.main{max-width:860px;margin:0 auto;padding:18px 16px}
+/* STAGE TABS */
+.stage-tabs{display:flex;gap:0;margin-bottom:20px;background:#1a2535;border-radius:10px;overflow:hidden;border:1px solid #2d3f55}
+.st-btn{flex:1;padding:10px 4px;font-size:11px;font-weight:600;border:none;background:none;color:#64748b;cursor:pointer;transition:all .15s;text-align:center;border-right:1px solid #2d3f55}
+.st-btn:last-child{border-right:none}
+.st-btn.active{background:#1d4ed8;color:#fff}
+.st-btn:hover:not(.active){background:#1e2d42;color:#94a3b8}
+.stage-pane{display:none}.stage-pane.active{display:block}
+/* STAGE HEADER */
+.stage-header{background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:16px 18px;margin-bottom:14px;display:flex;gap:16px;align-items:flex-start}
+.stage-num{background:#1d4ed8;color:#fff;border-radius:50%;width:38px;height:38px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;flex-shrink:0;margin-top:2px}
+.stage-info h2{font-size:16px;font-weight:700;color:#f1f5f9;margin-bottom:4px}
+.stage-info .stage-time{font-size:12px;color:#fbbf24;font-weight:600}
+.stage-info .stage-who{font-size:12px;color:#60a5fa;margin-top:2px}
+/* CONTENT */
+.sec-hd{font-size:14px;font-weight:700;color:#f1f5f9;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #2d3f55}
+.sub-hd{font-size:12.5px;font-weight:600;color:#60a5fa;margin:14px 0 8px}
+.alert{border-radius:8px;padding:11px 14px;font-size:12.5px;line-height:1.7;margin-bottom:12px;display:flex;gap:10px}
+.alert-icon{font-size:18px;flex-shrink:0}
+.alert-yellow{background:#1c1a08;border:1px solid #854d0e;color:#fef08a}
+.alert-blue{background:#08122a;border:1px solid #1d4ed8;color:#bfdbfe}
+.alert-red{background:#1a0808;border:1px solid #991b1b;color:#fecaca}
+.alert-green{background:#081a10;border:1px solid #15803d;color:#bbf7d0}
+.card{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:14px 16px;margin-bottom:12px}
+.card ul{list-style:none;padding:0}
+.card ul li{font-size:12.5px;color:#94a3b8;padding:4px 0;border-bottom:1px solid #1e2d3d;line-height:1.6;display:flex;gap:8px}
+.card ul li:last-child{border-bottom:none}
+.card ul li::before{content:'›';color:#60a5fa;flex-shrink:0}
+.card ul li b{color:#e2e8f0}
+table{width:100%;border-collapse:collapse;font-size:12.5px;background:#1a2535;border-radius:8px;overflow:hidden;margin-bottom:12px}
+th{background:#0f2a47;color:#93c5fd;padding:8px 10px;text-align:left;font-size:11.5px;font-weight:600}
+td{padding:7px 10px;border-bottom:1px solid #1e2d3d;vertical-align:top;line-height:1.6}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#1e2d3d}
+.outcome-ok{color:#4ade80;font-weight:600}
+.outcome-bad{color:#f87171;font-weight:600}
+.disc{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:16px;line-height:1.6}
+.disc b{color:#94a3b8}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <span class="logo">🇺🇸 EB3 Hub</span>
+  <a href="index.html">🏠 Trang chủ</a>
+  <a href="visa-bulletin.html">📅 Visa Bulletin</a>
+  <a href="news.html">📰 Tin tức</a>
+  <a href="guides.html" class="active">📖 Hướng dẫn</a>
+  <a href="faq.html">❓ FAQ</a>
+  <a href="glossary.html">📚 Thuật ngữ</a>
+  <a href="bmv.html">🚗 BMV Indiana</a>
+</nav>
+<div class="hero">
+  <h1>📖 Hướng Dẫn Quy Trình EB-3 Other Workers</h1>
+  <p>5 giai đoạn từ tuyển dụng đến thẻ xanh — song ngữ Việt–Anh</p>
+</div>
+<div class="main">
+
+<div class="alert alert-blue"><div class="alert-icon">💡</div><div>Tổng thời gian hiện tại (2025): <b>7–9 năm</b> từ lúc mở hồ sơ đến khi có thẻ xanh (truyền thống). Mỗi giai đoạn đều quan trọng như nhau — chỉ cần sai một bước là ảnh hưởng toàn bộ hồ sơ.</div></div>
+
+<div class="stage-tabs">
+  <button class="st-btn active" onclick="showStage('s1',this)">① Tuyển dụng</button>
+  <button class="st-btn" onclick="showStage('s2',this)">② PERM/LC</button>
+  <button class="st-btn" onclick="showStage('s3',this)">③ I-140</button>
+  <button class="st-btn" onclick="showStage('s4',this)">④ NVC & DS-260</button>
+  <button class="st-btn" onclick="showStage('s5',this)">⑤ Phỏng vấn</button>
+</div>
+
+<!-- STAGE 1 -->
+<div id="s1" class="stage-pane active">
+  <div class="stage-header">
+    <div class="stage-num">1</div>
+    <div class="stage-info">
+      <h2>Tuyển Dụng & Ký Hợp Đồng Dịch Vụ</h2>
+      <div class="stage-time">⏱ Thời gian: 3–10 ngày sau khi nộp hồ sơ cho agency</div>
+      <div class="stage-who">👤 Ai làm: Agency + Đương đơn</div>
+    </div>
+  </div>
+  <div class="sec-hd">Quy trình</div>
+  <div class="card"><ul>
+    <li><b>Chọn agency</b> phù hợp — kiểm tra giấy phép, hợp đồng, sponsor, luật sư di trú</li>
+    <li>Agency cung cấp <b>Job Offer</b> từ công ty Mỹ (Sponsor): tên công ty, vị trí, lương, phúc lợi</li>
+    <li>Đương đơn điền <b>questionnaire</b>, cung cấp giấy tờ cá nhân: passport, CCCD, khai sinh, kết hôn</li>
+    <li>Kiểm tra sức khỏe cơ bản, <b>xét nghiệm chất gây nghiện</b>, chụp hình 5×5</li>
+    <li>Ký hợp đồng dịch vụ với agency — đọc kỹ <b>điều khoản hoàn tiền</b> (refund policy)</li>
+    <li>Nộp phí đợt 1 cho agency, nhận biên lai/hóa đơn</li>
+  </ul></div>
+  <div class="alert alert-yellow"><div class="alert-icon">⚡</div><div><b>Hỏi kỹ trước khi ký:</b> Bao lâu sponsor có đợt nộp hồ sơ lên DOL? Ai là luật sư đứng I-140? Chi phí từng giai đoạn? Chính sách hoàn tiền nếu agency không giao case number đúng hạn?</div></div>
+  <div class="sec-hd" style="margin-top:16px">Tiêu chí chọn Agency tốt</div>
+  <table>
+    <tr><th>Tiêu chí</th><th>Agency tốt</th><th>Dấu hiệu bất ổn</th></tr>
+    <tr><td>Pháp lý</td><td>Giấy phép kinh doanh, luật sư Mỹ đứng tên I-140</td><td class="outcome-bad">Không có hợp đồng / hoá đơn</td></tr>
+    <tr><td>Sponsor</td><td>Công khai tên cty Mỹ, địa chỉ, EIN, job description</td><td class="outcome-bad">Giấu thông tin hãng bảo trợ</td></tr>
+    <tr><td>Thanh toán</td><td>Chia nhiều đợt theo giai đoạn hồ sơ</td><td class="outcome-bad">Thu gần hết tiền ngay từ đầu</td></tr>
+    <tr><td>Case number</td><td>Cam kết thời hạn có case number bằng văn bản</td><td class="outcome-bad">Hứa đi trong 2.5–3 năm (không thực tế)</td></tr>
+    <tr><td>Liên lạc</td><td>Có email chính thức, cập nhật từng bước</td><td class="outcome-bad">Chỉ nhắn tin Zalo/Messenger</td></tr>
+  </table>
+</div>
+
+<!-- STAGE 2 -->
+<div id="s2" class="stage-pane">
+  <div class="stage-header">
+    <div class="stage-num">2</div>
+    <div class="stage-info">
+      <h2>PERM / Labor Certification (LC)</h2>
+      <div class="stage-time">⏱ Thời gian: 12–18 tháng | Cơ quan: Bộ Lao Động Mỹ (DOL)</div>
+      <div class="stage-who">👤 Ai làm: Sponsor + Luật sư di trú</div>
+    </div>
+  </div>
+  <div class="sec-hd">PERM là gì?</div>
+  <div class="card"><ul>
+    <li><b>PERM (Program Electronic Review Management)</b>: quy trình chứng minh không có người Mỹ đủ điều kiện cho vị trí này</li>
+    <li>Sponsor phải <b>đăng quảng cáo tuyển dụng</b> (hiring ads) và chứng minh không tuyển được lao động Mỹ</li>
+    <li>Nộp mẫu <b>ETA-9089</b> lên hệ thống FLAG của DOL</li>
+    <li><b>Priority Date (PD)</b>: ngày DOL nhận đơn — rất quan trọng, dùng để xét lịch Visa Bulletin sau này</li>
+    <li>Đương đơn có <b>Case Number</b> ngay sau khi DOL nhận đơn (tra cứu tại flag.dol.gov)</li>
+  </ul></div>
+  <div class="sub-hd">Kết quả có thể xảy ra</div>
+  <table>
+    <tr><th>Kết quả</th><th>Ý nghĩa</th><th>Hành động</th></tr>
+    <tr><td class="outcome-ok">Certified ✓</td><td>LC được duyệt — chuyển sang bước I-140 trong 180 ngày</td><td>Nộp I-140 ngay</td></tr>
+    <tr><td>Audit</td><td>DOL yêu cầu bổ sung hồ sơ — chờ thêm 6–9 tháng</td><td>Phối hợp với luật sư cung cấp evidence</td></tr>
+    <tr><td class="outcome-bad">Denied ✗</td><td>Bị từ chối — PD cũ mất hiệu lực</td><td>Mở hồ sơ mới (PD mới)</td></tr>
+    <tr><td class="outcome-bad">Withdrawn</td><td>Hãng rút đơn — PD cũ mất hiệu lực</td><td>Mở hồ sơ mới</td></tr>
+  </table>
+  <div class="alert alert-red"><div class="alert-icon">⚠️</div><div><b>Quan trọng:</b> LC có thời hạn 180 ngày. Phải nộp I-140 trong 180 ngày kể từ ngày LC được certified, không thì LC mất hiệu lực.</div></div>
+  <div class="alert alert-yellow"><div class="alert-icon">💡</div><div>Tra cứu tình trạng LC: <b>flag.dol.gov/case-status-search</b> (dùng case number). Lưu ý: tên đương đơn không hiển thị tại đây — chỉ thấy sau khi LC certified qua form ETA-9089.</div></div>
+</div>
+
+<!-- STAGE 3 -->
+<div id="s3" class="stage-pane">
+  <div class="stage-header">
+    <div class="stage-num">3</div>
+    <div class="stage-info">
+      <h2>Nộp Đơn I-140</h2>
+      <div class="stage-time">⏱ Thời gian: 6–12 tháng (gói thường) / 15–45 ngày (gói Premium) | Cơ quan: USCIS</div>
+      <div class="stage-who">👤 Ai làm: Sponsor / Luật sư di trú</div>
+    </div>
+  </div>
+  <div class="sec-hd">I-140 là gì?</div>
+  <div class="card"><ul>
+    <li><b>I-140</b>: Đơn Bảo Lãnh Người Nước Ngoài Theo Diện Việc Làm (Immigrant Petition for Alien Workers)</li>
+    <li>Sponsor nộp lên USCIS — chứng minh khả năng tài chính trả lương và mối quan hệ lao động thật</li>
+    <li>Phí (từ 01/04/2024): <b>$1,315</b> (gói thường) hoặc <b>$4,120</b> (I-140 + I-907 Premium)</li>
+    <li>Sau khi nộp, nhận <b>receipt number</b> — theo dõi tại egov.uscis.gov</li>
+  </ul></div>
+  <div class="sub-hd">Gói thường vs. Gói Premium</div>
+  <table>
+    <tr><th>Tiêu chí</th><th>Gói Thường</th><th>Gói Premium (I-907)</th></tr>
+    <tr><td>Phí I-140</td><td>$1,315</td><td>$1,315 + $2,805 = $4,120</td></tr>
+    <tr><td>Thời gian duyệt</td><td>6–12 tháng</td><td>15–45 ngày làm việc</td></tr>
+    <tr><td>Lợi ích</td><td>Tiết kiệm chi phí</td><td>Yên tâm hơn, biết sớm kết quả</td></tr>
+    <tr><td>Bất lợi</td><td>Chờ lâu không biết kết quả</td><td>Tốn thêm $2,805; ảnh hưởng CSPA với con gần 21t</td></tr>
+    <tr><td>Nên dùng?</td><td>VB chậm → ít cần thiết</td><td>Nếu muốn bảo đảm khi VB sắp đến hạn</td></tr>
+  </table>
+  <div class="sub-hd">Kết quả I-140</div>
+  <table>
+    <tr><th>Kết quả</th><th>Ý nghĩa</th><th>Hành động</th></tr>
+    <tr><td class="outcome-ok">Approved ✓</td><td>I-140 được duyệt — Priority Date được giữ vĩnh viễn</td><td>Chuyển sang NVC (bước 4)</td></tr>
+    <tr><td>RFE</td><td>Yêu cầu bổ sung bằng chứng (tài chính, vị trí công việc...)</td><td>Luật sư chuẩn bị response (~$1,000)</td></tr>
+    <tr><td class="outcome-bad">Denied ✗</td><td>Bị từ chối — PD vẫn được giữ nếu nộp I-140 mới</td><td>Kháng cáo hoặc mở I-140 mới ($2,500 phí LS)</td></tr>
+  </table>
+  <div class="alert alert-green"><div class="alert-icon">✅</div><div><b>Sau khi I-140 Approved:</b> Dù hãng bảo trợ phá sản sau đó, bạn vẫn giữ được Priority Date và có thể nộp I-140 mới với hãng khác cùng mã ngành nghề.</div></div>
+</div>
+
+<!-- STAGE 4 -->
+<div id="s4" class="stage-pane">
+  <div class="stage-header">
+    <div class="stage-num">4</div>
+    <div class="stage-info">
+      <h2>NVC & DS-260 — Chờ Phỏng Vấn</h2>
+      <div class="stage-time">⏱ Thời gian: Tùy Visa Bulletin (hiện tại ~4 năm từ PD) | Cơ quan: NVC + Lãnh Sự Quán</div>
+      <div class="stage-who">👤 Ai làm: Đương đơn + Agency hướng dẫn</div>
+    </div>
+  </div>
+  <div class="sec-hd">6 Bước NVC (National Visa Center)</div>
+  <table>
+    <tr><th>#</th><th>Bước</th><th>Ai làm</th><th>Lưu ý</th></tr>
+    <tr><td>1</td><td>I-140 Approved → USCIS chuyển hồ sơ sang NVC</td><td>USCIS tự động</td><td>Mất vài tuần đến vài tháng</td></tr>
+    <tr><td>2</td><td>NVC tạo case, gửi Welcome Letter (có NVC case number)</td><td>NVC</td><td>Cần NVC case number để đăng nhập CEAC</td></tr>
+    <tr><td>3</td><td>Đóng phí DS-261 ($325/người) + Điền DS-260 (đơn xin visa định cư)</td><td>Đương đơn</td><td>Điền tại ceac.state.gov — hỏi agency trước khi điền</td></tr>
+    <tr><td>4</td><td>Nộp hồ sơ dân sự: passport, khai sinh, kết hôn, lý lịch tư pháp số 2...</td><td>Đương đơn + Agency</td><td>Chờ PD đáo hạn Visa Bulletin mới làm</td></tr>
+    <tr><td>5</td><td>NVC review hồ sơ → Document Qualified (DQ)</td><td>NVC</td><td>Khi DQ, hồ sơ sẵn sàng chờ lịch phỏng vấn</td></tr>
+    <tr><td>6</td><td>Lãnh sự quán gửi thư hẹn phỏng vấn (60 ngày trước)</td><td>LSQ Mỹ tại VN</td><td>Đặt lịch tiêm vaccine + khám sức khỏe IOM ngay</td></tr>
+  </table>
+  <div class="alert alert-yellow"><div class="alert-icon">⭐</div><div><b>Visa Bulletin là chìa khóa:</b> Chỉ khi Priority Date của bạn sớm hơn ngày trong <b>Bảng A (Final Action Dates)</b>, bạn mới được xét cấp visa. Theo dõi hàng tháng tại <a href="visa-bulletin.html" style="color:#fbbf24">trang Visa Bulletin</a>.</div></div>
+  <div class="sub-hd">Giấy tờ cần chuẩn bị cho DS-260</div>
+  <div class="card"><ul>
+    <li><b>Hộ chiếu</b> còn hạn ít nhất 6 tháng</li>
+    <li><b>CCCD</b> (bản scan màu)</li>
+    <li><b>Giấy khai sinh</b> (đương đơn + vợ/chồng + con)</li>
+    <li><b>Giấy đăng ký kết hôn</b></li>
+    <li><b>Lý lịch tư pháp số 2</b> (xin tại Sở Tư Pháp — phí 200k, làm online được)</li>
+    <li><b>Hộ khẩu / Giấy xác nhận cư trú</b></li>
+    <li><b>Lịch sử nhập cảnh</b> các quốc gia (nếu từng ở nước ngoài trên 6 tháng)</li>
+  </ul></div>
+</div>
+
+<!-- STAGE 5 -->
+<div id="s5" class="stage-pane">
+  <div class="stage-header">
+    <div class="stage-num">5</div>
+    <div class="stage-info">
+      <h2>Phỏng Vấn & Nhận Thẻ Xanh</h2>
+      <div class="stage-time">⏱ Nhận thẻ xanh: 1–4 tháng sau khi nhập cảnh Mỹ | Cơ quan: Lãnh Sự Quán Mỹ tại Hà Nội/TP.HCM</div>
+      <div class="stage-who">👤 Ai làm: Đương đơn — agency hướng dẫn chuẩn bị</div>
+    </div>
+  </div>
+  <div class="sec-hd">Chuẩn bị trước phỏng vấn</div>
+  <div class="card"><ul>
+    <li><b>Đặt lịch khám sức khỏe IOM</b> (ưu tiên 1 — chờ khá lâu): người lớn ~$240, trẻ em ~$220</li>
+    <li><b>Tiêm vaccine bắt buộc</b>: MMR, Tdap, Varicella, Hepatitis A&B, COVID-19, cúm mùa...</li>
+    <li><b>Lý lịch tư pháp số 2</b> mới (không quá 6 tháng tính từ ngày phỏng vấn)</li>
+    <li>Ôn kỹ: <b>tên công ty Mỹ, địa chỉ, vị trí công việc, mức lương</b></li>
+    <li>Chuẩn bị câu hỏi về gia đình, lý do tham gia EB-3, kế hoạch công việc</li>
+    <li>Hỏi agency: phỏng vấn ở đâu (Hà Nội hay TP.HCM), mang giấy tờ gì</li>
+  </ul></div>
+  <div class="sub-hd">Kết quả phỏng vấn</div>
+  <table>
+    <tr><th>Kết quả</th><th>Ý nghĩa</th><th>Hành động tiếp theo</th></tr>
+    <tr><td class="outcome-ok">PASS ✓</td><td>Đậu phỏng vấn → nhận visa EW3 gửi về nhà qua bưu điện trong ~10 tuần</td><td>Đặt vé máy bay, nhập cảnh Mỹ</td></tr>
+    <tr><td>221(g)</td><td>Từ chối tạm thời — cần bổ sung giấy tờ</td><td>Nộp giấy tờ theo yêu cầu, chờ xét lại</td></tr>
+    <tr><td class="outcome-bad">FAIL ✗</td><td>Từ chối vĩnh viễn — thường do hồ sơ có vấn đề</td><td>Cần mở hồ sơ mới hoặc nhờ luật sư kháng cáo</td></tr>
+  </table>
+  <div class="sub-hd">Sau khi nhập cảnh Mỹ</div>
+  <div class="card"><ul>
+    <li>Nhận <b>thẻ xanh 10 năm</b> qua bưu điện trong 1–4 tháng sau nhập cảnh</li>
+    <li>Xin <b>SSN</b> (Social Security Number) tại văn phòng SSA gần nhất</li>
+    <li>Mở <b>tài khoản ngân hàng</b> (Chase, Bank of America...)</li>
+    <li>Thi <b>bằng lái xe</b> — xem <a href="bmv.html" style="color:#60a5fa">công cụ ôn thi BMV</a></li>
+    <li><b>Bắt đầu đi làm</b> cho hãng bảo trợ — tối thiểu 1 năm theo cam kết hợp đồng</li>
+    <li>Khai <b>thuế</b> hàng năm (Form 1040, deadline 15/4)</li>
+    <li>Sau 5 năm tổng ở Mỹ: có thể thi <b>quốc tịch Mỹ</b></li>
+  </ul></div>
+  <div class="alert alert-green"><div class="alert-icon">🎉</div><div><b>Chúc mừng!</b> Thẻ xanh 10 năm cho cả gia đình: vợ/chồng (EW4), con dưới 21t (EW5). Con cái học miễn phí K-12, được hoàn thuế Child Tax Credit nếu đủ điều kiện.</div></div>
+</div>
+
+<div class="disc"><b>Lưu ý:</b> Thông tin trên mang tính tham khảo tổng quát. Mỗi hồ sơ có đặc điểm riêng. Luôn phối hợp với agency và luật sư di trú để được tư vấn cụ thể.</div>
+</div>
+<script>
+function showStage(id, el) {
+  document.querySelectorAll('.stage-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.st-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  el.classList.add('active');
+}
+</script>
+</body>
+</html>

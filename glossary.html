@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thuật Ngữ Di Trú EB-3 | EB3 Vietnam Hub</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
+.site-nav{display:flex;align-items:center;background:#1a2535;border-bottom:1px solid #2d3f55;overflow-x:auto;padding:0 8px}
+.site-nav a{padding:12px 14px;font-size:12px;font-weight:600;color:#64748b;text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:all .15s}
+.site-nav a:hover{color:#94a3b8}
+.site-nav a.active{color:#60a5fa;border-bottom-color:#60a5fa;background:#1e2d42}
+.site-nav .logo{color:#f1f5f9;font-weight:800;font-size:13px;padding:12px 14px;margin-right:4px;white-space:nowrap}
+.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
+.hero h1{font-size:20px;font-weight:800;color:#fff}
+.hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
+.main{max-width:860px;margin:0 auto;padding:18px 16px}
+.search-wrap{margin-bottom:14px}
+.search-wrap input{width:100%;padding:9px 14px;border-radius:8px;border:1px solid #2d3f55;background:#1a2535;color:#e2e8f0;font-size:13px;outline:none}
+.search-wrap input:focus{border-color:#60a5fa}
+.search-wrap input::placeholder{color:#475569}
+.alpha-tabs{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:14px}
+.a-btn{padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600;border:1px solid #2d3f55;background:#1a2535;color:#64748b;cursor:pointer;transition:all .12s}
+.a-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+.count{font-size:12px;color:#64748b;margin-bottom:12px}
+.count b{color:#94a3b8}
+.term-card{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:14px 16px;margin-bottom:8px}
+.term-card.hidden{display:none}
+.term-header{display:flex;align-items:baseline;gap:10px;margin-bottom:6px;flex-wrap:wrap}
+.term-abbr{font-size:15px;font-weight:800;color:#60a5fa}
+.term-full{font-size:12.5px;color:#94a3b8;font-style:italic}
+.term-vi{font-size:12.5px;font-weight:600;color:#fbbf24}
+.term-def{font-size:12.5px;color:#94a3b8;line-height:1.7}
+.term-def b{color:#e2e8f0}
+.term-def em{color:#4ade80;font-style:normal}
+.no-res{text-align:center;padding:40px;color:#64748b;display:none}
+.disc{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:16px;line-height:1.6}
+.disc b{color:#94a3b8}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <span class="logo">🇺🇸 EB3 Hub</span>
+  <a href="index.html">🏠 Trang chủ</a>
+  <a href="visa-bulletin.html">📅 Visa Bulletin</a>
+  <a href="news.html">📰 Tin tức</a>
+  <a href="guides.html">📖 Hướng dẫn</a>
+  <a href="faq.html">❓ FAQ</a>
+  <a href="glossary.html" class="active">📚 Thuật ngữ</a>
+  <a href="bmv.html">🚗 BMV Indiana</a>
+</nav>
+<div class="hero">
+  <h1>📚 Thuật Ngữ Di Trú EB-3</h1>
+  <p>Giải thích các từ viết tắt và thuật ngữ phổ biến trong hồ sơ EB-3</p>
+</div>
+<div class="main">
+  <div class="search-wrap"><input type="text" id="search" placeholder="🔍 Tìm thuật ngữ..." oninput="filterTerms()"></div>
+  <div class="alpha-tabs" id="alpha-tabs"></div>
+  <div class="count" id="count"></div>
+  <div id="term-list"></div>
+  <div class="no-res" id="no-res">Không tìm thấy thuật ngữ phù hợp.</div>
+  <div class="disc"><b>Nguồn:</b> USCIS, DOS, DOL official guidance. Giải thích được đơn giản hóa cho dễ hiểu — tham khảo nguồn chính thức để có định nghĩa pháp lý chính xác.</div>
+</div>
+<script>
+const TERMS = [
+  {abbr:'AOS', full:'Adjustment of Status', vi:'Chuyển diện (đổi tình trạng cư trú)', def:'Quy trình xin thẻ xanh ngay trong nội địa Mỹ (thay vì phỏng vấn ở lãnh sự quán). Áp dụng cho EB-3 chuyển diện qua I-485. Nộp khi PD đáo hạn theo Visa Bulletin.'},
+  {abbr:'AP', full:'Advance Parole', vi:'Giấy phép xuất nhập cảnh tạm thời', def:'Giấy phép cho phép người đang pending AOS (I-485) xuất cảnh và nhập cảnh lại Mỹ mà không làm mất hồ sơ AOS. Nộp cùng Form I-131. Rất cần cho EB-3 chuyển diện.'},
+  {abbr:'CEAC', full:'Consular Electronic Application Center', vi:'Trung tâm đơn xin visa điện tử của LSQ', def:'Hệ thống online tại ceac.state.gov nơi đương đơn điền DS-260 và theo dõi trạng thái hồ sơ NVC. Cần NVC case number và invoice number để đăng nhập.'},
+  {abbr:'CSPA', full:'Child Status Protection Act', vi:'Đạo luật bảo vệ tình trạng trẻ em', def:'Bảo vệ con phụ thuộc khỏi bị "quá tuổi" (21t) trong quá trình chờ hồ sơ dài. Công thức: Tuổi CSPA = Tuổi thật ngày tới hạn − Thời gian chờ duyệt I-140. Quan trọng nếu con đang 14–15t khi mở hồ sơ.'},
+  {abbr:'DOL', full:'Department of Labor', vi:'Bộ Lao Động Mỹ', def:'Cơ quan xử lý PERM/LC. Website: dol.gov và flag.dol.gov để tra cứu LC status và processing times.'},
+  {abbr:'DOS', full:'Department of State', vi:'Bộ Ngoại Giao Mỹ', def:'Cơ quan ban hành Visa Bulletin hàng tháng và xử lý visa tại lãnh sự quán. Bureau of Consular Affairs (travel.state.gov) là bộ phận liên quan đến EB-3.'},
+  {abbr:'DQ', full:'Documentarily Qualified', vi:'Hồ sơ đầy đủ giấy tờ', def:'Trạng thái NVC khi đã xem xét xong toàn bộ giấy tờ và hồ sơ đủ điều kiện chờ lịch phỏng vấn tại lãnh sự quán. Sau DQ, hồ sơ chờ PD đáo hạn để được xếp lịch phỏng vấn.'},
+  {abbr:'DS-260', full:'Immigrant Visa Electronic Application', vi:'Đơn xin visa định cư (điền online)', def:'Mẫu đơn xin visa định cư điền trực tuyến tại CEAC. Gồm 8 phần: thông tin cá nhân, cha mẹ, con cái, lịch sử du lịch, công việc/học tập, người bảo lãnh, an ninh, xác nhận. Phí $345/người. <b>Hỏi agency kỹ trước khi điền</b>.'},
+  {abbr:'EAD', full:'Employment Authorization Document', vi:'Thẻ cho phép làm việc hợp pháp', def:'Giấy phép lao động tạm thời cấp sau khi I-765 được duyệt. Cho phép làm việc hợp pháp full-time, bất kỳ nơi đâu. Hiệu lực 5 năm (từ 2022). Áp dụng chủ yếu cho EB-3 chuyển diện — chờ khoảng 3–6 tháng sau khi nộp I-765.'},
+  {abbr:'EB-3', full:'Employment-Based Third Preference', vi:'Diện lao động định cư ưu tiên thứ 3', def:'Chương trình định cư theo diện lao động. Có 3 nhánh: EB-3 Professional (có bằng đại học), EB-3 Skilled (tay nghề ≥2 năm), EB-3 Other Workers/EW (không yêu cầu tay nghề). Tài liệu này chủ yếu về diện EW.'},
+  {abbr:'ETA-9089', full:'Application for Permanent Employment Certification', vi:'Mẫu đơn nộp PERM lên DOL', def:'Mẫu đơn PERM (Form ETA-9089) do sponsor/luật sư nộp lên DOL. Sau khi LC certified, form này có tên đương đơn — đây là bằng chứng duy nhất hồ sơ là của bạn tại giai đoạn LC.'},
+  {abbr:'EW3', full:'Employment-based, Third Preference, Other Workers', vi:'Visa EB-3 Other Workers (đương đơn chính)', def:'Loại visa định cư cho đương đơn chính EB-3 Other Workers. Vợ/chồng đi kèm theo diện EW4, con đi kèm EW5.'},
+  {abbr:'FWD', full:'Federal Wage Determination / Prevailing Wage', vi:'Mức lương trung bình hiện hành', def:'Mức lương tối thiểu mà employer phải trả cho vị trí EB-3, xác định bởi DOL dựa trên ngành nghề và địa điểm làm việc. Nếu lương trong LC thấp hơn FWD, LC sẽ bị từ chối.'},
+  {abbr:'I-130', full:'Petition for Alien Relative', vi:'Đơn bảo lãnh thân nhân', def:'Khác với I-140 (lao động). I-130 dùng cho diện thân nhân (F). Không liên quan EB-3 truyền thống.'},
+  {abbr:'I-140', full:'Immigrant Petition for Alien Workers', vi:'Đơn bảo lãnh người nước ngoài theo diện việc làm', def:'Đơn do employer/sponsor nộp lên USCIS sau khi LC được approved. Khẳng định mối quan hệ lao động và năng lực tài chính của employer. Sau khi I-140 approved, PD được giữ vĩnh viễn kể cả hãng phá sản.'},
+  {abbr:'I-485', full:'Application to Register Permanent Residence', vi:'Đơn xin thẻ xanh trong nội địa Mỹ (AOS)', def:'Dùng cho chuyển diện. Chỉ nộp khi PD đáo hạn theo Visa Bulletin. Nộp cùng I-765 (EAD) và I-131 (AP). Không dùng cho diện truyền thống (phỏng vấn tại lãnh sự quán).'},
+  {abbr:'I-765', full:'Application for Employment Authorization', vi:'Đơn xin giấy phép lao động (EAD)', def:'Nộp cùng I-485 (AOS) để xin thẻ EAD. Sau khi có EAD, đương đơn chuyển diện được đi làm hợp pháp. Thời gian xử lý hiện khoảng 3–6 tháng.'},
+  {abbr:'I-907', full:'Request for Premium Processing', vi:'Đơn xin dịch vụ xử lý nhanh I-140', def:'Nộp kèm I-140 để được xử lý nhanh trong 15–45 ngày làm việc (thay vì 6–12 tháng). Phí từ 01/04/2024: $2,805 (thêm vào $1,315 phí I-140 thường). Không phải lúc nào cũng cần thiết khi VB chậm.'},
+  {abbr:'LC', full:'Labor Certification', vi:'Chứng chỉ lao động (còn gọi là PERM)', def:'Chứng nhận của DOL rằng không có lao động Mỹ đủ điều kiện cho vị trí này. Form ETA-9089. Có hiệu lực 180 ngày sau khi certified — phải nộp I-140 trong thời gian này.'},
+  {abbr:'NVC', full:'National Visa Center', vi:'Trung tâm thị thực Quốc gia Mỹ', def:'Trung tâm xử lý hồ sơ visa immigrant sau khi I-140 được USCIS approve và chuyển sang. NVC tạo case number, nhận DS-260, review giấy tờ và chuyển hồ sơ DQ sang lãnh sự quán. Liên hệ NVC qua publicinquiries@state.gov.'},
+  {abbr:'PD', full:'Priority Date', vi:'Ngày ưu tiên', def:'Ngày DOL nhận đơn PERM của hãng — là "số thứ tự xếp hàng" của bạn. PD càng sớm càng tốt. Visa Bulletin Bảng A cho biết PD nào đã đến lượt được xét cấp visa. PD được giữ vĩnh viễn sau khi I-140 approved.'},
+  {abbr:'PERM', full:'Program Electronic Review Management', vi:'Hệ thống quản lý xét duyệt điện tử (quy trình LC)', def:'Tên hệ thống/quy trình DOL dùng để xét duyệt Labor Certification. Employer phải đăng tuyển dụng, chứng minh không tuyển được lao động Mỹ, rồi nộp ETA-9089 lên FLAG system.'},
+  {abbr:'RFE', full:'Request for Evidence', vi:'Yêu cầu bổ sung bằng chứng', def:'USCIS gửi RFE khi hồ sơ I-140 thiếu thông tin hoặc cần bổ sung. Thường do: nghi ngờ tài chính employer, vị trí tuyển dụng không rõ, thông tin đương đơn mâu thuẫn. Phí trả lời RFE: ~$1,000 phí luật sư.'},
+  {abbr:'SSN', full:'Social Security Number', vi:'Số an sinh xã hội', def:'Mã định danh 9 chữ số do SSA cấp. Cần để đi làm hợp pháp, mở tài khoản ngân hàng, khai thuế, xây credit score. Nộp đơn SS-5 tại văn phòng SSA ngay sau khi nhập cảnh Mỹ.'},
+  {abbr:'USCIS', full:'U.S. Citizenship and Immigration Services', vi:'Sở Di Trú và Nhập Tịch Hoa Kỳ', def:'Cơ quan xử lý I-140 và I-485. Website: uscis.gov. Tra cứu case status tại egov.uscis.gov sau khi có receipt number.'},
+  {abbr:'VB', full:'Visa Bulletin', vi:'Bản thông báo lịch visa hàng tháng', def:'Bản tin DOS phát hành mỗi tháng, thông báo Priority Date tới hạn cho từng diện visa. Bảng A (Final Action Dates) = PD phải sớm hơn để được cấp visa. Bảng B (Dates for Filing) = PD được phép nộp hồ sơ chuẩn bị sớm. Xem tại <a href="visa-bulletin.html" style="color:#60a5fa">trang Visa Bulletin</a>.'},
+  {abbr:'221(g)', full:'INA Section 221(g)', vi:'Từ chối tạm thời — cần bổ sung hồ sơ', def:'Kết quả phỏng vấn LSQ khi hồ sơ cần bổ sung thêm tài liệu. Không phải từ chối vĩnh viễn. Cần nộp giấy tờ bổ sung theo yêu cầu rồi chờ xét lại. Khác với từ chối vĩnh viễn (214b hoặc các căn cứ từ chối khác).'},
+];
+
+let activeAlpha = 'all';
+const alphas = ['all', ...new Set(TERMS.map(t => t.abbr[0]).sort())];
+
+function buildAlphaTabs() {
+  const tabs = document.getElementById('alpha-tabs');
+  alphas.forEach(a => {
+    const btn = document.createElement('button');
+    btn.className = 'a-btn' + (a === 'all' ? ' active' : '');
+    btn.textContent = a === 'all' ? 'Tất cả' : a;
+    btn.onclick = () => { activeAlpha = a; document.querySelectorAll('.a-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); render(); };
+    tabs.appendChild(btn);
+  });
+}
+
+function render() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const list = document.getElementById('term-list');
+  const noRes = document.getElementById('no-res');
+  list.innerHTML = '';
+  let count = 0;
+  TERMS.forEach(t => {
+    const matchAlpha = activeAlpha === 'all' || t.abbr.startsWith(activeAlpha);
+    const matchQ = !q || t.abbr.toLowerCase().includes(q) || t.full.toLowerCase().includes(q) || t.vi.toLowerCase().includes(q) || t.def.toLowerCase().includes(q);
+    if (!matchAlpha || !matchQ) return;
+    count++;
+    list.innerHTML += `
+      <div class="term-card">
+        <div class="term-header">
+          <span class="term-abbr">${t.abbr}</span>
+          <span class="term-full">${t.full}</span>
+          <span class="term-vi">${t.vi}</span>
+        </div>
+        <div class="term-def">${t.def}</div>
+      </div>`;
+  });
+  document.getElementById('count').innerHTML = `Hiển thị <b>${count}</b> / ${TERMS.length} thuật ngữ`;
+  noRes.style.display = count === 0 ? 'block' : 'none';
+}
+
+function filterTerms() { activeAlpha = 'all'; document.querySelectorAll('.a-btn').forEach(b => b.classList.remove('active')); document.querySelector('.a-btn').classList.add('active'); render(); }
+
+buildAlphaTabs();
+render();
+</script>
+</body>
+</html>
