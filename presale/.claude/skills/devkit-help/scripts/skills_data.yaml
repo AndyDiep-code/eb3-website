@@ -1,0 +1,587 @@
+- name: "agent-browser"
+  path: "agent-browser/SKILL.md"
+  description: "Automate browsers and apps with agent-browser. Use for testing, screenshots, forms, scraping, Browserbase/cloud browsers, and Electron when real Chrome cookies are not required."
+  category: "dev-tools"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[url or task]"
+  keywords: ["browser", "automation", "playwright", "testing", "e2e", "browserbase", "autonomous", "headless", "electron", "slack", "dogfood", "agentcore", "vercel-sandbox"]
+- name: "agent-team"
+  path: "agent-team/SKILL.md"
+  description: "Orchestrate Agent Teams for parallel multi-session collaboration. Use for research, implementation, review, and debug workflows requiring independent teammates."
+  category: "dev-tools"
+  has_scripts: false
+  has_references: true
+  argument_hint: "<template> <context> [--devs|--researchers|--reviewers N] [--delegate]"
+  keywords: ["agents", "parallel", "multi-session", "collaboration"]
+- name: "api-design-principles"
+  path: "api-design-principles/SKILL.md"
+  description: "Master REST and GraphQL API design following Heroku HTTP API Design best practices. Use when designing APIs, reviewing specifications, establishing standards, implementing endpoints, adding pagination/filtering, or creating API documentation. Covers TLS, versioning, Request-Id, ETags, rate limiting, structured errors, DataLoaders, and N+1 prevention."
+  category: "backend"
+  has_scripts: false
+  has_references: true
+  keywords: ["api", "rest", "graphql", "design", "endpoints", "http"]
+- name: "ask"
+  path: "ask/SKILL.md"
+  description: "Answer technical and architectural questions with expert analysis. Use for design decisions, best practices evaluation, solution comparison."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  argument_hint: "[technical-question]"
+  keywords: ["questions", "consultation", "architecture"]
+- name: "autoresearch"
+  path: "autoresearch/SKILL.md"
+  description: "Autoresearch is the upstream meta-framework (Udit Goenka, MIT) for autonomous goal-directed iteration with safety guardrails. Locally split into 4 specialized skills. Start here to learn the pattern, then route to the right specialized skill."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  keywords: ["autoresearch", "autonomous", "iteration", "karpathy", "framework", "lineage", "router", "umbrella"]
+  related: ["loop", "predict", "test-scenario", "security"]
+- name: "backend-development"
+  path: "backend-development/SKILL.md"
+  description: "Build backends with Node.js, Python, Go (NestJS, FastAPI, Django). Use for REST/GraphQL/gRPC APIs, auth (OAuth, JWT), databases, microservices, security (OWASP), Docker/K8s."
+  category: "backend"
+  has_scripts: false
+  has_references: true
+  keywords: ["nodejs", "python", "go", "api", "rest", "graphql"]
+- name: "brainstorm"
+  path: "brainstorm/SKILL.md"
+  description: "Brainstorm solutions with trade-off analysis and brutal honesty. Use for ideation, architecture decisions, technical debates, feature exploration, feasibility assessment, design discussions."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  keywords: ["ideation", "tradeoffs", "debate", "decisions"]
+- name: "chief-architect-presale"
+  path: "chief-architect-presale/SKILL.md"
+  description: "Chief Architect for software outsourcing presale/sales phase. Build solution blueprints, case studies, business domain designs, and C-level technical documentation. Create quick development proposals and comprehensive enterprise solution architecture."
+  category: "plan"
+  has_scripts: false
+  has_references: true
+  keywords: ["architecture", "presale", "solution", "enterprise", "proposal", "blueprint"]
+- name: "chrome-profile"
+  path: "chrome-profile/SKILL.md"
+  description: "Target a real Google Chrome profile for browser automation through Chrome DevTools MCP or claude-in-chrome. Provides a chrome-profile CLI, profile discovery, bridge diagnostics, setup playbooks, and the URL-anchor workflow for selecting the correct profile tab."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  keywords: ["chrome", "browser", "profile", "mcp", "devtools", "automation", "cookies"]
+- name: "clone"
+  path: "clone/SKILL.md"
+  description: "Extract, compare, port, or adapt a feature from a GitHub repository or local repo path into the current project. Use when the user wants to copy behavior from another repo, study how another codebase implements something, compare implementations, or rewrite a feature in the local stack. Triggers on: 'port from', 'copy from repo', 'like how X does it', 'clone feature from', 'adapt from', 'bring feature from', 'borrow from', 'take from repo', 'clone', 'clone feature'."
+  category: "dev-tools"
+  has_scripts: false
+  has_references: true
+  argument_hint: "<github-url-or-owner/repo|local-path> [feature] [--compare|--copy|--improve|--port] [--auto|--fast]"
+  keywords: ["port", "extract", "compare", "feature", "repo"]
+- name: "code-review"
+  path: "code-review/SKILL.md"
+  description: "Review code quality with adversarial rigor. Supports input modes: pending changes, PR number, commit hash, codebase scan. Always-on red-team analysis finds security holes, false assumptions, and failure modes."
+  category: "review"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[COMMIT | --pending | codebase [parallel]]"
+  keywords: ["review", "quality", "security", "analysis", "code", "bugs"]
+- name: "coding-level"
+  path: "coding-level/SKILL.md"
+  description: "Set coding experience level for tailored output. Use for adjusting explanation depth, code complexity, and response format to user expertise."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  argument_hint: "[0-5]"
+  keywords: ["experience", "level", "explanation", "format"]
+- name: "cook"
+  path: "cook/SKILL.md"
+  description: "Implement features, plans, and fixes with structured workflow. Use for feature development, plan execution, code implementation pipelines."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[task|plan-path] [--interactive|--fast|--parallel|--auto|--no-test] [--tdd]"
+  keywords: ["implementation", "workflow", "feature", "pipeline"]
+- name: "debug"
+  path: "debug/SKILL.md"
+  description: "Debug systematically with root cause analysis before fixes. Use for bugs, test failures, unexpected behavior, performance issues, call stack tracing, multi-layer validation, log analysis, CI/CD failures, database diagnostics, system investigation."
+  category: "utilities"
+  has_scripts: true
+  has_references: true
+  argument_hint: "[error or issue description]"
+  keywords: ["debug", "root-cause", "bugs", "test-failures"]
+- name: "devkit-help"
+  path: "devkit-help/SKILL.md"
+  description: "AI-Devkit usage guide — discover commands, skills, workflows naturally."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: false
+  argument_hint: "[category|command|task description]"
+  keywords: ["devkit", "help", "commands", "skills", "guide", "reference"]
+- name: "diagram-design"
+  path: "diagram-design/SKILL.md"
+  description: "Create technical and product diagrams — architecture, flowchart, sequence, state machine, ER / data model, timeline, swimlane, quadrant, nested, tree, layer stack, venn, pyramid — as standalone HTML files with inline SVG. Ships with a neutral editorial skin and a first-run gate that prompts users to customize the style guide (colors, fonts) from their own website before generating. Includes annotation-callout primitive and optional sketchy variant."
+  category: "frontend"
+  has_scripts: false
+  has_references: true
+  keywords: ["diagram", "svg", "architecture", "flowchart", "visualization", "html"]
+- name: "docs"
+  path: "docs/SKILL.md"
+  description: "Analyze codebase and manage project documentation. Use for doc initialization, updates, summaries, codebase analysis."
+  category: "utilities"
+  has_scripts: true
+  has_references: true
+  argument_hint: "--mode [capture-knowledge|init|summarize|update] [prompt]"
+  keywords: ["documentation", "init", "update", "summarize"]
+- name: "docs-seeker"
+  path: "docs-seeker/SKILL.md"
+  description: "Search library/framework documentation via llms.txt (context7.com). Use for API docs, GitHub repository analysis, technical documentation lookup, latest library features."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  keywords: ["docs", "llms-txt", "api", "library", "context7"]
+- name: "enouvo-docs-generator"
+  path: "enouvo-docs-generator/SKILL.md"
+  description: "Enouvo-branded document generator for converting Markdown to professional PDF, DOCX, or self-contained HTML files with Enouvo logo, brand colors (Red"
+  category: "docs"
+  has_scripts: true
+  has_references: true
+  keywords: ["document", "pdf", "docx", "html", "branding", "markdown", "report", "presale"]
+- name: "find-skills"
+  path: "find-skills/SKILL.md"
+  description: "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+  category: "dev-tools"
+  has_scripts: false
+  has_references: false
+  keywords: ["discover", "install", "skills", "search"]
+- name: "fix"
+  path: "fix/SKILL.md"
+  description: "Fix bugs, errors, test failures, and CI/CD issues with intelligent routing. Use for type errors, lint issues, log errors, UI bugs, code problems."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[issue] --auto|--review|--quick|--parallel"
+  keywords: ["bugfix", "error", "test-failure", "CI", "lint"]
+- name: "get-api-docs"
+  path: "get-api-docs/SKILL.md"
+  description: "Use this skill when you need documentation for a third-party library, SDK, or API before writing code that uses it — for example, \"use the OpenAI API\", \"call the Stripe API\", \"use the Anthropic SDK\", \"query Pinecone\", or any time the user asks you to write code against an external service and you need current API reference. Fetch the docs with chub before answering, rather than relying on training knowledge.\n"
+  category: "dev-tools"
+  has_scripts: false
+  has_references: false
+  keywords: ["documentation", "api", "library", "reference", "chub", "sdk"]
+- name: "grill-with-docs"
+  path: "grill-with-docs/SKILL.md"
+  description: "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
+  category: "other"
+  has_scripts: false
+  has_references: false
+- name: "handoff"
+  path: "handoff/SKILL.md"
+  description: "Compact the current conversation into a handoff document for another agent to pick up."
+  category: "other"
+  has_scripts: false
+  has_references: false
+  argument_hint: "What will the next session be used for?"
+- name: "implement"
+  path: "implement/SKILL.md"
+  description: "Implement task phases — normal mode (multi-phase, --auto flag) or lite mode for small tasks. Includes code review, user approval, status tracking."
+  category: "core"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[--mode lite] [task-id] [--auto]"
+  keywords: ["implement", "phases", "plan", "execution", "workflow", "tasks"]
+- name: "loop"
+  path: "loop/SKILL.md"
+  description: "Autonomous iterative optimization loop — run N iterations against a mechanical metric, backup/restore files on discard, auto-keep/discard changes. Use for improving measurable metrics (coverage, performance, bundle size, etc.) through repeated experimentation."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[Goal/Metric description] or inline config block"
+  keywords: ["optimization", "iteration", "metrics", "loop"]
+- name: "media-processing"
+  path: "media-processing/SKILL.md"
+  description: "Process media with FFmpeg (video/audio), ImageMagick (images), RMBG (AI background removal). Use for encoding, format conversion, filters, thumbnails, batch processing, HLS/DASH streaming."
+  category: "multimedia"
+  has_scripts: true
+  has_references: true
+  keywords: ["ffmpeg", "imagemagick", "video", "audio", "images"]
+- name: "mintlify"
+  path: "mintlify/SKILL.md"
+  description: "Build and deploy documentation sites with Mintlify. Use when creating API docs, developer portals, or knowledge bases. Covers docs.json configuration, MDX components (Cards, Steps, Tabs, Accordions, CodeGroup, Callouts, Mermaid, View, Tiles, Tree, Badge, Banner, Color, Tooltips, Panel), page frontmatter, navigation structure (tabs, anchors, dropdowns, products, versions, languages), theming (7 themes), OpenAPI/AsyncAPI integration, AI features (llms.txt, MCP, skill.md), deployment (GitHub, GitLab, Vercel, Cloudflare, AWS), and CLI commands for local development and validation."
+  category: "dev-tools"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[task] [path]"
+  keywords: ["docs-site", "API-docs", "MDX", "Mintlify"]
+- name: "monorepo-management"
+  path: "monorepo-management/SKILL.md"
+  description: "Initialize monorepos from a portable zipped reference with mandatory app-contract discovery, reference-guided scaffolding, and end-to-end verification."
+  category: "other"
+  has_scripts: false
+  has_references: false
+- name: "nodejs"
+  path: "nodejs/SKILL.md"
+  description: "Node.js & TypeScript development intelligence. 12 domains, 12 stacks, 300+ entries. Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check Node code. Domains: pattern, package, error, perf, test, async, arch, idiom, anti, tooling, module, typescript. Stacks: web-express, web-fastify, web-hono, web-nestjs, web-nextjs, web-remix, orm-prisma, orm-drizzle, auth, database, realtime, graphql. Integrations: arch_system generator."
+  category: "backend"
+  has_scripts: true
+  has_references: false
+  keywords: ["nodejs", "typescript", "patterns", "express", "nestjs", "server"]
+- name: "perf-test"
+  path: "perf-test/SKILL.md"
+  description: "Performance testing for web applications — UI (Lighthouse/Core Web Vitals) and API load testing (k6, Artillery, autocannon). Supports auto-discovery of UI flows via playwright-cli snapshots, authenticated workflows, multi-step flows with per-step breakdown, multi-page UI audits, and SLA threshold validation."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["performance", "lighthouse", "k6", "artillery", "load-test", "core-web-vitals", "sla"]
+- name: "plan"
+  path: "plan/SKILL.md"
+  description: "Plan implementations, design architectures, create technical roadmaps with detailed phases. Use for feature planning, system design, solution architecture, implementation strategy, phase documentation."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[task] [--fast|--hard|--deep|--parallel|--two] [--tdd|--no-tasks] OR [archive|red-team|validate]"
+  keywords: ["planning", "architecture", "phases", "roadmap"]
+- name: "playwright-api-automation"
+  path: "playwright-api-automation/SKILL.md"
+  description: "Generates API test automation from network captures and test cases"
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "api", "automation", "testing", "network"]
+- name: "playwright-api-from-openapi"
+  path: "playwright-api-from-openapi/SKILL.md"
+  description: "Fetch OpenAPI spec from a running server (auto-detects path or use --spec-path) and use AI to generate comprehensive API test cases: contract, business logic, RBAC, edge cases. Works for NestJS, FastAPI, Spring Boot, Express. Use when you want AI-generated test cases from a live API."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["api-testing", "openapi", "test-generation", "ai", "contract", "business-logic", "nestjs", "fastapi"]
+- name: "playwright-api-schemathesis"
+  path: "playwright-api-schemathesis/SKILL.md"
+  description: "Run Schemathesis property-based API contract testing against any OpenAPI server. Auto-detects spec path (/api-json, /openapi.json, etc.) or use --spec-path. Fuzzes inputs, validates schema compliance, reports violations. AI analyzes failures. Supports NestJS, FastAPI, Spring Boot, Express."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["api-testing", "schemathesis", "openapi", "contract-testing", "property-based", "fuzzing"]
+- name: "playwright-api-supertest"
+  path: "playwright-api-supertest/SKILL.md"
+  description: "Generate and run API integration tests using supertest + vitest. Reads api-spec.json, generates TypeScript test files per module with afterAll cleanup, auto-selects vitest version by Node.js version, runs against live server, AI-analyzes failures. Supports NestJS, Express, plain HTTP."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["api-testing", "supertest", "vitest", "nestjs", "integration-test", "business-logic", "typescript"]
+- name: "playwright-app-synthesize"
+  path: "playwright-app-synthesize/SKILL.md"
+  description: "Synthesize all feature-level and page-level KB docs into app-wide business documentation. Reads from tests/playwright/docs/features/ and tests/playwright/docs/pages/ and generates app overview, sitemap, feature-map, navigation-flow, and data-model. Use when you need a complete picture of the entire application."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "synthesis", "documentation", "features", "app"]
+- name: "playwright-auth-setup"
+  path: "playwright-auth-setup/SKILL.md"
+  description: "Generate or update auth.setup.ts performLogin() based on a Page Object login method. Auto-detects credential env vars from .env. Use when setting up authentication for a new Playwright project or changing the login method."
+  category: "test"
+  has_scripts: false
+  has_references: false
+  keywords: ["playwright", "auth", "login", "setup", "credentials"]
+- name: "playwright-automate"
+  path: "playwright-automate/SKILL.md"
+  description: "Generate Playwright UI test spec files from promoted test cases and existing Page Objects. Use this skill when generating or updating test specs after test cases have been reviewed and promoted."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "automate", "specs", "page-objects", "testing"]
+- name: "playwright-capture"
+  path: "playwright-capture/SKILL.md"
+  description: "Capture UI locators, ARIA snapshots, and screenshots from live web pages using Playwright. Use this skill when capturing element locators from a page, choosing between simple, interactive, or session-based capture modes, or analyzing accessibility data during UI inspection."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "capture", "locators", "screenshots", "aria"]
+- name: "playwright-cli"
+  path: "playwright-cli/SKILL.md"
+  description: "Automate browser interactions, test web pages and work with Playwright tests."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "cli", "browser", "automation", "interactions"]
+- name: "playwright-docs-from-diagram"
+  path: "playwright-docs-from-diagram/SKILL.md"
+  description: "Generate QAKit business docs from flow diagrams (Mermaid, PlantUML, draw.io) or diagram images (wireframes, flowcharts). Output format identical to docs-generate, enabling full test automation pipeline from diagrams alone. Supports image inputs via native vision."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "docs", "diagram", "flowchart", "qa"]
+- name: "playwright-docs-from-requirements"
+  path: "playwright-docs-from-requirements/SKILL.md"
+  description: "Generate QAKit business docs (business-context.md, user-flows.md, data-model.md) from BRD, PRD, user stories, or feature specs. Output format is identical to docs-generate, enabling the full test automation pipeline to work from requirements documents."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "docs", "requirements", "brd", "user-stories"]
+- name: "playwright-docs-generate"
+  path: "playwright-docs-generate/SKILL.md"
+  description: "Generate business documentation from captured locators and network data. Use this skill to create business-context.md, user-flows.md, and data-model.md from locator capture output. Writes to QA working docs (test-tasks/) and persistent project knowledge base (tests/playwright/docs/pages/ and tests/playwright/docs/locators/) with hash-based update."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "docs", "generate", "business", "locators"]
+- name: "playwright-execute"
+  path: "playwright-execute/SKILL.md"
+  description: "Run Playwright test scripts and AI-analyze results — find scripts, execute via npx playwright test, monitor output, parse report, deliver root-cause analysis and fix suggestions"
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "execute", "run", "results", "analysis"]
+- name: "playwright-explore"
+  path: "playwright-explore/SKILL.md"
+  description: "Autonomously explore a web application — AI discovers all pages and features via ARIA-driven navigation analysis, captures each page (locators, screenshots, business docs), synthesizes KB docs, and outputs test cases. No human navigation required. Works with any app structure (sidebar, top nav, tabs, cards)."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "explore", "autonomous", "discover", "crawl", "ai-driven", "test-cases", "kb", "navigation", "qakit"]
+- name: "playwright-feature-synthesize"
+  path: "playwright-feature-synthesize/SKILL.md"
+  description: "Synthesize per-page KB docs into feature-level business documentation. Reads from tests/playwright/docs/pages/ and generates overview, user-journeys, data-model, and page-map for a feature. Use when you need to create cross-page feature documentation from existing per-page docs."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "feature", "synthesis", "documentation", "pages"]
+- name: "playwright-generate-pom"
+  path: "playwright-generate-pom/SKILL.md"
+  description: "Generate TypeScript Page Object Model files from KB locators (tests/playwright/docs/locators/). Use after running docs-generate to create or update Playwright page objects from the persistent locator KB."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "pom", "page-objects", "typescript", "generate"]
+- name: "playwright-gql-from-schema"
+  path: "playwright-gql-from-schema/SKILL.md"
+  description: "Fetch GraphQL schema via introspection and use AI to generate comprehensive test cases covering query/mutation contracts, auth/RBAC, business logic flows, and error scenarios. Works for any GraphQL API (graphql-yoga, Apollo, Hasura). Use when you want AI-generated GraphQL test cases."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["api-testing", "graphql", "test-generation", "ai", "introspection", "schema"]
+- name: "playwright-gql-schemathesis"
+  path: "playwright-gql-schemathesis/SKILL.md"
+  description: "Run Schemathesis property-based contract testing against any GraphQL API. Fetches schema via introspection, fuzzes all queries and mutations, validates response schema compliance. AI analyzes failures. Supports graphql-yoga, Apollo, Hasura, and any GraphQL framework."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["api-testing", "graphql", "schemathesis", "contract-testing", "property-based", "fuzzing"]
+- name: "playwright-gql-supertest"
+  path: "playwright-gql-supertest/SKILL.md"
+  description: "Generate and run GraphQL integration tests using graphql-request + vitest from gql-spec.json. Reads introspection spec, generates TypeScript test files per operation group, runs against live server. Handles GraphQL errors array pattern (HTTP 200 + errors = failure). Supports any GraphQL framework."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["api-testing", "graphql", "vitest", "integration-test", "business-logic", "typescript"]
+- name: "playwright-init"
+  path: "playwright-init/SKILL.md"
+  description: "Initialize a Playwright automation project from the Enouvo template. Use this skill when setting up a new Playwright codebase, initializing to the default path, initializing to a custom output path, or applying custom configuration such as base URL, browsers, or reporters."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "init", "setup", "template", "configuration"]
+- name: "playwright-test-cases"
+  path: "playwright-test-cases/SKILL.md"
+  description: "Generate UI test cases from captured locators and business docs"
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "test-cases", "generate", "ui", "automation"]
+- name: "playwright-test-cases-promote"
+  path: "playwright-test-cases-promote/SKILL.md"
+  description: "Promote approved draft test cases from test-tasks workspace to tests/playwright/test-cases/ in the repo. Use after reviewing draft test cases generated by test-cases command."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["playwright", "test-cases", "promote", "qa", "workspace"]
+- name: "postgres-best-practices"
+  path: "postgres-best-practices/SKILL.md"
+  description: "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
+  category: "database"
+  has_scripts: false
+  has_references: false
+  keywords: ["postgres", "sql", "performance", "optimization", "queries", "indexes"]
+- name: "predict"
+  path: "predict/SKILL.md"
+  description: "5 expert personas debate proposed changes before implementation. Catches architectural, security, performance, and UX issues early. Use before major features or risky changes."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  argument_hint: "<feature description or change proposal> [--files <glob>] [--chain reason|probe]"
+  keywords: ["prediction", "debate", "review", "risk"]
+- name: "preview"
+  path: "preview/SKILL.md"
+  description: "View files or generate visual explanations, slides, and diagrams. Use for code walkthroughs, architecture visualization, HTML/Markdown presentations."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  keywords: ["preview", "visual", "slides", "diagrams", "HTML"]
+- name: "problem-solving"
+  path: "problem-solving/SKILL.md"
+  description: "Apply systematic problem-solving techniques when stuck. Use for complexity spirals, innovation blocks, recurring patterns, assumption constraints, simplification cascades, scale uncertainty."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  keywords: ["problem-solving", "stuck", "patterns", "simplify"]
+- name: "project-management"
+  path: "project-management/SKILL.md"
+  description: "Track progress, update plan statuses, manage Claude Tasks, generate reports, coordinate docs updates. Use for project oversight, status checks, plan completion, task hydration, cross-session continuity."
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  keywords: ["project", "progress", "status", "reports"]
+- name: "qa-docs"
+  path: "qa-docs/SKILL.md"
+  description: "Generate QA documentation from PRD, BRD, user stories, feature specs, Storybook stories, or QAKit KB docs (feature-synthesize / app-synthesize output) — test plans, test cases (with Type/Tags/E2E), and test summary reports. Use when a new feature or sprint needs QA documentation."
+  category: "test"
+  has_scripts: false
+  has_references: true
+  keywords: ["qa", "test-plan", "test-cases", "test-summary", "playwright", "storybook", "qakit"]
+- name: "react-best-practices"
+  path: "react-best-practices/SKILL.md"
+  description: "Apply React and Next.js performance optimization patterns from Vercel Engineering. Use for component optimization, rendering performance, bundle analysis."
+  category: "frontend"
+  has_scripts: false
+  has_references: false
+  keywords: ["react", "nextjs", "performance", "vercel"]
+- name: "remotion"
+  path: "remotion/SKILL.md"
+  description: "Build video content with Remotion in React. Use for programmatic video creation, animated sequences, data-driven video rendering."
+  category: "frontend"
+  has_scripts: false
+  has_references: false
+  keywords: ["video", "react", "remotion", "rendering"]
+- name: "repomix"
+  path: "repomix/SKILL.md"
+  description: "Pack repositories into AI-friendly files with Repomix (XML, Markdown, plain text). Use for new-project onboarding, codebase snapshots, LLM context preparation, security audits, third-party library analysis."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  keywords: ["codebase", "pack", "snapshot", "llm-context"]
+- name: "requirement"
+  path: "requirement/SKILL.md"
+  description: "Manage task requirements — brainstorm solutions, capture and analyze requirements, or update existing requirements with new changes"
+  category: "plan"
+  has_scripts: false
+  has_references: true
+  argument_hint: "--mode [brainstorm|capture-requirement|update-requirement] [task-id] [args]"
+  keywords: ["requirements", "analysis", "brainstorm", "planning", "capture"]
+- name: "research"
+  path: "research/SKILL.md"
+  description: "Research technical solutions, analyze architectures, gather requirements thoroughly. Use for technology evaluation, best practices research, solution design, scalability/security/maintainability analysis."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  argument_hint: "[topic]"
+  keywords: ["research", "evaluation", "analysis", "solutions"]
+- name: "review"
+  path: "review/SKILL.md"
+  description: "Code and plan review — business logic, plan validation, adversarial security review, or deep code review"
+  category: "utilities"
+  has_scripts: false
+  has_references: true
+  argument_hint: "--mode [business|plan|plan-security|code] [args]"
+  keywords: ["review", "quality", "red-team", "security", "code", "business", "plan", "database", "performance"]
+- name: "scout"
+  path: "scout/SKILL.md"
+  description: "Fast codebase scouting using parallel Explore subagents. Use for file discovery, task context gathering, quick searches across directories."
+  category: "dev-tools"
+  has_scripts: false
+  has_references: true
+  keywords: ["codebase", "scouting", "file-discovery", "search"]
+- name: "security"
+  path: "security/SKILL.md"
+  description: "Unified security toolkit. Dispatches to one of five workflows via --mode: security-audit (STRIDE+OWASP audit), security-scan (secrets+OWASP+deps scan), osv-scanner-install (binary lifecycle), package-vulnerable-scan (npm CVE audit), cyber-threat-expert (OSINT/CTI investigation). Invoke for any security audit, vulnerability scan, dependency check, or threat-intelligence task."
+  category: "security"
+  has_scripts: false
+  has_references: false
+  argument_hint: "--mode <security-audit|security-scan|osv-scanner-install|package-vulnerable-scan|cyber-threat-expert> [mode-specific args]"
+  keywords: ["security", "audit", "scan", "vulnerability", "OWASP", "STRIDE", "OSINT", "CTI", "threat-intelligence", "secrets", "dependencies", "CVE"]
+- name: "sequential-thinking"
+  path: "sequential-thinking/SKILL.md"
+  description: "Apply step-by-step analysis for complex problems with revision capability. Use for multi-step reasoning, hypothesis verification, adaptive planning, problem decomposition, course correction."
+  category: "utilities"
+  has_scripts: true
+  has_references: true
+  keywords: ["reasoning", "step-by-step", "analysis"]
+- name: "skill-creator"
+  path: "skill-creator/SKILL.md"
+  description: "Create or update Claude skills with eval-driven iteration. Use for new skills, skill scripts, references, benchmark optimization, description optimization, eval testing, extending Claude's capabilities."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  argument_hint: "[skill-name or description]"
+  keywords: ["skills", "authoring", "eval", "testing", "templates"]
+- name: "solution-visual-brief"
+  path: "solution-visual-brief/SKILL.md"
+  description: "Generate a comprehensive Solution Architecture Visual Brief from a client's technical brief or requirements document. Use this skill when: the user uploads a client brief, RFP, or requirements document and wants a full presale proposal with visual diagrams; when someone asks to 'create a visual brief', 'generate a proposal', 'analyze this client brief', 'create solution architecture from this document'; when the user provides a project brief and wants C4 diagrams, sequence diagrams, module breakdowns, feature lists, or customer discovery questions; or when building any presale/scoping response document with Mermaid diagrams. This skill produces a complete markdown document with verified data, Mermaid diagrams (flowcharts, sequence diagrams, C4 model, class diagrams), and business-focused customer discovery questions. Always use this skill for presale solution architecture work — it enforces data accuracy, source citations, and a proven document structure."
+  category: "plan"
+  has_scripts: false
+  has_references: true
+  keywords: ["solution", "architecture", "presale", "diagrams", "mermaid", "brief"]
+- name: "sonar"
+  path: "sonar/SKILL.md"
+  description: "SonarQube integration: run analysis (--run) or auto-fix all issues (--fix, default). Run mode: typecheck + lint + tests with coverage, then sonar-scanner. Fix mode: fetches Security, Reliability, Maintainability, Duplications, Security Hotspots, Coverage from SonarQube REST API and iteratively fixes until all reach 0 using devkit:fix. Credentials loaded from .claude/.sonar-config.json."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  argument_hint: "[project-key] [--run|--fix] [--category security|reliability|maintainability|all] [--dry-run]"
+  keywords: ["sonarqube", "quality", "security", "analysis", "coverage", "issues"]
+- name: "spec-forge"
+  path: "spec-forge/SKILL.md"
+  description: "Use this skill whenever a user wants to turn raw client requirements into structured engineering artifacts. Trigger on: \"ingest requirements\", \"write a spec\", \"break this into stories\", \"turn this into a backlog\", \"we got a new BRD\", \"client sent us a transcript\", \"update the spec\", \"create user stories\", \"product specification\", \"requirements document\", or any request involving raw client documents (PDFs, transcripts, chat exports, BRDs, meeting notes) and structured engineering output. Also trigger when the user drops files into a spec/inbox/ folder and asks what to do with them, or when they want to maintain/update an existing spec with new information. This skill handles the full pipeline: ingest → analyze → synthesize spec → generate interactive HTML → produce ordered backlog.\n"
+  category: "other"
+  has_scripts: true
+  has_references: true
+  argument_hint: "[source material or file path] [--update to add to existing spec without rewriting] [--phase INGEST|ANALYZE|SPEC|HTML|BACKLOG to run a specific phase only]"
+  keywords: ["requirements", "specification", "backlog", "user stories", "BRD", "product spec", "ingest requirements", "feature breakdown", "epics", "acceptance criteria", "traceability", "product documentation", "sprint planning", "engineering artifacts"]
+- name: "task"
+  path: "task/SKILL.md"
+  description: "Initialize task folder structure — normal mode (full requirements/reports/plan folders) or lite mode (single-file structure for small tasks)"
+  category: "core"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[--mode lite] [task-id] [description]"
+  keywords: ["task", "folder", "structure", "initialization", "planning", "lite"]
+- name: "tech-graph"
+  path: "tech-graph/SKILL.md"
+  description: "Generate production-quality SVG+PNG technical diagrams — architecture, data flow, flowchart, sequence, agent/memory, or concept maps — across 7 visual styles. Use when user wants \"generate diagram\", \"draw diagram\", \"visualize\", \"architecture diagram\", \"flowchart\", or any system/flow they want illustrated. Pairs with /devkit:preview --diagram for visual self-review and /devkit:mermaidjs-v11 for inline-doc diagrams; this skill is the publish-grade output mode."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  argument_hint: "[diagram-type or system description]"
+  keywords: ["diagrams", "architecture", "flowchart", "sequence", "svg", "png", "agent", "memory", "visualization"]
+- name: "test"
+  path: "test/SKILL.md"
+  description: "Create comprehensive unit tests with 100% coverage - supports task-id, file path, or git changes"
+  category: "test"
+  has_scripts: false
+  has_references: true
+  argument_hint: "[task-id | file-path | (empty for git changes)]"
+  keywords: ["test", "unit", "coverage", "vitest", "jest", "testing"]
+- name: "test-scenario"
+  path: "test-scenario/SKILL.md"
+  description: "Generate comprehensive edge cases and test scenarios by decomposing features across 12 dimensions. Use for pre-implementation risk discovery, QA planning, regression design, and iterative saturation when coverage must be exhaustive."
+  category: "utilities"
+  has_scripts: false
+  has_references: false
+  argument_hint: "<file path or feature description> [--iterations N] [--saturation]"
+  keywords: ["edge-cases", "test-scenarios", "dimensions", "saturation", "iterations"]
+- name: "use-mcp"
+  path: "use-mcp/SKILL.md"
+  description: "Discover and execute MCP server tools via direct scripts (deterministic, specific tool/server). Use for MCP integrations, tool execution, capability discovery, persistent tool catalog."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: true
+  argument_hint: "[task]"
+  keywords: ["MCP", "tools", "execute", "discovery", "mcp-client"]
+- name: "worktree"
+  path: "worktree/SKILL.md"
+  description: "Create, inspect, and clean isolated git worktrees. Use for feature isolation, worktree health audits, stale cleanup, and monorepo or submodule workflows."
+  category: "dev-tools"
+  has_scripts: true
+  has_references: false
+  argument_hint: "[feature-description] OR [project] [feature]"
+  keywords: ["worktree", "parallel", "monorepo", "isolation"]
+- name: "write-a-skill"
+  path: "write-a-skill/SKILL.md"
+  description: "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill."
+  category: "other"
+  has_scripts: false
+  has_references: false

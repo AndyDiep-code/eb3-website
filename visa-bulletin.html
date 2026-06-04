@@ -7,11 +7,7 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
-.site-nav{display:flex;align-items:center;background:#1a2535;border-bottom:1px solid #2d3f55;overflow-x:auto;padding:0 8px}
-.site-nav a{padding:12px 14px;font-size:12px;font-weight:600;color:#64748b;text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:all .15s}
-.site-nav a:hover{color:#94a3b8}
-.site-nav a.active{color:#60a5fa;border-bottom-color:#60a5fa;background:#1e2d42}
-.site-nav .logo{color:#f1f5f9;font-weight:800;font-size:13px;padding:12px 14px;border-bottom:2px solid transparent;margin-right:4px;white-space:nowrap}
+
 .hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
 .hero h1{font-size:20px;font-weight:800;color:#fff}
 .hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
@@ -58,19 +54,76 @@ tr:nth-child(even) td{background:#1e2d3d}
 .ext-link:hover{border-color:#60a5fa}
 .disc{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:4px;line-height:1.6}
 .disc b{color:#94a3b8}
+
+/* ── LAYOUT ── */
+.layout{display:flex;min-height:100vh}
+.sidebar{width:220px;flex-shrink:0;background:#111c2b;border-right:1px solid #1e2d3d;display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;transition:transform .25s}
+.page-content{margin-left:220px;flex:1;min-width:0}
+/* Mobile */
+.mobile-topbar{display:none;align-items:center;gap:12px;padding:12px 16px;background:#1a2535;border-bottom:1px solid #2d3f55;position:sticky;top:0;z-index:50}
+.mobile-topbar .ham{background:none;border:none;color:#e2e8f0;font-size:20px;cursor:pointer;padding:2px 4px;line-height:1}
+.mobile-topbar .page-label{font-size:13px;font-weight:600;color:#f1f5f9}
+.sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99}
+@media(max-width:768px){
+  .sidebar{transform:translateX(-100%)}
+  .sidebar.open{transform:translateX(0)}
+  .sidebar-overlay.open{display:block}
+  .page-content{margin-left:0}
+  .mobile-topbar{display:flex}
+}
+/* ── SIDEBAR INTERNALS ── */
+.sb-brand{padding:16px 16px 10px;border-bottom:1px solid #1e2d3d;flex-shrink:0}
+.sb-brand a{text-decoration:none;display:flex;align-items:center;gap:8px}
+.sb-brand .flag{font-size:18px}
+.sb-brand .name{font-size:13px;font-weight:800;color:#f1f5f9;line-height:1.2}
+.sb-brand .tagline{font-size:10px;color:#475569;margin-top:1px}
+.sb-nav{flex:1;padding:8px 0}
+.sb-group{margin-bottom:2px}
+.sb-group-label{padding:10px 14px 4px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em}
+.sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent;position:relative}
+.sb-item:hover{color:#94a3b8;background:#1a2535}
+.sb-item.active{color:#60a5fa;background:#1a2a40;border-left-color:#60a5fa;font-weight:600}
+.sb-item .sb-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
+.sb-item.sub{padding-left:34px;font-size:12px}
+.sb-item.sub .sb-icon{font-size:12px}
+.sb-divider{height:1px;background:#1e2d3d;margin:6px 14px}
+.sb-footer{padding:10px 14px;border-top:1px solid #1e2d3d;flex-shrink:0}
+.sb-footer a{font-size:11px;color:#475569;text-decoration:none;display:block;line-height:1.8}
+.sb-footer a:hover{color:#64748b}
+
 </style>
 </head>
 <body>
-<nav class="site-nav">
-  <span class="logo">🇺🇸 EB3 Hub</span>
-  <a href="index.html">🏠 Trang chủ</a>
-  <a href="visa-bulletin.html" class="active">📅 Visa Bulletin</a>
-  <a href="news.html">📰 Tin tức</a>
-  <a href="guides.html">📖 Hướng dẫn</a>
-  <a href="faq.html">❓ FAQ</a>
-  <a href="glossary.html">📚 Thuật ngữ</a>
-  <a href="bmv.html">🚗 BMV Indiana</a>
-</nav>
+
+<div class="layout">
+<aside class="sidebar" id="sb">
+  <div class="sb-brand"><a href="index.html">
+    <span class="flag">🇺🇸</span>
+    <div><div class="name">EB3 Vietnam Hub</div><div class="tagline">Thông tin định cư EB-3</div></div>
+  </a></div>
+  <nav class="sb-nav">
+    <a class="sb-item" href="index.html"><span class="sb-icon">🏠</span>Trang Chủ</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group-label">EB3 Vietnam Hub</div>
+    <a class="sb-item sub active" href="visa-bulletin.html"><span class="sb-icon">📅</span>Visa Bulletin</a>
+    <a class="sb-item sub" href="news.html"><span class="sb-icon">📰</span>Tin Tức Chính Sách</a>
+    <a class="sb-item sub" href="guides.html"><span class="sb-icon">📖</span>Hướng Dẫn EB-3</a>
+    <a class="sb-item sub" href="faq.html"><span class="sb-icon">❓</span>FAQ</a>
+    <a class="sb-item sub" href="glossary.html"><span class="sb-icon">📚</span>Thuật Ngữ</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group-label">Công Cụ Bổ Sung</div>
+    <a class="sb-item" href="bmv.html"><span class="sb-icon">🚗</span>Ôn Thi BMV Indiana</a>
+  </nav>
+  <div class="sb-footer">
+    <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank">📅 Visa Bulletin chính thức</a>
+    <a href="https://flag.dol.gov/case-status-search" target="_blank">🔍 Check LC Status</a>
+    <a href="https://egov.uscis.gov/" target="_blank">📋 USCIS Case Status</a>
+  </div>
+</aside>
+<div class="sidebar-overlay" id="sb-overlay" onclick="toggleSidebar()"></div>
+<div class="page-content">
+<div class="mobile-topbar"><button class="ham" onclick="toggleSidebar()">☰</button><span class="page-label">🇺🇸 EB3 Hub — Visa Bulletin</span></div>
+
 <div class="hero">
   <h1>📅 Visa Bulletin — EB-3 Other Workers (ROW)</h1>
   <p>Final Action Dates · Bảng A · Việt Nam &amp; Toàn Cầu · FY2022–FY2025</p>
@@ -82,10 +135,41 @@ tr:nth-child(even) td{background:#1e2d3d}
   <div class="sec-hd">Bảng A — Final Action Dates (Bảng chính để cấp visa)</div>
 
   <div class="fy-tabs">
-    <button class="fy-btn active" onclick="showFY('fy25',this)">FY2025</button>
+    <button class="fy-btn active" onclick="showFY('fy26',this)">FY2026</button>
+    <button class="fy-btn" onclick="showFY('fy25',this)">FY2025</button>
     <button class="fy-btn" onclick="showFY('fy24',this)">FY2024</button>
     <button class="fy-btn" onclick="showFY('fy23',this)">FY2023</button>
     <button class="fy-btn" onclick="showFY('fy22',this)">FY2022</button>
+  </div>
+
+
+  <!-- FY2026 -->
+  <div id="fy26" class="vb-table-wrap">
+    <div style="margin-bottom:10px;background:#1a2535;border:1px solid #854d0e;border-radius:8px;padding:10px 14px;font-size:12px;color:#fef08a;line-height:1.6">
+      ⚠️ <b>Dữ liệu FY2026 (Oct 2025 – Sep 2026) chưa được nhập.</b>
+      Xem Visa Bulletin chính thức tại
+      <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank" style="color:#fbbf24">travel.state.gov</a>
+      rồi cập nhật bảng bên dưới theo tháng thực tế.
+    </div>
+    <table>
+      <tr><th>Tháng</th><th>Oct-25</th><th>Nov-25</th><th>Dec-25</th><th>Jan-26</th><th>Feb-26</th><th>Mar-26</th><th>Apr-26</th><th>May-26</th><th>Jun-26</th><th>Jul-26</th><th>Aug-26</th><th>Sep-26</th></tr>
+      <tr>
+        <td>EB-3 EW (ROW)</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+        <td class="cell-empty">Cập nhật</td>
+      </tr>
+    </table>
+    <div style="margin-top:8px;font-size:11.5px;color:#64748b">Lưu ý: Sau retrogression tháng 9/2025 (01/09/2020), FY2026 bắt đầu ở mức tương tự rồi dần phục hồi.</div>
   </div>
 
   <!-- FY2025 -->
@@ -183,7 +267,9 @@ tr:nth-child(even) td{background:#1e2d3d}
   <div class="sec-hd">Visa EW Được Cấp — Việt Nam (tổng hợp theo năm tài chính)</div>
   <div class="chart-box">
     <div class="chart-title">Số visa EW cấp cho Việt Nam theo FY (nguồn: DOS Visa Statistics)</div>
-    <div class="bar-group" id="bar-chart"></div>
+    <div id="col-chart" style="display:flex;align-items:flex-end;gap:14px;height:160px;padding:0 8px 0;border-bottom:2px solid #2d3f55;margin-bottom:8px"></div>
+    <div id="col-labels" style="display:flex;gap:14px;padding:6px 8px 0;margin-bottom:4px"></div>
+    <div style="font-size:11px;color:#475569;text-align:center">* FY2025 là số liệu chưa đầy đủ (tính đến tháng 3/2025)</div>
   </div>
 
   <!-- MONTHLY DETAIL -->
@@ -214,35 +300,46 @@ tr:nth-child(even) td{background:#1e2d3d}
 </div>
 <script>
 function showFY(id, el) {
-  ['fy22','fy23','fy24','fy25'].forEach(f => {
+  ['fy22','fy23','fy24','fy25','fy26'].forEach(f => {
     document.getElementById(f).style.display = f === id ? 'block' : 'none';
   });
   document.querySelectorAll('.fy-btn').forEach(b => b.classList.remove('active'));
   el.classList.add('active');
 }
 
-// Bar chart for annual totals
+// Column chart for annual totals
 const totals = [
-  {fy:'FY2021', count:842, color:'#1d4ed8'},
-  {fy:'FY2022', count:1247, color:'#1d4ed8'},
-  {fy:'FY2023', count:2280, color:'#7c3aed'},
-  {fy:'FY2024', count:1175, color:'#1d4ed8'},
-  {fy:'FY2025', count:202, color:'#0e7490'},
+  {fy:'FY2021', count:842,  color:'#1d4ed8', note:''},
+  {fy:'FY2022', count:1247, color:'#1d4ed8', note:''},
+  {fy:'FY2023', count:2280, color:'#7c3aed', note:'🏆 Kỷ lục'},
+  {fy:'FY2024', count:1175, color:'#1d4ed8', note:''},
+  {fy:'FY2025', count:202,  color:'#0e7490', note:'*'},
 ];
 const maxCount = 2280;
-const chart = document.getElementById('bar-chart');
+const chartEl = document.getElementById('col-chart');
+const labelsEl = document.getElementById('col-labels');
+const colW = `calc((100% - ${(totals.length-1)*14}px) / ${totals.length})`;
+
 totals.forEach(d => {
-  const pct = (d.count / maxCount * 100).toFixed(1);
-  chart.innerHTML += `
-    <div class="bar-row">
-      <div class="bar-label">${d.fy}</div>
-      <div class="bar-wrap">
-        <div class="bar-fill" style="width:${pct}%;background:${d.color}">
-          <span class="bar-val">${d.count.toLocaleString()}</span>
-        </div>
-      </div>
+  const pct = (d.count / maxCount * 100);
+  const colH = Math.max(pct * 1.4, 14); // scale to max 140px
+  chartEl.innerHTML += `
+    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px">
+      <span style="font-size:10px;font-weight:700;color:#f1f5f9">${d.count.toLocaleString()}</span>
+      ${d.note ? `<span style="font-size:9px;color:#fbbf24">${d.note}</span>` : ''}
+      <div style="width:100%;height:${colH}px;background:${d.color};border-radius:4px 4px 0 0;transition:opacity .15s" 
+           title="${d.fy}: ${d.count.toLocaleString()} visa"></div>
     </div>`;
+  labelsEl.innerHTML += `
+    <div style="flex:1;text-align:center;font-size:11px;font-weight:600;color:#64748b">${d.fy}</div>`;
 });
+</script>
+</div></div>
+<script>
+function toggleSidebar(){
+  document.getElementById('sb').classList.toggle('open');
+  document.getElementById('sb-overlay').classList.toggle('open');
+}
 </script>
 </body>
 </html>

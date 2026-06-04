@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Specification</title>
+<style>
+  :root {
+    --bg: #f9fafb;
+    --surface: #ffffff;
+    --border: #e5e7eb;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-bg: #eff6ff;
+    --badge-draft: #fef3c7;
+    --badge-draft-text: #92400e;
+    --badge-review: #dbeafe;
+    --badge-review-text: #1e40af;
+    --badge-approved: #d1fae5;
+    --badge-approved-text: #065f46;
+    --badge-removed: #fee2e2;
+    --badge-removed-text: #991b1b;
+    --sidebar-w: 260px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+
+  /* Layout */
+  #app { display: flex; min-height: 100vh; }
+  #sidebar { width: var(--sidebar-w); background: var(--surface); border-right: 1px solid var(--border); position: fixed; top: 0; left: 0; height: 100vh; overflow-y: auto; padding: 20px 0; z-index: 10; }
+  #main { margin-left: var(--sidebar-w); flex: 1; padding: 40px 48px; max-width: 900px; }
+
+  /* Sidebar */
+  #sidebar-header { padding: 0 20px 16px; border-bottom: 1px solid var(--border); margin-bottom: 12px; }
+  #sidebar-header h1 { font-size: 13px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+  #sidebar-header p { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .nav-item { display: block; padding: 6px 20px; font-size: 13px; color: var(--muted); text-decoration: none; cursor: pointer; border-left: 2px solid transparent; transition: all 0.15s; }
+  .nav-item:hover, .nav-item.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
+  .nav-section { padding: 12px 20px 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+  /* Search */
+  #search-wrap { padding: 0 16px 12px; }
+  #search { width: 100%; padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; background: var(--bg); color: var(--text); outline: none; }
+  #search:focus { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(37,99,235,0.15); }
+  #search-results { display: none; padding: 0 16px 8px; }
+  #search-results.visible { display: block; }
+  .search-hit { padding: 5px 8px; font-size: 12px; cursor: pointer; border-radius: 4px; }
+  .search-hit:hover { background: var(--accent-bg); color: var(--accent); }
+  .search-hit mark { background: #fef08a; border-radius: 2px; }
+
+  /* Content */
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  h2 { font-size: 20px; font-weight: 700; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 16px; font-weight: 600; margin: 24px 0 8px; }
+  h4 { font-size: 14px; font-weight: 600; margin: 16px 0 6px; }
+  p { margin-bottom: 12px; }
+  ul, ol { margin: 8px 0 12px 20px; }
+  li { margin-bottom: 4px; }
+  code { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; background: #f3f4f6; padding: 1px 5px; border-radius: 3px; }
+  pre { background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 6px; overflow-x: auto; margin: 12px 0; }
+  pre code { background: none; padding: 0; color: inherit; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+  th { background: var(--bg); font-weight: 600; text-align: left; padding: 8px 12px; border: 1px solid var(--border); }
+  td { padding: 8px 12px; border: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: #fafafa; }
+  blockquote { border-left: 3px solid var(--border); padding: 8px 16px; color: var(--muted); margin: 12px 0; font-style: italic; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+
+  /* Collapsible sections */
+  .section-toggle { cursor: pointer; user-select: none; display: flex; align-items: center; gap: 8px; }
+  .section-toggle::before { content: '▾'; font-size: 12px; color: var(--muted); transition: transform 0.2s; display: inline-block; }
+  .section-toggle.collapsed::before { transform: rotate(-90deg); }
+  .section-body { overflow: hidden; transition: max-height 0.25s ease; }
+  .section-body.collapsed { max-height: 0 !important; }
+
+  /* Requirement blocks */
+  .req { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border-radius: 6px; margin: 6px 0; background: var(--surface); border: 1px solid var(--border); transition: box-shadow 0.15s; }
+  .req:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .req-id { font-family: monospace; font-size: 12px; font-weight: 700; color: var(--accent); white-space: nowrap; padding-top: 1px; }
+  .req-body { flex: 1; font-size: 14px; }
+  .req-source { font-size: 11px; color: var(--muted); margin-top: 3px; }
+  .req.hidden { display: none; }
+
+  /* Badges */
+  .badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 4px; letter-spacing: 0.02em; }
+  .badge-draft { background: var(--badge-draft); color: var(--badge-draft-text); }
+  .badge-review { background: var(--badge-review); color: var(--badge-review-text); }
+  .badge-approved { background: var(--badge-approved); color: var(--badge-approved-text); }
+  .badge-removed { background: var(--badge-removed); color: var(--badge-removed-text); text-decoration: line-through; }
+
+  /* Meta header */
+  #meta { display: flex; gap: 24px; flex-wrap: wrap; padding: 16px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 32px; font-size: 13px; }
+  .meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .meta-label { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .meta-value { font-weight: 500; }
+
+  /* Print */
+  @media print {
+    #sidebar, #search-wrap, #toolbar { display: none !important; }
+    #main { margin: 0; padding: 20px; max-width: 100%; }
+    .section-body.collapsed { max-height: none !important; }
+    .req { break-inside: avoid; }
+  }
+
+  /* Toolbar */
+  #toolbar { position: sticky; top: 0; background: rgba(249,250,251,0.95); backdrop-filter: blur(8px); padding: 10px 0; margin-bottom: 24px; display: flex; gap: 10px; align-items: center; border-bottom: 1px solid var(--border); z-index: 5; }
+  .btn { padding: 6px 12px; font-size: 13px; border: 1px solid var(--border); border-radius: 5px; background: var(--surface); cursor: pointer; color: var(--text); transition: all 0.15s; }
+  .btn:hover { background: var(--bg); border-color: var(--accent); color: var(--accent); }
+  #filter-status { padding: 6px 10px; font-size: 13px; border: 1px solid var(--border); border-radius: 5px; background: var(--surface); color: var(--text); cursor: pointer; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    #sidebar { display: none; }
+    #main { margin-left: 0; padding: 20px; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- Sidebar -->
+  <nav id="sidebar">
+    <div id="sidebar-header">
+      <h1>spec-forge</h1>
+      <p id="sidebar-version"></p>
+    </div>
+    <div id="search-wrap">
+      <input id="search" type="search" placeholder="Search requirements..." autocomplete="off">
+    </div>
+    <div id="search-results"></div>
+    <div id="nav-links"></div>
+  </nav>
+
+  <!-- Main content -->
+  <main id="main">
+    <div id="toolbar">
+      <button class="btn" onclick="expandAll()">Expand all</button>
+      <button class="btn" onclick="collapseAll()">Collapse all</button>
+      <select id="filter-status" onchange="filterByStatus(this.value)">
+        <option value="">All statuses</option>
+        <option value="draft">Draft</option>
+        <option value="review">In Review</option>
+        <option value="approved">Approved</option>
+      </select>
+      <button class="btn" onclick="window.print()">Print / PDF</button>
+    </div>
+
+    <div id="meta"></div>
+    <div id="content">
+<!-- CONTENT_PLACEHOLDER -->
+    </div>
+  </main>
+
+</div>
+
+<script>
+// Post-process injected content to enhance with interactive features
+document.addEventListener('DOMContentLoaded', () => {
+  buildMeta();
+  buildNav();
+  enhanceRequirements();
+  makeCollapsible();
+  setupSearch();
+});
+
+function buildMeta() {
+  const metaEl = document.getElementById('meta');
+  const h1 = document.querySelector('#content h1');
+  if (!h1) return;
+
+  // Extract meta from blockquote after h1
+  const bq = h1.nextElementSibling;
+  if (!bq || bq.tagName !== 'BLOCKQUOTE') return;
+
+  const lines = bq.innerText.split('\n').filter(l => l.trim());
+  const items = lines.map(l => {
+    const [k, ...v] = l.split(':');
+    return { label: k.replace(/\*\*/g, '').trim(), value: v.join(':').trim() };
+  }).filter(i => i.label && i.value);
+
+  if (items.length) {
+    metaEl.innerHTML = items.map(i =>
+      `<div class="meta-item"><span class="meta-label">${i.label}</span><span class="meta-value">${i.value}</span></div>`
+    ).join('');
+    bq.remove();
+    document.getElementById('sidebar-version').textContent =
+      (items.find(i => i.label.toLowerCase().includes('version')) || {}).value || '';
+  }
+}
+
+function buildNav() {
+  const nav = document.getElementById('nav-links');
+  const headings = document.querySelectorAll('#content h2, #content h3');
+  let html = '';
+  headings.forEach(h => {
+    const id = h.id || slugify(h.textContent);
+    h.id = id;
+    const isH3 = h.tagName === 'H3';
+    html += `<a class="nav-item${isH3 ? ' pl-8' : ''}" href="#${id}" style="${isH3 ? 'padding-left:32px;font-size:12px' : ''}">${h.textContent}</a>`;
+  });
+  nav.innerHTML = html;
+
+  // Highlight active nav item on scroll
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        document.querySelectorAll('.nav-item').forEach(a => a.classList.remove('active'));
+        const link = nav.querySelector(`[href="#${e.target.id}"]`);
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  document.querySelectorAll('#content h2, #content h3').forEach(h => observer.observe(h));
+}
+
+function enhanceRequirements() {
+  // Find paragraphs starting with REQ-NNN and wrap them
+  const walker = document.createTreeWalker(document.getElementById('content'), NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  let node;
+  while (node = walker.nextNode()) nodes.push(node);
+
+  nodes.forEach(textNode => {
+    const text = textNode.textContent;
+    const match = text.match(/^\s*\*?\*?(REQ-\d+)\*?\*?\s+(\[(\w+)\])?\s*(.*)/s);
+    if (!match) return;
+
+    const [, id, , status, rest] = match;
+    const statusLower = (status || 'draft').toLowerCase();
+    const sourceMatch = rest.match(/\[Source:\s*([^\]]+)\]/);
+    const sourceText = sourceMatch ? sourceMatch[0] : '';
+    const bodyText = rest.replace(/\[Source:[^\]]+\]/, '').trim();
+
+    const div = document.createElement('div');
+    div.className = `req`;
+    div.dataset.status = statusLower;
+    div.dataset.id = id;
+    div.innerHTML = `
+      <span class="req-id">${id}</span>
+      <div class="req-body">
+        <span class="badge badge-${statusLower}">${status || 'Draft'}</span>
+        ${bodyText}
+        ${sourceText ? `<div class="req-source">${sourceText}</div>` : ''}
+      </div>`;
+
+    const parent = textNode.parentNode;
+    parent.replaceChild(div, textNode);
+  });
+}
+
+function makeCollapsible() {
+  document.querySelectorAll('#content h2').forEach(h2 => {
+    h2.classList.add('section-toggle');
+    const body = document.createElement('div');
+    body.className = 'section-body';
+
+    let next = h2.nextElementSibling;
+    while (next && next.tagName !== 'H2') {
+      const tmp = next.nextElementSibling;
+      body.appendChild(next);
+      next = tmp;
+    }
+    body.style.maxHeight = body.scrollHeight + 'px';
+    h2.parentNode.insertBefore(body, next || null);
+    h2.parentNode.insertBefore(h2, body);
+
+    h2.addEventListener('click', () => {
+      const collapsed = body.classList.toggle('collapsed');
+      h2.classList.toggle('collapsed', collapsed);
+      if (!collapsed) body.style.maxHeight = body.scrollHeight + 'px';
+    });
+  });
+}
+
+function expandAll() {
+  document.querySelectorAll('.section-body').forEach(b => {
+    b.classList.remove('collapsed');
+    b.style.maxHeight = b.scrollHeight + 'px';
+  });
+  document.querySelectorAll('.section-toggle').forEach(h => h.classList.remove('collapsed'));
+}
+
+function collapseAll() {
+  document.querySelectorAll('.section-body').forEach(b => b.classList.add('collapsed'));
+  document.querySelectorAll('.section-toggle').forEach(h => h.classList.add('collapsed'));
+}
+
+function filterByStatus(status) {
+  document.querySelectorAll('.req').forEach(r => {
+    r.classList.toggle('hidden', status && r.dataset.status !== status);
+  });
+}
+
+function setupSearch() {
+  const input = document.getElementById('search');
+  const results = document.getElementById('search-results');
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) { results.classList.remove('visible'); results.innerHTML = ''; return; }
+
+    const reqs = document.querySelectorAll('.req');
+    const hits = [];
+    reqs.forEach(r => {
+      const text = r.textContent;
+      if (text.toLowerCase().includes(q)) {
+        const id = r.dataset.id;
+        const snippet = text.replace(/\s+/g, ' ').trim().slice(0, 80);
+        hits.push({ id, snippet, el: r });
+      }
+    });
+
+    if (!hits.length) {
+      results.innerHTML = '<div class="search-hit" style="color:var(--muted)">No results</div>';
+    } else {
+      results.innerHTML = hits.slice(0, 8).map(h =>
+        `<div class="search-hit" data-id="${h.id}">${h.id}: ${h.snippet.replace(new RegExp(q, 'gi'), m => `<mark>${m}</mark>`)}</div>`
+      ).join('');
+      results.querySelectorAll('.search-hit[data-id]').forEach(el => {
+        el.addEventListener('click', () => {
+          const target = document.querySelector(`.req[data-id="${el.dataset.id}"]`);
+          if (target) { target.scrollIntoView({ behavior: 'smooth', block: 'center' }); target.style.outline = '2px solid var(--accent)'; setTimeout(() => target.style.outline = '', 1500); }
+          results.classList.remove('visible');
+          input.value = '';
+        });
+      });
+    }
+    results.classList.add('visible');
+  });
+
+  document.addEventListener('click', e => { if (!e.target.closest('#search-wrap')) results.classList.remove('visible'); });
+}
+
+function slugify(text) {
+  return text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
+}
+</script>
+</body>
+</html>
