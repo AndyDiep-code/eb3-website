@@ -91,6 +91,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <a class="sb-item sub" href="interview.html"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
     <a class="sb-item sub" href="case-studies.html"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
     <a class="sb-item sub" href="english-work.html"><span class="sb-icon">💬</span>Tiếng Anh CV</a>
+    <a class="sb-item sub" href="after-arrival.html"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
+    <a class="sb-item sub" href="net-pay.html"><span class="sb-icon">💰</span>Tính Lương Net</a>
+    <a class="sb-item sub" href="compare.html"><span class="sb-icon">⚖️</span>So Sánh Bang</a>
     <div class="sb-divider"></div>
     <a class="sb-item active" href="dmv.html"><span class="sb-icon">🚗</span>Ôn Thi Bằng Lái</a>
     <div class="sb-divider"></div>
@@ -184,10 +187,7 @@ function filter() {
         <div class="sc-employers">🏭 ${s.employers.split(' · ').slice(0,3).join(' · ')}${s.employers.split(' · ').length > 3 ? '...' : ''}</div>
         <div style="font-size:11px;color:#475569;margin-top:6px">${s.note}</div>
         ${isSoon ? '<div style="font-size:11px;color:#fbbf24;margin-top:6px;font-weight:600">⏳ Đang chuẩn bị nội dung...</div>' : ''}
-      </a>
-    <a class="sb-item sub" href="after-arrival.html"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
-    <a class="sb-item sub" href="net-pay.html"><span class="sb-icon">💰</span>Tính Lương Net</a>
-    <a class="sb-item sub" href="compare.html"><span class="sb-icon">⚖️</span>So Sánh Bang</a>`;
+      </a>`;
   });
   document.getElementById('count').innerHTML = `Hiển thị <b>${count}</b> / ${STATES.length} tiểu bang`;
 }
