@@ -353,7 +353,9 @@ td img{width:50px;height:50px;object-fit:contain;display:block;margin:0 auto}
     <a class="sb-item sub" href="glossary.html"><span class="sb-icon">📚</span>Thuật Ngữ</a>
     <div class="sb-divider"></div>
     <div class="sb-group-label">Công Cụ Bổ Sung</div>
-    <a class="sb-item active" href="bmv.html"><span class="sb-icon">🚗</span>Ôn Thi BMV Indiana</a>
+    <a class="sb-item sub active" href="bmv.html"><span class="sb-icon">🚗</span>Indiana (IN)</a>
+    <a class="sb-item sub" href="bmv-ga.html"><span class="sb-icon">🍑</span>Georgia (GA)</a>
+    <a class="sb-item sub" href="bmv-tx.html"><span class="sb-icon">⭐</span>Texas (TX)</a>
   </nav>
   <div class="sb-footer">
     <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank">📅 Visa Bulletin chính thức</a>
@@ -386,6 +388,7 @@ td img{width:50px;height:50px;object-fit:contain;display:block;margin:0 auto}
   <button class="nav-btn" onclick="showTab('mock')">🎯 Thi Thử</button>
   <button class="nav-btn" onclick="showTab('visual')">🚸 Hình Ảnh</button>
   <button class="nav-btn" onclick="showTab('culture')">🇺🇸 Văn Hóa Mỹ</button>
+  <button class="nav-btn" onclick="showTab('other-states')">🗺️ Các Bang Khác</button>
 </div>
 
 <!-- ══════════ OVERVIEW ══════════ -->
@@ -1621,5 +1624,28 @@ function toggleSidebar(){
   document.getElementById('sb-overlay').classList.toggle('open');
 }
 </script>
+
+<!-- ═══════════ OTHER STATES ═══════════ -->
+<div id="other-states" class="section main">
+  <div class="section-hd">🗺️ Ôn Thi Bằng Lái — Các Tiểu Bang Khác</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px">
+    <a href="bmv-ga.html" style="background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:20px;text-decoration:none;display:block;transition:border-color .15s" onmouseover="this.style.borderColor='#4ade80'" onmouseout="this.style.borderColor='#2d3f55'">
+      <div style="font-size:28px;margin-bottom:8px">🍑</div>
+      <div style="font-size:15px;font-weight:700;color:#f1f5f9;margin-bottom:4px">Georgia (GA)</div>
+      <div style="font-size:12px;color:#64748b;margin-bottom:10px">40 câu · Điểm đậu 75% · Có tiếng Việt</div>
+      <div style="font-size:12px;color:#4ade80;font-weight:600">Nhiều hãng EB3 nhất → Koch, Wayne, Claxton</div>
+    </a>
+    <a href="bmv-tx.html" style="background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:20px;text-decoration:none;display:block;transition:border-color .15s" onmouseover="this.style.borderColor='#fb923c'" onmouseout="this.style.borderColor='#2d3f55'">
+      <div style="font-size:28px;margin-bottom:8px">⭐</div>
+      <div style="font-size:15px;font-weight:700;color:#f1f5f9;margin-bottom:4px">Texas (TX)</div>
+      <div style="font-size:12px;color:#64748b;margin-bottom:10px">30 câu · Điểm đậu 70% · Có tiếng Việt</div>
+      <div style="font-size:12px;color:#fb923c;font-weight:600">Không thuế thu nhập · Cộng đồng Việt lớn</div>
+    </a>
+  </div>
+  <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:12px;color:#64748b">
+    💡 Sắp có thêm: Florida (FL) · Wisconsin (WI) · North Carolina (NC) · South Carolina (SC) · Alabama (AL)
+  </div>
+</div>
+
 </body>
 </html>

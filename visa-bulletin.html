@@ -103,6 +103,7 @@ tbody tr:hover td{filter:brightness(1.1)}
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7593939544196063"
      crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
 <div class="layout">
@@ -123,7 +124,9 @@ tbody tr:hover td{filter:brightness(1.1)}
     <a class="sb-item sub" href="glossary.html"><span class="sb-icon">📚</span>Thuật Ngữ</a>
     <div class="sb-divider"></div>
     <div class="sb-group-label">Công Cụ Bổ Sung</div>
-    <a class="sb-item" href="bmv.html"><span class="sb-icon">🚗</span>Ôn Thi BMV Indiana</a>
+    <a class="sb-item" href="bmv.html"><span class="sb-icon">🚗</span>Indiana (IN)</a>
+    <a class="sb-item sub" href="bmv-ga.html"><span class="sb-icon">🍑</span>Georgia (GA)</a>
+    <a class="sb-item sub" href="bmv-tx.html"><span class="sb-icon">⭐</span>Texas (TX)</a>
   </nav>
   <div class="sb-footer">
     <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank">📅 Visa Bulletin chính thức</a>
@@ -141,6 +144,47 @@ tbody tr:hover td{filter:brightness(1.1)}
 </div>
 
 <div class="main">
+
+
+  <!-- ═══════════════════════════════════ MOVEMENT DASHBOARD ═══ -->
+  <div class="sec-hd" style="margin-bottom:14px">📈 Priority Date Movement Dashboard <small>Bảng A & B — Oct 2021 → Jun 2026</small></div>
+
+  <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:12px;padding:18px 20px;margin-bottom:20px">
+    <div style="font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:4px">Biểu đồ di chuyển Priority Date — EB-3 EW (ROW)</div>
+    <div style="font-size:11px;color:#475569;margin-bottom:14px">Y-axis = ngày Priority Date (càng cao = càng gần hiện tại = càng tốt) · Khoảng trống = tháng "Current"</div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#93c5fd"><span style="width:28px;height:3px;background:#3b82f6;display:inline-block;border-radius:2px"></span>Bảng A (Final Action)</div>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#c4b5fd"><span style="width:28px;height:3px;background:#8b5cf6;display:inline-block;border-radius:2px;border-top:2px dashed #8b5cf6;height:0"></span>Bảng B (Dates for Filing)</div>
+      <div style="display:flex;align-items:center;gap:6px;font-size:11.5px;color:#fca5a5"><span style="width:10px;height:10px;background:#ef4444;display:inline-block;border-radius:50%"></span>Retrogress</div>
+    </div>
+    <div style="position:relative;height:320px">
+      <canvas id="pdChart"></canvas>
+    </div>
+  </div>
+
+  <!-- KEY STATS ROW -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:20px">
+    <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px;text-align:center">
+      <div style="font-size:10px;color:#475569;font-weight:600;margin-bottom:4px">FY2026 (Bảng A mới nhất)</div>
+      <div style="font-size:15px;font-weight:800;color:#fbbf24">1-Feb-2022</div>
+      <div style="font-size:10px;color:#64748b;margin-top:2px">Tháng 6/2026</div>
+    </div>
+    <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px;text-align:center">
+      <div style="font-size:10px;color:#475569;font-weight:600;margin-bottom:4px">FY2026 Net Δ (Bảng A)</div>
+      <div style="font-size:15px;font-weight:800;color:#4ade80">+6m 24d</div>
+      <div style="font-size:10px;color:#64748b;margin-top:2px">Oct 2025 → Jun 2026</div>
+    </div>
+    <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px;text-align:center">
+      <div style="font-size:10px;color:#475569;font-weight:600;margin-bottom:4px">FY2026 Net Δ (Bảng B)</div>
+      <div style="font-size:15px;font-weight:800;color:#4ade80">+12m 10d</div>
+      <div style="font-size:10px;color:#64748b;margin-top:2px">Oct 2025 → Jun 2026</div>
+    </div>
+    <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px;text-align:center">
+      <div style="font-size:10px;color:#475569;font-weight:600;margin-bottom:4px">Tổng tiến từ đáy FY2022</div>
+      <div style="font-size:15px;font-weight:800;color:#60a5fa">+33 tháng</div>
+      <div style="font-size:10px;color:#64748b;margin-top:2px">May-2019 → Feb-2022</div>
+    </div>
+  </div>
 
   <div class="alert alert-blue"><div class="alert-icon">ℹ️</div><div>
     <b>Cách đọc:</b>&nbsp;
@@ -468,6 +512,108 @@ tbody tr:hover td{filter:brightness(1.1)}
 </div></div>
 
 <script>
+
+// ─── Priority Date Movement Chart ───────────────────────────
+const VB_LABELS = ["Oct-21","Nov-21","Dec-21","Jan-22","Feb-22","Mar-22","Apr-22","May-22","Jun-22","Jul-22","Aug-22","Sep-22","Oct-22","Nov-22","Dec-22","Jan-23","Feb-23","Mar-23","Apr-23","May-23","Jun-23","Jul-23","Aug-23","Sep-23","Oct-23","Nov-23","Dec-23","Jan-24","Feb-24","Mar-24","Apr-24","May-24","Jun-24","Jul-24","Aug-24","Sep-24","Oct-24","Nov-24","Dec-24","Jan-25","Feb-25","Mar-25","Apr-25","May-25","Jun-25","Jul-25","Aug-25","Sep-25","Oct-25","Nov-25","Dec-25","Jan-26","Feb-26","Mar-26","Apr-26","May-26","Jun-26"];
+const VB_A = [null,null,null,null,null,492,492,492,492,492,492,492,882,882,882,882,730,730,730,730,730,730,851,851,943,943,943,974,974,981,1011,1011,1011,1096,1096,1065,1065,1065,1065,1072,1072,1127,1237,1237,1268,1284,1284,1284,1291,1291,1308,1339,1339,1400,1400,1492,1492];
+const VB_B = [null,null,null,null,null,null,null,null,null,null,null,null,1711,1711,1711,1711,761,761,761,761,761,761,882,882,1079,1079,1079,1079,1079,1079,1079,1079,1079,1103,1103,1103,1237,1237,1237,1237,1237,1268,1268,1298,1298,1298,1298,1298,1430,1430,1430,1430,1430,1633,1673,1673,1673];
+const VB_A_DATES = ["Current","Current","Current","Current","Current","2019-05-08","2019-05-08","2019-05-08","2019-05-08","2019-05-08","2019-05-08","2019-05-08","2020-06-01","2020-06-01","2020-06-01","2020-06-01","2020-01-01","2020-01-01","2020-01-01","2020-01-01","2020-01-01","2020-01-01","2020-05-01","2020-05-01","2020-08-01","2020-08-01","2020-08-01","2020-09-01","2020-09-01","2020-09-08","2020-10-08","2020-10-08","2020-10-08","2021-01-01","2021-01-01","2020-12-01","2020-12-01","2020-12-01","2020-12-01","2020-12-08","2020-12-08","2021-02-01","2021-05-22","2021-05-22","2021-06-22","2021-07-08","2021-07-08","2021-07-08","2021-07-15","2021-07-15","2021-08-01","2021-09-01","2021-09-01","2021-11-01","2021-11-01","2022-02-01","2022-02-01"];
+const VB_B_DATES = ["Current","Current","Current","Current","Current","Current","Current","Current","Current","Current","Current","Current","2022-09-08","2022-09-08","2022-09-08","2022-09-08","2020-02-01","2020-02-01","2020-02-01","2020-02-01","2020-02-01","2020-02-01","2020-06-01","2020-06-01","2020-12-15","2020-12-15","2020-12-15","2020-12-15","2020-12-15","2020-12-15","2020-12-15","2020-12-15","2020-12-15","2021-01-08","2021-01-08","2021-01-08","2021-05-22","2021-05-22","2021-05-22","2021-05-22","2021-05-22","2021-06-22","2021-06-22","2021-07-22","2021-07-22","2021-07-22","2021-07-22","2021-07-22","2021-12-01","2021-12-01","2021-12-01","2021-12-01","2021-12-01","2022-06-22","2022-08-01","2022-08-01","2022-08-01"];
+
+// Y-axis: days from 2018-01-01 → formatted date
+const Y_TICKS = {365:'Jan-2019',516:'Jun-2019',730:'Jan-2020',882:'Jun-2020',1096:'Jan-2021',1247:'Jun-2021',1461:'Jan-2022',1612:'Jun-2022',1826:'Jan-2023'};
+
+// Detect retrogression points for point coloring
+function pointColor(data, i, baseColor, badColor) {
+  if (data[i] == null) return 'transparent';
+  if (i > 0 && data[i-1] != null && data[i] < data[i-1]) return badColor;
+  return baseColor;
+}
+
+const ctxPD = document.getElementById('pdChart');
+if (ctxPD) {
+  new Chart(ctxPD, {
+    type: 'line',
+    data: {
+      labels: VB_LABELS,
+      datasets: [
+        {
+          label: 'Bảng A — Final Action Date',
+          data: VB_A,
+          borderColor: '#3b82f6',
+          backgroundColor: 'rgba(59,130,246,0.08)',
+          borderWidth: 2.5,
+          pointRadius: VB_A.map((v,i) => v != null ? 4 : 0),
+          pointBackgroundColor: VB_A.map((v,i) => pointColor(VB_A,i,'#3b82f6','#ef4444')),
+          pointBorderColor: VB_A.map((v,i) => pointColor(VB_A,i,'#3b82f6','#ef4444')),
+          tension: 0.2,
+          spanGaps: false,
+          fill: true,
+        },
+        {
+          label: 'Bảng B — Dates for Filing',
+          data: VB_B,
+          borderColor: '#8b5cf6',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          borderDash: [5,4],
+          pointRadius: VB_B.map((v,i) => v != null ? 3 : 0),
+          pointBackgroundColor: VB_B.map((v,i) => pointColor(VB_B,i,'#8b5cf6','#ef4444')),
+          tension: 0.2,
+          spanGaps: false,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode:'index', intersect:false },
+      plugins: {
+        legend: { display:false },
+        tooltip: {
+          backgroundColor:'#1e2d42',
+          titleColor:'#93c5fd',
+          bodyColor:'#e2e8f0',
+          borderColor:'#2d3f55',
+          borderWidth:1,
+          callbacks: {
+            title: ctx => 'VB Tháng: ' + ctx[0].label,
+            label: ctx => {
+              const i = ctx.dataIndex;
+              const d = ctx.datasetIndex === 0 ? VB_A_DATES[i] : VB_B_DATES[i];
+              const lbl = ctx.datasetIndex === 0 ? 'Bảng A' : 'Bảng B';
+              if (d === 'Current') return lbl + ': Current (không giới hạn)';
+              // detect retrogress
+              const arr = ctx.datasetIndex === 0 ? VB_A : VB_B;
+              const prev = i > 0 ? arr[i-1] : null;
+              const arrow = (prev != null && arr[i] != null && arr[i] < prev) ? ' ⬇ Retrogress!' : '';
+              return lbl + ': ' + d + arrow;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color:'#64748b', font:{size:10}, maxRotation:45,
+            callback: (val,i) => i%3===0 ? VB_LABELS[i] : '' },
+          grid: { color:'rgba(45,63,85,0.5)' }
+        },
+        y: {
+          min: 400,
+          ticks: {
+            color:'#64748b', font:{size:10},
+            callback: v => {
+              const near = Object.keys(Y_TICKS).find(k => Math.abs(k-v) < 20);
+              return near ? Y_TICKS[near] : '';
+            }
+          },
+          grid: { color:'rgba(45,63,85,0.5)' }
+        }
+      }
+    }
+  });
+}
+
 function toggleSidebar(){
   document.getElementById('sb').classList.toggle('open');
   document.getElementById('sb-overlay').classList.toggle('open');
