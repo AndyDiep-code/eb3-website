@@ -7,80 +7,23 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
-
-.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
-.hero h1{font-size:20px;font-weight:800;color:#fff}
-.hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
-.main{max-width:960px;margin:0 auto;padding:18px 16px}
-.sec-hd{font-size:15px;font-weight:700;color:#f1f5f9;margin-bottom:14px;padding-bottom:6px;border-bottom:1px solid #2d3f55}
-.sub-hd{font-size:13px;font-weight:600;color:#60a5fa;margin:18px 0 10px;padding-bottom:4px;border-bottom:1px solid #1e2d3d}
-.alert{border-radius:8px;padding:11px 14px;font-size:12.5px;line-height:1.7;margin-bottom:14px;display:flex;gap:10px}
-.alert-icon{font-size:18px;flex-shrink:0}
-.alert-blue{background:#08122a;border:1px solid #1d4ed8;color:#bfdbfe}
-.alert-yellow{background:#1c1a08;border:1px solid #854d0e;color:#fef08a}
-/* FY selector */
-.fy-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
-.fy-btn{padding:5px 14px;border-radius:16px;font-size:12px;font-weight:600;border:1px solid #2d3f55;background:#1a2535;color:#64748b;cursor:pointer;transition:all .12s}
-.fy-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
-/* VB Table */
-.vb-table-wrap{overflow-x:auto;margin-bottom:20px}
-table{width:100%;border-collapse:collapse;font-size:12px;background:#1a2535;border-radius:8px;overflow:hidden}
-th{background:#0f2a47;color:#93c5fd;padding:8px 10px;text-align:center;font-size:11px;font-weight:600;white-space:nowrap}
-th:first-child{text-align:left}
-td{padding:7px 10px;border-bottom:1px solid #1e2d3d;text-align:center;line-height:1.5;white-space:nowrap}
-td:first-child{text-align:left;font-weight:600;color:#94a3b8}
-tr:nth-child(even) td{background:#1e2d3d}
-.cell-c{color:#4ade80;font-weight:700}
-.cell-u{color:#f87171;font-weight:700}
-.cell-date{color:#fbbf24}
-.cell-empty{color:#374151}
-/* Movement badge */
-.mv{font-size:10px;padding:1px 5px;border-radius:4px;font-weight:700}
-.mv-up{background:#0a3320;color:#4ade80}
-.mv-dn{background:#1a0808;color:#f87171}
-.mv-eq{background:#1e2d3d;color:#64748b}
-/* Issuance chart area */
-.chart-box{background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:16px;margin-bottom:20px}
-.chart-title{font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:14px}
-.bar-group{display:flex;flex-direction:column;gap:6px}
-.bar-row{display:flex;align-items:center;gap:10px}
-.bar-label{font-size:11px;color:#64748b;width:60px;flex-shrink:0;text-align:right}
-.bar-wrap{flex:1;background:#0f1923;border-radius:4px;overflow:hidden;height:18px;position:relative}
-.bar-fill{height:100%;border-radius:4px;transition:width .4s;display:flex;align-items:center;padding-left:6px}
-.bar-val{font-size:10px;font-weight:700;color:#fff;white-space:nowrap}
-/* useful links */
-.link-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
-.ext-link{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:8px 14px;text-decoration:none;font-size:12px;color:#60a5fa;transition:border-color .15s;white-space:nowrap}
-.ext-link:hover{border-color:#60a5fa}
-.disc{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:4px;line-height:1.6}
-.disc b{color:#94a3b8}
-
-/* ── LAYOUT ── */
+/* LAYOUT */
 .layout{display:flex;min-height:100vh}
 .sidebar{width:220px;flex-shrink:0;background:#111c2b;border-right:1px solid #1e2d3d;display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;transition:transform .25s}
 .page-content{margin-left:220px;flex:1;min-width:0}
-/* Mobile */
 .mobile-topbar{display:none;align-items:center;gap:12px;padding:12px 16px;background:#1a2535;border-bottom:1px solid #2d3f55;position:sticky;top:0;z-index:50}
 .mobile-topbar .ham{background:none;border:none;color:#e2e8f0;font-size:20px;cursor:pointer;padding:2px 4px;line-height:1}
 .mobile-topbar .page-label{font-size:13px;font-weight:600;color:#f1f5f9}
 .sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99}
-@media(max-width:768px){
-  .sidebar{transform:translateX(-100%)}
-  .sidebar.open{transform:translateX(0)}
-  .sidebar-overlay.open{display:block}
-  .page-content{margin-left:0}
-  .mobile-topbar{display:flex}
-}
-/* ── SIDEBAR INTERNALS ── */
+@media(max-width:768px){.sidebar{transform:translateX(-100%)}.sidebar.open{transform:translateX(0)}.sidebar-overlay.open{display:block}.page-content{margin-left:0}.mobile-topbar{display:flex}}
 .sb-brand{padding:16px 16px 10px;border-bottom:1px solid #1e2d3d;flex-shrink:0}
 .sb-brand a{text-decoration:none;display:flex;align-items:center;gap:8px}
 .sb-brand .flag{font-size:18px}
 .sb-brand .name{font-size:13px;font-weight:800;color:#f1f5f9;line-height:1.2}
 .sb-brand .tagline{font-size:10px;color:#475569;margin-top:1px}
 .sb-nav{flex:1;padding:8px 0}
-.sb-group{margin-bottom:2px}
 .sb-group-label{padding:10px 14px 4px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em}
-.sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent;position:relative}
+.sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent}
 .sb-item:hover{color:#94a3b8;background:#1a2535}
 .sb-item.active{color:#60a5fa;background:#1a2a40;border-left-color:#60a5fa;font-weight:600}
 .sb-item .sb-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
@@ -90,11 +33,66 @@ tr:nth-child(even) td{background:#1e2d3d}
 .sb-footer{padding:10px 14px;border-top:1px solid #1e2d3d;flex-shrink:0}
 .sb-footer a{font-size:11px;color:#475569;text-decoration:none;display:block;line-height:1.8}
 .sb-footer a:hover{color:#64748b}
-
+/* PAGE */
+.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
+.hero h1{font-size:20px;font-weight:800;color:#fff}
+.hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
+.main{max-width:980px;margin:0 auto;padding:18px 16px}
+.sec-hd{font-size:15px;font-weight:700;color:#f1f5f9;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #2d3f55;display:flex;justify-content:space-between;align-items:center}
+.sec-hd small{font-size:11px;font-weight:500;color:#475569}
+.sub-hd{font-size:13px;font-weight:600;color:#60a5fa;margin:18px 0 10px;padding-bottom:4px;border-bottom:1px solid #1e2d3d}
+.alert{border-radius:8px;padding:11px 14px;font-size:12.5px;line-height:1.7;margin-bottom:14px;display:flex;gap:10px}
+.alert-icon{font-size:18px;flex-shrink:0}
+.alert-blue{background:#08122a;border:1px solid #1d4ed8;color:#bfdbfe}
+.alert-yellow{background:#1c1a08;border:1px solid #854d0e;color:#fef08a}
+/* FY TABS */
+.fy-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.fy-btn{padding:5px 14px;border-radius:16px;font-size:12px;font-weight:600;border:1px solid #2d3f55;background:#1a2535;color:#64748b;cursor:pointer;transition:all .12s}
+.fy-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+/* VB TABLES */
+.vb-wrap{overflow-x:auto;margin-bottom:20px;border-radius:8px}
+table{width:100%;border-collapse:collapse;font-size:11.5px;background:#1a2535;min-width:780px}
+thead th{background:#0f2a47;color:#93c5fd;padding:7px 8px;text-align:center;font-size:10.5px;font-weight:700;white-space:nowrap;position:sticky;top:0}
+thead th:first-child{text-align:left;width:72px}
+tbody td{padding:6px 8px;border-bottom:1px solid #1a2535;text-align:center;white-space:nowrap;font-size:11px;background:#1e2d3d}
+tbody td:first-child{text-align:left;font-weight:700;color:#94a3b8;background:#111c2b;font-size:11px;padding-left:10px}
+tbody tr:hover td{filter:brightness(1.1)}
+/* Cell colors */
+.c-curr{color:#4ade80;font-weight:700;background:#062010!important}
+.c-up{background:#0a1f3a!important;color:#93c5fd}
+.c-dn{background:#1a0808!important;color:#fca5a5}
+.c-norm{color:#d1d5db}
+.c-empty{color:#374151}
+.c-latest{font-weight:700;color:#fbbf24;background:#1c1a08!important}
+.c-net{color:#94a3b8;font-size:10.5px}
+/* ISSUANCE TABLE */
+.iss-wrap{overflow-x:auto;margin-bottom:20px;border-radius:8px}
+.iss-wrap table{min-width:900px}
+.iss-wrap td{background:#1a2535}
+.iss-wrap td:first-child{background:#111c2b}
+.iss-hi{background:#0a3320!important;color:#4ade80;font-weight:700}
+.iss-med{background:#0a2010!important;color:#86efac}
+.iss-sub{background:#1c1a08!important;color:#fbbf24;font-weight:700}
+.iss-global{background:#0f2a47!important;color:#93c5fd;font-weight:700}
+/* CHART */
+.chart-box{background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:18px 20px;margin-bottom:20px}
+.chart-title{font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:4px}
+.chart-sub{font-size:11px;color:#475569;margin-bottom:16px}
+.col-chart-wrap{display:flex;align-items:flex-end;gap:16px;height:160px;border-bottom:2px solid #2d3f55;padding:0 8px;margin-bottom:8px}
+.col-labels{display:flex;gap:16px;padding:6px 8px 0}
+/* LINKS */
+.link-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.ext-link{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:8px 14px;text-decoration:none;font-size:12px;color:#60a5fa;transition:border-color .15s;white-space:nowrap}
+.ext-link:hover{border-color:#60a5fa}
+.disc{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:4px;line-height:1.6}
+.disc b{color:#94a3b8}
+/* LEGEND */
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px;font-size:11px}
+.leg-item{display:flex;align-items:center;gap:5px}
+.leg-dot{width:12px;height:12px;border-radius:3px;flex-shrink:0}
 </style>
 </head>
 <body>
-
 <div class="layout">
 <aside class="sidebar" id="sb">
   <div class="sb-brand"><a href="index.html">
@@ -127,220 +125,372 @@ tr:nth-child(even) td{background:#1e2d3d}
 
 <div class="hero">
   <h1>📅 Visa Bulletin — EB-3 Other Workers (ROW)</h1>
-  <p>Final Action Dates · Bảng A · Việt Nam &amp; Toàn Cầu · FY2022–FY2025</p>
+  <p>Bảng A · Bảng B · Thống kê EW Việt Nam · FY2021–FY2026</p>
 </div>
+
 <div class="main">
 
-  <div class="alert alert-blue"><div class="alert-icon">ℹ️</div><div><b>Cách đọc bảng:</b> <b style="color:#4ade80">C</b> = Current (không giới hạn). <b style="color:#fbbf24">Ngày</b> = Priority Date phải sớm hơn hoặc bằng ngày này để được xét. <b style="color:#f87171">U</b> = Unavailable. Các ngày trong bảng là <b>Final Action Dates (Bảng A)</b>.</div></div>
+  <div class="alert alert-blue"><div class="alert-icon">ℹ️</div><div>
+    <b>Cách đọc:</b>&nbsp;
+    <span style="color:#4ade80;font-weight:700">C = Current</span> (không giới hạn ngày PD) &nbsp;|&nbsp;
+    <span style="color:#93c5fd">Màu xanh = tăng (tốt)</span> &nbsp;|&nbsp;
+    <span style="color:#fca5a5">Màu đỏ = retrogress (xấu)</span> &nbsp;|&nbsp;
+    <span style="color:#fbbf24">— = chưa có dữ liệu</span>
+  </div></div>
 
-  <div class="sec-hd">Bảng A — Final Action Dates (Bảng chính để cấp visa)</div>
+  <!-- ═══════════════════════════════════════════ TABLE A ═══ -->
+  <div class="sec-hd">1) Bảng A — Final Action Dates <small>(Bảng chính: PD phải ≤ ngày này mới được cấp visa)</small></div>
 
-  <div class="fy-tabs">
-    <button class="fy-btn active" onclick="showFY('fy26',this)">FY2026</button>
-    <button class="fy-btn" onclick="showFY('fy25',this)">FY2025</button>
-    <button class="fy-btn" onclick="showFY('fy24',this)">FY2024</button>
-    <button class="fy-btn" onclick="showFY('fy23',this)">FY2023</button>
-    <button class="fy-btn" onclick="showFY('fy22',this)">FY2022</button>
+  <div class="fy-tabs" id="tabs-a">
+    <button class="fy-btn active" data-fy="a26" onclick="showTab('a','a26',this)">FY2026</button>
+    <button class="fy-btn" data-fy="a25" onclick="showTab('a','a25',this)">FY2025</button>
+    <button class="fy-btn" data-fy="a24" onclick="showTab('a','a24',this)">FY2024</button>
+    <button class="fy-btn" data-fy="a23" onclick="showTab('a','a23',this)">FY2023</button>
+    <button class="fy-btn" data-fy="a22" onclick="showTab('a','a22',this)">FY2022</button>
+    <button class="fy-btn" data-fy="a21" onclick="showTab('a','a21',this)">FY2021</button>
   </div>
 
-
-  <!-- FY2026 -->
-  <div id="fy26" class="vb-table-wrap">
-    <div style="margin-bottom:10px;background:#1a2535;border:1px solid #854d0e;border-radius:8px;padding:10px 14px;font-size:12px;color:#fef08a;line-height:1.6">
-      ⚠️ <b>Dữ liệu FY2026 (Oct 2025 – Sep 2026) chưa được nhập.</b>
-      Xem Visa Bulletin chính thức tại
-      <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank" style="color:#fbbf24">travel.state.gov</a>
-      rồi cập nhật bảng bên dưới theo tháng thực tế.
-    </div>
+  <!-- FY2026 A -->
+  <div id="a26" class="vb-wrap">
     <table>
-      <tr><th>Tháng</th><th>Oct-25</th><th>Nov-25</th><th>Dec-25</th><th>Jan-26</th><th>Feb-26</th><th>Mar-26</th><th>Apr-26</th><th>May-26</th><th>Jun-26</th><th>Jul-26</th><th>Aug-26</th><th>Sep-26</th></tr>
-      <tr>
-        <td>EB-3 EW (ROW)</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-        <td class="cell-empty">Cập nhật</td>
-      </tr>
+      <thead><tr><th>FY</th><th>Oct-25</th><th>Nov-25</th><th>Dec-25</th><th>Jan-26</th><th>Feb-26</th><th>Mar-26</th><th>Apr-26</th><th>May-26</th><th>Jun-26</th><th>Jul-26</th><th>Aug-26</th><th>Sep-26</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-up">15-Jul-2021</td>
+        <td class="c-norm">15-Jul-2021</td>
+        <td class="c-up">1-Aug-2021</td>
+        <td class="c-up">1-Sep-2021</td>
+        <td class="c-norm">1-Sep-2021</td>
+        <td class="c-up">1-Nov-2021</td>
+        <td class="c-norm">1-Nov-2021</td>
+        <td class="c-up">1-Feb-2022</td>
+        <td class="c-norm">1-Feb-2022</td>
+        <td class="c-empty">—</td>
+        <td class="c-empty">—</td>
+        <td class="c-empty">—</td>
+        <td class="c-latest">1-Feb-2022</td>
+        <td class="c-net">+6m 24d</td>
+      </tr></tbody>
     </table>
-    <div style="margin-top:8px;font-size:11.5px;color:#64748b">Lưu ý: Sau retrogression tháng 9/2025 (01/09/2020), FY2026 bắt đầu ở mức tương tự rồi dần phục hồi.</div>
+    <div style="margin-top:6px;font-size:11px;color:#475569">Dữ liệu đến tháng 6/2026. Các tháng tiếp theo cập nhật khi DOS phát hành.</div>
   </div>
 
-  <!-- FY2025 -->
-  <div id="fy25" class="vb-table-wrap">
+  <!-- FY2025 A -->
+  <div id="a25" class="vb-wrap" style="display:none">
     <table>
-      <tr><th>Tháng</th><th>Tháng 10<br>Oct-24</th><th>Tháng 11<br>Nov-24</th><th>Tháng 12<br>Dec-24</th><th>Tháng 1<br>Jan-25</th><th>Tháng 2<br>Feb-25</th><th>Tháng 3<br>Mar-25</th><th>Tháng 4<br>Apr-25</th><th>Tháng 5<br>May-25</th><th>Tháng 6<br>Jun-25</th><th>Tháng 7<br>Jul-25</th><th>Tháng 8<br>Aug-25</th><th>Tháng 9<br>Sep-25</th></tr>
-      <tr>
-        <td>EB-3 EW (ROW)</td>
-        <td class="cell-empty">—</td>
-        <td class="cell-date">08/12/2020<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">01/02/2021<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">22/05/2021<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">22/05/2021<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">22/06/2021<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">08/07/2021<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">08/07/2021<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">08/07/2021<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">15/07/2021<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">15/07/2021<span class="mv mv-eq">—</span></td>
-        <td class="cell-date" style="color:#f87171">01/09/2020<span class="mv mv-dn">⬇</span></td>
-      </tr>
-    </table>
-    <div style="margin-top:8px;font-size:11.5px;color:#64748b">⚠️ Tháng 9/2025 bị retrogress mạnh do quota FY2025 cạn. Xem <a href="news.html" style="color:#60a5fa">tin tức</a> để biết thêm.</div>
-  </div>
-
-  <!-- FY2024 -->
-  <div id="fy24" class="vb-table-wrap" style="display:none">
-    <table>
-      <tr><th>Tháng</th><th>Tháng 10<br>Oct-23</th><th>Tháng 11<br>Nov-23</th><th>Tháng 12<br>Dec-23</th><th>Tháng 1<br>Jan-24</th><th>Tháng 2<br>Feb-24</th><th>Tháng 3<br>Mar-24</th><th>Tháng 4<br>Apr-24</th><th>Tháng 5<br>May-24</th><th>Tháng 6<br>Jun-24</th><th>Tháng 7<br>Jul-24</th><th>Tháng 8<br>Aug-24</th><th>Tháng 9<br>Sep-24</th></tr>
-      <tr>
-        <td>EB-3 EW (ROW)</td>
-        <td class="cell-empty">—</td>
-        <td class="cell-date">01/09/2020</td>
-        <td class="cell-date">08/09/2020<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">08/10/2020<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">08/10/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">08/10/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/01/2021<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">01/01/2021<span class="mv mv-eq">—</span></td>
-        <td class="cell-date" style="color:#f87171">01/12/2020<span class="mv mv-dn">⬇</span></td>
-        <td class="cell-date">01/12/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/12/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/12/2020<span class="mv mv-eq">—</span></td>
-      </tr>
-    </table>
-    <div style="margin-top:8px;font-size:11.5px;color:#64748b">⚠️ Tháng 6/2024 bị retrogress. Quota FY2024 cạn trước 16/09/2024.</div>
-  </div>
-
-  <!-- FY2023 -->
-  <div id="fy23" class="vb-table-wrap" style="display:none">
-    <table>
-      <tr><th>Tháng</th><th>Oct-22</th><th>Nov-22</th><th>Dec-22</th><th>Jan-23</th><th>Feb-23</th><th>Mar-23</th><th>Apr-23</th><th>May-23</th><th>Jun-23</th><th>Jul-23</th><th>Aug-23</th><th>Sep-23</th></tr>
-      <tr>
-        <td>EB-3 EW (ROW)</td>
-        <td class="cell-empty">—</td>
-        <td class="cell-date">01/01/2020</td>
-        <td class="cell-date">01/01/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/01/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/01/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/01/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/01/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/05/2020<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">01/05/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/08/2020<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">01/08/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/08/2020<span class="mv mv-eq">—</span></td>
-      </tr>
+      <thead><tr><th>FY</th><th>Oct-24</th><th>Nov-24</th><th>Dec-24</th><th>Jan-25</th><th>Feb-25</th><th>Mar-25</th><th>Apr-25</th><th>May-25</th><th>Jun-25</th><th>Jul-25</th><th>Aug-25</th><th>Sep-25</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-norm">1-Dec-2020</td>
+        <td class="c-norm">1-Dec-2020</td>
+        <td class="c-norm">1-Dec-2020</td>
+        <td class="c-up">8-Dec-2020</td>
+        <td class="c-norm">8-Dec-2020</td>
+        <td class="c-up">1-Feb-2021</td>
+        <td class="c-up">22-May-2021</td>
+        <td class="c-norm">22-May-2021</td>
+        <td class="c-up">22-Jun-2021</td>
+        <td class="c-up">8-Jul-2021</td>
+        <td class="c-norm">8-Jul-2021</td>
+        <td class="c-norm">8-Jul-2021</td>
+        <td class="c-latest">8-Jul-2021</td>
+        <td class="c-net">+7m 7d</td>
+      </tr></tbody>
     </table>
   </div>
 
-  <!-- FY2022 -->
-  <div id="fy22" class="vb-table-wrap" style="display:none">
+  <!-- FY2024 A -->
+  <div id="a24" class="vb-wrap" style="display:none">
     <table>
-      <tr><th>Tháng</th><th>Oct-21</th><th>Nov-21</th><th>Dec-21</th><th>Jan-22</th><th>Feb-22</th><th>Mar-22</th><th>Apr-22</th><th>May-22</th><th>Jun-22</th><th>Jul-22</th><th>Aug-22</th><th>Sep-22</th></tr>
-      <tr>
-        <td>EB-3 EW (ROW)</td>
-        <td class="cell-empty">—</td>
-        <td class="cell-c">C</td>
-        <td class="cell-c">C</td>
-        <td class="cell-c">C</td>
-        <td class="cell-c">C</td>
-        <td class="cell-date">08/05/2019<span class="mv mv-dn">⬇</span></td>
-        <td class="cell-date">08/05/2019<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">08/05/2019<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">08/05/2019<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/06/2020<span class="mv mv-up">⬆</span></td>
-        <td class="cell-date">01/06/2020<span class="mv mv-eq">—</span></td>
-        <td class="cell-date">01/06/2020<span class="mv mv-eq">—</span></td>
-      </tr>
+      <thead><tr><th>FY</th><th>Oct-23</th><th>Nov-23</th><th>Dec-23</th><th>Jan-24</th><th>Feb-24</th><th>Mar-24</th><th>Apr-24</th><th>May-24</th><th>Jun-24</th><th>Jul-24</th><th>Aug-24</th><th>Sep-24</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-up">1-Aug-2020</td>
+        <td class="c-norm">1-Aug-2020</td>
+        <td class="c-norm">1-Aug-2020</td>
+        <td class="c-up">1-Sep-2020</td>
+        <td class="c-norm">1-Sep-2020</td>
+        <td class="c-up">8-Sep-2020</td>
+        <td class="c-up">8-Oct-2020</td>
+        <td class="c-norm">8-Oct-2020</td>
+        <td class="c-norm">8-Oct-2020</td>
+        <td class="c-up">1-Jan-2021</td>
+        <td class="c-norm">1-Jan-2021</td>
+        <td class="c-dn">1-Dec-2020</td>
+        <td class="c-latest">1-Dec-2020</td>
+        <td class="c-net">+7m 0d</td>
+      </tr></tbody>
     </table>
-    <div style="margin-top:8px;font-size:11.5px;color:#64748b">⚠️ Tháng 3/2022 bị retrogress mạnh từ C xuống 08/05/2019 do quota cạn.</div>
+    <div style="margin-top:6px;font-size:11px;color:#64748b">⚠️ Tháng 9/2024 (Sep-24) bị retrogress từ 1-Jan-2021 về 1-Dec-2020 do quota cạn trước cuối năm tài chính.</div>
   </div>
 
-  <!-- ISSUANCE STATS -->
-  <div class="sec-hd">Visa EW Được Cấp — Việt Nam (tổng hợp theo năm tài chính)</div>
+  <!-- FY2023 A -->
+  <div id="a23" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-22</th><th>Nov-22</th><th>Dec-22</th><th>Jan-23</th><th>Feb-23</th><th>Mar-23</th><th>Apr-23</th><th>May-23</th><th>Jun-23</th><th>Jul-23</th><th>Aug-23</th><th>Sep-23</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-up">1-Jun-2020</td>
+        <td class="c-norm">1-Jun-2020</td>
+        <td class="c-norm">1-Jun-2020</td>
+        <td class="c-norm">1-Jun-2020</td>
+        <td class="c-dn">1-Jan-2020</td>
+        <td class="c-norm">1-Jan-2020</td>
+        <td class="c-norm">1-Jan-2020</td>
+        <td class="c-norm">1-Jan-2020</td>
+        <td class="c-norm">1-Jan-2020</td>
+        <td class="c-norm">1-Jan-2020</td>
+        <td class="c-up">1-May-2020</td>
+        <td class="c-norm">1-May-2020</td>
+        <td class="c-latest">1-May-2020</td>
+        <td class="c-net">+11m 23d</td>
+      </tr></tbody>
+    </table>
+    <div style="margin-top:6px;font-size:11px;color:#64748b">⚠️ Feb-23 bị retrogress từ 1-Jun-2020 về 1-Jan-2020. Aug-23 phục hồi lên 1-May-2020.</div>
+  </div>
+
+  <!-- FY2022 A -->
+  <div id="a22" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-21</th><th>Nov-21</th><th>Dec-21</th><th>Jan-22</th><th>Feb-22</th><th>Mar-22</th><th>Apr-22</th><th>May-22</th><th>Jun-22</th><th>Jul-22</th><th>Aug-22</th><th>Sep-22</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td>
+        <td class="c-dn">8-May-2019</td>
+        <td class="c-norm">8-May-2019</td><td class="c-norm">8-May-2019</td>
+        <td class="c-norm">8-May-2019</td><td class="c-norm">8-May-2019</td><td class="c-norm">8-May-2019</td><td class="c-norm">8-May-2019</td>
+        <td class="c-latest">8-May-2019</td>
+        <td class="c-net">N/A</td>
+      </tr></tbody>
+    </table>
+    <div style="margin-top:6px;font-size:11px;color:#64748b">⚠️ Mar-22 retrogress mạnh từ Current về 8-May-2019 — một trong những retrogression lớn nhất lịch sử EB-3 EW.</div>
+  </div>
+
+  <!-- FY2021 A -->
+  <div id="a21" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-20</th><th>Nov-20</th><th>Dec-20</th><th>Jan-21</th><th>Feb-21</th><th>Mar-21</th><th>Apr-21</th><th>May-21</th><th>Jun-21</th><th>Jul-21</th><th>Aug-21</th><th>Sep-21</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td>
+        <td class="c-latest" style="color:#4ade80">Current</td>
+        <td class="c-net">N/A</td>
+      </tr></tbody>
+    </table>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ EW VIETNAM ═══ -->
+  <div class="sec-hd" style="margin-top:28px">2) Visa EW Cấp cho Việt Nam — Hàng Tháng <small>(preliminary + official FY totals)</small></div>
+
+  <div class="iss-wrap">
+    <table>
+      <thead><tr>
+        <th style="text-align:left">FY</th>
+        <th>Oct</th><th>Nov</th><th>Dec</th><th>Jan</th><th>Feb</th><th>Mar</th>
+        <th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th>
+        <th style="background:#1c1a08;color:#fbbf24">Subtotal VN</th>
+        <th style="background:#0f2a47;color:#93c5fd">EW-Global</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>FY2021</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>5</td><td>27</td><td>16</td><td>8</td><td>0</td><td>4</td><td class="iss-sub">63</td><td class="iss-global">1,148</td></tr>
+        <tr><td>FY2022</td><td>14</td><td>30</td><td>52</td><td>66</td><td>55</td><td>84</td><td>57</td><td>56</td><td>51</td><td>28</td><td>29</td><td>26</td><td class="iss-sub">548</td><td class="iss-global">9,764</td></tr>
+        <tr><td>FY2023</td><td>26</td><td>19</td><td>93</td><td>26</td><td>34</td><td>48</td><td>53</td><td>55</td><td>44</td><td class="iss-hi">481</td><td class="iss-med">288</td><td class="iss-hi">644</td><td class="iss-sub">1,811</td><td class="iss-global">9,969</td></tr>
+        <tr><td>FY2024</td><td class="iss-hi">388</td><td class="iss-hi">274</td><td>116</td><td>133</td><td>38</td><td>85</td><td>51</td><td>47</td><td>15</td><td>18</td><td>10</td><td>0</td><td class="iss-sub">1,175</td><td class="iss-global">9,826</td></tr>
+        <tr><td>FY2025</td><td class="iss-med">242</td><td>62</td><td>71</td><td>42</td><td>45</td><td>40</td><td>41</td><td>34</td><td>18</td><td>2</td><td>64</td><td>18</td><td class="iss-sub">679</td><td class="iss-global">10,000</td></tr>
+        <tr><td>FY2026</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="iss-sub" style="color:#475569">0</td><td class="iss-global" style="color:#475569">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- COLUMN CHART -->
   <div class="chart-box">
-    <div class="chart-title">Số visa EW cấp cho Việt Nam theo FY (nguồn: DOS Visa Statistics)</div>
-    <div id="col-chart" style="display:flex;align-items:flex-end;gap:14px;height:160px;padding:0 8px 0;border-bottom:2px solid #2d3f55;margin-bottom:8px"></div>
-    <div id="col-labels" style="display:flex;gap:14px;padding:6px 8px 0;margin-bottom:4px"></div>
-    <div style="font-size:11px;color:#475569;text-align:center">* FY2025 là số liệu chưa đầy đủ (tính đến tháng 3/2025)</div>
+    <div class="chart-title">Visa EW Việt Nam theo năm tài chính (EW3 primary applicants)</div>
+    <div class="chart-sub">Nguồn: DOS Monthly Immigrant Visa Issuance Reports &amp; Annual Reports</div>
+    <div class="col-chart-wrap" id="col-chart"></div>
+    <div class="col-labels" id="col-labels"></div>
   </div>
 
-  <!-- MONTHLY DETAIL -->
-  <div class="sub-hd">Issuance hàng tháng — Việt Nam (sơ bộ từ monthly reports)</div>
-  <div class="alert alert-yellow"><div class="alert-icon">⚠️</div><div>Số liệu tháng là dữ liệu sơ bộ từ monthly reports. Tổng năm chính thức có thể khác do điều chỉnh cuối năm.</div></div>
-  <div class="vb-table-wrap" style="margin-bottom:20px">
+  <!-- ═══════════════════════════════════════════ TABLE B ═══ -->
+  <div class="sec-hd" style="margin-top:28px">3) Bảng B — Dates for Filing <small>(Bảng phụ: được nộp hồ sơ sớm, chưa được cấp visa)</small></div>
+  <div class="alert alert-yellow"><div class="alert-icon">⚠️</div><div><b>Bảng B chỉ áp dụng khi USCIS thông báo dùng Bảng B để nộp I-485 (AOS)</b>. Không phải tháng nào cũng dùng Bảng B. Với hồ sơ truyền thống từ Việt Nam, chủ yếu theo dõi Bảng A.</div></div>
+
+  <div class="fy-tabs" id="tabs-b">
+    <button class="fy-btn active" data-fy="b26" onclick="showTab('b','b26',this)">FY2026</button>
+    <button class="fy-btn" data-fy="b25" onclick="showTab('b','b25',this)">FY2025</button>
+    <button class="fy-btn" data-fy="b24" onclick="showTab('b','b24',this)">FY2024</button>
+    <button class="fy-btn" data-fy="b23" onclick="showTab('b','b23',this)">FY2023</button>
+    <button class="fy-btn" data-fy="b22" onclick="showTab('b','b22',this)">FY2022</button>
+    <button class="fy-btn" data-fy="b21" onclick="showTab('b','b21',this)">FY2021</button>
+  </div>
+
+  <!-- FY2026 B -->
+  <div id="b26" class="vb-wrap">
     <table>
-      <tr><th>FY</th><th>Oct</th><th>Nov</th><th>Dec</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th><th>Tổng</th></tr>
-      <tr><td>FY2025</td><td>—</td><td>42</td><td>45</td><td>40</td><td>41</td><td>34</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>~202+</td></tr>
-      <tr><td>FY2024</td><td>—</td><td>133</td><td>38</td><td>85</td><td>51</td><td>47</td><td>15</td><td>18</td><td>10</td><td>—</td><td>—</td><td>—</td><td><b>1,175</b></td></tr>
-      <tr><td>FY2023</td><td>—</td><td>26</td><td>34</td><td>48</td><td>53</td><td>55</td><td>44</td><td>481</td><td>288</td><td>—</td><td>—</td><td>—</td><td><b>2,280 🏆</b></td></tr>
-      <tr><td>FY2022</td><td>—</td><td>66</td><td>55</td><td>84</td><td>57</td><td>56</td><td>51</td><td>28</td><td>29</td><td>—</td><td>—</td><td>—</td><td><b>1,247</b></td></tr>
-      <tr><td>FY2021</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>30</td><td>52</td><td><b>842</b></td></tr>
+      <thead><tr><th>FY</th><th>Oct-25</th><th>Nov-25</th><th>Dec-25</th><th>Jan-26</th><th>Feb-26</th><th>Mar-26</th><th>Apr-26</th><th>May-26</th><th>Jun-26</th><th>Jul-26</th><th>Aug-26</th><th>Sep-26</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-up">1-Dec-2021</td>
+        <td class="c-norm">1-Dec-2021</td>
+        <td class="c-norm">1-Dec-2021</td>
+        <td class="c-norm">1-Dec-2021</td>
+        <td class="c-norm">1-Dec-2021</td>
+        <td class="c-up">22-Jun-2022</td>
+        <td class="c-up">1-Aug-2022</td>
+        <td class="c-norm">1-Aug-2022</td>
+        <td class="c-norm">1-Aug-2022</td>
+        <td class="c-empty">—</td>
+        <td class="c-empty">—</td>
+        <td class="c-empty">—</td>
+        <td class="c-latest">1-Aug-2022</td>
+        <td class="c-net">+12m 10d</td>
+      </tr></tbody>
+    </table>
+  </div>
+  <!-- FY2025 B -->
+  <div id="b25" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-24</th><th>Nov-24</th><th>Dec-24</th><th>Jan-25</th><th>Feb-25</th><th>Mar-25</th><th>Apr-25</th><th>May-25</th><th>Jun-25</th><th>Jul-25</th><th>Aug-25</th><th>Sep-25</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-up">22-May-2021</td>
+        <td class="c-norm">22-May-2021</td>
+        <td class="c-norm">22-May-2021</td>
+        <td class="c-norm">22-May-2021</td>
+        <td class="c-norm">22-May-2021</td>
+        <td class="c-up">22-Jun-2021</td>
+        <td class="c-norm">22-Jun-2021</td>
+        <td class="c-up">22-Jul-2021</td>
+        <td class="c-norm">22-Jul-2021</td>
+        <td class="c-norm">22-Jul-2021</td>
+        <td class="c-norm">22-Jul-2021</td>
+        <td class="c-norm">22-Jul-2021</td>
+        <td class="c-latest">22-Jul-2021</td>
+        <td class="c-net">+6m 14d</td>
+      </tr></tbody>
+    </table>
+  </div>
+  <!-- FY2024 B -->
+  <div id="b24" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-23</th><th>Nov-23</th><th>Dec-23</th><th>Jan-24</th><th>Feb-24</th><th>Mar-24</th><th>Apr-24</th><th>May-24</th><th>Jun-24</th><th>Jul-24</th><th>Aug-24</th><th>Sep-24</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-up">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-norm">15-Dec-2020</td>
+        <td class="c-up">8-Jan-2021</td>
+        <td class="c-norm">8-Jan-2021</td>
+        <td class="c-dn">8-Jan-2021</td>
+        <td class="c-latest">8-Jan-2021</td>
+        <td class="c-net">+7m 7d</td>
+      </tr></tbody>
+    </table>
+  </div>
+  <!-- FY2023 B -->
+  <div id="b23" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-22</th><th>Nov-22</th><th>Dec-22</th><th>Jan-23</th><th>Feb-23</th><th>Mar-23</th><th>Apr-23</th><th>May-23</th><th>Jun-23</th><th>Jul-23</th><th>Aug-23</th><th>Sep-23</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-up">8-Sep-2022</td>
+        <td class="c-norm">8-Sep-2022</td>
+        <td class="c-norm">8-Sep-2022</td>
+        <td class="c-norm">8-Sep-2022</td>
+        <td class="c-dn">1-Feb-2020</td>
+        <td class="c-norm">1-Feb-2020</td>
+        <td class="c-norm">1-Feb-2020</td>
+        <td class="c-norm">1-Feb-2020</td>
+        <td class="c-norm">1-Feb-2020</td>
+        <td class="c-norm">1-Feb-2020</td>
+        <td class="c-up">1-Jun-2020</td>
+        <td class="c-norm">1-Jun-2020</td>
+        <td class="c-latest">1-Jun-2020</td>
+        <td class="c-net">N/A</td>
+      </tr></tbody>
+    </table>
+    <div style="margin-top:6px;font-size:11px;color:#64748b">⚠️ Feb-23 retrogress mạnh từ 8-Sep-2022 về 1-Feb-2020 (giảm ~31 tháng!). Aug-23 phục hồi lên 1-Jun-2020.</div>
+  </div>
+  <!-- FY2022 B -->
+  <div id="b22" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-21</th><th>Nov-21</th><th>Dec-21</th><th>Jan-22</th><th>Feb-22</th><th>Mar-22</th><th>Apr-22</th><th>May-22</th><th>Jun-22</th><th>Jul-22</th><th>Aug-22</th><th>Sep-22</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td>
+        <td class="c-latest" style="color:#4ade80">Current</td>
+        <td class="c-net">N/A</td>
+      </tr></tbody>
+    </table>
+  </div>
+  <!-- FY2021 B -->
+  <div id="b21" class="vb-wrap" style="display:none">
+    <table>
+      <thead><tr><th>FY</th><th>Oct-20</th><th>Nov-20</th><th>Dec-20</th><th>Jan-21</th><th>Feb-21</th><th>Mar-21</th><th>Apr-21</th><th>May-21</th><th>Jun-21</th><th>Jul-21</th><th>Aug-21</th><th>Sep-21</th><th>Latest</th><th>Net Δ FY</th></tr></thead>
+      <tbody><tr>
+        <td>EB-3 EW</td>
+        <td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td><td class="c-curr">C</td>
+        <td class="c-latest" style="color:#4ade80">Current</td>
+        <td class="c-net">N/A</td>
+      </tr></tbody>
     </table>
   </div>
 
   <!-- LINKS -->
-  <div class="sec-hd">Kiểm Tra Trực Tiếp</div>
+  <div class="sec-hd" style="margin-top:24px">Kiểm Tra Trực Tiếp</div>
   <div class="link-row">
-    <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank" class="ext-link">📅 Visa Bulletin chính thức</a>
+    <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank" class="ext-link">📅 Visa Bulletin DOS</a>
     <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/immigrant-visa-statistics/monthly-immigrant-visa-issuances.html" target="_blank" class="ext-link">📊 Visa Issuance Statistics</a>
     <a href="https://flag.dol.gov/processingtimes" target="_blank" class="ext-link">⏱ DOL Processing Times</a>
-    <a href="https://permtimeline.com/" target="_blank" class="ext-link">📈 PERM Timeline Tracker</a>
+    <a href="https://permtimeline.com/" target="_blank" class="ext-link">📈 PERM Timeline</a>
     <a href="https://egov.uscis.gov/processing-times/" target="_blank" class="ext-link">🕒 USCIS Processing Times</a>
   </div>
 
-  <div class="disc"><b>Nguồn dữ liệu:</b> travel.state.gov/visa-bulletin, DOS Monthly IV Issuance Reports. Cập nhật thủ công — dữ liệu có thể có độ trễ. Luôn kiểm tra tại nguồn chính thức trước khi ra quyết định.</div>
+  <div class="disc"><b>Nguồn:</b> travel.state.gov — Visa Bulletin monthly issues + DOS Monthly IV Issuance Reports. Dữ liệu cập nhật thủ công từ file Excel. Luôn kiểm tra tại nguồn chính thức trước khi ra quyết định.</div>
 </div>
-<script>
-function showFY(id, el) {
-  ['fy22','fy23','fy24','fy25','fy26'].forEach(f => {
-    document.getElementById(f).style.display = f === id ? 'block' : 'none';
-  });
-  document.querySelectorAll('.fy-btn').forEach(b => b.classList.remove('active'));
-  el.classList.add('active');
-}
-
-// Column chart for annual totals
-const totals = [
-  {fy:'FY2021', count:842,  color:'#1d4ed8', note:''},
-  {fy:'FY2022', count:1247, color:'#1d4ed8', note:''},
-  {fy:'FY2023', count:2280, color:'#7c3aed', note:'🏆 Kỷ lục'},
-  {fy:'FY2024', count:1175, color:'#1d4ed8', note:''},
-  {fy:'FY2025', count:202,  color:'#0e7490', note:'*'},
-];
-const maxCount = 2280;
-const chartEl = document.getElementById('col-chart');
-const labelsEl = document.getElementById('col-labels');
-const colW = `calc((100% - ${(totals.length-1)*14}px) / ${totals.length})`;
-
-totals.forEach(d => {
-  const pct = (d.count / maxCount * 100);
-  const colH = Math.max(pct * 1.4, 14); // scale to max 140px
-  chartEl.innerHTML += `
-    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px">
-      <span style="font-size:10px;font-weight:700;color:#f1f5f9">${d.count.toLocaleString()}</span>
-      ${d.note ? `<span style="font-size:9px;color:#fbbf24">${d.note}</span>` : ''}
-      <div style="width:100%;height:${colH}px;background:${d.color};border-radius:4px 4px 0 0;transition:opacity .15s" 
-           title="${d.fy}: ${d.count.toLocaleString()} visa"></div>
-    </div>`;
-  labelsEl.innerHTML += `
-    <div style="flex:1;text-align:center;font-size:11px;font-weight:600;color:#64748b">${d.fy}</div>`;
-});
-</script>
 </div></div>
+
 <script>
 function toggleSidebar(){
   document.getElementById('sb').classList.toggle('open');
   document.getElementById('sb-overlay').classList.toggle('open');
 }
+
+function showTab(group, id, el){
+  // hide all in group
+  document.querySelectorAll(`[id^="${group}"]`).forEach(d => d.style.display = 'none');
+  document.getElementById(id).style.display = 'block';
+  document.querySelectorAll(`#tabs-${group} .fy-btn`).forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+}
+
+// Column chart
+const totals = [
+  {fy:'FY2021', count:63,   color:'#374151'},
+  {fy:'FY2022', count:548,  color:'#1d4ed8'},
+  {fy:'FY2023', count:1811, color:'#7c3aed'},
+  {fy:'FY2024', count:1175, color:'#1d4ed8'},
+  {fy:'FY2025', count:679,  color:'#0e7490'},
+];
+const maxCount = 1811;
+const chartEl = document.getElementById('col-chart');
+const labelsEl = document.getElementById('col-labels');
+totals.forEach(d => {
+  const colH = Math.max((d.count / maxCount) * 130, 8);
+  const note = d.fy === 'FY2023' ? '🏆' : '';
+  chartEl.innerHTML += `
+    <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:3px">
+      ${note ? `<span style="font-size:12px">${note}</span>` : ''}
+      <span style="font-size:10px;font-weight:700;color:#f1f5f9">${d.count.toLocaleString()}</span>
+      <div style="width:100%;height:${colH}px;background:${d.color};border-radius:4px 4px 0 0" title="${d.fy}: ${d.count}"></div>
+    </div>`;
+  labelsEl.innerHTML += `<div style="flex:1;text-align:center;font-size:10.5px;font-weight:600;color:#64748b">${d.fy}</div>`;
+});
 </script>
 </body>
 </html>
