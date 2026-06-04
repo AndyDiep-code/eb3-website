@@ -123,6 +123,11 @@ tbody tr:hover td{filter:brightness(1.1)}
     <a class="sb-item sub" href="faq.html"><span class="sb-icon">❓</span>FAQ</a>
     <a class="sb-item sub" href="glossary.html"><span class="sb-icon">📚</span>Thuật Ngữ</a>
     <div class="sb-divider"></div>
+    <div class="sb-group-label">Công Cụ Cá Nhân</div>
+    <a class="sb-item sub" href="tracker.html"><span class="sb-icon">📊</span>Theo Dõi Hồ Sơ</a>
+    <a class="sb-item sub" href="interview.html"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
+    <a class="sb-item sub" href="case-studies.html"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
+    <div class="sb-divider"></div>
     <div class="sb-group-label">Công Cụ Bổ Sung</div>
     <a class="sb-item" href="bmv.html"><span class="sb-icon">🚗</span>Indiana (IN)</a>
     <a class="sb-item sub" href="bmv-ga.html"><span class="sb-icon">🍑</span>Georgia (GA)</a>
@@ -162,6 +167,15 @@ tbody tr:hover td{filter:brightness(1.1)}
     </div>
   </div>
 
+
+  <!-- MONTHLY ADVANCE RATE CHART -->
+  <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:12px;padding:18px 20px;margin-bottom:20px">
+    <div style="font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:4px">📊 Tốc Độ Tiến/Lùi Hàng Tháng — Bảng A Final Action Date</div>
+    <div style="font-size:11px;color:#475569;margin-bottom:14px">Cột xanh = PD tăng (tốt) · Cột đỏ = Retrogress (tệ) · Số ngày Priority Date thay đổi mỗi tháng VB</div>
+    <div style="position:relative;height:200px">
+      <canvas id="deltaChart"></canvas>
+    </div>
+  </div>
   <!-- KEY STATS ROW -->
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:20px">
     <div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px;text-align:center">
@@ -512,6 +526,64 @@ tbody tr:hover td{filter:brightness(1.1)}
 </div></div>
 
 <script>
+
+
+// Monthly advance rate chart
+const DELTA_LABELS = ['Oct-21', 'Nov-21', 'Dec-21', 'Jan-22', 'Feb-22', 'Mar-22', 'Apr-22', 'May-22', 'Jun-22', 'Jul-22', 'Aug-22', 'Sep-22', 'Oct-22', 'Nov-22', 'Dec-22', 'Jan-23', 'Feb-23', 'Mar-23', 'Apr-23', 'May-23', 'Jun-23', 'Jul-23', 'Aug-23', 'Sep-23', 'Oct-23', 'Nov-23', 'Dec-23', 'Jan-24', 'Feb-24', 'Mar-24', 'Apr-24', 'May-24', 'Jun-24', 'Jul-24', 'Aug-24', 'Sep-24', 'Oct-24', 'Nov-24', 'Dec-24', 'Jan-25', 'Feb-25', 'Mar-25', 'Apr-25', 'May-25', 'Jun-25', 'Jul-25', 'Aug-25', 'Sep-25', 'Oct-25', 'Nov-25', 'Dec-25', 'Jan-26', 'Feb-26', 'Mar-26', 'Apr-26', 'May-26', 'Jun-26'];
+const DELTA_DATA = [null, null, null, null, null, null, 0, 0, 0, 0, 0, 0, 390, 0, 0, 0, -152, 0, 0, 0, 0, 0, 121, 0, 92, 0, 0, 31, 0, 7, 30, 0, 0, 85, 0, -31, 0, 0, 0, 7, 0, 55, 110, 0, 31, 16, 0, 0, 7, 0, 17, 31, 0, 61, 0, 92, 0];
+const deltaColors = DELTA_DATA.map(v => v === null ? 'transparent' : v > 0 ? '#22c55e' : v < 0 ? '#ef4444' : '#374151');
+const ctxD = document.getElementById('deltaChart');
+if (ctxD) {
+  new Chart(ctxD, {
+    type: 'bar',
+    data: {
+      labels: DELTA_LABELS,
+      datasets: [{
+        data: DELTA_DATA,
+        backgroundColor: deltaColors,
+        borderWidth: 0,
+        borderRadius: 2,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e2d42',
+          titleColor: '#93c5fd',
+          bodyColor: '#e2e8f0',
+          borderColor: '#2d3f55',
+          borderWidth: 1,
+          callbacks: {
+            title: ctx => 'VB Tháng: ' + ctx[0].label,
+            label: ctx => {
+              const v = ctx.raw;
+              if (v === null) return 'Tháng Current';
+              if (v > 0) return `+${v} ngày ⬆ (khoảng ${Math.round(v/30*10)/10} tháng)`;
+              if (v < 0) return `${v} ngày ⬇ RETROGRESS`;
+              return 'Không đổi';
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color:'#64748b', font:{size:9}, maxRotation:45,
+            callback: (val,i) => i%4===0 ? DELTA_LABELS[i] : '' },
+          grid: { display: false }
+        },
+        y: {
+          ticks: { color:'#64748b', font:{size:10},
+            callback: v => v > 0 ? `+${v}d` : `${v}d` },
+          grid: { color:'rgba(45,63,85,0.5)' },
+          zero: true
+        }
+      }
+    }
+  });
+}
 
 // ─── Priority Date Movement Chart ───────────────────────────
 const VB_LABELS = ["Oct-21","Nov-21","Dec-21","Jan-22","Feb-22","Mar-22","Apr-22","May-22","Jun-22","Jul-22","Aug-22","Sep-22","Oct-22","Nov-22","Dec-22","Jan-23","Feb-23","Mar-23","Apr-23","May-23","Jun-23","Jul-23","Aug-23","Sep-23","Oct-23","Nov-23","Dec-23","Jan-24","Feb-24","Mar-24","Apr-24","May-24","Jun-24","Jul-24","Aug-24","Sep-24","Oct-24","Nov-24","Dec-24","Jan-25","Feb-25","Mar-25","Apr-25","May-25","Jun-25","Jul-25","Aug-25","Sep-25","Oct-25","Nov-25","Dec-25","Jan-26","Feb-26","Mar-26","Apr-26","May-26","Jun-26"];
