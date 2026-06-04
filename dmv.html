@@ -184,7 +184,10 @@ function filter() {
         <div class="sc-employers">🏭 ${s.employers.split(' · ').slice(0,3).join(' · ')}${s.employers.split(' · ').length > 3 ? '...' : ''}</div>
         <div style="font-size:11px;color:#475569;margin-top:6px">${s.note}</div>
         ${isSoon ? '<div style="font-size:11px;color:#fbbf24;margin-top:6px;font-weight:600">⏳ Đang chuẩn bị nội dung...</div>' : ''}
-      </a>`;
+      </a>
+    <a class="sb-item sub" href="after-arrival.html"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
+    <a class="sb-item sub" href="net-pay.html"><span class="sb-icon">💰</span>Tính Lương Net</a>
+    <a class="sb-item sub" href="compare.html"><span class="sb-icon">⚖️</span>So Sánh Bang</a>`;
   });
   document.getElementById('count').innerHTML = `Hiển thị <b>${count}</b> / ${STATES.length} tiểu bang`;
 }
