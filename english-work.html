@@ -139,6 +139,140 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 </footer>
 </div></div>
 
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:220px;flex-shrink:0;background:#111c2b;border-right:1px solid #1e2d3d;display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;transition:transform .25s}
+.page-content{margin-left:220px;flex:1;min-width:0}
+.mobile-topbar{display:none;align-items:center;gap:12px;padding:12px 16px;background:#1a2535;border-bottom:1px solid #2d3f55;position:sticky;top:0;z-index:50}
+.mobile-topbar .ham{background:none;border:none;color:#e2e8f0;font-size:20px;cursor:pointer}
+.mobile-topbar .page-label{font-size:13px;font-weight:600;color:#f1f5f9}
+.sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99}
+@media(max-width:768px){.sidebar{transform:translateX(-100%)}.sidebar.open{transform:translateX(0)}.sidebar-overlay.open{display:block}.page-content{margin-left:0}.mobile-topbar{display:flex}}
+.sb-brand{padding:16px 16px 10px;border-bottom:1px solid #1e2d3d;flex-shrink:0}
+.sb-brand a{text-decoration:none;display:flex;align-items:center;gap:8px}
+.sb-brand .name{font-size:13px;font-weight:800;color:#f1f5f9;line-height:1.2}
+.sb-brand .tagline{font-size:10px;color:#475569;margin-top:1px}
+.sb-nav{flex:1;padding:8px 0}
+.sb-group-label{padding:10px 14px 4px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em}
+.sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent}
+.sb-item:hover{color:#94a3b8;background:#1a2535}
+.sb-item.active{color:#60a5fa;background:#1a2a40;border-left-color:#60a5fa;font-weight:600}
+.sb-item .sb-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
+.sb-item.sub{padding-left:34px;font-size:12px}
+.sb-divider{height:1px;background:#1e2d3d;margin:6px 14px}
+.sb-footer{padding:10px 14px;border-top:1px solid #1e2d3d;flex-shrink:0}
+.sb-footer a{font-size:11px;color:#475569;text-decoration:none;display:block;line-height:1.8}
+.hero{background:linear-gradient(135deg,#0f2a47 0%,#065f46 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
+.hero h1{font-size:20px;font-weight:800;color:#fff}
+.hero p{font-size:12.5px;color:#6ee7b7;margin-top:4px}
+.main{max-width:900px;margin:0 auto;padding:18px 16px}
+.job-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.job-btn{padding:7px 14px;border-radius:20px;font-size:12px;font-weight:600;border:1px solid #2d3f55;background:#1a2535;color:#64748b;cursor:pointer;transition:all .12s;display:flex;align-items:center;gap:5px}
+.job-btn:hover{border-color:#4ade80;color:#94a3b8}
+.job-btn.active{background:#065f46;border-color:#22c55e;color:#fff}
+.job-pane{display:none}.job-pane.active{display:block}
+.phrase-grid{display:grid;gap:8px;margin-bottom:16px}
+.phrase-card{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.phrase-card:hover{border-color:#4ade80}
+.phrase-text{flex:1}
+.phrase-en{font-size:13px;font-weight:600;color:#f1f5f9;line-height:1.4}
+.phrase-vi{font-size:12px;color:#64748b;margin-top:3px;font-style:italic}
+.phrase-ctx{font-size:11px;color:#475569;margin-top:3px}
+.speak-btn{background:#065f46;border:none;color:#4ade80;border-radius:6px;padding:6px 10px;cursor:pointer;font-size:14px;flex-shrink:0;transition:background .15s}
+.speak-btn:hover{background:#047857}
+.section-sub{font-size:12px;font-weight:700;color:#4ade80;margin:14px 0 8px;padding-bottom:4px;border-bottom:1px solid #1e2d3d;text-transform:uppercase;letter-spacing:.05em}
+.tip-box{background:#081a10;border:1px solid #15803d;border-radius:8px;padding:12px 14px;font-size:12px;color:#bbf7d0;margin-bottom:14px;line-height:1.7}
+.tip-box b{color:#4ade80}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar" id="sb">
+  <div class="sb-brand"><a href="index.html">
+    <span style="font-size:18px">🇺🇸</span>
+    <div><div class="name">EB3VIET</div><div class="tagline">Thông tin định cư EB-3</div></div>
+  </a></div>
+  <nav class="sb-nav">
+    <a class="sb-item" href="index.html"><span class="sb-icon">🏠</span>Trang Chủ</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group-label">EB3 Vietnam Hub</div>
+    <a class="sb-item sub" href="visa-bulletin.html"><span class="sb-icon">📅</span>Visa Bulletin</a>
+    <a class="sb-item sub" href="news.html"><span class="sb-icon">📰</span>Tin Tức Chính Sách</a>
+    <a class="sb-item sub" href="guides.html"><span class="sb-icon">📖</span>Hướng Dẫn EB-3</a>
+    <a class="sb-item sub" href="jobs.html"><span class="sb-icon">🏭</span>Ngành Nghề &amp; Hãng</a>
+    <a class="sb-item sub" href="faq.html"><span class="sb-icon">❓</span>FAQ</a>
+    <a class="sb-item sub" href="glossary.html"><span class="sb-icon">📚</span>Thuật Ngữ</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group-label">Công Cụ Cá Nhân</div>
+    <a class="sb-item sub" href="tracker.html"><span class="sb-icon">📊</span>Theo Dõi Hồ Sơ</a>
+    <a class="sb-item sub" href="interview.html"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
+    <a class="sb-item sub" href="case-studies.html"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
+    <a class="sb-item sub active" href="english-work.html"><span class="sb-icon">💬</span>Tiếng Anh CV</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group-label">Ôn Thi Bằng Lái</div>
+    <a class="sb-item sub" href="bmv.html"><span class="sb-icon">🚗</span>Indiana (IN)</a>
+    <a class="sb-item sub" href="bmv-ga.html"><span class="sb-icon">🍑</span>Georgia (GA)</a>
+    <a class="sb-item sub" href="bmv-tx.html"><span class="sb-icon">⭐</span>Texas (TX)</a>
+    <a class="sb-item sub" href="bmv-fl.html"><span class="sb-icon">🌴</span>Florida (FL)</a>
+    <a class="sb-item sub" href="bmv-wi.html"><span class="sb-icon">🧀</span>Wisconsin (WI)</a>
+    <a class="sb-item sub" href="bmv-nc.html"><span class="sb-icon">🌲</span>N. Carolina (NC)</a>
+    <a class="sb-item sub" href="bmv-sc.html"><span class="sb-icon">🌊</span>S. Carolina (SC)</a>
+    <a class="sb-item sub" href="bmv-al.html"><span class="sb-icon">🌶️</span>Alabama (AL)</a>
+    <div class="sb-divider"></div>
+    <a class="sb-item" href="agency-guide.html"><span class="sb-icon">🏢</span>Chọn Agency</a>
+    <a class="sb-item" href="cost-calculator.html"><span class="sb-icon">🧮</span>Chi Phí Sinh Hoạt</a>
+    <div class="sb-divider"></div>
+    <a class="sb-item" href="privacy.html"><span class="sb-icon">🔒</span>Chính Sách Bảo Mật</a>
+    <a class="sb-item" href="about.html"><span class="sb-icon">ℹ️</span>Giới Thiệu</a>
+  </nav>
+</aside>
+<div class="sidebar-overlay" id="sb-overlay" onclick="toggleSidebar()"></div>
+<div class="page-content">
+<div class="mobile-topbar"><button class="ham" onclick="toggleSidebar()">☰</button><span class="page-label">EB3VIET — Tiếng Anh Công Việc</span></div>
+<div class="hero">
+  <h1>💬 Tiếng Anh Công Việc — Theo Ngành EB-3</h1>
+  <p>280+ câu giao tiếp thực tế · 10 chủ đề · Bấm 🔊 để nghe phát âm</p>
+</div>
+<div class="main">
+<div class="tip-box"><b>💡 Cách sử dụng:</b> Chọn ngành nghề của bạn → học các câu trong từng tình huống → bấm 🔊 để nghe phát âm → luyện nói to mỗi ngày. Tiếng Anh cơ bản là đủ để bắt đầu làm việc.</div>
+
+<div class="job-tabs">
+  <button class="job-btn active" onclick="showJob('factory',this)">🏭 Nhà Máy</button>
+  <button class="job-btn" onclick="showJob('food',this)">🐓 Chế Biến TP</button>
+  <button class="job-btn" onclick="showJob('hotel',this)">🏨 Khách Sạn</button>
+  <button class="job-btn" onclick="showJob('restaurant',this)">🍔 Nhà Hàng</button>
+  <button class="job-btn" onclick="showJob('care',this)">🏥 Chăm Sóc</button>
+  <button class="job-btn" onclick="showJob('warehouse',this)">📦 Kho Bãi</button>
+  <button class="job-btn" onclick="showJob('general',this)">🗣️ Giao Tiếp</button>
+  <button class="job-btn" onclick="showJob('emergency',this)">🚨 Khẩn Cấp</button>
+  <button class="job-btn" onclick="showJob('hr',this)">💼 Nhân Sự/Lương</button>
+  <button class="job-btn" onclick="showJob('culture',this)">🤝 Văn Hóa Mỹ</button>
+</div>
+
+<div id="factory" class="job-pane active"></div>
+<div id="food" class="job-pane"></div>
+<div id="hotel" class="job-pane"></div>
+<div id="restaurant" class="job-pane"></div>
+<div id="care" class="job-pane"></div>
+<div id="warehouse" class="job-pane"></div>
+<div id="general" class="job-pane"></div>
+<div id="emergency" class="job-pane"></div>
+<div id="hr" class="job-pane"></div>
+<div id="culture" class="job-pane"></div>
+
+<div style="background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:8px">
+  🔊 Chức năng phát âm dùng Web Speech API (miễn phí, không cần internet riêng). Hoạt động tốt trên Chrome/Edge. Safari/Firefox có thể khác.
+</div>
+</div>
+<footer style="background:#111c2b;border-top:1px solid #1e2d3d;padding:14px 20px;text-align:center;font-size:11px;color:#475569;margin-top:20px">
+  <a href="index.html" style="color:#64748b;text-decoration:none;margin:0 8px">🏠 Trang Chủ</a>
+  <div style="margin-top:6px">© 2026 EB3VIET</div>
+</footer>
+</div></div>
+
 <script>
 function toggleSidebar(){document.getElementById('sb').classList.toggle('open');document.getElementById('sb-overlay').classList.toggle('open');}
 function showJob(id,el){document.querySelectorAll('.job-pane').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.job-btn').forEach(b=>b.classList.remove('active'));document.getElementById(id).classList.add('active');el.classList.add('active');}
@@ -408,24 +542,24 @@ culture:[
   {label:'🤝 Văn hóa công sở Mỹ',phrases:[
     {en:'Good morning! How are you doing?',vi:'Chào buổi sáng! Bạn khỏe không?',ctx:'Người Mỹ hay hỏi câu này nhưng không cần trả lời chi tiết — chỉ nói "Good, thanks!"'},
     {en:'Thank you for your help. I really appreciate it.',vi:'Cảm ơn bạn đã giúp đỡ. Tôi thực sự trân trọng điều đó.'},
-    {en:'I'm sorry, I didn't mean to offend you.',vi:'Xin lỗi, tôi không có ý xúc phạm bạn.'},
-    {en:'Great job on that project!',vi:'Làm tốt lắm về dự án đó!',ctx:'Người Mỹ hay khen ngợi trực tiếp — hãy nói "Thank you!" và không từ chối lời khen'},
-    {en:'I'd love to join you for lunch.',vi:'Tôi rất muốn ăn trưa cùng bạn.'},
+    {en:"I'm sorry, I didn't mean to offend you.",vi:'Xin lỗi, tôi không có ý xúc phạm bạn.'},
+    {en:'Great job on that project!',vi:'Làm tốt lắm về dự án đó!',ctx:'Người Mỹ hay khen ngợi trực tiếp — nói Thank you và không từ chối lời khen'},
+    {en:"I'd love to join you for lunch.",vi:'Tôi rất muốn ăn trưa cùng bạn.'},
     {en:'I have a question — is this a good time to talk?',vi:'Tôi có câu hỏi — bây giờ có phải thời điểm tốt để nói chuyện không?',ctx:'Luôn hỏi trước — người Mỹ coi trọng thời gian'},
-    {en:'I'd like to respectfully disagree.',vi:'Tôi muốn lịch sự không đồng ý.',ctx:'Người Mỹ chấp nhận và tôn trọng phản biện lịch sự'},
-    {en:'Let me know if there's anything I can help with.',vi:'Cho tôi biết nếu có gì tôi có thể giúp.'},
+    {en:"I'd like to respectfully disagree.",vi:'Tôi muốn lịch sự không đồng ý.',ctx:'Người Mỹ chấp nhận và tôn trọng phản biện lịch sự'},
+    {en:"Let me know if there's anything I can help with.",vi:'Cho tôi biết nếu có gì tôi có thể giúp.'},
   ]},
   {label:'💬 Giao tiếp chuyên nghiệp',phrases:[
     {en:'Could we schedule a meeting to discuss this?',vi:'Chúng ta có thể lên lịch họp để thảo luận về điều này không?',ctx:'Người Mỹ thích lên lịch trước'},
     {en:'I will follow up on that by end of day.',vi:'Tôi sẽ theo dõi vấn đề đó trước cuối ngày.'},
     {en:'Can you clarify what you mean by that?',vi:'Bạn có thể làm rõ ý bạn không?'},
     {en:'I understand. Let me make sure I have this right.',vi:'Tôi hiểu rồi. Để tôi đảm bảo tôi hiểu đúng.'},
-    {en:'That's a great idea. Let me think about it.',vi:'Đó là ý tưởng hay. Để tôi nghĩ thêm.',ctx:'Không phải từ chối — chỉ là cần thời gian cân nhắc'},
-    {en:'I'm not sure about this. Can I get back to you?',vi:'Tôi không chắc về điều này. Tôi có thể trả lời bạn sau không?'},
+    {en:"That's a great idea. Let me think about it.",vi:'Đó là ý tưởng hay. Để tôi nghĩ thêm.',ctx:'Khong phai tu choi - chi la can thoi gian can nhac'},
+    {en:"I'm not sure about this. Can I get back to you?",vi:'Tôi không chắc về điều này. Tôi có thể trả lời bạn sau không?'},
     {en:'I need some time to think about that.',vi:'Tôi cần thời gian để suy nghĩ về điều đó.'},
   ]},
   {label:'🌍 Cuộc sống hàng ngày',phrases:[
-    {en:'I'm still learning English. Please speak slowly.',vi:'Tôi vẫn đang học tiếng Anh. Vui lòng nói chậm thôi.',ctx:'Người Mỹ thường sẵn lòng giúp đỡ người học tiếng Anh'},
+    {en:"I'm still learning English. Please speak slowly.",vi:'Tôi vẫn đang học tiếng Anh. Vui lòng nói chậm thôi.',ctx:'Người Mỹ thường sẵn lòng giúp đỡ người học tiếng Anh'},
     {en:'Happy to learn American customs from you.',vi:'Rất vui được học phong tục Mỹ từ bạn.'},
     {en:'In my country, we do it differently.',vi:'Ở đất nước tôi, chúng tôi làm khác đi.',ctx:'Chia sẻ văn hóa — người Mỹ thường rất thích nghe'},
     {en:'What do people usually do here on weekends?',vi:'Mọi người thường làm gì vào cuối tuần ở đây?'},
