@@ -1,6 +1,12 @@
-# wrangler files
-.wrangler
-.dev.vars*
-!.dev.vars.example
-.env*
-!.env.example
+# Claude Code internal files
+.claude/
+presale/
+
+# Reference documents (not web assets)
+*.xlsx
+*.docx
+*.pdf
+
+# OS / editor
+.DS_Store
+*.swp
