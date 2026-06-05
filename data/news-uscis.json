@@ -1,6 +1,60 @@
 {
-  "updated": "2026-06-05T01:36:26Z",
+  "updated": "2026-06-05T16:36:54Z",
   "items": [
+    {
+      "id": "70a73c75143c",
+      "title": "Meet Emma, Our Virtual Assistant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uQVVrT2F6UjlYRWlVb1B0RXlOMWNYXzl3My1rOC1uT2tNeVhYQXdFaDNidFZvUGpYUTBwU1JTVTFLcFdmdGxhN0V1Y0R1V1JLZ2swTVJKaUJzVVRTVnJiN3M2WWRSYS1Pb1VR?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "a7282d59571a",
+      "title": "I-9, Employment Eligibility Verification - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1ZWFFvcXJjaHBxUDItSmkwYkhTaXliYUpuUHlSRFQwWTM3TGR6YWZkUWlQbUlwYlpramdTNXpB?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "a2f8a90d0b9d",
+      "title": "G-1650, Authorization for ACH Transactions - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBiRlVWTEZYQTliNVVsVk5lR3drMHE2Z0kwM2hncFU0d3d5bnBlZjM5UEpvTDRoOWJBR0VSYm1ISEV3dw?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e19a09a38187",
+      "title": "G-1450, Authorization for Credit Card Transactions - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ZZUhvUVk4NDl4TVdVT0FvMG9TeFZ6YVNDblZUVTIxMktiRnNELW9wUzNSSE1LRVR2M09xay1RLWFrdw?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "fffcd4928358",
+      "title": "AR-11, Alien’s Change of Address Card - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBNZGUtRVZjUkdGRkF4WTBfNWRZcDdGbmN4cDM0Yy1kZkRhWkxfRi1xNnkwTkhXT3o0QjdIbE8xaUI?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ff504757c363",
+      "title": "G-28, Notice of Entry of Appearance as Attorney or Accredited Representative - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1Zd01pai15WDMzTkZhM2pvd3Q2bUIzZF9PM2tXbDhaZGRLVlRkaWc2RE92cS1MQ2E4NGdDajEzVQ?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "d3ff210cf73d",
       "title": "US Department of Labor cites Piggly Wiggly franchisee for willful, serious violations after employee suffers amputation",
@@ -158,6 +212,15 @@
       "id": "d701375c78e5",
       "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f90a2ecd1c7a",
+      "title": "I-140, Immigrant Petition for Alien Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dEpWaDFqXzllWnlmVUd5Y3VSMjVXYmlod2tiaFY3RXNHbFhVV0pNS1RlRFFZYVhteko0U3lqS3U?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
@@ -344,6 +407,15 @@
       "category": "uscis"
     },
     {
+      "id": "cd1fc820941e",
+      "title": "Special Immigrant Juveniles - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mMjhQWUpTY3VYUG9yN05aX1dpTjgySWZMeTJHWkt4X1VoN3NSLWlhc0h2MDExVjAwWE9TUjhlQnI5UDJTaVFERkhqcG9Yb0FSbTRsWXpn?oc=5",
+      "desc": "Special Immigrant Juveniles&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-04-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "4590071633e8",
       "title": "H-1B Cap Season - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU2xVT0Y5MEpIaU1UX0N4MTRUQ0VMOExWNzlnYUNiS29PUlpKMXhtcDdPZkoxOTBTTndxQ0Y5UTZKb0M2SklycHZJb1NSblBseEJKNEpUcFZ4MHJDc0pQVzZRdlBkNW1qN1FrUk54VzdlTzdLNWtOLVIxWVZKUVM3U1lSeHp2SDVyaHkxaUdxX0QyNnZUUXpraHpZRXBUenR4cVgtNjF4ZVg4YmY0c0JHVg?oc=5",
@@ -392,6 +464,15 @@
       "id": "6479d7f0ac49",
       "title": "I-864P, HHS Poverty Guidelines for Affidavit of Support - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE03Mlg2d1BGc1IwSlpXanoxWHlMbzlxZ3ZQQmFvWEUwcGVOYTVleGdxX181WmFiMWlXZEE1TmoxZVE2dw?oc=5",
+      "desc": "",
+      "date": "2026-02-27",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "bdd25184adc5",
+      "title": "R-1 Nonimmigrant Religious Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVnF4akVVdDFnbW5aTnpPVjJ2bmQzRTZ6ZU9IWmNsT3BMYnEwZzZvNVBFVEVCOEdXdlQtcWpxa2hTSC1EYVRPVk1RUmVXRmw3aXpqVFpaUlVWQ1BQMWVPa3RnaTludzVVYlEzNFhhY1BqODdWRmx6YVAteDBhUURVTXdmMWx1U1JvTXZBd09LbWo4aUlEYUVqenI0ZElZS2JGWXByVC1B?oc=5",
       "desc": "",
       "date": "2026-02-27",
       "source": "USCIS",
