@@ -4,7 +4,7 @@ Fetch and filter news from justice.gov (via Google News) and DOL/USCIS.
 Runs via GitHub Actions daily. Outputs data/news-legal.json and data/news-uscis.json.
 """
 
-import json, re, sys, time, hashlib
+import json, re, sys, time, hashlib, html as html_mod
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError
@@ -20,18 +20,27 @@ def fetch(url, timeout=15):
         print(f"  WARN fetch failed {url}: {e}", file=sys.stderr)
         return ""
 
+def clean_text(s):
+    """Unescape HTML entities then strip any remaining tags."""
+    s = html_mod.unescape(s)
+    s = re.sub(r"<[^>]+>", "", s)
+    return s.strip()
+
 def parse_rss(xml):
     items = re.findall(r"<item>(.*?)</item>", xml, re.DOTALL)
     results = []
     for item in items:
         def g(tag):
             m = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", item, re.DOTALL)
-            if not m: return ""
-            return re.sub(r"<[^>]+>", "", m.group(1)).strip()
-        title = g("title").replace("&amp;", "&").replace("&#39;", "'").replace("&lt;","<").replace("&gt;",">")
+            return clean_text(m.group(1)) if m else ""
+        title = g("title")
         link  = g("link")
-        desc  = g("description").replace("&amp;","&").replace("&#39;","'")[:300]
         pub   = g("pubDate")
+        desc_raw = g("description").replace("\xa0", " ").strip()
+        # Google News desc is either a URL or just the title repeated — discard both
+        is_url = desc_raw.startswith("http")
+        is_title_repeat = title and desc_raw.lower().startswith(title[:30].lower())
+        desc = "" if (is_url or is_title_repeat or len(desc_raw) < 20) else desc_raw[:300]
         results.append({"title": title, "link": link, "desc": desc, "pub": pub})
     return results
 
