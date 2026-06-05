@@ -109,6 +109,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .jc-bullets{list-style:none;padding:0;margin-bottom:10px}
 .jc-bullets li{font-size:11.5px;color:#64748b;padding:2px 0;display:flex;gap:6px;line-height:1.5}
 .jc-bullets li::before{content:'›';color:#60a5fa;flex-shrink:0}
+/* KIT GUIDE */
+.kit-guide{background:#0f1923;border:2px solid #1e3a8a;border-radius:12px;margin-bottom:16px;overflow:hidden;display:none}
+.kit-guide.visible{display:block}
+.kit-head{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:#111c2b;cursor:pointer;user-select:none}
+.kit-head-left{display:flex;align-items:center;gap:10px}
+.kit-head-icon{font-size:20px}
+.kit-head-title{font-size:13px;font-weight:700;color:#f1f5f9}
+.kit-head-sub{font-size:11px;color:#475569;margin-top:1px}
+.kit-toggle-btn{font-size:12px;color:#475569;background:none;border:none;cursor:pointer;padding:4px 8px;border-radius:6px;transition:background .12s}
+.kit-toggle-btn:hover{background:#1a2535;color:#94a3b8}
+.kit-body{padding:14px 16px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(max-width:640px){.kit-body{grid-template-columns:1fr}}
+.kit-col{background:#1a2535;border-radius:8px;padding:12px}
+.kit-col-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.kit-col.buy .kit-col-title{color:#60a5fa}
+.kit-col.vn .kit-col-title{color:#4ade80}
+.kit-col.personal .kit-col-title{color:#fbbf24}
+.kit-item{display:flex;gap:7px;align-items:flex-start;margin-bottom:7px;font-size:12px;color:#94a3b8;line-height:1.5}
+.kit-item .ki{font-size:14px;flex-shrink:0;margin-top:-1px}
+.kit-item b{color:#e2e8f0;font-weight:600}
+.kit-note{font-size:11px;color:#475569;font-style:italic;margin-top:8px;padding-top:8px;border-top:1px solid #2d3f55;line-height:1.6}
 /* STATE ACCORDION */
 .state-toggle{width:100%;padding:8px 16px;background:#111c2b;border:none;border-top:1px solid #1e2d3d;cursor:pointer;text-align:left;font-size:11.5px;font-weight:600;color:#64748b;display:flex;justify-content:space-between;align-items:center;transition:background .12s}
 .state-toggle:hover{background:#1a2535;color:#94a3b8}
@@ -226,6 +247,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   </div>
 
   <div class="result-count" id="count"></div>
+
+  <!-- KIT GUIDE — hiện khi chọn ngành cụ thể -->
+  <div class="kit-guide" id="kit-guide">
+    <div class="kit-head" onclick="toggleKit()">
+      <div class="kit-head-left">
+        <span class="kit-head-icon" id="kit-icon">🎒</span>
+        <div>
+          <div class="kit-head-title" id="kit-title">Chuẩn Bị Trước Khi Đi Làm</div>
+          <div class="kit-head-sub">Vật dụng cần thiết · Nên mang từ Việt Nam · Đồ cá nhân</div>
+        </div>
+      </div>
+      <button class="kit-toggle-btn" id="kit-toggle-btn">▲ Thu gọn</button>
+    </div>
+    <div class="kit-body" id="kit-body"></div>
+  </div>
+
   <div class="jobs-grid" id="grid"></div>
   <div class="disc">
     <b>Lưu ý:</b> Thông tin chi phí sinh hoạt là ước tính tham khảo (2024-2025). Chi phí thực tế có thể thay đổi tùy khu vực cụ thể, số người trong gia đình và lối sống. Luôn hỏi thêm từ cộng đồng người Việt tại địa phương trước khi lên kế hoạch.
@@ -271,6 +308,215 @@ const CAT_ICON = {
   poultry:'🐓', fish:'🐟', mfg:'🏭', food:'🍔',
   hotel:'🏨', transport:'🚌', care:'🏥', other:'📦'
 };
+
+const KIT_GUIDE = {
+  poultry: {
+    label: '🐓 Gia Cầm — Chế Biến Gà',
+    buy: [
+      {i:'🥾', text:'<b>Steel-toed boots (ủng mũi thép)</b> — bắt buộc. Mua ở Walmart/Amazon ~$40–70. Chọn loại chống nước.'},
+      {i:'🧤', text:'<b>Găng tay chống cắt (cut-resistant gloves)</b> — nhiều hãng phát nhưng nên có cái riêng, size vừa tay.'},
+      {i:'👂', text:'<b>Nút tai (earplugs)</b> — hãng thường phát nhưng cần dùng hàng ngày.'},
+      {i:'🧥', text:'<b>Áo hoodie dày hoặc áo lót nhiệt</b> — nhà máy 35–42°F. Mua ở Walmart, khoảng $15–25.'},
+    ],
+    vn: [
+      {i:'🧦', text:'<b>Tất len dày</b> (woolly socks) — hàng VN rẻ hơn 3–4 lần, mang 5–10 đôi.'},
+      {i:'🧣', text:'<b>Khẩu trang vải + khẩu trang lọc mùi</b> — môi trường có mùi gia cầm. Hàng VN tốt, rẻ.'},
+      {i:'🩲', text:'<b>Đồ lót giữ nhiệt (thermal underwear)</b> — hàng TQ/VN mua sẵn rẻ hơn ở Mỹ gấp đôi.'},
+      {i:'💊', text:'<b>Dầu gió xanh, dầu cù là, cao sao vàng</b> — khó tìm ở Mỹ, rất cần khi mỏi cơ.'},
+      {i:'🧴', text:'<b>Kem dưỡng tay</b> — tay khô nứt do lạnh và rửa tay liên tục. Hàng VN rẻ hơn.'},
+    ],
+    personal: [
+      {i:'🍱', text:'<b>Hộp cơm giữ nhiệt</b> (thermos food jar) — mang cơm nhà ăn trưa tiết kiệm $200+/tháng.'},
+      {i:'💧', text:'<b>Bình nước inox giữ lạnh/nóng</b> — ít plastic, dùng bền.'},
+      {i:'🩹', text:'<b>Thuốc giảm đau (Ibuprofen/Tylenol)</b> — mỏi cơ, đau khớp thường gặp tuần đầu.'},
+      {i:'🪤', text:'<b>Wrist support (băng cổ tay)</b> — nếu công việc lặp đi lặp lại nhiều. Tránh hội chứng ống cổ tay.'},
+    ],
+    note: 'Hãng thường phát: tạp dề (apron), mũ lưới, ủng cao su dùng chung. Nên kiểm tra trước ngày đầu đi làm.'
+  },
+  fish: {
+    label: '🐟 Hải Sản & Cá — Chế Biến Thủy Sản',
+    buy: [
+      {i:'🥾', text:'<b>Rubber boots cao cổ (ủng cao su)</b> — sàn luôn ướt và có tanh. Mua ở Farm & Fleet hoặc Walmart ~$25–40.'},
+      {i:'🧤', text:'<b>Găng tay cao su dày + găng tay chống cắt</b> — cần 2 lớp: chống cắt bên trong, cao su bên ngoài.'},
+      {i:'🥽', text:'<b>Kính bảo hộ (safety goggles)</b> — chống nước văng vào mắt khi phi lê cá.'},
+      {i:'🧥', text:'<b>Áo jacket giữ ấm waterproof</b> — môi trường 35–42°F và ẩm ướt. Ưu tiên loại chống thấm.'},
+    ],
+    vn: [
+      {i:'🩲', text:'<b>Đồ lót giữ nhiệt 2–3 bộ</b> — mặc suốt ca 8–10 tiếng trong kho lạnh.'},
+      {i:'🧦', text:'<b>Tất len cao cổ dày</b> — 7–10 đôi. Rẻ hơn ở VN gấp 3–4 lần.'},
+      {i:'💊', text:'<b>Dầu gió, thuốc bổ khớp</b> — làm việc lạnh lâu dài ảnh hưởng khớp.'},
+      {i:'🧴', text:'<b>Kem chống nứt tay, dưỡng môi</b> — môi trường khô lạnh khiến tay môi nứt nẻ.'},
+      {i:'🧄', text:'<b>Gia vị VN, nước mắm</b> — sau ca mệt, cần bữa ăn quen thuộc. Mang theo loại nhỏ.'},
+    ],
+    personal: [
+      {i:'🍱', text:'<b>Hộp cơm giữ nhiệt tốt</b> — ăn trưa trong môi trường lạnh cần hộp giữ ấm lâu.'},
+      {i:'🩺', text:'<b>Thuốc đau khớp, dầu xoa bóp</b> — Tiger Balm, Salonpas patch là lựa chọn tốt.'},
+      {i:'🎧', text:'<b>Earbud chống nước</b> — nếu được phép nghe nhạc, giúp tập trung và giảm mệt mỏi.'},
+      {i:'📱', text:'<b>Ốp điện thoại chống nước</b> — môi trường ẩm, điện thoại dễ hỏng.'},
+    ],
+    note: 'Đặc thù: mùi cá rất dai. Mang quần áo đi làm riêng biệt, không mặc về nhà. Nên có túi đựng đồ bảo hộ riêng.'
+  },
+  mfg: {
+    label: '🏭 Sản Xuất — Nhà Máy & Kho Hàng',
+    buy: [
+      {i:'🥾', text:'<b>Steel-toed boots</b> — bắt buộc tại tất cả nhà máy. Có thể mua sau khi đến Mỹ ở Walmart, Academy Sports ~$45–80.'},
+      {i:'🥽', text:'<b>Safety glasses (kính bảo hộ)</b> — hãng thường phát nhưng nên có cái riêng vừa mặt.'},
+      {i:'🧤', text:'<b>Work gloves (găng tay làm việc)</b> — tùy loại: vải, da, hay cao su. Hãng thường có, nên có dự phòng.'},
+      {i:'🦺', text:'<b>Hi-vis vest (áo phản quang)</b> — cần ở kho/warehouse. Hãng thường cấp phát.'},
+    ],
+    vn: [
+      {i:'👟', text:'<b>Giày thể thao đế dày</b> — dùng trong thời gian chờ mua boots. Chọn loại đế cứng, chống trơn.'},
+      {i:'🧦', text:'<b>Tất dày đi boots</b> — 5–7 đôi. Mang từ VN rẻ hơn.'},
+      {i:'💊', text:'<b>Vitamin C, vitamin tổng hợp</b> — cơ thể cần thích nghi với lịch làm việc mới.'},
+      {i:'💊', text:'<b>Dầu gió, Salonpas (miếng dán đau)</b> — mỏi lưng, đau cơ thường gặp tuần đầu.'},
+      {i:'🍜', text:'<b>Mì gói, phở ăn liền</b> — bữa ăn nhanh sau ca đêm, trước khi quen với chợ Mỹ.'},
+    ],
+    personal: [
+      {i:'🍱', text:'<b>Hộp cơm + bình nước lớn (1L+)</b> — ca 8–12h, uống đủ nước rất quan trọng.'},
+      {i:'⌚', text:'<b>Đồng hồ bền (G-Shock hoặc tương tự)</b> — nhà máy thường không cho dùng điện thoại trong giờ làm.'},
+      {i:'🩹', text:'<b>Miếng lót giày (insole)</b> — đứng 8–10h cần lót giày êm. Mua ở Walmart ~$5–10.'},
+      {i:'🧴', text:'<b>Kem chống hăm, powder</b> — đứng lâu trong thời tiết nóng dễ bị hăm. Mang từ VN.'},
+    ],
+    note: 'Kho hàng (warehouse) khác nhà máy: kho thường không lạnh nhưng bụi nhiều. Nhà máy kim loại: bảo vệ tai và mắt là ưu tiên số 1.'
+  },
+  hotel: {
+    label: '🏨 Khách Sạn — Housekeeping & Resort',
+    buy: [
+      {i:'👟', text:'<b>Giày non-slip, đế mềm</b> — đứng và đi bộ 8–10h mỗi ngày. Mua ở Walmart, Skechers ~$30–50.'},
+      {i:'🧤', text:'<b>Găng tay cao su dùng một lần (latex gloves)</b> — dọn phòng, vệ sinh. Hộp 100 cái ~$8.'},
+      {i:'🧴', text:'<b>Kem dưỡng tay chuyên nghiệp</b> — tiếp xúc hóa chất tẩy rửa liên tục. Mua ở CVS/Walgreens.'},
+    ],
+    vn: [
+      {i:'👙', text:'<b>Đồ lót cotton thoáng khí</b> — vận động nhiều, mồ hôi nhiều. Hàng VN tốt hơn hàng Mỹ cùng giá.'},
+      {i:'👟', text:'<b>Đế lót giày êm chân (insole)</b> — mang từ VN vì loại tốt ở VN khá rẻ.'},
+      {i:'💊', text:'<b>Thuốc đau lưng, đau gối</b> — housekeeping gập người nhiều, hay bị đau lưng. Salonpas rất hữu ích.'},
+      {i:'🧴', text:'<b>Kem dưỡng da, son dưỡng môi</b> — phòng khách sạn máy lạnh/sưởi làm khô da.'},
+      {i:'💐', text:'<b>Nước hoa xịt nhẹ</b> — làm việc với chăn gối, mùi người khác suốt ngày. Mang loại nhẹ từ VN.'},
+    ],
+    personal: [
+      {i:'🎧', text:'<b>Tai nghe bluetooth nhỏ</b> — nhiều resort cho phép nghe nhạc khi dọn phòng, giúp tập trung.'},
+      {i:'🍱', text:'<b>Hộp cơm</b> — resort thường có căng tin nhân viên, nhưng tự mang cơm tiết kiệm hơn.'},
+      {i:'🩹', text:'<b>Band-aid, Neosporin</b> — vết xước khi dọn dẹp rất thường gặp.'},
+      {i:'👔', text:'<b>Quần áo mặc đi làm phụ (plain dark colors)</b> — mang 2–3 bộ từ VN để mặc trước khi mua đồng phục.'},
+    ],
+    note: 'Resort lớn như Wilderness Hotel phát đồng phục. Tìm hiểu trước về dress code. Tip (tiền boa) từ khách là thu nhập thêm đáng kể tại resort.'
+  },
+  transport: {
+    label: '🚌 Vận Tải — Lái Xe & Hỗ Trợ',
+    buy: [
+      {i:'🥾', text:'<b>Giày/boots chống trơn</b> — leo lên xuống xe liên tục, cần đế bám chắc.'},
+      {i:'🦺', text:'<b>Áo phản quang hi-vis</b> — bắt buộc khi làm việc gần đường. Hãng thường phát.'},
+      {i:'🧤', text:'<b>Găng tay vải mỏng</b> — cầm nắm hành lý, dụng cụ.'},
+    ],
+    vn: [
+      {i:'🕶️', text:'<b>Kính râm chất lượng</b> — lái xe ban ngày, ánh sáng Mỹ mạnh hơn VN. Mang kính tốt từ VN.'},
+      {i:'🧴', text:'<b>Kem chống nắng SPF50+</b> — Việt Nam có loại tốt rẻ hơn ở Mỹ.'},
+      {i:'💊', text:'<b>Thuốc đau lưng, đệm lưng xe</b> — ngồi lái lâu dễ đau thắt lưng. Mang đệm tựa lưng từ VN.'},
+      {i:'☕', text:'<b>Cà phê hòa tan VN (G7, Highlands)</b> — lái xe ca đêm cần tỉnh táo, cà phê VN dễ uống hơn cà phê Mỹ.'},
+    ],
+    personal: [
+      {i:'📱', text:'<b>Giá đỡ điện thoại trên xe</b> — dùng Google Maps, cần giá đỡ tốt ngay từ đầu.'},
+      {i:'🔋', text:'<b>Power bank lớn (20,000mAh)</b> — ca dài, điện thoại cần sạc liên tục. Mang từ VN rẻ hơn.'},
+      {i:'🍱', text:'<b>Hộp giữ nhiệt + bình nước</b> — ca lái xe khó ghé cửa hàng, cần mang đồ ăn theo.'},
+      {i:'😴', text:'<b>Gối cổ du lịch (neck pillow)</b> — nghỉ giữa ca trong xe.'},
+    ],
+    note: 'Bằng lái Mỹ (CDL nếu cần) sẽ được hỗ trợ sau khi đến nơi. Trước mắt tập trung vào bằng lái xe thường (regular license) tại tiểu bang làm việc.'
+  },
+  food: {
+    label: '🍔 Dịch Vụ Ăn Uống — Nhà Hàng & Fastfood',
+    buy: [
+      {i:'👟', text:'<b>Giày non-slip chuyên dụng</b> — bếp luôn trơn, ngã rất nguy hiểm. Mua Skechers Work hoặc Shoes For Crews ~$40–60.'},
+      {i:'🧤', text:'<b>Găng tay thực phẩm</b> — hãng thường cấp nhưng cần biết size và loại.'},
+      {i:'🔖', text:'<b>Tạp dề chống nước (waterproof apron)</b> — hãng phát nhưng nên có cái riêng gọn hơn.'},
+    ],
+    vn: [
+      {i:'💊', text:'<b>Thuốc đau chân, kem dưỡng gót</b> — đứng trên sàn cứng 8h liên tục gây đau gót chân.'},
+      {i:'🧴', text:'<b>Kem dưỡng tay không mùi</b> — rửa tay liên tục làm khô tay, dùng kem không mùi để không ảnh hưởng thực phẩm.'},
+      {i:'🍜', text:'<b>Gia vị VN nhỏ gọn</b> — bữa ăn nhân viên thường có, nhưng không hợp khẩu vị.'},
+    ],
+    personal: [
+      {i:'🎧', text:'<b>Tai nghe nhỏ (1 bên)</b> — một số nhà hàng cho phép nghe nhạc khi chuẩn bị đồ.'},
+      {i:'🩹', text:'<b>Băng ngón tay, band-aid</b> — vết cắt tay khi làm bếp rất thường gặp.'},
+      {i:'💆', text:'<b>Lăn khử mùi/deodorant</b> — làm việc bếp nóng, quan trọng với nghề này.'},
+    ],
+    note: 'Fastfood như Subway: tiếng Anh giao tiếp là lợi thế lớn. Luyện 30–50 câu giao tiếp cơ bản trước khi sang.'
+  },
+  care: {
+    label: '🏥 Chăm Sóc — Healthcare & Senior Care',
+    buy: [
+      {i:'👟', text:'<b>Giày nursing non-slip trắng hoặc đen</b> — bắt buộc tại các cơ sở chăm sóc. Dansko, Crocs Pro ~$50–80.'},
+      {i:'🧤', text:'<b>Latex/nitrile gloves hộp lớn</b> — dùng rất nhiều, mua ở Costco tiết kiệm hơn.'},
+      {i:'🩺', text:'<b>Đồng hồ có kim giây (watch with second hand)</b> — đo nhịp tim, nhịp thở bệnh nhân.'},
+    ],
+    vn: [
+      {i:'🧴', text:'<b>Kem dưỡng tay intensive</b> — rửa tay và dùng sanitizer liên tục làm khô tay rất nhanh.'},
+      {i:'💊', text:'<b>Vitamin D, B12</b> — làm việc trong nhà suốt ngày, dễ thiếu vitamin D.'},
+      {i:'😷', text:'<b>Khẩu trang N95 dự phòng</b> — hàng VN/TQ giá rẻ hơn Mỹ. Mang 1–2 hộp.'},
+      {i:'💊', text:'<b>Dầu gió xanh Trường Sơn hoặc dầu cù là</b> — khi đau đầu, mệt mỏi giữa ca dài. Khó tìm ở Mỹ.'},
+    ],
+    personal: [
+      {i:'🍱', text:'<b>Hộp cơm giữ nhiệt tốt</b> — ca 8–12h trong môi trường y tế, nghỉ giải lao ngắn.'},
+      {i:'📖', text:'<b>Sách/app học tiếng Anh y tế</b> — mang theo để học trong giờ nghỉ. Từ vựng y tế rất chuyên biệt.'},
+      {i:'🪥', text:'<b>Bộ vệ sinh cá nhân nhỏ gọn</b> — brush teeth, mouthwash sau giờ ăn, quan trọng khi làm gần bệnh nhân.'},
+      {i:'🧘', text:'<b>Kỹ năng self-care</b> — chăm sóc người khác mệt mỏi về tâm lý. Chuẩn bị tinh thần và có thói quen xả stress.'},
+    ],
+    note: 'Nhiều cơ sở yêu cầu chứng chỉ CNA (Certified Nursing Assistant). Hỏi rõ employer về yêu cầu chứng chỉ trước khi sang.'
+  },
+  other: {
+    label: '📦 Ngành Khác — Công Việc Phổ Thông',
+    buy: [
+      {i:'🥾', text:'<b>Steel-toed boots hoặc giày non-slip</b> — tùy ngành cụ thể. Hỏi employer trước.'},
+      {i:'🧤', text:'<b>Work gloves đa dụng</b> — găng tay vải/da mỏng đa năng, luôn cần có.'},
+    ],
+    vn: [
+      {i:'💊', text:'<b>Dầu gió, thuốc cảm, thuốc đau dạ dày</b> — những thuốc thông thường này rẻ và dễ mua ở VN hơn.'},
+      {i:'🍜', text:'<b>Đồ ăn khô: mì gói, cháo ăn liền, bánh tráng</b> — tiết kiệm chi phí ăn uống tháng đầu.'},
+      {i:'🧦', text:'<b>Tất, đồ lót, quần áo thường ngày</b> — hàng VN chất lượng tương đương, giá rẻ hơn 2–3 lần.'},
+      {i:'🧴', text:'<b>Kem đánh răng, dầu gội, sữa tắm yêu thích</b> — loại quen dùng, mang theo đủ dùng 1–2 tháng.'},
+    ],
+    personal: [
+      {i:'📱', text:'<b>Power bank lớn</b> — những ngày đầu di chuyển nhiều, cần sạc điện thoại thường xuyên.'},
+      {i:'🔦', text:'<b>Đèn pin nhỏ/headlamp</b> — nếu làm ca đêm hoặc sáng sớm.'},
+      {i:'🍱', text:'<b>Hộp cơm + bình nước</b> — mang cơm nhà đi làm tiết kiệm ~$200–300/tháng so với ăn ngoài.'},
+    ],
+    note: 'Hỏi agency và đồng nghiệp người Việt đã làm trước về những vật dụng cụ thể nhất cho công việc của bạn.'
+  }
+};
+
+let kitOpen = true;
+
+function toggleKit() {
+  kitOpen = !kitOpen;
+  document.getElementById('kit-body').style.display = kitOpen ? '' : 'none';
+  document.getElementById('kit-toggle-btn').textContent = kitOpen ? '▲ Thu gọn' : '▼ Xem thêm';
+}
+
+function renderKit(cat) {
+  const guide = KIT_GUIDE[cat];
+  const el = document.getElementById('kit-guide');
+  if (!guide) { el.classList.remove('visible'); return; }
+
+  document.getElementById('kit-icon').textContent = CAT_ICON[cat] || '🎒';
+  document.getElementById('kit-title').textContent = guide.label;
+  kitOpen = true;
+  document.getElementById('kit-body').style.display = '';
+  document.getElementById('kit-toggle-btn').textContent = '▲ Thu gọn';
+
+  const cols = [
+    {cls:'buy', icon:'🛒', title:'Cần Mua ở Mỹ', items: guide.buy},
+    {cls:'vn',  icon:'🇻🇳', title:'Nên Mang từ Việt Nam', items: guide.vn},
+    {cls:'personal', icon:'💼', title:'Đồ Cá Nhân & Sức Khỏe', items: guide.personal},
+  ];
+
+  document.getElementById('kit-body').innerHTML = cols.map(col => `
+    <div class="kit-col ${col.cls}">
+      <div class="kit-col-title">${col.icon} ${col.title}</div>
+      ${col.items.map(it => `<div class="kit-item"><span class="ki">${it.i}</span><span>${it.text}</span></div>`).join('')}
+      ${col === cols[2] && guide.note ? `<div class="kit-note">📌 ${guide.note}</div>` : ''}
+    </div>`).join('');
+
+  el.classList.add('visible');
+}
 
 const JOBS = [
   {n:'Hãng Cá (Alabama)', co:'Công ty chế biến cá', city:'Eutaw', state:'AL', cat:'fish',
@@ -510,6 +756,7 @@ function setJob(v, el){
   activeJob = v;
   document.querySelectorAll('[data-job]').forEach(b=>b.classList.remove('active'));
   el.classList.add('active');
+  renderKit(v === 'all' ? null : v);
   render();
 }
 
