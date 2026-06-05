@@ -22,9 +22,34 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 
 /* HERO */
-.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 20px;text-align:center}
+.hero{background:linear-gradient(135deg,#0f2a47 0%,#1a56a0 60%,#c2410c 100%);padding:24px 20px 14px;text-align:center}
 .hero h1{font-size:20px;font-weight:800;color:#fff}
 .hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
+
+/* TABS */
+.tab-nav{display:flex;gap:0;background:#111c2b;border-bottom:2px solid #1e2d3d;overflow-x:auto}
+.tab-btn{padding:12px 18px;font-size:12.5px;font-weight:600;color:#64748b;background:none;border:none;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .15s}
+.tab-btn:hover{color:#94a3b8;background:#1a2535}
+.tab-btn.active{color:#f1f5f9;border-bottom-color:#60a5fa;background:#0f1923}
+.tab-pane{display:none}
+.tab-pane.active{display:block}
+
+/* EXTERNAL CARDS (auto-fetched) */
+.ext-card{background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:14px 16px;margin-bottom:10px;transition:border-color .15s}
+.ext-card:hover{border-color:#3d5a7a}
+.ext-card a{text-decoration:none}
+.ext-title{font-size:13px;font-weight:700;color:#f1f5f9;line-height:1.45;margin-bottom:6px}
+.ext-title:hover{color:#60a5fa}
+.ext-meta{font-size:11px;color:#475569;margin-bottom:6px;display:flex;gap:10px;align-items:center}
+.ext-source{font-weight:700;padding:2px 8px;border-radius:6px;font-size:10px}
+.src-doj{background:#1a0a28;color:#c4b5fd}
+.src-dol{background:#1a2e05;color:#84cc16}
+.src-uscis{background:#1e3a8a;color:#93c5fd}
+.ext-desc{font-size:12px;color:#94a3b8;line-height:1.6}
+.ext-warn{font-size:11.5px;color:#fbbf24;margin-top:6px;padding:6px 10px;background:#1c1a08;border:1px solid #854d0e;border-radius:6px}
+.feed-meta{font-size:11px;color:#475569;padding:10px 0 6px;text-align:right}
+.skeleton{background:#1e2d3d;border-radius:8px;height:80px;margin-bottom:10px;animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
 
 /* MAIN */
 .main{max-width:900px;margin:0 auto;padding:18px 16px}
@@ -191,10 +216,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 
 <div class="hero">
-  <h1>📰 Tin Tức & Cập Nhật Chính Sách</h1>
-  <p>Theo dõi các thay đổi USCIS · DOS · NVC · DOL ảnh hưởng đến hồ sơ EB-3</p>
+  <h1>📰 Tin Tức & Cập Nhật</h1>
+  <p>Chính sách EB-3 · Pháp luật & Cộng đồng · USCIS & DOL</p>
 </div>
 
+<div class="tab-nav">
+  <button class="tab-btn active" onclick="switchTab('policy',this)">📋 Chính Sách EB-3</button>
+  <button class="tab-btn" onclick="switchTab('legal',this)">⚖️ Pháp Luật & Cộng Đồng</button>
+  <button class="tab-btn" onclick="switchTab('gov',this)">🏛️ USCIS & DOL</button>
+</div>
+
+<!-- TAB 1: Manual policy news -->
+<div class="tab-pane active" id="tab-policy">
 <div class="main">
 
   <div class="search-wrap">
@@ -224,6 +257,37 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <div class="disclaimer">
     <b>Lưu ý:</b> Nội dung trên chỉ mang tính tham khảo, được tổng hợp từ các nguồn chính thức (USCIS, DOS, DOL). Không thay thế tư vấn pháp lý di trú chuyên nghiệp. Luôn kiểm tra lại tại nguồn gốc trước khi ra quyết định.
   </div>
+</div>
+</div><!-- end tab-policy -->
+
+<!-- TAB 2: justice.gov — legal news for Vietnamese community -->
+<div class="tab-pane" id="tab-legal">
+<div class="main">
+  <div style="background:#1a0a28;border:1px solid #7c3aed;border-radius:8px;padding:12px 14px;font-size:12.5px;color:#ddd6fe;margin-bottom:16px;line-height:1.7">
+    <b style="color:#c4b5fd">⚖️ Mục đích:</b> Tổng hợp tin từ <b>justice.gov</b> liên quan đến cộng đồng người Việt và người nhập cư. Không phải tin EB-3 — đây là các vụ án, cảnh báo pháp lý để anh chị em <b>nắm rõ quyền lợi và tránh vi phạm pháp luật</b> khi sống, làm việc tại Mỹ.
+  </div>
+  <div class="feed-meta" id="legal-meta"></div>
+  <div id="legal-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+</div>
+</div>
+
+<!-- TAB 3: USCIS & DOL official news -->
+<div class="tab-pane" id="tab-gov">
+<div class="main">
+  <div style="background:#08122a;border:1px solid #1d4ed8;border-radius:8px;padding:12px 14px;font-size:12.5px;color:#bfdbfe;margin-bottom:16px;line-height:1.7">
+    <b style="color:#60a5fa">🏛️ Nguồn:</b> Tin tức chính thức từ <b>USCIS</b> (cập nhật form, phí, quy trình) và <b>DOL</b> (xử phạt employer, quy định lương tối thiểu, visa lao động). Cập nhật tự động hàng ngày.
+  </div>
+  <div class="feed-meta" id="gov-meta"></div>
+  <div class="search-wrap" style="margin-bottom:12px">
+    <input type="text" id="gov-search" placeholder="🔍 Tìm trong USCIS & DOL..." oninput="filterGov()">
+  </div>
+  <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px">
+    <button class="tag-btn active" data-gsrc="all" onclick="setGovSrc('all',this)">Tất cả</button>
+    <button class="tag-btn" data-gsrc="USCIS" onclick="setGovSrc('USCIS',this)">USCIS</button>
+    <button class="tag-btn" data-gsrc="DOL" onclick="setGovSrc('DOL',this)">DOL</button>
+  </div>
+  <div id="gov-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+</div>
 </div>
 
 <script>
@@ -489,6 +553,100 @@ function setTag(tag, el) {
 function filterNews() { renderNews(); }
 
 renderNews();
+
+// ─── TABS ────────────────────────────────────────────────────────────────────
+function switchTab(id, btn) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+  btn.classList.add('active');
+  if (id === 'legal' && !legalLoaded) loadLegal();
+  if (id === 'gov'   && !govLoaded)   loadGov();
+}
+
+// ─── EXTERNAL NEWS RENDERER ──────────────────────────────────────────────────
+function srcBadge(src) {
+  const cls = src === 'DOL' ? 'src-dol' : src === 'USCIS' ? 'src-uscis' : 'src-doj';
+  return `<span class="ext-source ${cls}">${src}</span>`;
+}
+
+function renderExtCards(items, containerId, query, filterSrc) {
+  const grid = document.getElementById(containerId);
+  if (!grid) return;
+  const q = (query || '').toLowerCase();
+  let html = '';
+  let count = 0;
+  for (const item of items) {
+    if (filterSrc && filterSrc !== 'all' && item.source !== filterSrc) continue;
+    if (q && !(item.title + item.desc).toLowerCase().includes(q)) continue;
+    count++;
+    const warn = item.source === 'justice.gov'
+      ? `<div class="ext-warn">📌 Học hỏi & rút kinh nghiệm — đọc kỹ để hiểu quyền lợi và nghĩa vụ pháp lý.</div>`
+      : '';
+    html += `<div class="ext-card">
+      <a href="${item.link}" target="_blank" rel="noopener">
+        <div class="ext-title">${item.title}</div>
+      </a>
+      <div class="ext-meta">${srcBadge(item.source)}<span>📅 ${item.date}</span></div>
+      ${item.desc ? `<div class="ext-desc">${item.desc}</div>` : ''}
+      ${warn}
+    </div>`;
+  }
+  grid.innerHTML = html || '<div style="color:#475569;padding:20px;text-align:center">Không có tin phù hợp.</div>';
+}
+
+// ─── LOAD LEGAL ──────────────────────────────────────────────────────────────
+let legalLoaded = false, legalItems = [];
+function loadLegal() {
+  legalLoaded = true;
+  fetch('data/news-legal.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(d => {
+      legalItems = d.items || [];
+      const meta = document.getElementById('legal-meta');
+      if (meta) meta.textContent = `Cập nhật: ${d.updated ? d.updated.slice(0,10) : 'N/A'} · ${legalItems.length} tin`;
+      renderExtCards(legalItems, 'legal-grid', '', 'all');
+    })
+    .catch(() => {
+      document.getElementById('legal-grid').innerHTML = '<div style="color:#f87171;padding:16px">Không tải được dữ liệu. Thử lại sau.</div>';
+    });
+}
+
+// ─── LOAD GOV ────────────────────────────────────────────────────────────────
+let govLoaded = false, govItems = [], govSrcFilter = 'all';
+function loadGov() {
+  govLoaded = true;
+  fetch('data/news-uscis.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(d => {
+      govItems = d.items || [];
+      const meta = document.getElementById('gov-meta');
+      if (meta) meta.textContent = `Cập nhật: ${d.updated ? d.updated.slice(0,10) : 'N/A'} · ${govItems.length} tin`;
+      renderExtCards(govItems, 'gov-grid', '', govSrcFilter);
+    })
+    .catch(() => {
+      document.getElementById('gov-grid').innerHTML = '<div style="color:#f87171;padding:16px">Không tải được dữ liệu. Thử lại sau.</div>';
+    });
+}
+
+function filterGov() {
+  renderExtCards(govItems, 'gov-grid', document.getElementById('gov-search').value, govSrcFilter);
+}
+
+function setGovSrc(src, el) {
+  govSrcFilter = src;
+  document.querySelectorAll('[data-gsrc]').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  filterGov();
+}
+
+// Read tab from URL hash
+const initTab = location.hash === '#legal' ? 'legal' : location.hash === '#gov' ? 'gov' : 'policy';
+if (initTab !== 'policy') {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  const targetBtn = [...document.querySelectorAll('.tab-btn')].find(b => b.getAttribute('onclick')?.includes(initTab));
+  if (targetBtn) switchTab(initTab, targetBtn);
+}
 </script>
 </div></div>
 <script>

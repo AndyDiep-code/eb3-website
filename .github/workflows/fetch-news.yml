@@ -1,0 +1,30 @@
+name: Fetch News Feeds
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # Daily 7AM UTC (2AM ET)
+  workflow_dispatch:        # Allow manual trigger
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch news
+        run: python scripts/fetch-news.py
+
+      - name: Commit if changed
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/news-legal.json data/news-uscis.json
+          git diff --staged --quiet && echo "No changes" || \
+            git commit -m "chore: update news feeds [skip ci]" && git push
