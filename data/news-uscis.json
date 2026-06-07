@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T12:01:10Z",
+  "updated": "2026-06-07T12:14:57Z",
   "items": [
     {
       "id": "631274b649f2",
@@ -14,6 +14,15 @@
       "id": "7967d971fdca",
       "title": "USCIS Opens Asylum Office in San Antonio - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ0poMnFsVjFPTUk4QUp5cXhoY19TRnhVYWRJdmNQUUhJVG9iSUNpV0RuZWktcnJtbTJVUTdqQnhRMDBnY09oU1hZV3dIWDJGV1ItNF8xdHRPaXhjQ1cxN29VNm1uV2FQZlVZR05OX0hFUVk1M2dpeUd0eDQ5bUVJT3NSUW0?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "acc3c6b14aa8",
+      "title": "I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBWdWU5Y2pndzJrX0FNblh4eWRZR05TMTlWaUxLZXpIekFvdE9qeHVhbUZwdnF6aUVQbnVQLXZIaTU?oc=5",
       "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
@@ -68,6 +77,24 @@
       "id": "ff504757c363",
       "title": "G-28, Notice of Entry of Appearance as Attorney or Accredited Representative - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1Zd01pai15WDMzTkZhM2pvd3Q2bUIzZF9PM2tXbDhaZGRLVlRkaWc2RE92cS1MQ2E4NGdDajEzVQ?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f125ba72c8d1",
+      "title": "I-131A, Application for Carrier Documentation - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE81T3JWSHJWM0JMMUtBZWVwS2tvb1U0cURscHlrVnlvWGNFZkg2YmhBVUpZLUlVX2ZsLVlkcUZGX0s0Zw?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "32f7653c1fde",
+      "title": "G-1651, Exemption for Paper Fee Payment - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBhYkZEOVZDVHVOQzlSY0FqZ2xNa1lfOEhVWXd6cVJYVk9VdXhGQW1LUVZvVS1NdVRST3hzcjFKY1k4Zw?oc=5",
       "desc": "",
       "date": "2026-06-03",
       "source": "USCIS",
@@ -245,6 +272,15 @@
       "category": "uscis"
     },
     {
+      "id": "3953e739a7ac",
+      "title": "Application for Waiver of Grounds of Inadmissibility Under Sections 245A or 210 of the Immigration and Nationality Act - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBCLWRMeDA1MDQ0NTYyMUtRUVhjR1hGeHk1dFZsZ2xYeGVUbGlpd2tKYVVLZE5sdzNHak5mLWN6U08?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "3e6169210789",
       "title": "US Department of Labor issues 4 opinion letters addressing overtime exemptions, bonuses, compensable time",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260529-0",
@@ -380,6 +416,15 @@
       "category": "uscis"
     },
     {
+      "id": "983fc8739367",
+      "title": "Online Account and Technical Support - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMlI5ZFNPXzlUTXlnMXYzQjVSa0FTcThQMzZFam1DcEpiU2ZfNzdMWmZmVEZaNFMwTjJCa1F3c09BT1FXUTZZSG9BU1A3djNUV2pRTGVWdWROWkRrMjZxNmVRWUtCbmM3OWVNb2lMRS1ucGN5TmFaQ0J2eGlXdEh6dHpEblhHV1RCcmtHY2R5VC0yamlw?oc=5",
+      "desc": "",
+      "date": "2026-05-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "76513f5a1f91",
       "title": "U.S. Citizenship and Immigration Services - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa21lbW5VazNEMXJodlBFQnBMRGttOVJVay1wZHk1WmFoOXc5dG5VaXJSbmp3NlhRWnFmSnc0el9RaVFZS0JVRVRjZG1xZUtnUDNXd1dqQ0xxdlVFMThuWkFWUDBxZU10aFdjSjhhZ0xMaDRHd0UwOVpnRVdIUDBVM1ZINFJQaGpaNFN2OVAtZWZRdFhmZHF6RnFkRi1mSER3VGlQMWtyT3VVWTA1ZFZYd1Z3RTBjNVd1WXJQWmFQZG45OGJ4NEVGUG9wdkl0V0wtX3k2andoemg?oc=5",
@@ -493,51 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE03Mlg2d1BGc1IwSlpXanoxWHlMbzlxZ3ZQQmFvWEUwcGVOYTVleGdxX181WmFiMWlXZEE1TmoxZVE2dw?oc=5",
       "desc": "",
       "date": "2026-02-27",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "bdd25184adc5",
-      "title": "R-1 Nonimmigrant Religious Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVnF4akVVdDFnbW5aTnpPVjJ2bmQzRTZ6ZU9IWmNsT3BMYnEwZzZvNVBFVEVCOEdXdlQtcWpxa2hTSC1EYVRPVk1RUmVXRmw3aXpqVFpaUlVWQ1BQMWVPa3RnaTludzVVYlEzNFhhY1BqODdWRmx6YVAteDBhUURVTXdmMWx1U1JvTXZBd09LbWo4aUlEYUVqenI0ZElZS2JGWXByVC1B?oc=5",
-      "desc": "",
-      "date": "2026-02-27",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "48f565b5702e",
-      "title": "Petition Filing and Processing Procedures for Form I-140, Immigrant Petition for Alien Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaHBseTA5bEt3ZmlqNWpjUXVuQ1F5dlBfRS1NZFROaGZGbTZOcGF4dmJlMDRWUzN4aGM5ZGRWTVJicGlsREJOYUh6OHZPa2RJV1plUXVxUllaUW1yWG55NHdBTk9lLVdaemFvVTRYcmg5ZzRRcThTWllybXNHU09BT3FLUlE5Zzd2OExOcFNiR05EYl9uNmZBOXpmTmg5WUViRFd5aW5UeUI2VWU0N200c0RsUVNFNGstUExTTjVnQzNBNXZJUTZQeENIcw?oc=5",
-      "desc": "",
-      "date": "2026-02-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3d462a61721c",
-      "title": "Filing Fees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UVGdfZlhWQXpzODY5YlpYQUZnOWhSRks1dG1tdWRFdXJaYWZGNzhmM2xnbDJWSVctOGZXZHRXYmtVRGlwRlB3bFBDOUNnemR0?oc=5",
-      "desc": "Filing Fees&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-02-12",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1fffde47bbd6",
-      "title": "Special Immigrant Religious Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3I1Z2ZPUzJrbjBQSjlUWFhrLVJCZXJyV1VKLVVZX1JCdlhKUzE1bHNPQl80VnNXVFcxaldWaGM4TDljX2ZpVWZlZUJIWjFoaXhPdzlUdmJadnVnbUxGWXlyX3dKUlNiMTNJdlp4ZGVobUFfaDR5QzgyV0RrTVlINlNhbHBrWTJoN0o3NmxIc0I2anFVNVdIM2h0TlBoZ2hnblNKMEtXcGR1Q3J6VFhmck1jdE1hanBMTjJfVXo1cEF4TWpPdkNqLUc2ZWFCZEVQcVZSZnhILXJGSVplLXU2TFhZbGx6cG1ETWZpbA?oc=5",
-      "desc": "",
-      "date": "2026-02-09",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4ada012361d8",
-      "title": "Optional Practical Training Extension for STEM Students (STEM OPT) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUTBob2tWOWdEUjBWaGIzeEx6MXdNcnJSZ0hIWHltSHpWUDJBNjVCUzl2aTFqNkZsUUx5VkoyVm5DV3EwM1cyeVBxTE5LWHNwNm1ZNWhXaks3MUJwczZabGtxcnpGQmFoVldRZjZrellNVW9fOTdGYndCSl93ekR4d3ZkVXJaZUEyWHo3NEhQNHpJVnM2STdjN3VqcmlCYUtjVkNHM1djTE9vMGNaSGJLMHNfOGVoSElEUklQSGp5RzMzTGZtam9IdkE1NkZUWGdtY0NrVVYzX1dGQ1ZHMkww?oc=5",
-      "desc": "",
-      "date": "2026-01-30",
       "source": "USCIS",
       "category": "uscis"
     }
