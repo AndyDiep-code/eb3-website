@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T12:14:57Z",
+  "updated": "2026-06-08T18:09:17Z",
   "items": [
     {
       "id": "631274b649f2",
@@ -23,6 +23,24 @@
       "id": "acc3c6b14aa8",
       "title": "I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBWdWU5Y2pndzJrX0FNblh4eWRZR05TMTlWaUxLZXpIekFvdE9qeHVhbUZwdnF6aUVQbnVQLXZIaTU?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3b8d46b3a040",
+      "title": "I-693, Report of Immigration Medical Examination and Vaccination Record - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1pYkdFR045Wk12dVMxRjdxX05tcEgzNXNDU2hTZlZmVVpaLVRxdG1pU0tiY1c1UjVpYmZLTURlaUo?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "8b39b7cb00a4",
+      "title": "I-508, Request for Waiver of Certain Rights, Privileges, Exemptions and Immunities - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBHdmhqTWQwNzRGT0JiOC1EOWxIRGJDeWQxdUE2QkRmSlhRZEJKRDJoMV90VTdzREl5RlJuMV9KQ3I?oc=5",
       "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
@@ -95,6 +113,15 @@
       "id": "32f7653c1fde",
       "title": "G-1651, Exemption for Paper Fee Payment - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBhYkZEOVZDVHVOQzlSY0FqZ2xNa1lfOEhVWXd6cVJYVk9VdXhGQW1LUVZvVS1NdVRST3hzcjFKY1k4Zw?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "821511bcb82c",
+      "title": "I-134, Declaration of Financial Support - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE56X1hmeXZTWTE5X0VWeWNxdTVPTHNWSFlfWG42VXRaU1lDTVliOWpMUGpqMTJjMmxEb1ZNS2FDbjE?oc=5",
       "desc": "",
       "date": "2026-06-03",
       "source": "USCIS",
@@ -281,6 +308,24 @@
       "category": "uscis"
     },
     {
+      "id": "f9798eda1d01",
+      "title": "Service Centers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56YThjeC1rOFk1Y241RWI1SExCWWVoSGRHel9OZFFfaW0xaWg4NVFQVllPZl85ODRkMVBGYUEtd2F5cU1JXy02Uzl5aHotanR1cE5fbw?oc=5",
+      "desc": "Service Centers&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e7672cf655ee",
+      "title": "I-601A, Application for Provisional Unlawful Presence Waiver - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1OMl9PeWtRSEswV29BRUVYNXZwRDlhVmUzU0x5dk5QTUt1YnJWTmJ2Sk94ck82VG1IUWMxaUUwb1J5dw?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "3e6169210789",
       "title": "US Department of Labor issues 4 opinion letters addressing overtime exemptions, bonuses, compensable time",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260529-0",
@@ -357,6 +402,15 @@
       "title": "DHS Automatically Extends Temporary Protected Status for Lebanon - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUGpMRG9lcnE5alFiTGJsclJSekpfT0IyeDB3OWdmTmp1aHpKeHM4UW9SXzZUUmtCaTJfdVhWeUl0SllBTTBKREQ0Y1lnTHFIZV9JalBqTjg0UDYyN1hVdTYwcDNZamFmeUJJWjFSTHdzd1lhek00a3I4N1hsazRrWEtwZ1JqRGgxalJfakVuZmRvSWhCM3pYWWZaNGxTY2NVai1RXw?oc=5",
       "desc": "",
+      "date": "2026-05-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1cf755b9d784",
+      "title": "Temporary Protected Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
+      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-05-28",
       "source": "USCIS",
       "category": "uscis"
@@ -443,11 +497,11 @@
       "category": "uscis"
     },
     {
-      "id": "3b8d46b3a040",
-      "title": "I-693, Report of Immigration Medical Examination and Vaccination Record - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1pYkdFR045Wk12dVMxRjdxX05tcEgzNXNDU2hTZlZmVVpaLVRxdG1pU0tiY1c1UjVpYmZLTURlaUo?oc=5",
+      "id": "db7895f05877",
+      "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
       "desc": "",
-      "date": "2026-04-23",
+      "date": "2026-04-28",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -484,60 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mMjhQWUpTY3VYUG9yN05aX1dpTjgySWZMeTJHWkt4X1VoN3NSLWlhc0h2MDExVjAwWE9TUjhlQnI5UDJTaVFERkhqcG9Yb0FSbTRsWXpn?oc=5",
       "desc": "Special Immigrant Juveniles&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-04-16",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4590071633e8",
-      "title": "H-1B Cap Season - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU2xVT0Y5MEpIaU1UX0N4MTRUQ0VMOExWNzlnYUNiS29PUlpKMXhtcDdPZkoxOTBTTndxQ0Y5UTZKb0M2SklycHZJb1NSblBseEJKNEpUcFZ4MHJDc0pQVzZRdlBkNW1qN1FrUk54VzdlTzdLNWtOLVIxWVZKUVM3U1lSeHp2SDVyaHkxaUdxX0QyNnZUUXpraHpZRXBUenR4cVgtNjF4ZVg4YmY0c0JHVg?oc=5",
-      "desc": "H-1B Cap Season&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-04-08",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "5e4efa49ef4a",
-      "title": "I140_I360_I526_app_wait_vis - USCIS - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlhJYXBfczhYY1Uzb1Fic1lVOWFHUDVCaUM5WWRTM09Iam40eWp1OHdVUmlaR2k5RXdFWmtaS3BqdTBJS1BlekNVbE5yQ2JoUDAyWllpZ0UxWWxkQ1VLdldqZkJXZEdCa1RWRm4wUmhNOUE1WTJXZzZPZ1Q1MGZaQVRsR2p0Y3lZZ1hYOHMzRlN2SDE2MjlpSU9xX0FvMlFrei1SbDZoajRIOGls?oc=5",
-      "desc": "",
-      "date": "2026-03-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2ff4741392c6",
-      "title": "How Do I Request Premium Processing? - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hMlNwd3B0Qnc0bUprektXUHlMeURqWG5lV2tZc3NDNEZrMzFQYTJxUE5sRGs0VVA1WkxrNWwtal9BcXNsdEhXb296QnBGQjltcVhud1pucWp3aktVOC1PXzJMaXhBeUFzb00tVmphRGEwNV9GV19MemFBcFpadw?oc=5",
-      "desc": "",
-      "date": "2026-03-23",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2bb6da2cffed",
-      "title": "When to File Your Adjustment of Status Application for Family-Sponsored or Employment-Based Preference Visas: April 2026 - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxONW5sWThSMmJmVlUtRlVsM2c5dDNpRUtlTndMd2Vmek91M29fSGpjU05RZ29fdkhDeTd1VFJGX1dXYlY0SFdVb19TX2U4MDJyU0lpeDhDTjIzU3QtZkplVHVQVmwxYVRJbng5Z0tiUURfRWpsZWdGOHpMbUhsQXpaSWhwM3Qxako5UDFKZzBNWmcwMS1iSy15WlB1TGMwQVRkcF96clJVZnBhc0R3V0dqc1J4QU43Z3plWHNudkRLeG1wamNxSkI2eW5ON0pzdUtRNmZYNlBGMTdGcldoVFA2Y0t1RW1WOTVfc0pqTlM3OUp5MGpBTElhbi1MdndVeFpJbXhBTTBva0lOcFhHS1JHRzBLS3NFNHBubWttUUZqMVJyMVk?oc=5",
-      "desc": "",
-      "date": "2026-03-17",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "76563967cd6f",
-      "title": "I-9 Central - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKa19LdVFRNUpFOTRtU1l1em8xVDRmVWtzZDB6SS1reVdRNEJDSy0zVG14TzVxdmdTTHRVaWMxbjFzNmVKaEJfUA?oc=5",
-      "desc": "I-9 Central&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-03-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6479d7f0ac49",
-      "title": "I-864P, HHS Poverty Guidelines for Affidavit of Support - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE03Mlg2d1BGc1IwSlpXanoxWHlMbzlxZ3ZQQmFvWEUwcGVOYTVleGdxX181WmFiMWlXZEE1TmoxZVE2dw?oc=5",
-      "desc": "",
-      "date": "2026-02-27",
       "source": "USCIS",
       "category": "uscis"
     }
