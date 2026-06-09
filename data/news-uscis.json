@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T18:09:17Z",
+  "updated": "2026-06-09T17:09:25Z",
   "items": [
     {
       "id": "631274b649f2",
@@ -41,6 +41,33 @@
       "id": "8b39b7cb00a4",
       "title": "I-508, Request for Waiver of Certain Rights, Privileges, Exemptions and Immunities - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBHdmhqTWQwNzRGT0JiOC1EOWxIRGJDeWQxdUE2QkRmSlhRZEJKRDJoMV90VTdzREl5RlJuMV9KQ3I?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d8ca2c3def6e",
+      "title": "I-730, Refugee/Asylee Relative Petition - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE4zdUlnSUcxX3pBSmtMcDJDcmZUNmRHNUNqTU1KZ1VSX2lfbWxuM0J6clhqS2FVcFpVUFZHTkRFYXU?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f79aa989c02b",
+      "title": "N-648, Medical Certification for Disability Exceptions - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96X2VySE10LS10dW5pOXNnc2FIMWM4cjVTejJ4ZC03MUdNY2V3X0MwT0FDX1czWVB2RFJvaVVNUTA?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3149a5365e53",
+      "title": "I-865, Sponsor's Notice of Change of Address - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE95QnpnVTlrLUVWUHFxMi1lcF9WWTJwVFFQUnZZanBPRVhTZnp4Y2prOTgtNGdlVllyZjhLSmhKNzU?oc=5",
       "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
@@ -326,6 +353,15 @@
       "category": "uscis"
     },
     {
+      "id": "3979dc61ad3f",
+      "title": "I-601, Application for Waiver of Grounds of Inadmissibility - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBLM1lERjZPWVVDQ2xZUVd2cXNEY24tamxOeE5Ba0V0Ym1XQzVIbWkwVXZEZFZnQkRvbzN2LWNMSzY?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "3e6169210789",
       "title": "US Department of Labor issues 4 opinion letters addressing overtime exemptions, bonuses, compensable time",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260529-0",
@@ -479,65 +515,29 @@
       "category": "uscis"
     },
     {
+      "id": "a221b8d34ea6",
+      "title": "Update on Termination of TPS for Somalia (Release: May 15, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT0E1OHExZjcyQ2hwb05tYVBQT0ZHM2htSXI3c28tY3ZGUW8wZEt6aVNKTDdTR2xQT0lMRWdUSnJzOVVUb2tXZC1Ub0piTGF2UVVNdWZwUkNmcUxyUEZZaExZcUhiRWZLTXJyamdNRmlzUi1EeEFCMEw4cTBpdVJrSzZJTmt6eUExZnZkMTY2azRDQlVndnAzLXZDQnlYT0haY21VaUx4cE9panJmeTViOG1FbTlUekk?oc=5",
+      "desc": "",
+      "date": "2026-05-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "bf97dacd9afd",
+      "title": "How do I Reset My Password? - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaWpNMjZXaGphZVNPOTc5VkNoRHF6YldGOFhaSzVXQ3RndUNZTWxvbTJ1cllqek5PTEd0R3hmSlZ3X0RIc00waGp5WjVSdFdGTG1kUm4xU3RZSkNSQ09FMzd4UDRhcjY0N3RablB0X2VPSHZWYjlSM3RSSjJxT2hYTTE3d1NkNkYyUDk1MHlZUnA3NFJfUktxZkZKY3plOUhsaTBXRl9PSXR0OUJYY0w4bXFoWTVVQ2dG?oc=5",
+      "desc": "How do I Reset My Password?&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-05-13",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "76513f5a1f91",
       "title": "U.S. Citizenship and Immigration Services - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa21lbW5VazNEMXJodlBFQnBMRGttOVJVay1wZHk1WmFoOXc5dG5VaXJSbmp3NlhRWnFmSnc0el9RaVFZS0JVRVRjZG1xZUtnUDNXd1dqQ0xxdlVFMThuWkFWUDBxZU10aFdjSjhhZ0xMaDRHd0UwOVpnRVdIUDBVM1ZINFJQaGpaNFN2OVAtZWZRdFhmZHF6RnFkRi1mSER3VGlQMWtyT3VVWTA1ZFZYd1Z3RTBjNVd1WXJQWmFQZG45OGJ4NEVGUG9wdkl0V0wtX3k2andoemg?oc=5",
       "desc": "",
       "date": "2026-05-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1ed01c73899d",
-      "title": "DHS Announces Consequences for Unpaid Annual Asylum Fees, Unveils New H.R. 1 Requirements - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdnVSUThoNGY0R1VHWS1hS1RNbDYtRl9FSlNiNm05cU0yandDdkJWY3U4NFZ6Nm42Zm1JdUZGZXlXQmxZOFoxaVdzRGlLcUh5ejQyZVhMbVNlcTQ1QW5sUGNpVWltT2VSZ2FPMGVyQVZPbUNFR1RXeHNJMFhLVEowRjg5S1dtYjV6dWZkVExDM0FVa1JTYnNGYXFfYTZ1X2RzeDJJTVlBQUhPNzRvNlJQWDllaDgzbDF0Ym0xcTJ6Rk52UQ?oc=5",
-      "desc": "",
-      "date": "2026-04-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "db7895f05877",
-      "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
-      "desc": "",
-      "date": "2026-04-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ae0a6ac33f0e",
-      "title": "USCIS Contact Center - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBETHBGMDM2Qk0zd3MxbmVIdUhucUpQTnNyV3FwVVdxRGo4OENFUTRwQk82Wl9pNzd0MG05UFVrWV9rMGZranBMZVUtZw?oc=5",
-      "desc": "USCIS Contact Center&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-04-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "92447f73db3d",
-      "title": "Check Your Eligibility to File Form I-539 Online - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5WdHo1NS1QX0V4ci0xcWFVbjgtTU9wMjd5R1pteS1RMjkyUVd5aU5EaTAxbkFicXp0TmNNaUJCVVQ1bFV1RDVz?oc=5",
-      "desc": "",
-      "date": "2026-04-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "8dfc85b5faa4",
-      "title": "Field Offices - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yY2lyZVBueGFIRm1MY1NjQlhDSUhDUG85QzJEODhwX1hSVVItRlktZG1wRmEwX3lVbmoxNEhMcVRnQllBa05RU2ZDVWJheTZ0UGlDYkY4bTd4enNneXJGZk5QWC0tWUdudkRuNDdIN09VZw?oc=5",
-      "desc": "Field Offices&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-04-17",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "cd1fc820941e",
-      "title": "Special Immigrant Juveniles - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mMjhQWUpTY3VYUG9yN05aX1dpTjgySWZMeTJHWkt4X1VoN3NSLWlhc0h2MDExVjAwWE9TUjhlQnI5UDJTaVFERkhqcG9Yb0FSbTRsWXpn?oc=5",
-      "desc": "Special Immigrant Juveniles&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-04-16",
       "source": "USCIS",
       "category": "uscis"
     }

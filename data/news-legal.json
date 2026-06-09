@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T18:09:17Z",
+  "updated": "2026-06-09T17:09:25Z",
   "items": [
     {
       "id": "53361bd3852c",
@@ -7,6 +7,15 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUFV5M00yLVZjVDZWUENRcnFIeDFhSkwzX243N1Bub0h3azlQbW5RZWE1T2FXUDZ4aDl6XzNQc3RIWTJyWkNzejBSQVR0RWwtNmpaV1RaN1dtOFZzZExHaS1rWGRodUNIdUJadEZKWDdqVnhIaENpdjMwZDg2UzNMVkNzV2w?oc=5",
       "desc": "",
       "date": "2026-06-03",
+      "source": "justice.gov",
+      "category": "legal"
+    },
+    {
+      "id": "71f7b95196a4",
+      "title": "District of Massachusetts | Eleven Indian Nationals Charged with Visa Fraud Conspiracy - Department of Justice (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcldoRnRWOXZnZnlpcVBCTmdpci1DUXZJWUFIeEEyRkJkM0RuZ0kwREVjM1hFVk9ieG84TmVDNnRJejltVG10bFI0T0V3RFhSeGJUUmZlRXRuNE5YdnRqLVR3YXJBNUNhTUhrMUlRZExJc3V3NERfSlNZWUdoUkY1NW12dXhPVHYzUjFBeTF4MUwtUQ?oc=5",
+      "desc": "",
+      "date": "2026-03-13",
       "source": "justice.gov",
       "category": "legal"
     },
@@ -92,6 +101,15 @@
       "category": "legal"
     },
     {
+      "id": "7ab4446666a6",
+      "title": "Twelve People Charged for Their Roles in International Alien Smuggling, Asylum Fraud, and Money Laundering Conspiracies - Department of Justice (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTjJpMEZ0WW9XOEtKZWh6SnppZk1WVlNBMTA0YjRpSVpULUQtMmZJakh5dEdUR1FUdFVsVktmRWl4V2dmNDNJYldNODAzTEJkR1N4bjR0V2pSRGw3T2JhV1pmWk9RZ0FWTU9TS0l4SHJIUlRReDV2d2NaVTZUVHVkTFZQZUhMZjhHb28wSjhoYmxuV2tPN3hQODUybzZMMVVYd2prb056NEF4WG5SZFBVOEt6X19lRVlU?oc=5",
+      "desc": "",
+      "date": "2025-09-04",
+      "source": "justice.gov",
+      "category": "legal"
+    },
+    {
       "id": "7d58a3ba3c32",
       "title": "Southern District of California | Couple Charged in Cross-Border Identity Theft and Immigration Fraud Scheme - Department of Justice (.gov)",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWFRoLVpicGVlVmFCXzBSMWZMN1NUWHgyMWJDeVhIMXBOd0l5SDJYVHhfcTBpWTk1eUxYWkZWeGlpZktyYUJmMXFTRkFtdlJjWW1LTFl0S1J2X0JRSEJjM3BLMnF1LWdfcXRrS0U3eUgyRG9UWUhGV1hwbjB4cDd1X1ZpaEYzZ096Rkw0S0pDc1UtaG10aTNtN0lObzRGN2VtaGJtX2NfeDNBRGFa?oc=5",
@@ -128,11 +146,29 @@
       "category": "legal"
     },
     {
+      "id": "b0f277da63a6",
+      "title": "Law Enforcement Officers and Louisiana Business Owner Indicted on Charges of Bribery, Conspiracy to Commit Visa Fraud, and Mail Fraud - Department of Justice (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQmdDWDVCRU0tMFRSemJUWGtWRXVCWXdBLWFrdTJUWHpjUXUtUVc1YUhjX1BGR2dYeFlRWk9nWVZpWjFIbktGV0FSR3cxaTVIZnlBWlY3MnlPZ2ZmQmM0V2k5aDdSNlYzMHlaVUVVRTFjemV5TlBNSFRsM1BKWHdVRkwtdXhZdWFLUUVQN1JKSVFwVEFNYkYtRHdyVVB3MndBRnBWdE1aQnRSLTRGYzVrNUZqZXp4Zw?oc=5",
+      "desc": "",
+      "date": "2025-07-16",
+      "source": "justice.gov",
+      "category": "legal"
+    },
+    {
       "id": "d1c3cd36ec9d",
       "title": "Vietnamese National Sentenced to Prison for Using Stolen Identity of Deceased Child for Six Years - Department of Justice (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMWdNbXFSb2o0VjFPeU0xVXFnUmRZT1lrRlp1WGlsY3lpUmRxek5ndXQ3ZmhkQ0lHaFA5RGdRaFA4ZHRNUWVfN3Y4SWVfTnZqZGZ1UjRic1hqLW4ydUxETExDbm93LWNzcGlfZzJPaE9STmxMZmtDc0EtZV8yYlJfQzRrQ2NmRXIwaU1FTmpWLWNIeW4wTzJQSG5vSldZUEtzaVVyZ0V6ZFMtQnRQMEdueENxWkU4NG1KYmc?oc=5",
       "desc": "",
       "date": "2025-07-10",
+      "source": "justice.gov",
+      "category": "legal"
+    },
+    {
+      "id": "2aac6559721a",
+      "title": "Two Texas Residents Operating a Visa Racket Indicted for Visa Fraud, Money Laundering, and RICO Conspiracy - Department of Justice (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOME9rdTZCaFQ1YU53MVlwRFowOGp3X2hhR2VYS0dyS1o2Q0wwOFJubGN4bkVQZ0ZPN29Xajc3S0pMbEg2V3h6eG9sTm56a096bGxoY0ZLbFJHaFV5UUVjRmppNHB0bVNFYW8tVzROM193LXZCRXAydnN2a0ttUUtscFMxcHV4dl9HYU5JMGNLaThfTkNSVm8yaTZzSGNseEdzTkxiVmZ5dUY5Z2VYbUlnYW5US3ZlNGdud2k4?oc=5",
+      "desc": "",
+      "date": "2025-05-23",
       "source": "justice.gov",
       "category": "legal"
     },
