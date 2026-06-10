@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-09T17:09:25Z",
+  "updated": "2026-06-10T18:11:01Z",
   "items": [
+    {
+      "id": "608bdbc18c72",
+      "title": "US Department of Labor announces $10.5M funding availability to support mine safety, health training for nation’s miners",
+      "link": "http://www.dol.gov/newsroom/releases/msha/msha20260609",
+      "desc": "WASHINGTON – The U.S. Department of Labor today announced its&nbsp;Mine Safety and Health Administration is making $10.5 million in grant funding available to help states provide mine safety training for the nation’s miners.“Through our ongoing commitment to safety training, we&n",
+      "date": "2026-06-09",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "631274b649f2",
       "title": "Acting Secretary Sonderling statement on May jobs report",
@@ -362,6 +371,33 @@
       "category": "uscis"
     },
     {
+      "id": "fd46c8518f77",
+      "title": "Application for Permission to Reapply for Admission into the United States After Deportation or Removal - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9hRVhZSllEcVV3RjVRMXVOV0lKbHFoQzRqMGlTdXlIQ1ZpMXJDaHYwWm5PTHVCS3U4Y2x5U2Z2aTc?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "413c4c680225",
+      "title": "I-821, Application for Temporary Protected Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OYnZMRTZLcTdSX2lGbjYwX212ZG1adHByYUpuZXUydks0NWY5M2FZeWZtWlNmc3ZvakY5c3ZuM2Y?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "0252cd903009",
+      "title": "I-192, Application for Advance Permission to Enter as a Nonimmigrant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1RcVNNY01pMF9Cb0ZnejBwR2NKYUVlaGlOb2E0eV9rbTBoWlBVQk1uYUNWQ1BBaUZHQVpGRENuVTU?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "3e6169210789",
       "title": "US Department of Labor issues 4 opinion letters addressing overtime exemptions, bonuses, compensable time",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260529-0",
@@ -502,42 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVFMbkxpRTJQd3I0UEh3a015bTFhZ0hpR3NxQ3NVZXdEREIyR0lpMWoxblhVWGE4d1FSRVk5b0FyVHpWTVJRelFCR2FJNHNRNGYyLVhvWGtTSzhaQXlGVUVxeDFJOENKQ0RNZ0pVakk5bDBzbTVUR1ZlOG9ZV0dDM1dUWnF5c3ZvTzhMdU5tRmlJYzU2YkRJOXk0SGxvaEl0ZkdleXFUcG0zYTJE?oc=5",
       "desc": "",
       "date": "2026-05-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "983fc8739367",
-      "title": "Online Account and Technical Support - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMlI5ZFNPXzlUTXlnMXYzQjVSa0FTcThQMzZFam1DcEpiU2ZfNzdMWmZmVEZaNFMwTjJCa1F3c09BT1FXUTZZSG9BU1A3djNUV2pRTGVWdWROWkRrMjZxNmVRWUtCbmM3OWVNb2lMRS1ucGN5TmFaQ0J2eGlXdEh6dHpEblhHV1RCcmtHY2R5VC0yamlw?oc=5",
-      "desc": "",
-      "date": "2026-05-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a221b8d34ea6",
-      "title": "Update on Termination of TPS for Somalia (Release: May 15, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT0E1OHExZjcyQ2hwb05tYVBQT0ZHM2htSXI3c28tY3ZGUW8wZEt6aVNKTDdTR2xQT0lMRWdUSnJzOVVUb2tXZC1Ub0piTGF2UVVNdWZwUkNmcUxyUEZZaExZcUhiRWZLTXJyamdNRmlzUi1EeEFCMEw4cTBpdVJrSzZJTmt6eUExZnZkMTY2azRDQlVndnAzLXZDQnlYT0haY21VaUx4cE9panJmeTViOG1FbTlUekk?oc=5",
-      "desc": "",
-      "date": "2026-05-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "bf97dacd9afd",
-      "title": "How do I Reset My Password? - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaWpNMjZXaGphZVNPOTc5VkNoRHF6YldGOFhaSzVXQ3RndUNZTWxvbTJ1cllqek5PTEd0R3hmSlZ3X0RIc00waGp5WjVSdFdGTG1kUm4xU3RZSkNSQ09FMzd4UDRhcjY0N3RablB0X2VPSHZWYjlSM3RSSjJxT2hYTTE3d1NkNkYyUDk1MHlZUnA3NFJfUktxZkZKY3plOUhsaTBXRl9PSXR0OUJYY0w4bXFoWTVVQ2dG?oc=5",
-      "desc": "How do I Reset My Password?&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-05-13",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "76513f5a1f91",
-      "title": "U.S. Citizenship and Immigration Services - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa21lbW5VazNEMXJodlBFQnBMRGttOVJVay1wZHk1WmFoOXc5dG5VaXJSbmp3NlhRWnFmSnc0el9RaVFZS0JVRVRjZG1xZUtnUDNXd1dqQ0xxdlVFMThuWkFWUDBxZU10aFdjSjhhZ0xMaDRHd0UwOVpnRVdIUDBVM1ZINFJQaGpaNFN2OVAtZWZRdFhmZHF6RnFkRi1mSER3VGlQMWtyT3VVWTA1ZFZYd1Z3RTBjNVd1WXJQWmFQZG45OGJ4NEVGUG9wdkl0V0wtX3k2andoemg?oc=5",
-      "desc": "",
-      "date": "2026-05-05",
       "source": "USCIS",
       "category": "uscis"
     }
