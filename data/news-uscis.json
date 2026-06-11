@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-10T18:11:01Z",
+  "updated": "2026-06-11T18:36:35Z",
   "items": [
+    {
+      "id": "bcf237966400",
+      "title": "Acting Secretary of Labor Sonderling advances US priorities at G7 meeting in Geneva",
+      "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20260610",
+      "desc": "WASHINGTON – Acting U.S. Secretary of Labor Keith Sonderling advanced President Donald Trump’s efforts to strengthen the American workforce, support the resurgence of U.S. manufacturing, and expand economic opportunity for American workers and businesses, while participating in t",
+      "date": "2026-06-10",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "608bdbc18c72",
       "title": "US Department of Labor announces $10.5M funding availability to support mine safety, health training for nation’s miners",
@@ -9,6 +18,15 @@
       "date": "2026-06-09",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "d1c6c266383a",
+      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
+      "desc": "",
+      "date": "2026-06-09",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "631274b649f2",
@@ -78,6 +96,15 @@
       "title": "I-865, Sponsor's Notice of Change of Address - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE95QnpnVTlrLUVWUHFxMi1lcF9WWTJwVFFQUnZZanBPRVhTZnp4Y2prOTgtNGdlVllyZjhLSmhKNzU?oc=5",
       "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "246fb820ae9c",
+      "title": "I-945, Public Charge Bond - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9XVXpiNHVnUGJoN21kcUxqMUNVQUVWbUpkM09wSzZ2Z2sxYVgwc1diZTJNcndVanB0SmdpVkJ6cmU?oc=5",
+      "desc": "I-945, Public Charge Bond&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-06-05",
       "source": "USCIS",
       "category": "uscis"
@@ -185,15 +212,6 @@
       "id": "d1732a553612",
       "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d1c6c266383a",
-      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
@@ -522,24 +540,6 @@
       "date": "2026-05-21",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "a3f41dde60c8",
-      "title": "Forms Updates - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ydW9GcVJ1ZmgxaVppOUcxYUd0X3J4WGFOdTM1UGk0VXpyZnJCZ00wUUFXM2swMDFEMnFvcmxIdkliNWFaMFYzV2xvaEYyLWNHbnFqVHZvbHl4RE5xaHVTYmJyMUQ4bEJJUll5RnlSLVl5d053WFRMeTVUYWVyTG8?oc=5",
-      "desc": "Forms Updates&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-05-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ecb45f2f4d9d",
-      "title": "H-2B Temporary Non-Agricultural Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVFMbkxpRTJQd3I0UEh3a015bTFhZ0hpR3NxQ3NVZXdEREIyR0lpMWoxblhVWGE4d1FSRVk5b0FyVHpWTVJRelFCR2FJNHNRNGYyLVhvWGtTSzhaQXlGVUVxeDFJOENKQ0RNZ0pVakk5bDBzbTVUR1ZlOG9ZV0dDM1dUWnF5c3ZvTzhMdU5tRmlJYzU2YkRJOXk0SGxvaEl0ZkdleXFUcG0zYTJE?oc=5",
-      "desc": "",
-      "date": "2026-05-15",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
