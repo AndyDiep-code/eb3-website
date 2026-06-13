@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-12T17:28:17Z",
+  "updated": "2026-06-13T12:19:18Z",
   "items": [
+    {
+      "id": "c68822478290",
+      "title": "United States Seeks Mexico’s Review of Alleged Denial of Workers’ Rights at Newmont Minera Peñasquito, S.A. de C.V.",
+      "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20260612",
+      "desc": "WASHINGTON –&nbsp;The United States has invoked the Rapid Response Labor Mechanism (RRM) in the United States-Mexico-Canada Agreement (USMCA)&nbsp;to review whether workers at Newmont Corporation’s Minera Peñasquito, S.A de C.V. (Newmont Peñasquito), located&nbsp;in the state of ",
+      "date": "2026-06-12",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "a28c58e331e5",
+      "title": "Court Order on Hold Policies - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHWGtVSXBpX2NLOEdIMkVwTnh1VmxRS3p2aTUyN1Zucm80MFpDZzliNVgyaTNsejQ2VWZEMUQzQV91a205U2VRak4zTWZFTmZxM0ZETG9iSmJHSi1xcjA5SzdHMGNkSThkZHpacG1NbGhjSG5p?oc=5",
+      "desc": "Court Order on Hold Policies&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-12",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "116f4c5f108d",
+      "title": "Justice Department Moves to Strip U.S. Citizenship from 17 Naturalized Sex Offenders, Fraudsters, Drug Dealers, and More - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFlJS0hGc25lYVRMYVVpZXF6dktkeGxFUWJhS19lWjFTYUhFM3h2dE1taTMwczhGUGxFVms1VlIydDdPYm5QWHV2VDZ3cmx2Y0liQmJLOEhCR0EtS1pITlV4VWhqT00zdy1CRGFIWS16U0hjTkVvNkwwLTZxQnNjZ3hIa1RrZE9sSGRENklOWlBnTmtfa21fVVVaSnR1NmRzZjFJUFVWWlA3b3F6MGFZWUhyNGxFOEd5UnM0VEZzRHh1ZWI4TGc0dE1vQjJaT3V0T0FXLTBUVUNtNm8?oc=5",
+      "desc": "",
+      "date": "2026-06-12",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "bcf237966400",
       "title": "Acting Secretary of Labor Sonderling advances US priorities at G7 meeting in Geneva",
@@ -511,33 +538,6 @@
       "link": "http://www.dol.gov/newsroom/releases/odep/odep20260526",
       "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Office of Disability Employment Policy announced today that this year’s&nbsp;National Disability Employment Awareness Month theme will be “Celebrating Value and Talent,” carrying the spirit of last year’s celebration forward throug",
       "date": "2026-05-26",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "d954891b8195",
-      "title": "U.S. Citizenship and Immigration Services Will Grant ‘Adjustment of Status’ Only in Extraordinary Circumstances - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONVA3RDhXS1Ffa0p6ODJpbVV3S3l4Tzc1WldkMVNlejlhOHNnMHRBcWNOdlg2NVhxQWVYMm96X2hyQ0NyNHVMUU1vT21ha2NFMThoa1hoQzhHQlgxdFFobGVTT183aEpZUkxtaTMwQjhNVVdvSVdxWGNkOXVIdlZlVUdDTFJ2VzVlOFV3VGx0cTFqQUZ0SllQazZTWjdCZlZMbU14ZkVpWWMwWVV5aHNJYkVQdTBCT211NFpXeHBySnhISzE3VHBVNEVTZHNlbnlkMURxdw?oc=5",
-      "desc": "",
-      "date": "2026-05-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "5f625eb651b4",
-      "title": "Former union official sentenced to probation for embezzling member funds through 51 unauthorized transactions over 2 years",
-      "link": "http://www.dol.gov/newsroom/releases/olms/olms20260521",
-      "desc": "PORTLAND, OH&nbsp;–&nbsp;Former National Association of Letter Carriers Branch 533 treasurer Samantha Zirkle was sentenced to six years of probation and ordered to pay $74,663 in restitution&nbsp;following a federal investigation by the U.S. Department of Labor.The department’s&n",
-      "date": "2026-05-21",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "90486e3f0708",
-      "title": "US Department of Labor, Office of Inspector General jointly demand  financial institutions freeze funds tied to pandemic unemployment fraud",
-      "link": "http://www.dol.gov/newsroom/releases/osec/osec20260521",
-      "desc": "WASHINGTON – The U.S. Department of Labor and its Office of Inspector General today announced they have jointly issued formal letters demanding that financial institutions immediately preserve funds held in prepaid debit card accounts linked to fraudulent unemployment insurance c",
-      "date": "2026-05-21",
       "source": "DOL",
       "category": "dol"
     }
