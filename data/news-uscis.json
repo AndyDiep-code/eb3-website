@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T12:19:18Z",
+  "updated": "2026-06-14T13:17:12Z",
   "items": [
     {
       "id": "c68822478290",
@@ -24,6 +24,24 @@
       "title": "Justice Department Moves to Strip U.S. Citizenship from 17 Naturalized Sex Offenders, Fraudsters, Drug Dealers, and More - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFlJS0hGc25lYVRMYVVpZXF6dktkeGxFUWJhS19lWjFTYUhFM3h2dE1taTMwczhGUGxFVms1VlIydDdPYm5QWHV2VDZ3cmx2Y0liQmJLOEhCR0EtS1pITlV4VWhqT00zdy1CRGFIWS16U0hjTkVvNkwwLTZxQnNjZ3hIa1RrZE9sSGRENklOWlBnTmtfa21fVVVaSnR1NmRzZjFJUFVWWlA3b3F6MGFZWUhyNGxFOEd5UnM0VEZzRHh1ZWI4TGc0dE1vQjJaT3V0T0FXLTBUVUNtNm8?oc=5",
       "desc": "",
+      "date": "2026-06-12",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "098a3bda6833",
+      "title": "G-1055, Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-12",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "9d865fd419b8",
+      "title": "H-1B Specialty Occupations - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
+      "desc": "H-1B Specialty Occupations&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-06-12",
       "source": "USCIS",
       "category": "uscis"
@@ -443,6 +461,15 @@
       "category": "uscis"
     },
     {
+      "id": "4163ee15fc33",
+      "title": "I-485 Supplement A, Supplement A to Form I-485, Adjustment of Status Under Section 245(i) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9KQm45LWY3bHlKaEhmRUJiTkxReVNDcUdRTy11SjdGX1htWFFLOUx1VzZZUWFWdzBkenp4b0xJRWtQMlFvWUE?oc=5",
+      "desc": "",
+      "date": "2026-06-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "3e6169210789",
       "title": "US Department of Labor issues 4 opinion letters addressing overtime exemptions, bonuses, compensable time",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260529-0",
@@ -488,15 +515,6 @@
       "category": "uscis"
     },
     {
-      "id": "098a3bda6833",
-      "title": "G-1055, Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
-      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-05-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "044e6eac6b3f",
       "title": "EOIR-29, Notice of Appeal to the Board of Immigration Appeals from a Decision of a DHS Officer - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBoQmMyblJ1Qzg4RFpFTnNJVkNUSVBnbWtZM04yNzM2bkhkNkpnMkdySnB6cmhwZjV0NGwxSmpGU214ZFk?oc=5",
@@ -522,24 +540,6 @@
       "date": "2026-05-28",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "1cf755b9d784",
-      "title": "Temporary Protected Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
-      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-05-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "eab197a789c9",
-      "title": "US Department of Labor announces 2026 National Disability Employment Awareness Month theme",
-      "link": "http://www.dol.gov/newsroom/releases/odep/odep20260526",
-      "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Office of Disability Employment Policy announced today that this year’s&nbsp;National Disability Employment Awareness Month theme will be “Celebrating Value and Talent,” carrying the spirit of last year’s celebration forward throug",
-      "date": "2026-05-26",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
