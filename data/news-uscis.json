@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-14T13:17:12Z",
+  "updated": "2026-06-15T20:18:26Z",
   "items": [
+    {
+      "id": "7fa5b09b3c20",
+      "title": "US Department of Labor secures federal court order requiring 4 Washington-based restaurants to pay $750K in wages, damages to 42 workers",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260615",
+      "desc": "SPOKANE, WA&nbsp;– The U.S. Department of Labor has secured a federal consent judgment requiring four Washington-based restaurants to pay $750,000 in back wages and damages to 42 workers after an investigation uncovered minimum wage and overtime violations of the&nbsp;Fair Labor ",
+      "date": "2026-06-15",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "c68822478290",
       "title": "United States Seeks Mexico’s Review of Alleged Denial of Workers’ Rights at Newmont Minera Peñasquito, S.A. de C.V.",
@@ -42,6 +51,15 @@
       "title": "H-1B Specialty Occupations - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
       "desc": "H-1B Specialty Occupations&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-12",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "fbd7358d1bea",
+      "title": "Immigration and Citizenship Data - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWNIcThoV3AzWXRaRUdHSUM5cFk5TEFBclpleXl5emNOSXZJOVhIUm4wZV82bmxhczdRcW9LWDVSR0JnQWpTdm1peW1OT2tFcHNZNjBZRm8ybGh0WXEtY1BSdmY3UkwxOHdkMkU2cFBMdUllMnVJdW5EOWVqelpVMmtHNmY3MGc?oc=5",
+      "desc": "",
       "date": "2026-06-12",
       "source": "USCIS",
       "category": "uscis"
@@ -150,6 +168,15 @@
       "title": "I-945, Public Charge Bond - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9XVXpiNHVnUGJoN21kcUxqMUNVQUVWbUpkM09wSzZ2Z2sxYVgwc1diZTJNcndVanB0SmdpVkJ6cmU?oc=5",
       "desc": "I-945, Public Charge Bond&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "35bca25298f7",
+      "title": "I-407, Record of Abandonment of Lawful Permanent Resident Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9ETDRBRUsxa1M0Sm83V0NQTkdYZ3l6X0stWm1EYnZXNC1BSnlDelpvdFh1dk0xZkZZZVoxVDBqWWo?oc=5",
+      "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
       "category": "uscis"
@@ -511,33 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
       "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-05-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "044e6eac6b3f",
-      "title": "EOIR-29, Notice of Appeal to the Board of Immigration Appeals from a Decision of a DHS Officer - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBoQmMyblJ1Qzg4RFpFTnNJVkNUSVBnbWtZM04yNzM2bkhkNkpnMkdySnB6cmhwZjV0NGwxSmpGU214ZFk?oc=5",
-      "desc": "",
-      "date": "2026-05-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "27c2e1114f6a",
-      "title": "G-1055 Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
-      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-05-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "38ceef20ab0f",
-      "title": "DHS Automatically Extends Temporary Protected Status for Lebanon - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUGpMRG9lcnE5alFiTGJsclJSekpfT0IyeDB3OWdmTmp1aHpKeHM4UW9SXzZUUmtCaTJfdVhWeUl0SllBTTBKREQ0Y1lnTHFIZV9JalBqTjg0UDYyN1hVdTYwcDNZamFmeUJJWjFSTHdzd1lhek00a3I4N1hsazRrWEtwZ1JqRGgxalJfakVuZmRvSWhCM3pYWWZaNGxTY2NVai1RXw?oc=5",
-      "desc": "",
-      "date": "2026-05-28",
       "source": "USCIS",
       "category": "uscis"
     }
