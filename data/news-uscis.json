@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-17T17:51:43Z",
+  "updated": "2026-06-18T18:12:00Z",
   "items": [
+    {
+      "id": "59c1485ddbc2",
+      "title": "US Department of Labor recovers over $512M in fraudulent unemployment claims to US Treasury",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260617-0",
+      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor and its Office of Inspector General today announced the recovery of&nbsp;$512,138,478 in fraudulent CARES Act funds to the U.S. Department of the Treasury. This marks the second major recovery from the Maryland Division of Unemployme",
+      "date": "2026-06-17",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "98d9f954dbb3",
+      "title": "US Department of Labor demands immediate action from governors on unemployment insurance fraud",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260617",
+      "desc": "WASHINGTON – Acting U.S. Secretary of Labor Keith Sonderling issued formal letters to the governors of 53 U.S. states and territories today, demanding immediate action to combat fraud, waste, and abuse within the unemployment insurance program.&nbsp;In the letters, the department",
+      "date": "2026-06-17",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "a8aebba4006f",
+      "title": "Employment-Based Immigration: Third Preference EB-3 - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnRkOGMyUklvRnpkcHZaaUczcENKS0JRb2tHajBsdFg1VzVmVlpFeFd5TGZwaHhTemZSUVNWLXJQUl92QjF2ZDgxbUM2THVZanIzakpuRjJ1TUppX3k4SWtaQnQ5eW9ybVlsOXZvY25OUHdNMWp6ZVp1czlaTGVBZ3BEVDh4NEFNWjU4RGY4U19GUXBCbUxBYjBMME93ZGtoNm9YbG5ZMmQwN2lWTVBfbjdEd0xXazBsM0Nn?oc=5",
+      "desc": "",
+      "date": "2026-06-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "0d0cf681bcec",
       "title": "When to File Your Adjustment of Status Application for Family-Sponsored or Employment-Based Preference Visas: July 2026 - USCIS (.gov)",
@@ -15,6 +42,33 @@
       "title": "Forms Updates - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbzdMckVDSUMtMFIyRDU2SWFiQlZ2S1pfVmNfaEtVX0FnclNIWlZpU2cyUHhpX0tiVGhMN2VRSks4bUZJUlRBUUVXenJONnY1eEJRSy1VNkJEMndMUVJBcDNrNFpSV0trVHFxdTg2VXBQdXpTRVBfV0RpX0ozclA2M1RTcFluR1BVSEwtZHZJM2swUQ?oc=5",
       "desc": "Forms Updates&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3c5de086de7b",
+      "title": "I-90, Application to Replace Permanent Resident Card (Green Card) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBoeVQ4YmoyakxtU1ZhYkUteUJiSWVMWENzc0Y1dWc1TGl3N3VVZWp0bU81RWtMZVhUYjF1bGhCQQ?oc=5",
+      "desc": "",
+      "date": "2026-06-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2b0ca1897587",
+      "title": "N-400, Application for Naturalization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9YWnhMMks5cEZfMWFKN0Q2UVAxRjNING1BT2FPMXBOSDVkaDVjdzBMUlZCaURFQmVqaGZuRnpXbUo?oc=5",
+      "desc": "",
+      "date": "2026-06-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "969579eb0a2b",
+      "title": "Adjustment of Status Filing Charts from the Visa Bulletin - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
+      "desc": "",
       "date": "2026-06-16",
       "source": "USCIS",
       "category": "uscis"
@@ -41,6 +95,24 @@
       "id": "fbd7358d1bea",
       "title": "Immigration and Citizenship Data - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWNIcThoV3AzWXRaRUdHSUM5cFk5TEFBclpleXl5emNOSXZJOVhIUm4wZV82bmxhczdRcW9LWDVSR0JnQWpTdm1peW1OT2tFcHNZNjBZRm8ybGh0WXEtY1BSdmY3UkwxOHdkMkU2cFBMdUllMnVJdW5EOWVqelpVMmtHNmY3MGc?oc=5",
+      "desc": "",
+      "date": "2026-06-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "9d865fd419b8",
+      "title": "H-1B Specialty Occupations - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
+      "desc": "H-1B Specialty Occupations&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d1c6c266383a",
+      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
       "desc": "",
       "date": "2026-06-15",
       "source": "USCIS",
@@ -74,15 +146,6 @@
       "category": "uscis"
     },
     {
-      "id": "9d865fd419b8",
-      "title": "H-1B Specialty Occupations - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
-      "desc": "H-1B Specialty Occupations&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-06-12",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "d58c67fa50e2",
       "title": "Forms Available to File Online - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UYTRrY0l0X2hKLUowRkQ3emlseU9kcFlyTjc4dU80UGxaQ2V1LS05RUJYMmZGM3dxczBHLVVfam9MZVkwbHZfRHJYaUJxUW16bjllMWkxS2pTSFQ1Yk04ZFoxc29yaHVBY1p1cDJ0RFBHQQ?oc=5",
@@ -108,15 +171,6 @@
       "date": "2026-06-09",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "d1c6c266383a",
-      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
-      "desc": "",
-      "date": "2026-06-09",
-      "source": "USCIS",
-      "category": "uscis"
     },
     {
       "id": "631274b649f2",
@@ -362,24 +416,6 @@
       "category": "uscis"
     },
     {
-      "id": "3c5de086de7b",
-      "title": "I-90, Application to Replace Permanent Resident Card (Green Card) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBoeVQ4YmoyakxtU1ZhYkUteUJiSWVMWENzc0Y1dWc1TGl3N3VVZWp0bU81RWtMZVhUYjF1bGhCQQ?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2b0ca1897587",
-      "title": "N-400, Application for Naturalization - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9YWnhMMks5cEZfMWFKN0Q2UVAxRjNING1BT2FPMXBOSDVkaDVjdzBMUlZCaURFQmVqaGZuRnpXbUo?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "50409ae341b3",
       "title": "N-600, Application for Certificate of Citizenship - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5HVkpyX0cyYU9CY2lWRDY0T05iYWxkcWgzODNNWlJ6US1XOTU2ZHlrZndMdUpETTg5ZFJ5YWNUM3Q?oc=5",
@@ -401,15 +437,6 @@
       "id": "1bc00aba64b8",
       "title": "N-565, Application for Replacement Naturalization/Citizenship Document - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5RcnlWVkQ1cG5wcFRMMUg4Sk9WNWpMRmNYcUNkSWJZTHdkR1AtckNBQ3dZX1ZIZl9xaGUxaEJiR0c?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "969579eb0a2b",
-      "title": "Adjustment of Status Filing Charts from the Visa Bulletin - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
@@ -509,33 +536,6 @@
       "id": "413c4c680225",
       "title": "I-821, Application for Temporary Protected Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OYnZMRTZLcTdSX2lGbjYwX212ZG1adHByYUpuZXUydks0NWY5M2FZeWZtWlNmc3ZvakY5c3ZuM2Y?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0252cd903009",
-      "title": "I-192, Application for Advance Permission to Enter as a Nonimmigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1RcVNNY01pMF9Cb0ZnejBwR2NKYUVlaGlOb2E0eV9rbTBoWlBVQk1uYUNWQ1BBaUZHQVpGRENuVTU?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4163ee15fc33",
-      "title": "I-485 Supplement A, Supplement A to Form I-485, Adjustment of Status Under Section 245(i) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9KQm45LWY3bHlKaEhmRUJiTkxReVNDcUdRTy11SjdGX1htWFFLOUx1VzZZUWFWdzBkenp4b0xJRWtQMlFvWUE?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e775c4a184cb",
-      "title": "I-824, Application for Action on an Approved Application or Petition - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9sQ2ZDdjVSVUNOZnJKRnBFQ3FiNTJ6MWNhNWNpYjhMZ3dMYnR0TkJzWVljZ3VJcUVWRWFoR0Q4eS0?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
