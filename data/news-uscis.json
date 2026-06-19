@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-18T18:12:00Z",
+  "updated": "2026-06-19T16:39:14Z",
   "items": [
+    {
+      "id": "100e6ef6f1ae",
+      "title": "US Department of Labor awards $1M to support  Northern Mariana Islands residents affected by Super Typhoon Sinlaku",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260618-0",
+      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $1 million in grant funding to support disaster-relief jobs and employment and training services for residents of the Northern Mariana Islands in response to the severe impacts of Super Typhoon Sinlaku.&nbsp;B",
+      "date": "2026-06-18",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "7092943c7078",
+      "title": "US Department of Labor issues guidance clarifying Trump Accounts are not generally employee pension benefits plans",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260618",
+      "desc": "WASHINGTON – The U.S. Department of Labor today issued guidance clarifying that&nbsp;employer contributions made to a minor child’s&nbsp;Trump Account will not generally be subject to Title I of the Employee Retirement Income Security Act.&nbsp;A Technical Release from the depart",
+      "date": "2026-06-18",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "59c1485ddbc2",
       "title": "US Department of Labor recovers over $512M in fraudulent unemployment claims to US Treasury",
@@ -92,15 +110,6 @@
       "category": "uscis"
     },
     {
-      "id": "fbd7358d1bea",
-      "title": "Immigration and Citizenship Data - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWNIcThoV3AzWXRaRUdHSUM5cFk5TEFBclpleXl5emNOSXZJOVhIUm4wZV82bmxhczdRcW9LWDVSR0JnQWpTdm1peW1OT2tFcHNZNjBZRm8ybGh0WXEtY1BSdmY3UkwxOHdkMkU2cFBMdUllMnVJdW5EOWVqelpVMmtHNmY3MGc?oc=5",
-      "desc": "",
-      "date": "2026-06-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "9d865fd419b8",
       "title": "H-1B Specialty Occupations - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
@@ -115,6 +124,15 @@
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
       "desc": "",
       "date": "2026-06-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "fbd7358d1bea",
+      "title": "Immigration and Citizenship Data - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWNIcThoV3AzWXRaRUdHSUM5cFk5TEFBclpleXl5emNOSXZJOVhIUm4wZV82bmxhczdRcW9LWDVSR0JnQWpTdm1peW1OT2tFcHNZNjBZRm8ybGh0WXEtY1BSdmY3UkwxOHdkMkU2cFBMdUllMnVJdW5EOWVqelpVMmtHNmY3MGc?oc=5",
+      "desc": "",
+      "date": "2026-06-12",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -266,6 +284,15 @@
       "id": "d3e8e62f2769",
       "title": "I-918, Petition for U Nonimmigrant Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBaVHpuNVlybWNTQ2FlWTVBWVhXZDVMREZHdkpBbzhzVWNVR3R2T1NRUHltQzk4YzhmWjRGblhzaWs?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "9caa41e20d86",
+      "title": "I-854, Inter-Agency Alien Witness and Informant Record - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFA1aXFfZERBRHVOTy1KLS0zYlIzRXk2VGhRbjBSM2ZXa3VkZ0JlQTh2cmZ1TmFWSlFzRkxGUXpsLUw?oc=5",
       "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
@@ -509,33 +536,6 @@
       "id": "e7672cf655ee",
       "title": "I-601A, Application for Provisional Unlawful Presence Waiver - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1OMl9PeWtRSEswV29BRUVYNXZwRDlhVmUzU0x5dk5QTUt1YnJWTmJ2Sk94ck82VG1IUWMxaUUwb1J5dw?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3979dc61ad3f",
-      "title": "I-601, Application for Waiver of Grounds of Inadmissibility - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBLM1lERjZPWVVDQ2xZUVd2cXNEY24tamxOeE5Ba0V0Ym1XQzVIbWkwVXZEZFZnQkRvbzN2LWNMSzY?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "fd46c8518f77",
-      "title": "Application for Permission to Reapply for Admission into the United States After Deportation or Removal - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9hRVhZSllEcVV3RjVRMXVOV0lKbHFoQzRqMGlTdXlIQ1ZpMXJDaHYwWm5PTHVCS3U4Y2x5U2Z2aTc?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "413c4c680225",
-      "title": "I-821, Application for Temporary Protected Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OYnZMRTZLcTdSX2lGbjYwX212ZG1adHByYUpuZXUydks0NWY5M2FZeWZtWlNmc3ZvakY5c3ZuM2Y?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
