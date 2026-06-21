@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T13:03:17Z",
+  "updated": "2026-06-21T13:26:22Z",
   "items": [
     {
       "id": "100e6ef6f1ae",
@@ -380,6 +380,24 @@
       "category": "uscis"
     },
     {
+      "id": "b0e7cc2082f7",
+      "title": "Interagency Record of Request - A, G or NATO Dependent Employment Authorization or Change/Adjustment to/from A, G or NATO Status - uscis.gov",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9kbzVHRTFQUkJKYnpPa2d6ejNjV2tCTEoxVm5jbUZDcVo3T0JKMVlzMmRSWGd3NHFvWkVpMktlU1M?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "72d9022c80be",
+      "title": "I-914, Application for T Nonimmigrant Status - uscis.gov",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMG1HTG9MSmF0WFJnM0hodHZxc3UwMTJLNnRXano4SVFiVWltSlBhb1JlY2RBanVBSTVRcHAtR0c?oc=5",
+      "desc": "",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "70a73c75143c",
       "title": "Meet Emma, Our Virtual Assistant - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uQVVrT2F6UjlYRWlVb1B0RXlOMWNYXzl3My1rOC1uT2tNeVhYQXdFaDNidFZvUGpYUTBwU1JTVTFLcFdmdGxhN0V1Y0R1V1JLZ2swTVJKaUJzVVRTVnJiN3M2WWRSYS1Pb1VR?oc=5",
@@ -518,24 +536,6 @@
       "id": "4be5ac1d63e5",
       "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4c2ec72d361f",
-      "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0d0335ae114c",
-      "title": "I-751, Petition to Remove Conditions on Residence - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5qT0M2YVhFMk43WW1DRWhjMm9EWXltMzBWZTdGUFR2ZXZMVVhtMDRoWmVjUUJVbk10NzIwQmNieHk?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
