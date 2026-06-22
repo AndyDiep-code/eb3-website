@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-21T13:26:22Z",
+  "updated": "2026-06-22T19:56:18Z",
   "items": [
+    {
+      "id": "1aba08095977",
+      "title": "Federal court enters consent order requiring 3 Maine sports bars  to pay $51K in back wages to 47 employees",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260622",
+      "desc": "PORTLAND, ME – A federal court has entered a consent order requiring three sports bars to pay $51,775 in back wages to 47 employees, and $31,436 in civil money penalties, resolving the U.S. Department of Labor’s case alleging the employers violated federal wage and child labor la",
+      "date": "2026-06-22",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "100e6ef6f1ae",
       "title": "US Department of Labor awards $1M to support  Northern Mariana Islands residents affected by Super Typhoon Sinlaku",
@@ -123,6 +132,15 @@
       "title": "G-1145, E-Notification of Application/Petition Acceptance - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5pVzhXazhhMjEzUXoxN25zeVVaNHBMSElSMzVyakFWQjVMNGxRSDVzZXlMeUZNNldVMzk5Um10dXFhdw?oc=5",
       "desc": "",
+      "date": "2026-06-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7e649dbc2c8e",
+      "title": "Reports and Studies - uscis.gov",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ka1M0bHhRcS12UUR1ZkJQQUwzTmFqOVBjTlBTam1vVTl0VGd1V2NraEVGeW5CNHU0WVBVcUNYbGREb19aNmNLMW9kWkt4NTVERldTTGFpT1czT1E?oc=5",
+      "desc": "Reports and Studies&nbsp;&nbsp;uscis.gov",
       "date": "2026-06-16",
       "source": "USCIS",
       "category": "uscis"
@@ -497,6 +515,15 @@
       "category": "uscis"
     },
     {
+      "id": "7353268b3254",
+      "title": "I-356, Request for Cancellation of Public Charge Bond - uscis.gov",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1CSkpzSmU0Nzk5enFQNmMxbm1XWmR6TDhqWGRLQ3Y4blpwRVNsUzNXSHFla1hjT0R2bUNkNGptNWw?oc=5",
+      "desc": "",
+      "date": "2026-06-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "d3ff210cf73d",
       "title": "US Department of Labor cites Piggly Wiggly franchisee for willful, serious violations after employee suffers amputation",
       "link": "http://www.dol.gov/newsroom/releases/osha/osha20260601",
@@ -509,33 +536,6 @@
       "id": "7c8e1899effd",
       "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d1732a553612",
-      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "c3cac7ed6c1f",
-      "title": "I-130, Petition for Alien Relative - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBVLXZfTlNic0RpSzhQZFBTWXAyWF85eTcwdU9raU1VN2VOYkdaUExZb3ZXcHIwRlpVSXh5OHB6RTA?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4be5ac1d63e5",
-      "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
       "desc": "",
       "date": "2026-06-01",
       "source": "USCIS",
