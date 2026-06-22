@@ -1,0 +1,34 @@
+name: Fetch PERM Processing Times Data
+
+on:
+  schedule:
+    # DOL updates this page "COB at end of first work week of each month".
+    # Run daily during the first 10 days of each month (covers any weekday
+    # the "first work week" lands on) instead of visa-bulletin's daily-all-
+    # month cadence — this source only changes ~monthly.
+    - cron: '0 9 1-10 * *'   # 9AM UTC, days 1-10 of each month
+  workflow_dispatch:        # Allow manual trigger
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch PERM processing times data
+        run: python scripts/fetch-perm-processing-times.py
+
+      - name: Commit if changed
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/perm-processing-times.json
+          git diff --staged --quiet && echo "No changes" || \
+            git commit -m "chore: update PERM processing times data [skip ci]" && git push

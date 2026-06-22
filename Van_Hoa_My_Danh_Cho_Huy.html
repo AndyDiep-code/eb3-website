@@ -4,9 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Văn Hóa Mỹ — Cẩm Nang Định Cư</title>
+<link rel="canonical" href="https://eb3viet.com/Van_Hoa_My_Danh_Cho_Huy">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f4f8; color: #1e293b; }
+
+  /* ── SIDEBAR LAYOUT (shared site template) ── */
+  .layout{display:flex;min-height:100vh}
+  .sidebar{width:220px;flex-shrink:0;background:#111c2b;border-right:1px solid #1e2d3d;display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;transition:transform .25s}
+  .page-content{margin-left:220px;flex:1;min-width:0}
+  .mobile-topbar{display:none;align-items:center;gap:12px;padding:12px 16px;background:#1a2535;border-bottom:1px solid #2d3f55;position:sticky;top:0;z-index:50}
+  .mobile-topbar .ham{background:none;border:none;color:#e2e8f0;font-size:20px;cursor:pointer}
+  .mobile-topbar .page-label{font-size:13px;font-weight:600;color:#f1f5f9}
+  .sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99}
+  @media(max-width:768px){.sidebar{transform:translateX(-100%)}.sidebar.open{transform:translateX(0)}.sidebar-overlay.open{display:block}.page-content{margin-left:0}.mobile-topbar{display:flex}}
+  .sb-brand{padding:16px 16px 10px;border-bottom:1px solid #1e2d3d;flex-shrink:0}
+  .sb-brand a{text-decoration:none;display:flex;align-items:center;gap:8px}
+  .sb-brand .name{font-size:13px;font-weight:800;color:#f1f5f9;line-height:1.2}
+  .sb-brand .tagline{font-size:10px;color:#475569;margin-top:1px}
+  .sb-nav{flex:1;padding:8px 0}
+  .sb-group-label{padding:8px 14px 6px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:color .12s}
+  .sb-group-label:hover{color:#94a3b8}
+  .sb-group-label .arrow{font-size:9px;transition:transform .2s;flex-shrink:0;margin-left:4px}
+  .sb-group.collapsed .arrow{transform:rotate(-90deg)}
+  .sb-group-items{overflow:hidden;transition:max-height .25s ease;max-height:800px}
+  .sb-group.collapsed .sb-group-items{max-height:0}
+  .sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent}
+  .sb-item:hover{color:#94a3b8;background:#1a2535}
+  .sb-item.active{color:#60a5fa;background:#1a2a40;border-left-color:#60a5fa;font-weight:600}
+  .sb-item .sb-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
+  .sb-item.sub{padding-left:34px;font-size:12px}
+  .sb-divider{height:1px;background:#1e2d3d;margin:6px 14px}
 
   .hero { background: linear-gradient(135deg, #0f2a47 0%, #1d4ed8 100%); color: white; padding: 28px 24px 22px; }
   .hero h1 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
@@ -83,6 +111,95 @@
      crossorigin="anonymous"></script>
 </head>
 <body>
+
+<div class="layout">
+<aside class="sidebar" id="sb">
+  <div class="sb-brand"><a href="/">
+    <span style="font-size:18px">🇺🇸</span>
+    <div><div class="name">EB3VIET</div><div class="tagline">Thông tin định cư EB-3</div></div>
+  </a></div>
+  <nav class="sb-nav">
+    <a class="sb-item" href="/"><span class="sb-icon">🏠</span>Trang Chủ</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-eb3">
+      <div class="sb-group-label" onclick="toggleGroup('grp-eb3')">Quy Trình EB-3<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="visa-bulletin"><span class="sb-icon">📅</span>Visa Bulletin</a>
+        <a class="sb-item sub" href="news"><span class="sb-icon">📰</span>Tin Tức Chính Sách</a>
+        <a class="sb-item sub" href="guides"><span class="sb-icon">📖</span>Hướng Dẫn EB-3</a>
+        <a class="sb-item sub" href="jobs"><span class="sb-icon">🏭</span>Ngành Nghề &amp; Hãng</a>
+        <a class="sb-item sub" href="faq"><span class="sb-icon">❓</span>FAQ</a>
+        <a class="sb-item sub" href="glossary"><span class="sb-icon">📚</span>Thuật Ngữ</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-tools">
+      <div class="sb-group-label" onclick="toggleGroup('grp-tools')">Công Cụ Cá Nhân<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="tracker"><span class="sb-icon">📊</span>Theo Dõi Hồ Sơ</a>
+        <a class="sb-item sub" href="interview"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
+        <a class="sb-item sub" href="case-studies"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
+        <a class="sb-item sub" href="english-work"><span class="sb-icon">💬</span>Tiếng Anh CV</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-life">
+      <div class="sb-group-label" onclick="toggleGroup('grp-life')">Định Cư Tại Mỹ<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="after-arrival"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
+        <a class="sb-item sub" href="essentials"><span class="sb-icon">📱</span>Dịch Vụ Thiết Yếu</a>
+        <a class="sb-item sub" href="healthcare"><span class="sb-icon">🏥</span>Y Tế &amp; Bảo Hiểm</a>
+        <a class="sb-item sub" href="compare"><span class="sb-icon">⚖️</span>So Sánh Bang</a>
+        <a class="sb-item sub" href="worker-rights"><span class="sb-icon">🛡️</span>Quyền Lao Động</a>
+        <a class="sb-item sub" href="ac21-portability"><span class="sb-icon">🔄</span>Đổi Việc AC21</a>
+        <a class="sb-item sub" href="emergency-guide"><span class="sb-icon">🆘</span>Khẩn Cấp</a>
+        <a class="sb-item sub" href="housing-rights"><span class="sb-icon">🏠</span>Thuê Nhà</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-finance">
+      <div class="sb-group-label" onclick="toggleGroup('grp-finance')">Tài Chính<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="finance"><span class="sb-icon">🏦</span>Tài Chính</a>
+        <a class="sb-item sub" href="net-pay"><span class="sb-icon">💰</span>Tính Lương Net</a>
+        <a class="sb-item sub" href="tax-guide"><span class="sb-icon">🧾</span>Khai Thuế</a>
+        <a class="sb-item sub" href="credit-building"><span class="sb-icon">📈</span>Xây Dựng Tín Dụng</a>
+        <a class="sb-item sub" href="remittance-guide"><span class="sb-icon">💸</span>Gửi Tiền Về VN</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-greencard">
+      <div class="sb-group-label" onclick="toggleGroup('grp-greencard')">Sau Khi Có Thẻ Xanh<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="green-card-life"><span class="sb-icon">🟢</span>Quyền Thẻ Xanh</a>
+        <a class="sb-item sub" href="citizenship-path"><span class="sb-icon">🎓</span>Con Đường Quốc Tịch</a>
+        <a class="sb-item sub" href="family-petition"><span class="sb-icon">👨‍👩‍👧</span>Bảo Lãnh Gia Đình</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-extra">
+      <div class="sb-group-label" onclick="toggleGroup('grp-extra')">Hướng Dẫn Bổ Sung<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub active" href="Van_Hoa_My_Danh_Cho_Huy"><span class="sb-icon">🎎</span>Văn Hóa Mỹ</a>
+        <a class="sb-item sub" href="scam-warning"><span class="sb-icon">🚩</span>Cảnh Báo Lừa Đảo</a>
+        <a class="sb-item sub" href="documents"><span class="sb-icon">📑</span>Checklist Hồ Sơ</a>
+        <a class="sb-item sub" href="finance-roadmap"><span class="sb-icon">🗺️</span>Lộ Trình Tài Chính</a>
+        <a class="sb-item sub" href="aca-medicaid-guide"><span class="sb-icon">🏥</span>ACA &amp; Medicaid</a>
+        <a class="sb-item sub" href="school-enrollment-guide"><span class="sb-icon">🎒</span>Đăng Ký Trường Học</a>
+        <a class="sb-item sub" href="aos-interview-guide"><span class="sb-icon">📋</span>Phỏng Vấn AOS &amp; I-693</a>
+      </div>
+    </div>
+    <a class="sb-item" href="dmv"><span class="sb-icon">🚗</span>Ôn Thi Bằng Lái</a>
+    <a class="sb-item" href="agency-guide"><span class="sb-icon">🏢</span>Chọn Agency</a>
+    <a class="sb-item" href="cost-calculator"><span class="sb-icon">🧮</span>Chi Phí Sinh Hoạt</a>
+    <div class="sb-divider"></div>
+    <a class="sb-item" href="privacy"><span class="sb-icon">🔒</span>Chính Sách Bảo Mật</a>
+    <a class="sb-item" href="about"><span class="sb-icon">ℹ️</span>Giới Thiệu</a>
+  </nav>
+</aside>
+<div class="sidebar-overlay" id="sb-overlay" onclick="toggleSidebar()"></div>
+<div class="page-content">
+<div class="mobile-topbar"><button class="ham" onclick="toggleSidebar()">☰</button><span class="page-label">EB3VIET — Văn Hóa Mỹ</span></div>
 
 <div class="hero">
   <h1>🇺🇸 Văn Hóa Mỹ — Cẩm Nang Định Cư</h1>
@@ -480,6 +597,8 @@
     <div class="check-item"><input type="checkbox" id="e12"><label for="e12">Khai thuế (tax return) lần đầu tháng 4 — dùng TurboTax free <span class="badge badge-green">Tháng 4</span></label></div>
   </div>
 </div>
+<footer style="background:#111c2b;border-top:1px solid #1e2d3d;padding:14px 20px;text-align:center;font-size:11px;color:#475569;margin-top:20px">© 2026 EB3VIET<div style="margin-top:5px;font-size:10.5px;color:#3f5063">Cập nhật lần cuối: 15/06/2026</div></footer>
+</div></div>
 
 <script>
 function show(id) {
@@ -495,6 +614,17 @@ document.querySelectorAll('input[type=checkbox]').forEach(cb => {
   if (saved === 'true') cb.checked = true;
   cb.addEventListener('change', () => localStorage.setItem(cb.id, cb.checked));
 });
+
+function toggleGroup(id){
+  document.getElementById(id).classList.toggle('collapsed');
+}
+document.querySelectorAll('.sb-group').forEach(function(g){
+  if(!g.querySelector('.sb-item.active,.sb-item.sub.active')){g.classList.add('collapsed');}
+});
+function toggleSidebar(){
+  document.getElementById('sb').classList.toggle('open');
+  document.getElementById('sb-overlay').classList.toggle('open');
+}
 </script>
 </body>
 </html>

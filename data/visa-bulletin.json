@@ -1,0 +1,96 @@
+{
+  "updated": "2026-06-17T00:00:00Z",
+  "fy": 2026,
+  "fy_start_month": "2025-10",
+  "months": [
+    {
+      "month": "2025-10",
+      "label": "Oct-25",
+      "table_a": "2021-07-15",
+      "table_b": "2021-12-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2025-11",
+      "label": "Nov-25",
+      "table_a": "2021-07-15",
+      "table_b": "2021-12-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2025-12",
+      "label": "Dec-25",
+      "table_a": "2021-08-01",
+      "table_b": "2021-12-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-01",
+      "label": "Jan-26",
+      "table_a": "2021-09-01",
+      "table_b": "2021-12-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb-26",
+      "table_a": "2021-09-01",
+      "table_b": "2021-12-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar-26",
+      "table_a": "2021-11-01",
+      "table_b": "2022-06-22",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr-26",
+      "table_a": "2021-11-01",
+      "table_b": "2022-08-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-05",
+      "label": "May-26",
+      "table_a": "2022-02-01",
+      "table_b": "2022-08-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-06",
+      "label": "Jun-26",
+      "table_a": "2022-02-01",
+      "table_b": "2022-08-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-07",
+      "label": "Jul-26",
+      "table_a": "2022-03-01",
+      "table_b": "2022-08-01",
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-08",
+      "label": "Aug-26",
+      "table_a": null,
+      "table_b": null,
+      "ew_vietnam": null
+    },
+    {
+      "month": "2026-09",
+      "label": "Sep-26",
+      "table_a": null,
+      "table_b": null,
+      "ew_vietnam": null
+    }
+  ],
+  "carry_over": {
+    "table_a_prior_sep": "2021-07-08",
+    "table_b_prior_sep": "2021-07-22",
+    "delta_base_index": 48
+  }
+}

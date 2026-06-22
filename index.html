@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EB3VIET — Thông Tin Định Cư Lao Động EB-3</title>
+<link rel="canonical" href="https://eb3viet.com/">
 <meta name="description" content="Tổng hợp thông tin Visa Bulletin, quy trình EB-3, tin tức chính sách di trú cho người Việt Nam theo diện lao động EB-3 Other Workers.">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="EB3VIET — Thông Tin Định Cư Lao Động EB-3 Việt Nam">
@@ -69,6 +70,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .disc{background:#1a2535;border:1px solid #2d3f55;border-radius:8px;padding:12px 14px;font-size:11.5px;color:#64748b;margin-top:4px;line-height:1.6}
 .disc b{color:#94a3b8}
 
+.stage-select{background:#1a2535;border:1px solid #2d3f55;border-radius:12px;padding:16px 18px;margin-bottom:20px}
+.stage-select-title{font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:10px}
+.stage-bar{display:flex;gap:8px;flex-wrap:wrap}
+.stage-btn{padding:8px 14px;border-radius:20px;font-size:12px;font-weight:600;border:1px solid #2d3f55;background:#0f1923;color:#94a3b8;cursor:pointer;transition:all .15s;white-space:nowrap}
+.stage-btn:hover{border-color:#60a5fa;color:#e2e8f0}
+.stage-btn.active{background:#0c1f3d;border-color:#3b82f6;color:#60a5fa}
+.suggest-hd{font-size:12px;font-weight:700;color:#60a5fa;margin:14px 0 10px;display:flex;align-items:center;gap:6px}
+.suggest-wrap .card-grid{margin-bottom:0}
+
 /* ── LAYOUT ── */
 .layout{display:flex;min-height:100vh}
 .sidebar{width:220px;flex-shrink:0;background:#111c2b;border-right:1px solid #1e2d3d;display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;transition:transform .25s}
@@ -93,7 +103,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .sb-brand .tagline{font-size:10px;color:#475569;margin-top:1px}
 .sb-nav{flex:1;padding:8px 0}
 .sb-group{margin-bottom:2px}
-.sb-group-label{padding:10px 14px 4px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em}
+.sb-group-label{padding:8px 14px 6px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:color .12s}
+.sb-group-label:hover{color:#94a3b8}
+.sb-group-label .arrow{font-size:9px;transition:transform .2s;flex-shrink:0;margin-left:4px}
+.sb-group.collapsed .arrow{transform:rotate(-90deg)}
+.sb-group-items{overflow:hidden;transition:max-height .25s ease;max-height:800px}
+.sb-group.collapsed .sb-group-items{max-height:0}
 .sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent;position:relative}
 .sb-item:hover{color:#94a3b8;background:#1a2535}
 .sb-item.active{color:#60a5fa;background:#1a2a40;border-left-color:#60a5fa;font-weight:600}
@@ -127,37 +142,87 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 <div class="layout">
 <aside class="sidebar" id="sb">
-  <div class="sb-brand"><a href="index.html">
+  <div class="sb-brand"><a href="/">
     <span class="flag">🇺🇸</span>
     <div><div class="name">EB3 Vietnam Hub</div><div class="tagline">Thông tin định cư EB-3</div></div>
   </a></div>
   <nav class="sb-nav">
-    <a class="sb-item active" href="index.html"><span class="sb-icon">🏠</span>Trang Chủ</a>
+    <a class="sb-item active" href="/"><span class="sb-icon">🏠</span>Trang Chủ</a>
     <div class="sb-divider"></div>
-    <div class="sb-group-label">EB3 Vietnam Hub</div>
-    <a class="sb-item sub" href="visa-bulletin.html"><span class="sb-icon">📅</span>Visa Bulletin</a>
-    <a class="sb-item sub" href="news.html"><span class="sb-icon">📰</span>Tin Tức Chính Sách</a>
-    <a class="sb-item sub" href="guides.html"><span class="sb-icon">📖</span>Hướng Dẫn EB-3</a>
-    <a class="sb-item sub" href="jobs.html"><span class="sb-icon">🏭</span>Ngành Nghề &amp; Hãng</a>
-    <a class="sb-item sub" href="faq.html"><span class="sb-icon">❓</span>FAQ</a>
-    <a class="sb-item sub" href="glossary.html"><span class="sb-icon">📚</span>Thuật Ngữ</a>
+    <div class="sb-group" id="grp-eb3">
+      <div class="sb-group-label" onclick="toggleGroup('grp-eb3')">Quy Trình EB-3<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="visa-bulletin"><span class="sb-icon">📅</span>Visa Bulletin</a>
+        <a class="sb-item sub" href="news"><span class="sb-icon">📰</span>Tin Tức Chính Sách</a>
+        <a class="sb-item sub" href="guides"><span class="sb-icon">📖</span>Hướng Dẫn EB-3</a>
+        <a class="sb-item sub" href="jobs"><span class="sb-icon">🏭</span>Ngành Nghề &amp; Hãng</a>
+        <a class="sb-item sub" href="faq"><span class="sb-icon">❓</span>FAQ</a>
+        <a class="sb-item sub" href="glossary"><span class="sb-icon">📚</span>Thuật Ngữ</a>
+      </div>
+    </div>
     <div class="sb-divider"></div>
-    <div class="sb-group-label">Công Cụ Cá Nhân</div>
-    <a class="sb-item sub" href="tracker.html"><span class="sb-icon">📊</span>Theo Dõi Hồ Sơ</a>
-    <a class="sb-item sub" href="interview.html"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
-    <a class="sb-item sub" href="case-studies.html"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
-    <a class="sb-item sub" href="english-work.html"><span class="sb-icon">💬</span>Tiếng Anh CV</a>
-    <a class="sb-item sub" href="after-arrival.html"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
-    <a class="sb-item sub" href="net-pay.html"><span class="sb-icon">💰</span>Tính Lương Net</a>
-    <a class="sb-item sub" href="compare.html"><span class="sb-icon">⚖️</span>So Sánh Bang</a>
+    <div class="sb-group" id="grp-tools">
+      <div class="sb-group-label" onclick="toggleGroup('grp-tools')">Công Cụ Cá Nhân<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="tracker"><span class="sb-icon">📊</span>Theo Dõi Hồ Sơ</a>
+        <a class="sb-item sub" href="interview"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
+        <a class="sb-item sub" href="case-studies"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
+        <a class="sb-item sub" href="english-work"><span class="sb-icon">💬</span>Tiếng Anh CV</a>
+      </div>
+    </div>
     <div class="sb-divider"></div>
-    <a class="sb-item" href="dmv.html"><span class="sb-icon">🚗</span>Ôn Thi Bằng Lái</a>
+    <div class="sb-group" id="grp-life">
+      <div class="sb-group-label" onclick="toggleGroup('grp-life')">Định Cư Tại Mỹ<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="after-arrival"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
+        <a class="sb-item sub" href="essentials"><span class="sb-icon">📱</span>Dịch Vụ Thiết Yếu</a>
+        <a class="sb-item sub" href="healthcare"><span class="sb-icon">🏥</span>Y Tế &amp; Bảo Hiểm</a>
+        <a class="sb-item sub" href="compare"><span class="sb-icon">⚖️</span>So Sánh Bang</a>
+        <a class="sb-item sub" href="worker-rights"><span class="sb-icon">🛡️</span>Quyền Lao Động</a>
+        <a class="sb-item sub" href="ac21-portability"><span class="sb-icon">🔄</span>Đổi Việc AC21</a>
+        <a class="sb-item sub" href="emergency-guide"><span class="sb-icon">🆘</span>Khẩn Cấp</a>
+        <a class="sb-item sub" href="housing-rights"><span class="sb-icon">🏠</span>Thuê Nhà</a>
+      </div>
+    </div>
     <div class="sb-divider"></div>
-    <a class="sb-item" href="agency-guide.html"><span class="sb-icon">🏢</span>Chọn Agency</a>
-    <a class="sb-item" href="cost-calculator.html"><span class="sb-icon">🧮</span>Chi Phí Sinh Hoạt</a>
+    <div class="sb-group" id="grp-finance">
+      <div class="sb-group-label" onclick="toggleGroup('grp-finance')">Tài Chính<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="finance"><span class="sb-icon">🏦</span>Tài Chính</a>
+        <a class="sb-item sub" href="net-pay"><span class="sb-icon">💰</span>Tính Lương Net</a>
+        <a class="sb-item sub" href="tax-guide"><span class="sb-icon">🧾</span>Khai Thuế</a>
+        <a class="sb-item sub" href="credit-building"><span class="sb-icon">📈</span>Xây Dựng Tín Dụng</a>
+        <a class="sb-item sub" href="remittance-guide"><span class="sb-icon">💸</span>Gửi Tiền Về VN</a>
+      </div>
+    </div>
     <div class="sb-divider"></div>
-    <a class="sb-item" href="privacy.html"><span class="sb-icon">🔒</span>Chính Sách Bảo Mật</a>
-    <a class="sb-item" href="about.html"><span class="sb-icon">ℹ️</span>Giới Thiệu</a>
+    <div class="sb-group" id="grp-greencard">
+      <div class="sb-group-label" onclick="toggleGroup('grp-greencard')">Sau Khi Có Thẻ Xanh<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="green-card-life"><span class="sb-icon">🟢</span>Quyền Thẻ Xanh</a>
+        <a class="sb-item sub" href="citizenship-path"><span class="sb-icon">🎓</span>Con Đường Quốc Tịch</a>
+        <a class="sb-item sub" href="family-petition"><span class="sb-icon">👨‍👩‍👧</span>Bảo Lãnh Gia Đình</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-extra">
+      <div class="sb-group-label" onclick="toggleGroup('grp-extra')">Hướng Dẫn Bổ Sung<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="Van_Hoa_My_Danh_Cho_Huy"><span class="sb-icon">🎎</span>Văn Hóa Mỹ</a>
+        <a class="sb-item sub" href="scam-warning"><span class="sb-icon">🚩</span>Cảnh Báo Lừa Đảo</a>
+        <a class="sb-item sub" href="documents"><span class="sb-icon">📑</span>Checklist Hồ Sơ</a>
+        <a class="sb-item sub" href="finance-roadmap"><span class="sb-icon">🗺️</span>Lộ Trình Tài Chính</a>
+        <a class="sb-item sub" href="aca-medicaid-guide"><span class="sb-icon">🏥</span>ACA &amp; Medicaid</a>
+        <a class="sb-item sub" href="school-enrollment-guide"><span class="sb-icon">🎒</span>Đăng Ký Trường Học</a>
+        <a class="sb-item sub" href="aos-interview-guide"><span class="sb-icon">📋</span>Phỏng Vấn AOS &amp; I-693</a>
+      </div>
+    </div>
+    <a class="sb-item" href="dmv"><span class="sb-icon">🚗</span>Ôn Thi Bằng Lái</a>
+    <a class="sb-item" href="agency-guide"><span class="sb-icon">🏢</span>Chọn Agency</a>
+    <a class="sb-item" href="cost-calculator"><span class="sb-icon">🧮</span>Chi Phí Sinh Hoạt</a>
+    <div class="sb-divider"></div>
+    <a class="sb-item" href="privacy"><span class="sb-icon">🔒</span>Chính Sách Bảo Mật</a>
+    <a class="sb-item" href="about"><span class="sb-icon">ℹ️</span>Giới Thiệu</a>
   </nav>
   <div class="sb-footer">
     <a href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" target="_blank">📅 Visa Bulletin chính thức</a>
@@ -180,19 +245,36 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <span class="hbadge">🌐 Song ngữ Việt–Anh</span>
   </div>
   <div class="hero-cta">
-    <a href="visa-bulletin.html" class="btn-h btn-p">📅 Xem Visa Bulletin</a>
-    <a href="guides.html" class="btn-h btn-o">📖 Hướng dẫn EB-3</a>
+    <a href="visa-bulletin" class="btn-h btn-p">📅 Xem Visa Bulletin</a>
+    <a href="guides" class="btn-h btn-o">📖 Hướng dẫn EB-3</a>
   </div>
 </div>
 
 <div class="main">
 
+  <div class="stage-select">
+    <div class="stage-select-title">🧭 Bạn đang ở giai đoạn nào trong hành trình EB-3?</div>
+    <div class="stage-bar">
+      <button class="stage-btn" data-stage="no-perm" onclick="selectStage('no-perm',this)">📝 Chưa có PERM</button>
+      <button class="stage-btn" data-stage="i140" onclick="selectStage('i140',this)">✅ Đã có I-140</button>
+      <button class="stage-btn" data-stage="interview" onclick="selectStage('interview',this)">🎤 Chờ Phỏng Vấn</button>
+      <button class="stage-btn" data-stage="arrived" onclick="selectStage('arrived',this)">🇺🇸 Đã Sang Mỹ</button>
+    </div>
+    <div class="suggest-wrap" id="stage-suggestions"></div>
+  </div>
+
   <div class="vb-snap">
     <div class="snap-top">
       <div class="snap-top-title">📅 Visa Bulletin — EB-3 Other Workers (ROW) · FY2026 (mới nhất)</div>
-      <a href="visa-bulletin.html" class="snap-link">Xem đầy đủ (Bảng A + B) →</a>
+      <a href="visa-bulletin" class="snap-link">Xem đầy đủ (Bảng A + B) →</a>
     </div>
     <div class="snap-grid">
+      <div class="snap-card">
+        <div class="snap-fy">FY2026 · Tháng 7</div>
+        <div class="snap-date">1-Mar-2022</div>
+        <div class="snap-label">Final Action Date (Bảng A)</div>
+        <span class="snap-badge b-up">⬆ Tăng</span>
+      </div>
       <div class="snap-card">
         <div class="snap-fy">FY2026 · Tháng 6</div>
         <div class="snap-date">1-Feb-2022</div>
@@ -202,12 +284,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
       <div class="snap-card">
         <div class="snap-fy">FY2026 · Tháng 5</div>
         <div class="snap-date">1-Feb-2022</div>
-        <div class="snap-label">Final Action Date (Bảng A)</div>
-        <span class="snap-badge b-up">⬆ Tăng</span>
-      </div>
-      <div class="snap-card">
-        <div class="snap-fy">FY2026 · Tháng 4</div>
-        <div class="snap-date">1-Nov-2021</div>
         <div class="snap-label">Final Action Date (Bảng A)</div>
         <span class="snap-badge b-eq">— Giữ nguyên</span>
       </div>
@@ -238,40 +314,40 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
   <div class="sec-hd">Công cụ & Hướng dẫn</div>
   <div class="card-grid">
-    <a href="visa-bulletin.html" class="nav-card">
+    <a href="visa-bulletin" class="nav-card">
       <div class="icon">📅</div>
       <div class="nc-title">Visa Bulletin Dashboard</div>
       <div class="nc-desc">Bảng A/B theo tháng, biểu đồ movement, thống kê visa EW Việt Nam</div>
       <span class="nc-arrow">›</span>
     </a>
-    <a href="news.html" class="nav-card">
+    <a href="news" class="nav-card">
       <div class="icon">📰</div>
       <div class="nc-title">Tin Tức Chính Sách</div>
       <div class="nc-desc">25+ cập nhật từ USCIS, DOS, DOL ảnh hưởng hồ sơ EB-3 (2022–2026)</div>
       <span class="nc-arrow">›</span>
     </a>
-    <a href="guides.html" class="nav-card">
+    <a href="guides" class="nav-card">
       <div class="icon">📖</div>
       <div class="nc-title">Hướng Dẫn Quy Trình EB-3</div>
       <div class="nc-desc">5 giai đoạn từ PERM/LC → I-140 → NVC → DS-260 → Phỏng vấn</div>
       <span class="nc-arrow">›</span>
     </a>
-    <a href="faq.html" class="nav-card">
+    <a href="faq" class="nav-card">
       <div class="icon">❓</div>
       <div class="nc-title">FAQ — Câu Hỏi Thường Gặp</div>
       <div class="nc-desc">47 câu hỏi về EB-3: chi phí, rủi ro, agency, timeline, chuyển diện</div>
       <span class="nc-arrow">›</span>
     </a>
-    <a href="glossary.html" class="nav-card">
+    <a href="glossary" class="nav-card">
       <div class="icon">📚</div>
       <div class="nc-title">Thuật Ngữ Di Trú</div>
       <div class="nc-desc">Giải thích PD, LC, I-140, NVC, CEAC, DQ, 221g, CSPA, EAD...</div>
       <span class="nc-arrow">›</span>
     </a>
-    <a href="bmv.html" class="nav-card">
+    <a href="bmv" class="nav-card">
       <div class="icon">🚗</div>
-      <div class="nc-title">Ôn Thi Bằng Lái Indiana</div>
-      <div class="nc-desc">50 câu thi thử BMV · Biển báo hình ảnh · Văn hóa Mỹ · Song ngữ</div>
+      <div class="nc-title">Ôn Thi Bằng Lái Xe</div>
+      <div class="nc-desc">Indiana, Georgia, Texas & 15 bang khác · Thi thử · Song ngữ Việt–Anh</div>
       <span class="nc-arrow">›</span>
     </a>
   </div>
@@ -279,7 +355,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <div class="news-preview">
     <div class="prev-head">
       <div class="prev-title">📰 Tin Tức Mới Nhất</div>
-      <a href="news.html" class="prev-link">Xem tất cả →</a>
+      <a href="news" class="prev-link">Xem tất cả →</a>
     </div>
     <div class="ni">
       <span class="ni-tag t-eb3">EB-3</span>
@@ -335,12 +411,75 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
     <b>Lưu ý quan trọng:</b> Website này chỉ cung cấp thông tin tham khảo, tổng hợp từ các nguồn chính thức (USCIS, DOS, DOL). Nội dung không thay thế tư vấn pháp lý di trú chuyên nghiệp. Luôn kiểm tra lại tại nguồn gốc và tham khảo luật sư di trú trước khi ra quyết định.
   </div>
 </div>
+<footer style="background:#111c2b;border-top:1px solid #1e2d3d;padding:14px 20px;text-align:center;font-size:11px;color:#475569;margin-top:20px">© 2026 EB3VIET<div style="margin-top:5px;font-size:10.5px;color:#3f5063">Cập nhật lần cuối: 15/06/2026</div></footer>
 </div></div>
 <script>
+function toggleGroup(id){var g=document.getElementById(id);g.classList.toggle('collapsed');}
+document.querySelectorAll('.sb-group').forEach(function(g){if(!g.querySelector('.sb-item.active,.sb-item.sub.active')){g.classList.add('collapsed');}});
 function toggleSidebar(){
   document.getElementById('sb').classList.toggle('open');
   document.getElementById('sb-overlay').classList.toggle('open');
 }
+
+var STAGE_LABELS={
+  'no-perm':'Chưa có PERM',
+  'i140':'Đã có I-140',
+  'interview':'Chờ Phỏng Vấn',
+  'arrived':'Đã Sang Mỹ'
+};
+var STAGE_TOOLS={
+  'no-perm':[
+    {href:'guides',icon:'📖',title:'Hướng Dẫn Quy Trình EB-3',desc:'Hiểu rõ 5 giai đoạn từ PERM/LC → I-140 → NVC → DS-260 → Phỏng vấn'},
+    {href:'glossary',icon:'📚',title:'Thuật Ngữ Di Trú',desc:'Làm quen các từ viết tắt: PERM, LC, PD, I-140, NVC trước khi bắt đầu'},
+    {href:'agency-guide',icon:'🏢',title:'Cách Chọn Agency',desc:'Chọn đúng công ty bảo lãnh ngay từ đầu — tránh rủi ro mất tiền oan'},
+    {href:'faq',icon:'❓',title:'FAQ — Câu Hỏi Thường Gặp',desc:'Giải đáp 47 thắc mắc phổ biến về chi phí, rủi ro, timeline EB-3'}
+  ],
+  'i140':[
+    {href:'visa-bulletin',icon:'📅',title:'Visa Bulletin Dashboard',desc:'Theo dõi Priority Date di chuyển hàng tháng — biết khi nào đến lượt mình'},
+    {href:'tracker',icon:'📊',title:'Theo Dõi Hồ Sơ',desc:'Quản lý timeline cá nhân, lưu các mốc thời gian quan trọng'},
+    {href:'news',icon:'📰',title:'Tin Tức Chính Sách',desc:'Cập nhật thay đổi luật, quota, retrogression ảnh hưởng đến hồ sơ'},
+    {href:'case-studies',icon:'⚠️',title:'Xử Lý Sự Cố',desc:'Chuẩn bị trước cho các tình huống RFE, 221(g), trễ hồ sơ'}
+  ],
+  'interview':[
+    {href:'interview',icon:'🎤',title:'Ôn Phỏng Vấn',desc:'Luyện tập câu hỏi phỏng vấn lãnh sự quán, mẹo trả lời tự tin'},
+    {href:'english-work',icon:'💬',title:'Tiếng Anh CV & Giao Tiếp',desc:'Chuẩn bị vốn tiếng Anh cần thiết trước khi phỏng vấn và sang Mỹ'},
+    {href:'cost-calculator',icon:'🧮',title:'Chi Phí Sinh Hoạt',desc:'Ước tính chi phí ban đầu để chuẩn bị tài chính trước khi sang Mỹ'},
+    {href:'case-studies',icon:'⚠️',title:'Xử Lý Sự Cố',desc:'Kinh nghiệm thực tế xử lý 221(g), phỏng vấn bị hoãn, hồ sơ bổ sung'}
+  ],
+  'arrived':[
+    {href:'after-arrival',icon:'✈️',title:'Sau Khi Đến Mỹ',desc:'Danh sách việc cần làm ngay: SSN, mở tài khoản ngân hàng, nhà ở...'},
+    {href:'net-pay',icon:'💰',title:'Tính Lương Net',desc:'Ước tính lương thực nhận sau thuế theo từng bang'},
+    {href:'healthcare',icon:'🏥',title:'Y Tế & Bảo Hiểm',desc:'Hiểu hệ thống bảo hiểm y tế Mỹ và cách chọn gói phù hợp'},
+    {href:'dmv',icon:'🚗',title:'Ôn Thi Bằng Lái Xe',desc:'Ôn thi lý thuyết DMV theo từng bang — song ngữ Việt–Anh'}
+  ]
+};
+
+function renderSuggestions(stage){
+  var wrap=document.getElementById('stage-suggestions');
+  if(!stage||!STAGE_TOOLS[stage]){wrap.innerHTML='';return;}
+  var items=STAGE_TOOLS[stage];
+  var html='<div class="suggest-hd">✨ Đề xuất cho bạn — '+STAGE_LABELS[stage]+'</div><div class="card-grid">';
+  items.forEach(function(it){
+    html+='<a href="'+it.href+'" class="nav-card"><div class="icon">'+it.icon+'</div><div class="nc-title">'+it.title+'</div><div class="nc-desc">'+it.desc+'</div><span class="nc-arrow">›</span></a>';
+  });
+  html+='</div>';
+  wrap.innerHTML=html;
+}
+
+function selectStage(stage,btn){
+  document.querySelectorAll('.stage-btn').forEach(function(b){b.classList.remove('active');});
+  btn.classList.add('active');
+  localStorage.setItem('eb3_journey_stage',stage);
+  renderSuggestions(stage);
+}
+
+(function(){
+  var saved=localStorage.getItem('eb3_journey_stage');
+  if(saved&&STAGE_TOOLS[saved]){
+    var btn=document.querySelector('.stage-btn[data-stage="'+saved+'"]');
+    if(btn){btn.classList.add('active');renderSuggestions(saved);}
+  }
+})();
 </script>
 </body>
 </html>

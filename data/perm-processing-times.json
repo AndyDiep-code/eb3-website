@@ -1,0 +1,19 @@
+{
+  "source_as_of": "5/31/2026",
+  "queue": {
+    "analyst_review": "April 2025",
+    "audit_review": "November 2025",
+    "reconsideration_review": "January 2026"
+  },
+  "average_days": {
+    "analyst_review": {
+      "month": "March 2026",
+      "days": 501
+    },
+    "audit_review": {
+      "month": "March 2026",
+      "days": 343
+    }
+  },
+  "updated": "2026-06-21T08:46:20Z"
+}

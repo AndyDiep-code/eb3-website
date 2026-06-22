@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khai Thuế Lần Đầu — Hướng Dẫn EB-3 | EB3VIET</title>
+<link rel="canonical" href="https://eb3viet.com/tax-guide">
+<meta name="description" content="Hướng dẫn khai thuế lần đầu cho người EB-3 mới đến Mỹ. Thuế liên bang, W-2, VITA miễn phí, standard deduction, hoàn thuế — từng bước bằng tiếng Việt.">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7593939544196063" crossorigin="anonymous"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1923;color:#e2e8f0;min-height:100vh}
+.layout{display:flex;min-height:100vh}
+.sidebar{width:220px;flex-shrink:0;background:#111c2b;border-right:1px solid #1e2d3d;display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;overflow-y:auto;z-index:100;transition:transform .25s}
+.page-content{margin-left:220px;flex:1;min-width:0}
+.mobile-topbar{display:none;align-items:center;gap:12px;padding:12px 16px;background:#1a2535;border-bottom:1px solid #2d3f55;position:sticky;top:0;z-index:50}
+.mobile-topbar .ham{background:none;border:none;color:#e2e8f0;font-size:20px;cursor:pointer}
+.mobile-topbar .page-label{font-size:13px;font-weight:600;color:#f1f5f9}
+.sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99}
+@media(max-width:768px){.sidebar{transform:translateX(-100%)}.sidebar.open{transform:translateX(0)}.sidebar-overlay.open{display:block}.page-content{margin-left:0}.mobile-topbar{display:flex}}
+.sb-brand{padding:16px 16px 10px;border-bottom:1px solid #1e2d3d;flex-shrink:0}
+.sb-brand a{text-decoration:none;display:flex;align-items:center;gap:8px}
+.sb-brand .name{font-size:13px;font-weight:800;color:#f1f5f9;line-height:1.2}
+.sb-brand .tagline{font-size:10px;color:#475569;margin-top:1px}
+.sb-nav{flex:1;padding:8px 0}
+.sb-group-label{padding:8px 14px 6px;font-size:10px;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.07em;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:color .12s}
+.sb-group-label:hover{color:#94a3b8}
+.sb-group-label .arrow{font-size:9px;transition:transform .2s;flex-shrink:0;margin-left:4px}
+.sb-group.collapsed .arrow{transform:rotate(-90deg)}
+.sb-group-items{overflow:hidden;transition:max-height .25s ease;max-height:800px}
+.sb-group.collapsed .sb-group-items{max-height:0}
+.sb-item{display:flex;align-items:center;gap:9px;padding:8px 14px;font-size:12.5px;font-weight:500;color:#64748b;text-decoration:none;transition:all .12s;border-left:2px solid transparent}
+.sb-item:hover{color:#94a3b8;background:#1a2535}
+.sb-item.active{color:#60a5fa;background:#1a2a40;border-left-color:#60a5fa;font-weight:600}
+.sb-item .sb-icon{font-size:14px;flex-shrink:0;width:18px;text-align:center}
+.sb-item.sub{padding-left:34px;font-size:12px}
+.sb-divider{height:1px;background:#1e2d3d;margin:6px 14px}
+.sb-footer{padding:10px 14px;border-top:1px solid #1e2d3d;flex-shrink:0}
+.sb-footer a{font-size:11px;color:#475569;text-decoration:none;display:block;line-height:1.8}
+.hero{background:linear-gradient(135deg,#0c1f3d 0%,#1e3a5f 50%,#064e3b 100%);padding:24px 20px 20px;text-align:center}
+.hero h1{font-size:20px;font-weight:800;color:#fff}
+.hero p{font-size:12.5px;color:#93c5fd;margin-top:4px}
+.main{max-width:900px;margin:0 auto;padding:18px 16px}
+.tab-btn{padding:8px 16px;border-radius:20px;font-size:12px;font-weight:600;border:1px solid #2d3f55;background:#1a2535;color:#64748b;cursor:pointer;transition:all .12s}
+.tab-btn:hover{border-color:#60a5fa;color:#94a3b8}
+.tab-btn.active{background:#0c1f3d;border-color:#3b82f6;color:#60a5fa}
+.tab-pane{display:none}.tab-pane.active{display:block}
+.info-card{background:#1a2535;border:1px solid #2d3f55;border-radius:10px;padding:16px;margin-bottom:12px}
+.info-card h3{font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:6px}
+.info-card p{font-size:12.5px;color:#94a3b8;line-height:1.6}
+.alert{display:flex;gap:10px;border-radius:10px;padding:12px 14px;margin-bottom:14px;font-size:12.5px;line-height:1.6}
+.alert-g{background:#052e16;border:1px solid #15803d;color:#bbf7d0}
+.alert-r{background:#450a0a;border:1px solid #991b1b;color:#fca5a5}
+.alert-b{background:#0c1a35;border:1px solid #1d4ed8;color:#93c5fd}
+.alert-y{background:#1c1400;border:1px solid #b45309;color:#fcd34d}
+.data-table{width:100%;border-collapse:collapse;font-size:12.5px;background:#1a2535;border-radius:8px;overflow:hidden;margin-bottom:14px}
+.data-table th{background:#0f2a47;color:#93c5fd;padding:9px 12px;text-align:left;font-size:11.5px}
+.data-table td{padding:9px 12px;border-bottom:1px solid #1e2d3d;color:#e2e8f0;vertical-align:top}
+.data-table tr:last-child td{border-bottom:none}
+.data-table td:first-child{font-weight:600;color:#f1f5f9;white-space:nowrap}
+.step-list{counter-reset:step;list-style:none;margin-bottom:14px}
+.step-list li{counter-increment:step;display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #1e2d3d;font-size:12.5px;color:#e2e8f0;line-height:1.5}
+.step-list li::before{content:counter(step);background:#1d4ed8;color:#fff;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;margin-top:1px}
+.calc-box{background:#0c1f3d;border:1px solid #1d4ed8;border-radius:10px;padding:16px;margin-bottom:14px;font-size:12.5px}
+.calc-box .calc-row{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1e3a5f;color:#93c5fd}
+.calc-box .calc-row:last-child{border-bottom:none;color:#4ade80;font-weight:700;font-size:13px}
+.tag-list{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tag{background:#1a2535;border:1px solid #2d3f55;border-radius:12px;padding:4px 12px;font-size:12px;color:#f1f5f9;font-weight:600}
+.section-hd{font-size:14px;font-weight:800;color:#f1f5f9;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #1e2d3d}
+.sub-label{font-size:11px;font-weight:700;color:#60a5fa;text-transform:uppercase;letter-spacing:.05em;margin:14px 0 8px}
+.job-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar" id="sb">
+  <div class="sb-brand"><a href="/">
+    <span style="font-size:18px">🇺🇸</span>
+    <div><div class="name">EB3VIET</div><div class="tagline">Thông tin định cư EB-3</div></div>
+  </a></div>
+  <nav class="sb-nav">
+    <a class="sb-item" href="/"><span class="sb-icon">🏠</span>Trang Chủ</a>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-eb3">
+      <div class="sb-group-label" onclick="toggleGroup('grp-eb3')">Quy Trình EB-3<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="visa-bulletin"><span class="sb-icon">📅</span>Visa Bulletin</a>
+        <a class="sb-item sub" href="news"><span class="sb-icon">📰</span>Tin Tức Chính Sách</a>
+        <a class="sb-item sub" href="guides"><span class="sb-icon">📖</span>Hướng Dẫn EB-3</a>
+        <a class="sb-item sub" href="jobs"><span class="sb-icon">🏭</span>Ngành Nghề &amp; Hãng</a>
+        <a class="sb-item sub" href="faq"><span class="sb-icon">❓</span>FAQ</a>
+        <a class="sb-item sub" href="glossary"><span class="sb-icon">📚</span>Thuật Ngữ</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-tools">
+      <div class="sb-group-label" onclick="toggleGroup('grp-tools')">Công Cụ Cá Nhân<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="tracker"><span class="sb-icon">📊</span>Theo Dõi Hồ Sơ</a>
+        <a class="sb-item sub" href="interview"><span class="sb-icon">🎤</span>Ôn Phỏng Vấn</a>
+        <a class="sb-item sub" href="case-studies"><span class="sb-icon">⚠️</span>Xử Lý Sự Cố</a>
+        <a class="sb-item sub" href="english-work"><span class="sb-icon">💬</span>Tiếng Anh CV</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-life">
+      <div class="sb-group-label" onclick="toggleGroup('grp-life')">Định Cư Tại Mỹ<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="after-arrival"><span class="sb-icon">✈️</span>Sau Khi Đến Mỹ</a>
+        <a class="sb-item sub" href="essentials"><span class="sb-icon">📱</span>Dịch Vụ Thiết Yếu</a>
+        <a class="sb-item sub" href="healthcare"><span class="sb-icon">🏥</span>Y Tế &amp; Bảo Hiểm</a>
+        <a class="sb-item sub" href="compare"><span class="sb-icon">⚖️</span>So Sánh Bang</a>
+        <a class="sb-item sub" href="worker-rights"><span class="sb-icon">🛡️</span>Quyền Lao Động</a>
+        <a class="sb-item sub" href="ac21-portability"><span class="sb-icon">🔄</span>Đổi Việc AC21</a>
+        <a class="sb-item sub" href="emergency-guide"><span class="sb-icon">🆘</span>Khẩn Cấp</a>
+        <a class="sb-item sub" href="housing-rights"><span class="sb-icon">🏠</span>Thuê Nhà</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-finance">
+      <div class="sb-group-label" onclick="toggleGroup('grp-finance')">Tài Chính<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="finance"><span class="sb-icon">🏦</span>Tài Chính</a>
+        <a class="sb-item sub" href="net-pay"><span class="sb-icon">💰</span>Tính Lương Net</a>
+        <a class="sb-item sub active" href="tax-guide"><span class="sb-icon">🧾</span>Khai Thuế</a>
+        <a class="sb-item sub" href="credit-building"><span class="sb-icon">📈</span>Xây Dựng Tín Dụng</a>
+        <a class="sb-item sub" href="remittance-guide"><span class="sb-icon">💸</span>Gửi Tiền Về VN</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-greencard">
+      <div class="sb-group-label" onclick="toggleGroup('grp-greencard')">Sau Khi Có Thẻ Xanh<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="green-card-life"><span class="sb-icon">🟢</span>Quyền Thẻ Xanh</a>
+        <a class="sb-item sub" href="citizenship-path"><span class="sb-icon">🎓</span>Con Đường Quốc Tịch</a>
+        <a class="sb-item sub" href="family-petition"><span class="sb-icon">👨‍👩‍👧</span>Bảo Lãnh Gia Đình</a>
+      </div>
+    </div>
+    <div class="sb-divider"></div>
+    <div class="sb-group" id="grp-extra">
+      <div class="sb-group-label" onclick="toggleGroup('grp-extra')">Hướng Dẫn Bổ Sung<span class="arrow">&#9662;</span></div>
+      <div class="sb-group-items">
+        <a class="sb-item sub" href="Van_Hoa_My_Danh_Cho_Huy"><span class="sb-icon">🎎</span>Văn Hóa Mỹ</a>
+        <a class="sb-item sub" href="scam-warning"><span class="sb-icon">🚩</span>Cảnh Báo Lừa Đảo</a>
+        <a class="sb-item sub" href="documents"><span class="sb-icon">📑</span>Checklist Hồ Sơ</a>
+        <a class="sb-item sub" href="finance-roadmap"><span class="sb-icon">🗺️</span>Lộ Trình Tài Chính</a>
+        <a class="sb-item sub" href="aca-medicaid-guide"><span class="sb-icon">🏥</span>ACA &amp; Medicaid</a>
+        <a class="sb-item sub" href="school-enrollment-guide"><span class="sb-icon">🎒</span>Đăng Ký Trường Học</a>
+        <a class="sb-item sub" href="aos-interview-guide"><span class="sb-icon">📋</span>Phỏng Vấn AOS &amp; I-693</a>
+      </div>
+    </div>
+    <a class="sb-item" href="dmv"><span class="sb-icon">🚗</span>Ôn Thi Bằng Lái</a>
+    <a class="sb-item" href="agency-guide"><span class="sb-icon">🏢</span>Chọn Agency</a>
+    <a class="sb-item" href="cost-calculator"><span class="sb-icon">🧮</span>Chi Phí Sinh Hoạt</a>
+    <div class="sb-divider"></div>
+    <a class="sb-item" href="privacy"><span class="sb-icon">🔒</span>Chính Sách Bảo Mật</a>
+    <a class="sb-item" href="about"><span class="sb-icon">ℹ️</span>Giới Thiệu</a>
+  </nav>
+</aside>
+<div class="sidebar-overlay" id="sb-overlay" onclick="toggleSidebar()"></div>
+<div class="page-content">
+<div class="mobile-topbar"><button class="ham" onclick="toggleSidebar()">☰</button><span class="page-label">EB3VIET — Khai Thuế</span></div>
+<div class="hero">
+  <h1>🧾 Khai Thuế Lần Đầu — Hướng Dẫn Từng Bước</h1>
+  <p>Dành cho người EB-3 mới đến Mỹ · Thuế liên bang &amp; tiểu bang · Miễn phí khai qua VITA</p>
+</div>
+<div class="main">
+
+<div class="job-tabs">
+  <button class="tab-btn active" onclick="showTab('tab-basics',this)">📚 Thuế Cơ Bản</button>
+  <button class="tab-btn" onclick="showTab('tab-docs',this)">📄 W-2 &amp; Giấy Tờ</button>
+  <button class="tab-btn" onclick="showTab('tab-filing',this)">📝 Cách Khai Thuế</button>
+  <button class="tab-btn" onclick="showTab('tab-deductions',this)">💸 Khấu Trừ &amp; Hoàn Thuế</button>
+  <button class="tab-btn" onclick="showTab('tab-special',this)">🌐 Trường Hợp Đặc Biệt</button>
+  <button class="tab-btn" onclick="showTab('tab-retire',this)">🏦 Hưu Trí &amp; Thuế</button>
+</div>
+
+<!-- TAB 1: Thuế Cơ Bản -->
+<div id="tab-basics" class="tab-pane active">
+  <p class="section-hd">Các Loại Thuế Cần Biết</p>
+
+  <div class="info-card">
+    <h3>💼 Thuế Thu Nhập Liên Bang (Federal Income Tax)</h3>
+    <p>Nộp cho IRS (Internal Revenue Service). Thuế lũy tiến — thu nhập cao hơn thì thuế suất cao hơn. Employer tự động khấu trừ từ mỗi paycheck theo W-4 bạn đã ký khi vào làm.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🛡️ Thuế An Sinh Xã Hội (Social Security Tax)</h3>
+    <p>6.2% của gross income. Cả bạn lẫn employer đều đóng 6.2% — tổng cộng 12.4%. Tiền này tích lũy quyền lợi hưu trí và tàn tật cho bạn sau này.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🏥 Medicare</h3>
+    <p>1.45% của gross income. Bắt buộc với tất cả W-2 employees. Employer cũng đóng thêm 1.45%. Dùng để tài trợ bảo hiểm y tế cho người cao tuổi.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🗺️ Thuế Thu Nhập Tiểu Bang (State Income Tax)</h3>
+    <p>Phụ thuộc vào bang bạn sống và làm việc. Một số bang không có thuế thu nhập tiểu bang: <strong style="color:#4ade80">Texas, Florida, Nevada, South Dakota, Wyoming, Washington, Alaska</strong>. Nếu bạn ở các bang này, chỉ cần khai thuế liên bang.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🛒 Thuế Bán Hàng (Sales Tax)</h3>
+    <p>Tự động tính vào giá hàng ở cửa hàng khi thanh toán. Bạn không cần khai báo gì — đây là trách nhiệm của người bán.</p>
+  </div>
+
+  <p class="section-hd" style="margin-top:20px">Lịch Quan Trọng</p>
+  <table class="data-table">
+    <thead><tr><th>Thời Điểm</th><th>Sự Kiện</th></tr></thead>
+    <tbody>
+      <tr><td>31/01 hàng năm</td><td>Employer phải gửi W-2 cho bạn (qua mail hoặc online)</td></tr>
+      <tr><td>15/04 hàng năm</td><td>Deadline nộp tờ khai thuế (tax return)</td></tr>
+      <tr><td>Tháng 10 (gia hạn)</td><td>Deadline sau khi xin extension bằng Form 4868 — gia hạn nộp hồ sơ, không gia hạn nộp tiền thuế</td></tr>
+      <tr><td>1–3 tuần sau khi e-file</td><td>Nhận tiền hoàn thuế qua direct deposit (nhanh nhất)</td></tr>
+      <tr><td>3–4 tuần</td><td>Nhận hoàn thuế qua check nếu e-file nhưng chọn nhận séc</td></tr>
+      <tr><td>6–8 tuần</td><td>Nhận hoàn thuế nếu nộp paper (hồ sơ giấy)</td></tr>
+    </tbody>
+  </table>
+
+  <div class="alert alert-b">📋 <span><strong>Tại sao phải khai thuế?</strong> Ngay cả khi employer đã trừ thuế từ lương, bạn VẪN phải nộp tờ khai thuế (tax return) hàng năm. Tờ khai xác nhận số thuế đúng và có thể giúp bạn nhận lại tiền đã trả thừa (refund). Không khai thuế có thể bị phạt và gây khó khăn cho hồ sơ nhập cư.</span></div>
+</div>
+
+<!-- TAB 2: W-2 & Giấy Tờ -->
+<div id="tab-docs" class="tab-pane">
+  <p class="section-hd">W-2 Là Gì?</p>
+  <div class="info-card">
+    <h3>📋 Mẫu W-2 — Wage and Tax Statement</h3>
+    <p>W-2 là mẫu báo cáo thu nhập hàng năm do employer phát hành. Họ phải gửi cho bạn trước ngày 31/01 mỗi năm. Nếu bạn làm nhiều công ty, mỗi công ty gửi một W-2 riêng. Bạn cần tất cả W-2 để khai thuế cho đầy đủ.</p>
+  </div>
+
+  <p class="section-hd">Giải Thích Từng Ô W-2</p>
+  <table class="data-table">
+    <thead><tr><th>Ô (Box)</th><th>Tên</th><th>Ý Nghĩa</th></tr></thead>
+    <tbody>
+      <tr><td>Box 1</td><td>Wages, tips, other comp</td><td>Tổng thu nhập chịu thuế liên bang trong năm</td></tr>
+      <tr><td>Box 2</td><td>Federal income tax withheld</td><td>Số thuế liên bang employer đã trừ từ lương của bạn</td></tr>
+      <tr><td>Box 3</td><td>Social Security wages</td><td>Thu nhập chịu thuế Social Security</td></tr>
+      <tr><td>Box 4</td><td>Social Security tax withheld</td><td>SS đã trừ — đúng bằng 6.2% của Box 3</td></tr>
+      <tr><td>Box 5</td><td>Medicare wages</td><td>Thu nhập chịu thuế Medicare (thường bằng Box 3)</td></tr>
+      <tr><td>Box 6</td><td>Medicare tax withheld</td><td>Medicare đã trừ — đúng bằng 1.45% của Box 5</td></tr>
+      <tr><td>Box 12</td><td>Various codes</td><td>Các lợi ích đặc biệt: D = 401k, DD = health insurance premium, v.v.</td></tr>
+      <tr><td>Box 15</td><td>State</td><td>Tên tiểu bang nơi bạn làm việc</td></tr>
+      <tr><td>Box 16</td><td>State wages</td><td>Thu nhập chịu thuế tiểu bang</td></tr>
+      <tr><td>Box 17</td><td>State income tax</td><td>Thuế tiểu bang employer đã trừ từ lương</td></tr>
+    </tbody>
+  </table>
+
+  <p class="section-hd">Các Giấy Tờ Cần Giữ</p>
+  <div class="info-card">
+    <h3>📁 Giữ Lại Những Thứ Này</h3>
+    <p style="line-height:2">
+      ✅ W-2 từ mỗi employer (nếu làm nhiều chỗ, có nhiều W-2)<br>
+      ✅ Social Security Card — để ghi SSN chính xác, tránh sai số<br>
+      ✅ Giấy tờ chi phí được khấu trừ nếu có (học phí, chi phí y tế lớn)<br>
+      ✅ Tờ khai thuế năm trước (nếu đã khai — cần AGI để e-file năm sau)<br>
+      ✅ Thông tin tài khoản ngân hàng (routing number + account number) để nhận refund nhanh
+    </p>
+  </div>
+
+  <div class="alert alert-y">⚠️ <span><strong>Nếu mất W-2:</strong> Liên hệ HR hoặc Payroll của công ty trước. Nếu công ty đóng cửa hoặc không phản hồi, vào IRS.gov → Get Transcript → tải Wage and Income Transcript. Deadline khai thuế vẫn áp dụng dù chưa nhận được W-2 — có thể dùng Form 4852 thay thế.</span></div>
+</div>
+
+<!-- TAB 3: Cách Khai Thuế -->
+<div id="tab-filing" class="tab-pane">
+  <p class="section-hd">Cách Khai Miễn Phí</p>
+
+  <div class="info-card">
+    <h3>🤝 VITA — Volunteer Income Tax Assistance (MIỄN PHÍ)</h3>
+    <p>Dành cho người có thu nhập dưới $67,000/năm. Tình nguyện viên được IRS đào tạo khai thuế cho bạn, hoàn toàn miễn phí. Nhiều điểm VITA có người nói tiếng Việt. Tìm điểm gần nhất: <strong style="color:#60a5fa">irs.gov/vita</strong> hoặc gọi <strong style="color:#60a5fa">211</strong>.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>💻 IRS Free File (MIỄN PHÍ)</h3>
+    <p>Thu nhập dưới $84,000/năm thì đủ điều kiện dùng phần mềm miễn phí trên <strong style="color:#60a5fa">irs.gov/freefile</strong>. Nhiều lựa chọn như TaxAct, FreeTaxUSA. Khai online, không cần đến đâu.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🖥️ FreeTaxUSA.com (Federal MIỄN PHÍ, State $14.99)</h3>
+    <p>Không giới hạn thu nhập. Khai federal hoàn toàn miễn phí. State tốn $14.99. Giao diện tiếng Anh nhưng đơn giản, hướng dẫn từng bước. Phổ biến với cộng đồng EB-3.</p>
+  </div>
+
+  <p class="section-hd">Các Bước Khai Thuế</p>
+  <ol class="step-list">
+    <li>Thu thập giấy tờ: W-2 từ tất cả employer, SSN, địa chỉ hiện tại, thông tin ngân hàng</li>
+    <li>Chọn Filing Status phù hợp (xem bên dưới)</li>
+    <li>Nhập thông tin W-2 vào phần mềm — từng ô một theo đúng số trên W-2</li>
+    <li>Chọn Standard Deduction (mặc định) — không cần itemized nếu không có hóa đơn lớn</li>
+    <li>Kiểm tra refund (tiền hoàn lại) hoặc amount owed (tiền còn phải nộp thêm)</li>
+    <li>E-file (nộp điện tử) — nhanh hơn paper filing và nhận refund sớm hơn</li>
+    <li>Nhập routing number và account number ngân hàng để nhận refund qua direct deposit</li>
+  </ol>
+
+  <p class="section-hd">Filing Status Phổ Biến Cho EB-3</p>
+  <div class="info-card">
+    <h3>👤 Single</h3>
+    <p>Chưa kết hôn, hoặc đã kết hôn nhưng vợ/chồng vẫn còn ở Việt Nam. Đây là status phổ biến nhất cho người mới đến. Nếu bạn có con đang sống cùng ở Mỹ và bạn là người nuôi dưỡng chính, có thể dùng <strong>Head of Household</strong> để được deduction cao hơn.</p>
+  </div>
+  <div class="info-card">
+    <h3>💑 Married Filing Jointly</h3>
+    <p>Cả hai vợ chồng đều đã có mặt ở Mỹ trong năm thuế. Thường có lợi hơn filing separately — standard deduction cao hơn gấp đôi, nhiều tax credit hơn. Cả hai cùng ký vào một tờ khai.</p>
+  </div>
+</div>
+
+<!-- TAB 4: Khấu Trừ & Hoàn Thuế -->
+<div id="tab-deductions" class="tab-pane">
+  <p class="section-hd">Standard Deduction 2024</p>
+  <table class="data-table">
+    <thead><tr><th>Filing Status</th><th>Standard Deduction</th></tr></thead>
+    <tbody>
+      <tr><td>Single</td><td>$14,600</td></tr>
+      <tr><td>Married Filing Jointly</td><td>$29,200</td></tr>
+      <tr><td>Head of Household</td><td>$21,900</td></tr>
+    </tbody>
+  </table>
+
+  <div class="alert alert-g">✅ <span><strong>Dùng Standard Deduction:</strong> Hầu hết người EB-3 nên dùng standard deduction — nhanh, đơn giản, và thường có lợi hơn itemized deduction. Phần mềm sẽ tự so sánh và chọn cái có lợi hơn cho bạn.</span></div>
+
+  <p class="section-hd">Tax Credits Quan Trọng</p>
+  <div class="sub-label">Giảm trực tiếp số thuế phải trả — khác với deduction</div>
+
+  <div class="info-card">
+    <h3>💰 Earned Income Tax Credit (EITC)</h3>
+    <p>Áp dụng nếu thu nhập thấp. Năm 2024: độc thân không có con thu nhập dưới ~$18,591 được $632. Có 3 con, thu nhập dưới ~$57,310 được tới $7,830. Đây là credit rất có giá trị — đừng bỏ qua.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>👶 Child Tax Credit</h3>
+    <p>$2,000 cho mỗi con dưới 17 tuổi có SSN. Con phải đang sống tại Mỹ và phụ thuộc vào bạn về tài chính. Một phần ($1,600/con) có thể hoàn lại dù bạn không đủ tiền thuế.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🎓 American Opportunity Tax Credit</h3>
+    <p>$2,500/năm nếu bạn hoặc con đang học đại học 4 năm đầu. Áp dụng cho học phí và sách vở. 40% có thể hoàn lại dù không đủ tiền thuế.</p>
+  </div>
+
+  <p class="section-hd">2024 Federal Tax Brackets — Single</p>
+  <table class="data-table">
+    <thead><tr><th>Thu Nhập (Taxable Income)</th><th>Thuế Suất (Marginal)</th></tr></thead>
+    <tbody>
+      <tr><td>$0 – $11,600</td><td>10%</td></tr>
+      <tr><td>$11,601 – $47,150</td><td>12%</td></tr>
+      <tr><td>$47,151 – $100,525</td><td>22%</td></tr>
+      <tr><td>$100,526 – $191,950</td><td>24%</td></tr>
+    </tbody>
+  </table>
+  <div class="sub-label" style="margin-top:-6px;margin-bottom:14px">Đây là marginal rates — chỉ phần thu nhập trong bracket đó chịu thuế suất đó, không phải toàn bộ thu nhập</div>
+
+  <p class="section-hd">Ví Dụ Thực Tế</p>
+  <div class="calc-box">
+    <div style="font-size:12px;color:#60a5fa;font-weight:700;margin-bottom:8px">TÍNH THUẾ — ĐỘC THÂN, THU NHẬP $40,000</div>
+    <div class="calc-row"><span>Thu nhập gross (W-2 Box 1)</span><span>$40,000</span></div>
+    <div class="calc-row"><span>Standard Deduction (Single 2024)</span><span>−$14,600</span></div>
+    <div class="calc-row"><span>Taxable income</span><span>$25,400</span></div>
+    <div class="calc-row"><span>Thuế bracket 10% ($11,600 × 10%)</span><span>$1,160</span></div>
+    <div class="calc-row"><span>Thuế bracket 12% ($13,800 × 12%)</span><span>$1,656</span></div>
+    <div class="calc-row"><span>Tổng thuế phải nộp</span><span>$2,816</span></div>
+    <div class="calc-row"><span>Employer đã withheld</span><span>$3,500</span></div>
+    <div class="calc-row"><span>→ Hoàn thuế (refund)</span><span>$684</span></div>
+  </div>
+</div>
+
+<!-- TAB 5: Trường Hợp Đặc Biệt -->
+<div id="tab-special" class="tab-pane">
+  <p class="section-hd">Năm Đầu Tiên Tại Mỹ — Dual Status</p>
+  <div class="info-card">
+    <h3>📅 Dual Status Alien</h3>
+    <p>Nếu bạn đến Mỹ giữa năm (không phải từ 1/1), bạn có thể là "dual status alien" — vừa là nonresident alien vừa là resident alien trong cùng năm thuế. Đây là tình huống phức tạp hơn.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>🧪 Substantial Presence Test</h3>
+    <p>Nếu bạn ở Mỹ ít nhất 31 ngày trong năm hiện tại VÀ tổng 183+ ngày khi tính theo công thức (năm nay × 1 + năm trước × 1/3 + năm 2 năm trước × 1/6), bạn được coi là resident alien — khai thuế như người Mỹ thường với Form 1040.</p>
+  </div>
+
+  <div class="info-card">
+    <h3>✅ First-Year Choice Election</h3>
+    <p>Nếu đến Mỹ từ tháng 7 trở về trước, bạn có thể chọn khai như full-year resident ngay năm đầu tiên. Thường có lợi hơn vì được dùng standard deduction cho cả năm. Cần thêm tờ giải thích gửi kèm tờ khai.</p>
+  </div>
+
+  <div class="alert alert-b">💡 <span><strong>Năm đầu tiên:</strong> Hầu hết người EB-3 đến từ giữa năm nên tham khảo VITA hoặc kế toán quen với người nhập cư trước khi tự khai. Sai filing status có thể dẫn đến phạt hoặc ảnh hưởng hồ sơ nhập cư sau này.</span></div>
+
+  <p class="section-hd">ITIN — Khi Chưa Có SSN</p>
+  <div class="info-card">
+    <h3>🔢 Individual Taxpayer Identification Number</h3>
+    <p>ITIN dùng để khai thuế nếu chưa có SSN. Nộp Form W-7 tại IRS kèm theo tờ khai thuế. ITIN không dùng để đi làm hợp pháp và không tích lũy quyền lợi Social Security. Khi đã có SSN rồi thì dùng SSN, không dùng ITIN nữa.</p>
+  </div>
+
+  <p class="section-hd">Bang Không Có Thuế Thu Nhập</p>
+  <div class="tag-list">
+    <span class="tag">Texas</span>
+    <span class="tag">Florida</span>
+    <span class="tag">Nevada</span>
+    <span class="tag">South Dakota</span>
+    <span class="tag">Wyoming</span>
+    <span class="tag">Washington</span>
+    <span class="tag">Alaska</span>
+  </div>
+  <p style="font-size:12.5px;color:#94a3b8;margin-bottom:14px">Nếu bạn sống và làm việc tại các bang này suốt cả năm, không cần nộp tờ khai thuế tiểu bang.</p>
+
+  <p class="section-hd">Theo Dõi Hoàn Thuế</p>
+  <table class="data-table">
+    <thead><tr><th>Cách Nộp</th><th>Thời Gian Nhận Refund</th></tr></thead>
+    <tbody>
+      <tr><td>E-file + Direct Deposit</td><td>1–3 tuần (nhanh nhất)</td></tr>
+      <tr><td>E-file + Check qua bưu điện</td><td>3–4 tuần</td></tr>
+      <tr><td>Paper file (hồ sơ giấy)</td><td>6–8 tuần</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:12.5px;color:#94a3b8;margin-bottom:14px">Theo dõi trạng thái hoàn thuế: <strong style="color:#60a5fa">IRS.gov/refunds</strong> hoặc app <strong style="color:#60a5fa">IRS2Go</strong>. Cần SSN, filing status, và số tiền refund dự kiến.</p>
+
+  <p class="section-hd">Dịch Vụ Khai Thuế Miễn Phí</p>
+  <table class="data-table">
+    <thead><tr><th>Dịch Vụ</th><th>Website</th><th>Chi Phí</th></tr></thead>
+    <tbody>
+      <tr><td>VITA</td><td>irs.gov/vita</td><td>Miễn phí hoàn toàn</td></tr>
+      <tr><td>IRS Free File</td><td>irs.gov/freefile</td><td>Miễn phí (thu nhập &lt; $84K)</td></tr>
+      <tr><td>FreeTaxUSA</td><td>freetaxusa.com</td><td>Federal miễn phí, State $14.99</td></tr>
+      <tr><td>MyFreeTaxes</td><td>myfreetaxes.com</td><td>Miễn phí hoàn toàn</td></tr>
+    </tbody>
+  </table>
+
+  <div class="alert alert-y">⚠️ <span><strong>Tránh lừa đảo thuế:</strong> Không trả tiền cho người nào hứa hoàn thuế lớn bất thường hay tính phí theo % số tiền hoàn. VITA hoàn toàn miễn phí. Không ký vào tờ khai để trống. Không cho ai dùng địa chỉ của bạn để nhận refund thay.</span></div>
+</div>
+
+<!-- TAB 6: Hưu Trí & Thuế -->
+<div id="tab-retire" class="tab-pane">
+  <p class="section-hd">Kế Hoạch Hưu Trí &amp; Thuế Dài Hạn</p>
+
+  <!-- 401k / Traditional IRA -->
+  <div class="info-card">
+    <h3>💼 401(k) / Traditional IRA — Họ Chỉ Nói Một Nửa Sự Thật</h3>
+    <p>Nhiều người được tư vấn: <em>"Bỏ tiền vào 401(k) hay Traditional IRA đi, tiền đó được trừ thẳng vào thu nhập chịu thuế hiện tại, hời quá!"</em> — điều này đúng, nhưng chưa đủ.</p>
+    <div class="alert alert-y">⚠️ <span><strong>Bản chất là PRE-TAX (tiền trước thuế):</strong> Chính phủ Mỹ cho bạn nợ thuế lúc trẻ, không phải cho không. Cái gì hoãn lại thì sớm muộn cũng phải trả.</span></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+      <div style="background:#052e16;border:1px solid #15803d;border-radius:8px;padding:12px">
+        <div style="font-size:11px;font-weight:700;color:#86efac;margin-bottom:6px">HIỆN TẠI — KHI CÒN ĐI LÀM</div>
+        <p style="font-size:12.5px;color:#bbf7d0;margin:0">Đóng góp bằng tiền <strong>TRƯỚC THUẾ</strong><br>→ Giảm thu nhập chịu thuế hiện tại<br>→ Giảm số thuế phải trả ngay bây giờ</p>
+      </div>
+      <div style="background:#450a0a;border:1px solid #991b1b;border-radius:8px;padding:12px">
+        <div style="font-size:11px;font-weight:700;color:#fca5a5;margin-bottom:6px">TƯƠNG LAI — KHI NGHỈ HƯU</div>
+        <p style="font-size:12.5px;color:#fca5a5;margin:0">Khi rút tiền ra, phải trả <strong>THUẾ</strong> với toàn bộ số tiền (gốc + lãi)<br>→ Thu nhập khi rút bị tính thuế<br>→ Có thể rơi vào khung thuế cao hơn</p>
+      </div>
+    </div>
+    <div class="alert alert-b">💡 <span><strong>4 sự thật cần nhớ:</strong> (1) Tiền trước thuế — đóng bằng tiền chưa bị đánh thuế; (2) Hoãn thuế, không phải miễn thuế; (3) Rút ra là phải trả thuế — rút bao nhiêu, IRS thu thuế bấy nhiêu; (4) Lập kế hoạch thuế cho tương lai ngay hôm nay.</span></div>
+  </div>
+
+  <!-- RMD -->
+  <div class="info-card">
+    <h3>⏰ Luật RMD — Bẫy Thuế Lúc 73 Tuổi</h3>
+    <p><strong>RMD (Required Minimum Distribution)</strong> là số tiền tối thiểu IRS bắt buộc bạn phải rút mỗi năm từ tài khoản 401(k) / Traditional IRA kể từ năm bạn đủ <strong>73 tuổi</strong> (theo luật SECURE 2.0). Dù bạn không cần tiền, vẫn <strong>phải rút.</strong></p>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px">
+      <div style="background:#0c1a35;border:1px solid #1d4ed8;border-radius:8px;padding:10px;text-align:center">
+        <div style="font-size:11px;font-weight:700;color:#93c5fd;margin-bottom:4px">1. TÍCH LŨY<br>TRƯỚC 73 TUỔI</div>
+        <p style="font-size:11.5px;color:#cbd5e1;margin:0">Đóng góp vào 401(k), Traditional IRA — tiền tăng trưởng hoãn thuế</p>
+      </div>
+      <div style="background:#0c1a35;border:1px solid #1d4ed8;border-radius:8px;padding:10px;text-align:center">
+        <div style="font-size:11px;font-weight:700;color:#93c5fd;margin-bottom:4px">2. TỪ 73 TUỔI<br>TRỞ ĐI</div>
+        <p style="font-size:11.5px;color:#cbd5e1;margin:0">IRS buộc bạn rút RMD mỗi năm dù bạn có cần tiền hay không</p>
+      </div>
+      <div style="background:#450a0a;border:1px solid #991b1b;border-radius:8px;padding:10px;text-align:center">
+        <div style="font-size:11px;font-weight:700;color:#fca5a5;margin-bottom:4px">3. HỆ QUẢ</div>
+        <p style="font-size:11.5px;color:#fca5a5;margin:0">Khoản RMD tính là thu nhập chịu thuế, có thể đẩy bạn lên khung thuế cao hơn</p>
+      </div>
+    </div>
+    <div class="calc-box">
+      <div style="font-size:12px;font-weight:700;color:#93c5fd;margin-bottom:8px">📐 Cách tính RMD</div>
+      <div class="calc-row"><span>Số dư tài khoản hưu trí (cuối năm trước)</span><span>÷</span></div>
+      <div class="calc-row"><span>Hệ số kỳ vọng sống (Life Expectancy Factor — IRS công bố hàng năm)</span><span>=</span></div>
+      <div class="calc-row" style="font-weight:700;color:#fbbf24"><span>Số tiền RMD tối thiểu phải rút trong năm</span><span>↑ Tuổi càng cao, RMD càng lớn</span></div>
+    </div>
+    <div class="alert alert-r">⚠️ <span><strong>Không rút đủ RMD = Phạt nặng:</strong> IRS phạt <strong>25%</strong> trên số tiền bạn chưa rút (đã giảm từ 50% theo luật mới). Ví dụ: thiếu $10,000 RMD → phạt $2,500.</span></div>
+  </div>
+
+  <!-- RMD Tax Impact -->
+  <div class="info-card">
+    <h3>📊 RMD Bị Đánh Thuế Như Thu Nhập Thông Thường</h3>
+    <p>Số tiền bị ép rút từ 401(k) sẽ bị <strong>cộng thẳng vào thu nhập của bạn năm đó</strong> và bị đánh thuế theo khung thuế thu nhập hiện hành (Ordinary Income Tax).</p>
+    <div class="calc-box">
+      <div style="font-size:12px;font-weight:700;color:#93c5fd;margin-bottom:8px">Ví dụ minh họa — Ông A, 73 tuổi</div>
+      <div class="calc-row"><span>Thu nhập khác (Social Security $24k + lãi ngân hàng $6k)</span><span style="color:#f1f5f9">$30,000</span></div>
+      <div class="calc-row"><span>+ RMD bị rút bắt buộc từ 401(k)</span><span style="color:#f1f5f9">$40,000</span></div>
+      <div class="calc-row" style="font-weight:700;color:#fbbf24"><span>TỔNG THU NHẬP CHỊU THUẾ</span><span>$70,000</span></div>
+      <p style="font-size:11.5px;color:#93c5fd;margin:8px 0 0">→ $40,000 RMD bị đánh thuế giống như $40,000 tiền lương bạn đi làm kiếm được — ở khung thuế 22%</p>
+    </div>
+    <div class="sub-label">Khung Thuế Thu Nhập 2024 (Người Độc Thân)</div>
+    <table class="data-table">
+      <thead><tr><th>Thu nhập chịu thuế</th><th>Thuế suất</th></tr></thead>
+      <tbody>
+        <tr><td>$0 – $11,600</td><td>10%</td></tr>
+        <tr><td>$11,601 – $47,150</td><td>12%</td></tr>
+        <tr style="background:#1c2c1a"><td><strong>$47,151 – $100,525</strong></td><td><strong style="color:#fbbf24">22%</strong></td></tr>
+        <tr><td>$100,526 – $191,950</td><td>24%</td></tr>
+        <tr><td>$191,951 – $243,725</td><td>32%</td></tr>
+        <tr><td>$243,726 – $609,350</td><td>35%</td></tr>
+        <tr><td>Trên $609,350</td><td>37%</td></tr>
+      </tbody>
+    </table>
+    <div class="alert alert-y">⚠️ <span>RMD làm tăng thu nhập chịu thuế, có thể đẩy bạn lên bậc thuế cao hơn, tăng Medicare IRMAA, và làm mất các khoản trợ cấp khác như Obamacare subsidy, trợ cấp thuốc, v.v.</span></div>
+  </div>
+
+  <!-- Roth -->
+  <div class="info-card">
+    <h3>✅ Giải Pháp 1: Chuyển Sang Roth IRA / Roth 401(k)</h3>
+    <p>Nếu bạn còn trong độ tuổi cày cuốc (30–50 tuổi), bạn vẫn còn thời gian bẻ lái. Roth dùng tiền <strong>SAU THUẾ</strong> — bạn nộp thuế ngay bây giờ, để rồi về già không phải nộp nữa.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
+      <div style="background:#052e16;border:1px solid #15803d;border-radius:8px;padding:12px">
+        <div style="font-size:11px;font-weight:700;color:#86efac;margin-bottom:6px">LỢI ÍCH ROTH</div>
+        <ul style="font-size:12px;color:#bbf7d0;margin:0;padding-left:16px;line-height:1.8">
+          <li>Tiền tăng trưởng <strong>miễn thuế</strong></li>
+          <li><strong>Không có luật RMD</strong> ở tuổi 73</li>
+          <li>Rút lúc nào thì rút, không ai ép</li>
+          <li>Hoàn toàn <strong>tax-free</strong> khi về già</li>
+        </ul>
+      </div>
+      <div style="background:#1c1400;border:1px solid #b45309;border-radius:8px;padding:12px">
+        <div style="font-size:11px;font-weight:700;color:#fcd34d;margin-bottom:6px">GIỚI HẠN CẦN BIẾT</div>
+        <ul style="font-size:12px;color:#fde68a;margin:0;padding-left:16px;line-height:1.8">
+          <li>Có giới hạn thu nhập để mở Roth IRA</li>
+          <li>2024: độc thân &lt;$161k, vợ chồng &lt;$240k</li>
+          <li>Đóng tối đa $7,000/năm (50+ tuổi: $8,000)</li>
+          <li>Thu nhập quá cao → không được mở trực tiếp</li>
+        </ul>
+      </div>
+    </div>
+    <div class="alert alert-b">💡 <span><strong>Roth Conversion:</strong> Nếu thu nhập không quá cao, bạn có thể chuyển dần 401(k) / Traditional IRA sang Roth (phải trả thuế trên số chuyển đổi, nhưng làm từng năm nhỏ để giữ thuế suất thấp).</span></div>
+  </div>
+
+  <!-- IUL -->
+  <div class="info-card">
+    <h3>🔒 Giải Pháp 2: IUL — Cho Người Thu Nhập Cao Không Được Mở Roth</h3>
+    <p><strong>IUL (Indexed Universal Life)</strong> là bảo hiểm nhân thọ chỉ số vĩnh viễn — tích lũy cash value, tăng trưởng theo chỉ số chứng khoán (S&amp;P 500...) nhưng không đầu tư trực tiếp.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">
+      <div style="background:#0c1a35;border:1px solid #1d4ed8;border-radius:8px;padding:12px">
+        <div style="font-size:11px;font-weight:700;color:#93c5fd;margin-bottom:6px">ĐẶC ĐIỂM IUL</div>
+        <ul style="font-size:12px;color:#cbd5e1;margin:0;padding-left:16px;line-height:1.8">
+          <li>Tích lũy (cash value) tăng theo thị trường</li>
+          <li><strong>Bảo vệ tầng đáy 0%</strong> — thị trường giảm, tài khoản không âm</li>
+          <li>Rút tiền dưới dạng <strong>loan</strong> — không bị đánh thuế</li>
+          <li><strong>Không bị RMD</strong> ở tuổi 73</li>
+        </ul>
+      </div>
+      <div style="background:#052e16;border:1px solid #15803d;border-radius:8px;padding:12px">
+        <div style="font-size:11px;font-weight:700;color:#86efac;margin-bottom:6px">LỢI ÍCH KHI VỀ GIÀ</div>
+        <ul style="font-size:12px;color:#bbf7d0;margin:0;padding-left:16px;line-height:1.8">
+          <li>Không bị IRS ép buộc RMD</li>
+          <li>Không ảnh hưởng đến tiền an sinh xã hội</li>
+          <li>Tăng trưởng tax-free trong kết sắt IUL</li>
+          <li>Bảo vệ gia đình + tích lũy + tự do tài chính</li>
+        </ul>
+      </div>
+    </div>
+    <div class="alert alert-y">⚠️ <span><strong>Lưu ý:</strong> IUL không phải khoản đầu tư ngắn hạn — là chiến lược tài chính dài hạn để bảo vệ, tích lũy và tạo dòng tiền tự do khi về già. Cần tư vấn với chuyên gia bảo hiểm có license trước khi mở.</span></div>
+  </div>
+
+  <div class="alert alert-b">🔑 <span><strong>Tóm lại:</strong> 401(k)/Traditional IRA là công cụ tốt để giảm thuế ngay hôm nay, nhưng hãy hiểu rõ bản chất: chính phủ cho bạn "nợ thuế" hôm nay để trả lại ngày mai. Lập kế hoạch sớm — kết hợp Roth và/hoặc IUL — để không bị bất ngờ khi RMD bắt đầu ở tuổi 73.</span></div>
+</div>
+
+<div class="info-card">
+  <h3>📚 Nguồn tham khảo chính thức</h3>
+  <p style="font-size:13px;color:#94a3b8;line-height:1.7">
+    <a href="https://www.irs.gov/" target="_blank" rel="noopener" style="color:#60a5fa">IRS.gov</a> — trang chính thức của Sở Thuế vụ Liên bang Mỹ, tra cứu mức thuế, hạn nộp, và hướng dẫn khai thuế.<br>
+    <a href="https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free" target="_blank" rel="noopener" style="color:#60a5fa">IRS Free File</a> — khai thuế liên bang miễn phí dành cho người có thu nhập đủ điều kiện.
+  </p>
+</div>
+
+</div>
+<footer style="background:#111c2b;border-top:1px solid #1e2d3d;padding:14px 20px;text-align:center;font-size:11px;color:#475569;margin-top:20px">
+  <a href="/" style="color:#64748b;text-decoration:none;margin:0 8px">🏠 Trang Chủ</a>
+  <div style="margin-top:6px">© 2026 EB3VIET · Thông tin thuế dành cho năm thuế 2024. Đây không phải tư vấn thuế chuyên nghiệp — hãy dùng VITA hoặc chuyên gia thuế có kinh nghiệm với người nhập cư nếu tình huống phức tạp.</div>
+  <div style="margin-top:5px;font-size:10.5px;color:#3f5063">Cập nhật lần cuối: 15/06/2026</div>
+</footer>
+</div></div>
+
+<script>
+function toggleGroup(id){var g=document.getElementById(id);g.classList.toggle('collapsed');}
+document.querySelectorAll('.sb-group').forEach(function(g){if(!g.querySelector('.sb-item.active,.sb-item.sub.active')){g.classList.add('collapsed');}});
+function toggleSidebar(){document.getElementById('sb').classList.toggle('open');document.getElementById('sb-overlay').classList.toggle('open');}
+function showTab(id,el){document.querySelectorAll('.tab-pane').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));document.getElementById(id).classList.add('active');el.classList.add('active');}
+</script>
+</body>
+</html>

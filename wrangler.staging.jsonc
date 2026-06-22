@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "eb3-website-staging",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-06-21",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+    "run_worker_first": ["/", "/start", "/visa-bulletin", "/perm-tracker"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "VISA_BULLETIN",
+      "id": "053458ff64374fa9850a9e7bde60f301"
+    },
+    {
+      "binding": "PERM_TRACKER",
+      "id": "d7d494b876bf46969a473d2e3dbbf59e"
+    }
+  ]
+}
