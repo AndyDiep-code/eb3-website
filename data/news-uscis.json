@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T19:56:18Z",
+  "updated": "2026-06-23T16:15:48Z",
   "items": [
     {
       "id": "1aba08095977",
@@ -186,6 +186,15 @@
       "title": "I-129, Petition for a Nonimmigrant Worker - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
       "desc": "",
+      "date": "2026-06-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "c0a934855318",
+      "title": "G-1055, Fee Schedule - uscis.gov",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2SDlPNFJBYlNyRllBSEVhTl9SYXA3cWs0MllLQV9pS29CV2FyTHNYeXJ5bHNraEJtQm9JTkdPTGhKSThaMEV4OVdwWGw3WktsRmdkblZR?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;uscis.gov",
       "date": "2026-06-15",
       "source": "USCIS",
       "category": "uscis"
@@ -531,15 +540,6 @@
       "date": "2026-06-01",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "7c8e1899effd",
-      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
-      "desc": "",
-      "date": "2026-06-01",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
