@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-23T16:15:48Z",
+  "updated": "2026-06-24T15:40:20Z",
   "items": [
+    {
+      "id": "e6b9f82e4701",
+      "title": "US Department of Labor recovers $1.7M in back wages for 1,666 hourly employees denied overtime by multi-trade contractor",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260623",
+      "desc": "FRANKLIN, TN – The U.S. Department of Labor has recovered $1,730,598 in back wages for 1,666 workers after an investigation found that a multi-trade contractor failed to pay them their full wages, in violation of the&nbsp;Fair Labor Standards Act.&nbsp; &nbsp;Investigators with t",
+      "date": "2026-06-23",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "c9fe73207263",
+      "title": "Office of Workers’ Compensation Programs seeks public input on occupational hearing loss evaluation methods",
+      "link": "http://www.dol.gov/newsroom/releases/owcp/owcp20260623",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s Office of Workers’ Compensation Programs is inviting public comment on the comparative reliability and validity of hearing testing methods and best practices for evaluating occupational hearing loss.&nbsp;In a request for information, t",
+      "date": "2026-06-23",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "1aba08095977",
       "title": "Federal court enters consent order requiring 3 Maine sports bars  to pay $51K in back wages to 47 employees",
@@ -425,6 +443,15 @@
       "category": "uscis"
     },
     {
+      "id": "ba1e8dd8bf87",
+      "title": "National Benefit Center - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GcUhLVXQ1V2NxaDRzQVhTendhS0RjT051eFIxbV9Xdkc4Q202OVdrYTVMRjdReHFCRGJLRnpMSWRQZFJVNXJTWVNYdXpMakJ4S3pr?oc=5",
+      "desc": "National Benefit Center&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "70a73c75143c",
       "title": "Meet Emma, Our Virtual Assistant - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uQVVrT2F6UjlYRWlVb1B0RXlOMWNYXzl3My1rOC1uT2tNeVhYQXdFaDNidFZvUGpYUTBwU1JTVTFLcFdmdGxhN0V1Y0R1V1JLZ2swTVJKaUJzVVRTVnJiN3M2WWRSYS1Pb1VR?oc=5",
@@ -513,33 +540,6 @@
       "date": "2026-06-03",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "10086575f233",
-      "title": "G-28, Notice of Entry of Appearance as Attorney or Accredited Representative - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1Zd01pai15WDMzTkZhM2pvd3Q2bUIzZF9PM2tXbDhaZGRLVlRkaWc2RE92cS1MQ2E4NGdDajEzVQ?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7353268b3254",
-      "title": "I-356, Request for Cancellation of Public Charge Bond - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1CSkpzSmU0Nzk5enFQNmMxbm1XWmR6TDhqWGRLQ3Y4blpwRVNsUzNXSHFla1hjT0R2bUNkNGptNWw?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d3ff210cf73d",
-      "title": "US Department of Labor cites Piggly Wiggly franchisee for willful, serious violations after employee suffers amputation",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260601",
-      "desc": "ATLANTA&nbsp;– The U.S. Department of Labor has cited a Bowden Piggly Wiggly supermarket franchisee for safety violations after a meat department worker suffered an amputation.&nbsp;The department's Occupational Safety and Health Administration found that on Jan. 29, 2026, RBG Fo",
-      "date": "2026-06-01",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
