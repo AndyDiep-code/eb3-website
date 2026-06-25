@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T15:40:20Z",
+  "updated": "2026-06-25T16:10:53Z",
   "items": [
     {
       "id": "e6b9f82e4701",
@@ -20,6 +20,15 @@
       "category": "dol"
     },
     {
+      "id": "80dfcb137c58",
+      "title": "SAVE Enhances Case Processing - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS3FLT1QzSHBCZk9BNWsxWHVHLWFOSDljbjhxdjRtRWhaYTlpT1Y3VjJJRTJlQ0U3X0RGTEFvb3dnN3dhOGp1S2FMYVU5a1FwcUVLSGQ4cWhlQ3FTOWk0bzdMNkljNHRIZ01kZERXVkw5MFF4cVE5N1lhYjVrNHlnX0ZEOTJzYjZtclF4LXdkS01pN2JB?oc=5",
+      "desc": "SAVE Enhances Case Processing&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-23",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "1aba08095977",
       "title": "Federal court enters consent order requiring 3 Maine sports bars  to pay $51K in back wages to 47 employees",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260622",
@@ -27,6 +36,15 @@
       "date": "2026-06-22",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "d2c1bf8480e6",
+      "title": "Update: Supreme Court Order for TPS Venezuela - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVklIbFBtejRyMGtjaXhocGdfa0NJYUhod0xmWEF2b2VFZjFzcXVVUnM0MUstT1NoTXB0eFI0YnNqRWZ5aVlPZ0RiQWVkS29pUWRsR3BHS2J6RXZsdEVlYTM4cFIySlNVVnVQSW9ZSkVyX3lIZkVDeHY5d05FbXNYZFZ3QUlhVE1PbndEeVAzS3p5VUFSdVpzM2FwTVlDNVI3YlRnVw?oc=5",
+      "desc": "",
+      "date": "2026-06-22",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "100e6ef6f1ae",
@@ -78,6 +96,15 @@
       "title": "Employment-Based Immigration: Third Preference EB-3 - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnRkOGMyUklvRnpkcHZaaUczcENKS0JRb2tHajBsdFg1VzVmVlpFeFd5TGZwaHhTemZSUVNWLXJQUl92QjF2ZDgxbUM2THVZanIzakpuRjJ1TUppX3k4SWtaQnQ5eW9ybVlsOXZvY25OUHdNMWp6ZVp1czlaTGVBZ3BEVDh4NEFNWjU4RGY4U19GUXBCbUxBYjBMME93ZGtoNm9YbG5ZMmQwN2lWTVBfbjdEd0xXazBsM0Nn?oc=5",
       "desc": "",
+      "date": "2026-06-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "301966b3f7f6",
+      "title": "Permanent Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYUkzaFcyZ0d3WXZMX0ZnYlhkYy1SMi0xZXczWGNZQW1SWlFtdjg3amRYblRON2pxQmNCSUpaTnFLd2ptX3g5cG1lbzUwOUFET1VWU3VTY2FHN0lpZjFMTFZiaGZjTkx4bDBQdEdEa0hwNkc0RHN3?oc=5",
+      "desc": "Permanent Workers&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-06-17",
       "source": "USCIS",
       "category": "uscis"
@@ -509,33 +536,6 @@
       "id": "f125ba72c8d1",
       "title": "I-131A, Application for Carrier Documentation - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE81T3JWSHJWM0JMMUtBZWVwS2tvb1U0cURscHlrVnlvWGNFZkg2YmhBVUpZLUlVX2ZsLVlkcUZGX0s0Zw?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "32f7653c1fde",
-      "title": "G-1651, Exemption for Paper Fee Payment - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBhYkZEOVZDVHVOQzlSY0FqZ2xNa1lfOEhVWXd6cVJYVk9VdXhGQW1LUVZvVS1NdVRST3hzcjFKY1k4Zw?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "821511bcb82c",
-      "title": "I-134, Declaration of Financial Support - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE56X1hmeXZTWTE5X0VWeWNxdTVPTHNWSFlfWG42VXRaU1lDTVliOWpMUGpqMTJjMmxEb1ZNS2FDbjE?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6672bb05123f",
-      "title": "G-1651, Exemption for Paper Fee Payment - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBhYkZEOVZDVHVOQzlSY0FqZ2xNa1lfOEhVWXd6cVJYVk9VdXhGQW1LUVZvVS1NdVRST3hzcjFKY1k4Zw?oc=5",
       "desc": "",
       "date": "2026-06-03",
       "source": "USCIS",
