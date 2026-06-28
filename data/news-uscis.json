@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T12:01:00Z",
+  "updated": "2026-06-28T12:09:54Z",
   "items": [
     {
       "id": "eed237ef915a",
@@ -7,6 +7,24 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjZiUGRoSVdYc2NQckRLaG1lNXI3dFFIMEJGRjBsQ2djV2ZWaldRVldpR2tCWFc2SlRZdVRWT3EwT3otM2FQdkM4TE5PanQwRDZWdDVwejZ2MnIxUkVwejJLMEZibHZ0UWV1OGlkdnpibjNRY1hvVDN6ckE4ZWJOWldrcjJDb3VuRjBkb3ZLVDBXdDVnRWNYSjdQWU9hQVRucUxwUW96RDdsSnBBR25WMnBZLXk?oc=5",
       "desc": "",
       "date": "2026-06-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3a473d58dd2e",
+      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
+      "desc": "",
+      "date": "2026-06-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "deeb24a2e9a7",
+      "title": "Reports and Studies - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ka1M0bHhRcS12UUR1ZkJQQUwzTmFqOVBjTlBTam1vVTl0VGd1V2NraEVGeW5CNHU0WVBVcUNYbGREb19aNmNLMW9kWkt4NTVERldTTGFpT1czT1E?oc=5",
+      "desc": "Reports and Studies&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-06-25",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -213,6 +231,15 @@
       "title": "Reports and Studies - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ka1M0bHhRcS12UUR1ZkJQQUwzTmFqOVBjTlBTam1vVTl0VGd1V2NraEVGeW5CNHU0WVBVcUNYbGREb19aNmNLMW9kWkt4NTVERldTTGFpT1czT1E?oc=5",
       "desc": "Reports and Studies&nbsp;&nbsp;uscis.gov",
+      "date": "2026-06-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "edc73fd5b52c",
+      "title": "G-1145, E-Notification of Application/Petition Acceptance - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5pVzhXazhhMjEzUXoxN25zeVVaNHBMSElSMzVyakFWQjVMNGxRSDVzZXlMeUZNNldVMzk5Um10dXFhdw?oc=5",
+      "desc": "",
       "date": "2026-06-16",
       "source": "USCIS",
       "category": "uscis"
@@ -506,38 +533,11 @@
       "category": "uscis"
     },
     {
-      "id": "70a73c75143c",
-      "title": "Meet Emma, Our Virtual Assistant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uQVVrT2F6UjlYRWlVb1B0RXlOMWNYXzl3My1rOC1uT2tNeVhYQXdFaDNidFZvUGpYUTBwU1JTVTFLcFdmdGxhN0V1Y0R1V1JLZ2swTVJKaUJzVVRTVnJiN3M2WWRSYS1Pb1VR?oc=5",
+      "id": "b42f6d4a9e8c",
+      "title": "I-914, Application for T Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMG1HTG9MSmF0WFJnM0hodHZxc3UwMTJLNnRXano4SVFiVWltSlBhb1JlY2RBanVBSTVRcHAtR0c?oc=5",
       "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a7282d59571a",
-      "title": "I-9, Employment Eligibility Verification - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1ZWFFvcXJjaHBxUDItSmkwYkhTaXliYUpuUHlSRFQwWTM3TGR6YWZkUWlQbUlwYlpramdTNXpB?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a2f8a90d0b9d",
-      "title": "G-1650, Authorization for ACH Transactions - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBiRlVWTEZYQTliNVVsVk5lR3drMHE2Z0kwM2hncFU0d3d5bnBlZjM5UEpvTDRoOWJBR0VSYm1ISEV3dw?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e19a09a38187",
-      "title": "G-1450, Authorization for Credit Card Transactions - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ZZUhvUVk4NDl4TVdVT0FvMG9TeFZ6YVNDblZUVTIxMktiRnNELW9wUzNSSE1LRVR2M09xay1RLWFrdw?oc=5",
-      "desc": "",
-      "date": "2026-06-03",
+      "date": "2026-06-05",
       "source": "USCIS",
       "category": "uscis"
     }
