@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T12:09:54Z",
+  "updated": "2026-06-29T17:18:49Z",
   "items": [
     {
       "id": "eed237ef915a",
@@ -14,6 +14,33 @@
       "id": "3a473d58dd2e",
       "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
+      "desc": "",
+      "date": "2026-06-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d24a8eba24c0",
+      "title": "Green Card for VAWA Self-Petitioner - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjVKeGMycnhxdW1Oa0hjT0xMT1RjSk1tTGM1ZjkwcURKTExaTkdjVi15d3BZVGVJOGZkaHF0V214X0JkQVo4Vy1yUG8zc29qS3JQaXFGQkR6RThwY2Nsc2piN1BCQTBaUTZBaEFSNElsUmdaaDVZa1gwRERobXptekFGdlp5TFhmZnFKYzFKTkw0OTBDVnc?oc=5",
+      "desc": "",
+      "date": "2026-06-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "c7b710e7007a",
+      "title": "Abused Spouses, Children and Parents - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aYW9QZGVNRnFHTGgzMHNUUVVaakxwSXA0eWVlbG9FNGhoYkRvTU9VRGRzQU5RVDk2d2o4eXlLaXZ0M1g1SkV2clBjYzRUODN2R0N2NVdTWkJWNFV1bktCQkUzVkc0WkI3UTNQMUxlY200QTAwU2xEMVRB?oc=5",
+      "desc": "",
+      "date": "2026-06-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d701375c78e5",
+      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
       "desc": "",
       "date": "2026-06-26",
       "source": "USCIS",
@@ -509,33 +536,6 @@
       "id": "b0e7cc2082f7",
       "title": "Interagency Record of Request - A, G or NATO Dependent Employment Authorization or Change/Adjustment to/from A, G or NATO Status - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9kbzVHRTFQUkJKYnpPa2d6ejNjV2tCTEoxVm5jbUZDcVo3T0JKMVlzMmRSWGd3NHFvWkVpMktlU1M?oc=5",
-      "desc": "",
-      "date": "2026-06-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "72d9022c80be",
-      "title": "I-914, Application for T Nonimmigrant Status - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMG1HTG9MSmF0WFJnM0hodHZxc3UwMTJLNnRXano4SVFiVWltSlBhb1JlY2RBanVBSTVRcHAtR0c?oc=5",
-      "desc": "",
-      "date": "2026-06-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ba1e8dd8bf87",
-      "title": "National Benefit Center - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GcUhLVXQ1V2NxaDRzQVhTendhS0RjT051eFIxbV9Xdkc4Q202OVdrYTVMRjdReHFCRGJLRnpMSWRQZFJVNXJTWVNYdXpMakJ4S3pr?oc=5",
-      "desc": "National Benefit Center&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-06-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "b42f6d4a9e8c",
-      "title": "I-914, Application for T Nonimmigrant Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMG1HTG9MSmF0WFJnM0hodHZxc3UwMTJLNnRXano4SVFiVWltSlBhb1JlY2RBanVBSTVRcHAtR0c?oc=5",
       "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
