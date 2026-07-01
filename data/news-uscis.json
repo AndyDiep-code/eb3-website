@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T13:30:03Z",
+  "updated": "2026-07-01T16:11:28Z",
   "items": [
     {
       "id": "a963dc470003",
@@ -212,6 +212,15 @@
       "id": "026d43e0fd89",
       "title": "Temporary (Nonimmigrant) Workers - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1JaVTRXU2prNHMzQnFoWUo2bjduUzF4dWNvSWRpMEc3M2NkckdZczhsLXdPUE81SUprUTZFZTNYcXZNNnVMenU0UVl5QmpEX0lQbl8xZFNnVkpNMDBjc3ZCSzdLdmRUS0xmd3F6ekZvdEQ0R3VDVmRiMU1HSndVclFzZTRwZ1N4?oc=5",
+      "desc": "",
+      "date": "2026-06-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f7daacfbc2b8",
+      "title": "H-2A Temporary Agricultural Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM2JteElvZ0h6a2VsUXVPckZBeWpQa3FqaGZCc1V5MnV1andOVU9LWjJpYXd1LTJvVTZuVE5BRFRkcDFUQUtUbU0wbW9mcnRFUHhwM19qdWpPVVVWdDlNbVBUVkUxaVNibEZZdTBTcUJ4Q0g3WGdpUXlmQ0d5akoyQktNaHNnV0lQeUFXOTJlVTN6akZiNmt2bUFXZmZfZzJLZGVjQU9ZWQ?oc=5",
       "desc": "",
       "date": "2026-06-17",
       "source": "USCIS",
@@ -527,15 +536,6 @@
       "id": "9caa41e20d86",
       "title": "I-854, Inter-Agency Alien Witness and Informant Record - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFA1aXFfZERBRHVOTy1KLS0zYlIzRXk2VGhRbjBSM2ZXa3VkZ0JlQTh2cmZ1TmFWSlFzRkxGUXpsLUw?oc=5",
-      "desc": "",
-      "date": "2026-06-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "cdec23578d63",
-      "title": "I-865, Sponsor's Notice of Change of Address - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE95QnpnVTlrLUVWUHFxMi1lcF9WWTJwVFFQUnZZanBPRVhTZnp4Y2prOTgtNGdlVllyZjhLSmhKNzU?oc=5",
       "desc": "",
       "date": "2026-06-05",
       "source": "USCIS",
