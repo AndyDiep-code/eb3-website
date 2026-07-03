@@ -1,0 +1,426 @@
+/**
+ * Job-specific English phrase data ported from english-work.html's inline
+ * `DATA` object (legacy lines 229-496). Kept as a standalone data module so
+ * english-work-content.tsx stays focused on rendering/interaction logic.
+ */
+export interface Phrase {
+  en: string;
+  vi: string;
+  ctx?: string;
+}
+
+export interface PhraseSection {
+  label: string;
+  phrases: Phrase[];
+}
+
+export interface JobTab {
+  id: string;
+  label: string;
+  sections: PhraseSection[];
+}
+
+export const JOB_TABS: JobTab[] = [
+  {
+    id: "factory",
+    label: "🏭 Nhà Máy",
+    sections: [
+      {
+        label: "🌅 Bắt đầu ca làm việc",
+        phrases: [
+          { en: "Good morning! Ready to start?", vi: "Chào buổi sáng! Sẵn sàng bắt đầu chưa?" },
+          { en: "I am clocking in.", vi: "Tôi đang chấm công vào.", ctx: "Khi bấm máy chấm công" },
+          { en: "What is my station today?", vi: "Hôm nay trạm của tôi ở đâu?" },
+          { en: "I need to get my PPE first.", vi: "Tôi cần lấy đồ bảo hộ trước.", ctx: "PPE = Personal Protective Equipment" },
+          { en: "The line starts in 5 minutes.", vi: "Dây chuyền bắt đầu sau 5 phút." },
+        ],
+      },
+      {
+        label: "🔧 Trong ca làm việc",
+        phrases: [
+          { en: "The machine is jammed. Can you help?", vi: "Máy bị kẹt. Bạn có thể giúp không?" },
+          { en: "I need to slow down — the pace is too fast.", vi: "Tôi cần chậm lại — tốc độ quá nhanh." },
+          { en: "There is a quality issue with this batch.", vi: "Lô hàng này có vấn đề chất lượng." },
+          { en: "I am running low on supplies.", vi: "Tôi đang thiếu vật liệu." },
+          { en: "Is this the right procedure?", vi: "Đây có phải quy trình đúng không?" },
+          { en: "I finished my quota early.", vi: "Tôi hoàn thành chỉ tiêu sớm." },
+          { en: "Please repeat that — I did not understand.", vi: "Xin nhắc lại — tôi không hiểu." },
+        ],
+      },
+      {
+        label: "⚠️ An toàn lao động",
+        phrases: [
+          { en: "I need to report a safety hazard.", vi: "Tôi cần báo cáo mối nguy an toàn." },
+          { en: "There is a spill on the floor. Watch out!", vi: "Có chất lỏng đổ trên sàn. Cẩn thận!" },
+          { en: "My gloves are torn. I need new ones.", vi: "Găng tay tôi bị rách. Tôi cần cái mới." },
+          { en: "I think I need first aid.", vi: "Tôi nghĩ tôi cần sơ cứu." },
+          { en: "Where is the nearest fire exit?", vi: "Lối thoát hiểm gần nhất ở đâu?" },
+          { en: "I smell something burning.", vi: "Tôi ngửi thấy mùi cháy." },
+        ],
+      },
+      {
+        label: "☕ Giờ nghỉ & kết thúc ca",
+        phrases: [
+          { en: "I am taking my break now.", vi: "Tôi đang nghỉ giải lao." },
+          { en: "How long is the lunch break?", vi: "Giờ nghỉ trưa bao lâu?" },
+          { en: "I am done for the day. Clocking out.", vi: "Tôi xong ca hôm nay. Chấm công ra." },
+          { en: "Can I work overtime today?", vi: "Hôm nay tôi có thể làm thêm giờ không?" },
+          { en: "What time does the next shift start?", vi: "Ca tiếp theo bắt đầu lúc mấy giờ?" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "food",
+    label: "🐓 Chế Biến TP",
+    sections: [
+      {
+        label: "🐓 Dây chuyền chế biến",
+        phrases: [
+          { en: "Where do I stand on the line?", vi: "Tôi đứng ở đâu trên dây chuyền?" },
+          { en: "I need a sharper knife.", vi: "Tôi cần con dao sắc hơn.", ctx: "Common in poultry/fish processing" },
+          { en: "The conveyor belt is moving too fast.", vi: "Băng chuyền đang chạy quá nhanh." },
+          { en: "This product does not meet the standard.", vi: "Sản phẩm này không đạt tiêu chuẩn." },
+          { en: "I need to change my apron.", vi: "Tôi cần đổi tạp dề." },
+        ],
+      },
+      {
+        label: "🌡️ Môi trường lạnh",
+        phrases: [
+          { en: "It is very cold in here. May I have extra gloves?", vi: "Trong đây rất lạnh. Tôi có thể xin thêm găng tay không?" },
+          { en: "My hands are numb from the cold.", vi: "Tay tôi tê cứng vì lạnh." },
+          { en: "What is the temperature in the freezer room?", vi: "Nhiệt độ trong phòng đông lạnh là bao nhiêu?" },
+          { en: "I need a warm-up break — my fingers are numb.", vi: "Tôi cần nghỉ sưởi ấm — ngón tay tôi tê rồi." },
+        ],
+      },
+      {
+        label: "🧹 Vệ sinh & an toàn thực phẩm",
+        phrases: [
+          { en: "I need to sanitize this area.", vi: "Tôi cần khử trùng khu vực này." },
+          { en: "Where is the cleaning solution kept?", vi: "Dung dịch làm sạch để ở đâu?" },
+          { en: "We must clean before the next batch.", vi: "Chúng ta phải vệ sinh trước khi làm lô tiếp theo." },
+          { en: "Please follow food safety protocols.", vi: "Vui lòng tuân thủ quy trình an toàn thực phẩm." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hotel",
+    label: "🏨 Khách Sạn",
+    sections: [
+      {
+        label: "🛏️ Dọn phòng (Housekeeping)",
+        phrases: [
+          { en: "Good morning! Housekeeping.", vi: "Chào buổi sáng! Dọn phòng đây." },
+          { en: "May I come in to clean your room?", vi: "Tôi có thể vào dọn phòng của bạn không?" },
+          { en: "I will come back later.", vi: "Tôi sẽ quay lại sau." },
+          { en: "Do you need extra towels?", vi: "Bạn có cần thêm khăn không?" },
+          { en: "Would you like your room serviced now?", vi: "Bạn muốn dọn phòng bây giờ không?" },
+        ],
+      },
+      {
+        label: "🧺 Giặt là (Laundry)",
+        phrases: [
+          { en: "I need to sort the laundry.", vi: "Tôi cần phân loại đồ giặt." },
+          { en: "This linen has a stain. Separate it.", vi: "Khăn này có vết bẩn. Để riêng ra.", ctx: "Linen = khăn trải giường/khăn tắm" },
+          { en: "The dryer is done. Remove the sheets.", vi: "Máy sấy xong rồi. Lấy khăn ra." },
+          { en: "How many sets do we need for room 201?", vi: "Phòng 201 cần bao nhiêu bộ?" },
+        ],
+      },
+      {
+        label: "🗣️ Giao tiếp với khách",
+        phrases: [
+          { en: "Good morning/afternoon/evening, sir/ma'am.", vi: "Chào buổi sáng/chiều/tối, ông/bà." },
+          { en: "How may I help you?", vi: "Tôi có thể giúp gì cho bạn?" },
+          { en: "I am sorry for the inconvenience.", vi: "Tôi xin lỗi vì sự bất tiện này." },
+          { en: "I will take care of it right away.", vi: "Tôi sẽ xử lý ngay." },
+          { en: "Please let me know if you need anything.", vi: "Vui lòng cho tôi biết nếu bạn cần gì." },
+          { en: "Your room is ready, sir.", vi: "Phòng của ông đã sẵn sàng rồi." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "restaurant",
+    label: "🍔 Nhà Hàng",
+    sections: [
+      {
+        label: "🍽️ Phục vụ bàn",
+        phrases: [
+          { en: "Welcome! Table for how many?", vi: "Chào mừng! Bàn cho mấy người ạ?" },
+          { en: "Are you ready to order?", vi: "Quý khách đã sẵn sàng gọi món chưa?" },
+          { en: "What would you like to drink?", vi: "Quý khách muốn uống gì?" },
+          { en: "The soup of the day is clam chowder.", vi: "Súp hôm nay là súp nghêu.", ctx: "Hay thay đổi theo ngày" },
+          { en: "Enjoy your meal!", vi: "Chúc quý khách ngon miệng!" },
+          { en: "Is everything all right?", vi: "Mọi thứ ổn chứ?" },
+          { en: "Can I get you anything else?", vi: "Tôi có thể lấy thêm gì cho bạn không?" },
+          { en: "Here is your check. Thank you!", vi: "Đây là hóa đơn của bạn. Cảm ơn!" },
+        ],
+      },
+      {
+        label: "👨‍🍳 Bếp phụ (Kitchen helper)",
+        phrases: [
+          { en: "Please prep the vegetables.", vi: "Vui lòng chuẩn bị rau củ.", ctx: "Prep = cắt, rửa, sơ chế" },
+          { en: "The order for table 5 is ready.", vi: "Món cho bàn 5 đã xong rồi." },
+          { en: "We are running low on tomatoes.", vi: "Chúng ta đang thiếu cà chua." },
+          { en: "Please wash your hands before handling food.", vi: "Vui lòng rửa tay trước khi chạm vào thức ăn." },
+          { en: "Dish up 3 portions of chicken.", vi: "Chia 3 phần gà ra đĩa." },
+        ],
+      },
+      {
+        label: "🧹 Dọn dẹp (Busser/Dishwasher)",
+        phrases: [
+          { en: "Table 8 is done. Please clear it.", vi: "Bàn 8 xong rồi. Vui lòng dọn.", ctx: "Clear = dọn bàn" },
+          { en: "The dishwasher is full. Unload it.", vi: "Máy rửa chén đầy rồi. Lấy chén ra." },
+          { en: "Sweep and mop the floor, please.", vi: "Vui lòng quét và lau sàn." },
+          { en: "Refill the ketchup bottles.", vi: "Tiếp tục đổ đầy chai ketchup." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "care",
+    label: "🏥 Chăm Sóc",
+    sections: [
+      {
+        label: "👋 Chào hỏi & chăm sóc cơ bản",
+        phrases: [
+          { en: "Good morning, Mr./Mrs. [name]. How are you feeling today?", vi: "Chào buổi sáng, ông/bà [tên]. Hôm nay ông/bà cảm thấy thế nào?" },
+          { en: "It is time for your medication.", vi: "Đến giờ uống thuốc rồi.", ctx: "Medication = thuốc" },
+          { en: "Let me help you sit up.", vi: "Để tôi giúp ông/bà ngồi dậy." },
+          { en: "Would you like to go for a walk?", vi: "Ông/bà có muốn đi dạo không?" },
+          { en: "I will get you some water.", vi: "Tôi sẽ lấy nước cho ông/bà." },
+        ],
+      },
+      {
+        label: "🍽️ Bữa ăn & vệ sinh",
+        phrases: [
+          { en: "Breakfast is ready. Come sit down.", vi: "Bữa sáng sẵn sàng rồi. Mời ông/bà ngồi." },
+          { en: "Are you hungry? What would you like to eat?", vi: "Ông/bà có đói không? Ông/bà muốn ăn gì?" },
+          { en: "Let me help you to the bathroom.", vi: "Để tôi giúp ông/bà vào phòng tắm." },
+          { en: "I need to change your bed sheets.", vi: "Tôi cần thay khăn trải giường cho ông/bà." },
+          { en: "Call me if you need anything. I will be right here.", vi: "Gọi tôi nếu cần gì. Tôi ở đây." },
+        ],
+      },
+      {
+        label: "🚨 Báo cáo sự cố",
+        phrases: [
+          { en: "The patient had a fall. I need help.", vi: "Bệnh nhân bị ngã. Tôi cần giúp đỡ.", ctx: "Quan trọng nhất cần nhớ" },
+          { en: "Please call the nurse right away.", vi: "Vui lòng gọi y tá ngay.", ctx: "Nurse = y tá" },
+          { en: "I noticed a change in the resident's condition.", vi: "Tôi nhận thấy thay đổi trong tình trạng của cư dân." },
+          { en: "The resident refused medication today.", vi: "Cư dân hôm nay từ chối uống thuốc." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "warehouse",
+    label: "📦 Kho Bãi",
+    sections: [
+      {
+        label: "📦 Nhận và xếp hàng",
+        phrases: [
+          { en: "Where should I put this shipment?", vi: "Tôi nên đặt lô hàng này ở đâu?" },
+          { en: "Can you help me move these boxes?", vi: "Bạn có thể giúp tôi di chuyển những hộp này không?" },
+          { en: "This pallet is damaged. Mark it.", vi: "Pallet này bị hỏng. Đánh dấu lại.", ctx: "Pallet = kệ/tấm gỗ đỡ hàng" },
+          { en: "Scan the barcode before putting it away.", vi: "Quét mã vạch trước khi cất đi.", ctx: "Barcode = mã vạch" },
+          { en: "The forklift zone is restricted. Stay clear.", vi: "Khu vực xe nâng bị hạn chế. Đứng tránh ra.", ctx: "Forklift = xe nâng" },
+        ],
+      },
+      {
+        label: "📋 Kiểm tra & đóng gói",
+        phrases: [
+          { en: "Check the order against the packing list.", vi: "Kiểm tra đơn hàng so với danh sách đóng gói.", ctx: "Packing list = danh sách đóng gói" },
+          { en: "This item is missing from the order.", vi: "Mặt hàng này bị thiếu trong đơn hàng." },
+          { en: "Label this box with the shipping address.", vi: "Dán nhãn hộp này với địa chỉ giao hàng." },
+          { en: "The order is ready to ship.", vi: "Đơn hàng đã sẵn sàng để giao." },
+          { en: "I need a box cutter and tape.", vi: "Tôi cần dao cắt hộp và băng keo.", ctx: "Box cutter = dao rọc hộp" },
+        ],
+      },
+      {
+        label: "🚛 Vận chuyển & giao nhận",
+        phrases: [
+          { en: "The truck is here. Let's unload.", vi: "Xe tải đến rồi. Chúng ta hãy dỡ hàng xuống.", ctx: "Unload = dỡ hàng" },
+          { en: "Sign here to confirm the delivery.", vi: "Ký vào đây để xác nhận giao hàng." },
+          { en: "Be careful — this is fragile.", vi: "Cẩn thận — cái này dễ vỡ.", ctx: "Fragile = dễ vỡ" },
+          { en: "How many units are in this shipment?", vi: "Lô hàng này có bao nhiêu đơn vị?" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "general",
+    label: "🗣️ Giao Tiếp",
+    sections: [
+      {
+        label: "👋 Chào hỏi hàng ngày",
+        phrases: [
+          { en: "Good morning! How are you?", vi: "Chào buổi sáng! Bạn khỏe không?" },
+          { en: "I'm doing well, thank you.", vi: "Tôi khỏe, cảm ơn." },
+          { en: "Have a great day!", vi: "Chúc bạn một ngày tốt lành!" },
+          { en: "See you tomorrow.", vi: "Hẹn gặp lại ngày mai." },
+        ],
+      },
+      {
+        label: "❓ Hỏi & xin giúp đỡ",
+        phrases: [
+          { en: "Could you please show me how to do this?", vi: "Bạn có thể chỉ cho tôi cách làm điều này không?" },
+          { en: "I don't understand. Could you repeat that?", vi: "Tôi không hiểu. Bạn có thể nhắc lại không?" },
+          { en: "Can you speak more slowly, please?", vi: "Bạn có thể nói chậm hơn không?" },
+          { en: "Where is the restroom?", vi: "Phòng vệ sinh ở đâu?" },
+          { en: "What time is lunch?", vi: "Mấy giờ ăn trưa?" },
+          { en: "I need to take a day off.", vi: "Tôi cần nghỉ một ngày." },
+          { en: "I am not feeling well today.", vi: "Hôm nay tôi không được khỏe." },
+        ],
+      },
+      {
+        label: "💰 Lương & phúc lợi",
+        phrases: [
+          { en: "When do we get paid?", vi: "Khi nào chúng ta được trả lương?" },
+          { en: "How do I read my pay stub?", vi: "Tôi đọc bảng lương như thế nào?", ctx: "Pay stub = bảng lương chi tiết" },
+          { en: "I think there is an error in my paycheck.", vi: "Tôi nghĩ có lỗi trong lương của tôi." },
+          { en: "How do I apply for health insurance?", vi: "Tôi đăng ký bảo hiểm y tế như thế nào?" },
+          { en: "I would like to open a bank account.", vi: "Tôi muốn mở tài khoản ngân hàng." },
+        ],
+      },
+      {
+        label: "🚗 Đi lại & cuộc sống",
+        phrases: [
+          { en: "How do I get to the nearest grocery store?", vi: "Làm thế nào để đến siêu thị gần nhất?" },
+          { en: "Is there a bus route to the factory?", vi: "Có tuyến xe bus đến nhà máy không?" },
+          { en: "I need to get a driver's license.", vi: "Tôi cần lấy bằng lái xe." },
+          { en: "Where can I find Vietnamese food nearby?", vi: "Tôi có thể tìm đồ ăn Việt Nam ở gần đâu?" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "emergency",
+    label: "🚨 Khẩn Cấp",
+    sections: [
+      {
+        label: "🚨 Báo cáo sự cố / Tai nạn",
+        phrases: [
+          { en: "Call 911! This is an emergency.", vi: "Gọi 911! Đây là tình huống khẩn cấp.", ctx: "911 = số khẩn cấp toàn Mỹ" },
+          { en: "Someone is injured. We need an ambulance.", vi: "Có người bị thương. Chúng tôi cần xe cứu thương.", ctx: "Ambulance = xe cứu thương" },
+          { en: "There is a fire in the building. Evacuate now!", vi: "Có hỏa hoạn trong tòa nhà. Sơ tán ngay!" },
+          { en: "I need to report an accident.", vi: "Tôi cần báo cáo một vụ tai nạn." },
+          { en: "Do not move the injured person.", vi: "Không di chuyển người bị thương." },
+          { en: "Where is the nearest first aid kit?", vi: "Hộp sơ cứu gần nhất ở đâu?", ctx: "First aid kit = hộp sơ cứu" },
+          { en: "I need to call my supervisor immediately.", vi: "Tôi cần gọi cho quản lý ngay lập tức." },
+          { en: "The machine is malfunctioning — I am shutting it down.", vi: "Máy đang hoạt động sai — tôi đang tắt nó.", ctx: "Shut down = tắt máy" },
+        ],
+      },
+      {
+        label: "⚠️ An toàn nơi làm việc",
+        phrases: [
+          { en: "Please wear your PPE at all times.", vi: "Vui lòng đeo đồ bảo hộ cá nhân mọi lúc.", ctx: "PPE = Personal Protective Equipment = đồ bảo hộ" },
+          { en: "Watch your step — the floor is wet.", vi: "Chú ý bước chân — sàn đang ướt." },
+          { en: "This area is restricted. Do not enter.", vi: "Khu vực này bị hạn chế. Không được vào." },
+          { en: "There is a gas leak. Leave the building now.", vi: "Có rò rỉ khí gas. Rời tòa nhà ngay bây giờ." },
+          { en: "I am feeling dizzy. I need to sit down.", vi: "Tôi cảm thấy chóng mặt. Tôi cần ngồi xuống." },
+          { en: "This equipment needs to be locked out before maintenance.", vi: "Thiết bị này cần được khóa trước khi bảo trì.", ctx: "Lock out = khóa thiết bị để sửa chữa an toàn" },
+          { en: "Is there a defibrillator (AED) nearby?", vi: "Có máy khử rung tim (AED) gần đây không?", ctx: "AED = máy sốc tim khẩn cấp" },
+          { en: "I need to file an incident report.", vi: "Tôi cần nộp báo cáo sự cố.", ctx: "Incident report = báo cáo sự cố" },
+        ],
+      },
+      {
+        label: "🏥 Tình trạng sức khỏe",
+        phrases: [
+          { en: "I am not feeling well. I need to go home.", vi: "Tôi không cảm thấy khỏe. Tôi cần về nhà." },
+          { en: "I have a severe headache / stomachache.", vi: "Tôi bị đau đầu nặng / đau bụng." },
+          { en: "I think I am having an allergic reaction.", vi: "Tôi nghĩ tôi đang bị phản ứng dị ứng." },
+          { en: "Can I use the sick leave today?", vi: "Tôi có thể dùng ngày nghỉ ốm hôm nay không?", ctx: "Sick leave = ngày nghỉ có lương do bệnh" },
+          { en: "I need to see a doctor right away.", vi: "Tôi cần gặp bác sĩ ngay." },
+          { en: "I was injured on the job. I need to file a workers compensation claim.", vi: "Tôi bị thương tại nơi làm việc. Tôi cần nộp đơn bồi thường công nhân.", ctx: "Workers comp = bảo hiểm tai nạn lao động — quyền lợi quan trọng" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "hr",
+    label: "💼 Nhân Sự/Lương",
+    sections: [
+      {
+        label: "💰 Lương và phúc lợi",
+        phrases: [
+          { en: "When do we get paid? Is it weekly or biweekly?", vi: "Khi nào chúng ta được trả lương? Hàng tuần hay 2 tuần?", ctx: "Biweekly = 2 tuần 1 lần" },
+          { en: "I have a question about my paycheck.", vi: "Tôi có câu hỏi về lương của tôi.", ctx: "Paycheck = tờ séc lương hoặc thanh toán lương" },
+          { en: "I think there is an error on my pay stub.", vi: "Tôi nghĩ có lỗi trên bảng lương của tôi.", ctx: "Pay stub = bảng lương chi tiết" },
+          { en: "How do I set up direct deposit?", vi: "Làm thế nào để thiết lập chuyển khoản lương tự động?", ctx: "Direct deposit = lương tự động vào tài khoản ngân hàng" },
+          { en: "What is the overtime rate here?", vi: "Mức lương overtime ở đây là bao nhiêu?", ctx: "Overtime = làm thêm giờ, thường x1.5 lương" },
+          { en: "How many vacation days do I get per year?", vi: "Tôi được bao nhiêu ngày nghỉ phép mỗi năm?" },
+          { en: "I would like to enroll in the health insurance plan.", vi: "Tôi muốn đăng ký vào chương trình bảo hiểm y tế." },
+          { en: "When does my health insurance become effective?", vi: "Bảo hiểm y tế của tôi có hiệu lực khi nào?" },
+          { en: "Is there a 401k plan available?", vi: "Có chương trình 401k không?", ctx: "401k = quỹ hưu trí do công ty đóng góp — rất quan trọng!" },
+        ],
+      },
+      {
+        label: "📅 Nghỉ phép và vắng mặt",
+        phrases: [
+          { en: "I would like to request a day off on [date].", vi: "Tôi muốn xin nghỉ vào ngày [ngày]." },
+          { en: "I need to take FMLA leave for a family matter.", vi: "Tôi cần nghỉ FMLA vì vấn đề gia đình.", ctx: "FMLA = Family Medical Leave Act, nghỉ có phép tối đa 12 tuần/năm" },
+          { en: "I will be late today. I am calling to let you know.", vi: "Hôm nay tôi sẽ đến muộn. Tôi gọi để báo trước." },
+          { en: "I need to leave early today for a medical appointment.", vi: "Hôm nay tôi cần ra về sớm để khám bác sĩ." },
+          { en: "Can I swap shifts with a coworker?", vi: "Tôi có thể đổi ca với đồng nghiệp không?", ctx: "Swap shifts = đổi ca làm" },
+          { en: "I would like to pick up extra shifts if available.", vi: "Tôi muốn nhận thêm ca nếu có." },
+          { en: "How do I request time off? Do I need to fill out a form?", vi: "Tôi xin nghỉ phép như thế nào? Tôi có cần điền đơn không?" },
+        ],
+      },
+      {
+        label: "📋 Hành chính & Giấy tờ",
+        phrases: [
+          { en: "I need to update my personal information with HR.", vi: "Tôi cần cập nhật thông tin cá nhân với bộ phận nhân sự.", ctx: "HR = Human Resources = phòng nhân sự" },
+          { en: "Where can I get a copy of the employee handbook?", vi: "Tôi có thể lấy bản sao sổ tay nhân viên ở đâu?" },
+          { en: "I need to sign my W-4 form for tax withholding.", vi: "Tôi cần ký mẫu W-4 để khấu trừ thuế.", ctx: "W-4 = mẫu khai báo thuế khấu trừ lương" },
+          { en: "How do I get an Employment Verification Letter?", vi: "Tôi có thể xin thư xác nhận việc làm ở đâu?", ctx: "Cần cho thuê nhà, vay ngân hàng..." },
+          { en: "I have a question about my performance review.", vi: "Tôi có câu hỏi về đánh giá hiệu suất của mình." },
+          { en: "Can I speak with someone in Human Resources privately?", vi: "Tôi có thể nói chuyện riêng với ai đó trong bộ phận nhân sự không?" },
+        ],
+      },
+    ],
+  },
+  {
+    id: "culture",
+    label: "🤝 Văn Hóa Mỹ",
+    sections: [
+      {
+        label: "🤝 Văn hóa công sở Mỹ",
+        phrases: [
+          { en: "Good morning! How are you doing?", vi: "Chào buổi sáng! Bạn khỏe không?", ctx: 'Người Mỹ hay hỏi câu này nhưng không cần trả lời chi tiết — chỉ nói "Good, thanks!"' },
+          { en: "Thank you for your help. I really appreciate it.", vi: "Cảm ơn bạn đã giúp đỡ. Tôi thực sự trân trọng điều đó." },
+          { en: "I'm sorry, I didn't mean to offend you.", vi: "Xin lỗi, tôi không có ý xúc phạm bạn." },
+          { en: "Great job on that project!", vi: "Làm tốt lắm về dự án đó!", ctx: "Người Mỹ hay khen ngợi trực tiếp — nói Thank you và không từ chối lời khen" },
+          { en: "I'd love to join you for lunch.", vi: "Tôi rất muốn ăn trưa cùng bạn." },
+          { en: "I have a question — is this a good time to talk?", vi: "Tôi có câu hỏi — bây giờ có phải thời điểm tốt để nói chuyện không?", ctx: "Luôn hỏi trước — người Mỹ coi trọng thời gian" },
+          { en: "I'd like to respectfully disagree.", vi: "Tôi muốn lịch sự không đồng ý.", ctx: "Người Mỹ chấp nhận và tôn trọng phản biện lịch sự" },
+          { en: "Let me know if there's anything I can help with.", vi: "Cho tôi biết nếu có gì tôi có thể giúp." },
+        ],
+      },
+      {
+        label: "💬 Giao tiếp chuyên nghiệp",
+        phrases: [
+          { en: "Could we schedule a meeting to discuss this?", vi: "Chúng ta có thể lên lịch họp để thảo luận về điều này không?", ctx: "Người Mỹ thích lên lịch trước" },
+          { en: "I will follow up on that by end of day.", vi: "Tôi sẽ theo dõi vấn đề đó trước cuối ngày." },
+          { en: "Can you clarify what you mean by that?", vi: "Bạn có thể làm rõ ý bạn không?" },
+          { en: "I understand. Let me make sure I have this right.", vi: "Tôi hiểu rồi. Để tôi đảm bảo tôi hiểu đúng." },
+          { en: "That's a great idea. Let me think about it.", vi: "Đó là ý tưởng hay. Để tôi nghĩ thêm.", ctx: "Khong phai tu choi - chi la can thoi gian can nhac" },
+          { en: "I'm not sure about this. Can I get back to you?", vi: "Tôi không chắc về điều này. Tôi có thể trả lời bạn sau không?" },
+          { en: "I need some time to think about that.", vi: "Tôi cần thời gian để suy nghĩ về điều đó." },
+        ],
+      },
+      {
+        label: "🌍 Cuộc sống hàng ngày",
+        phrases: [
+          { en: "I'm still learning English. Please speak slowly.", vi: "Tôi vẫn đang học tiếng Anh. Vui lòng nói chậm thôi.", ctx: "Người Mỹ thường sẵn lòng giúp đỡ người học tiếng Anh" },
+          { en: "Happy to learn American customs from you.", vi: "Rất vui được học phong tục Mỹ từ bạn." },
+          { en: "In my country, we do it differently.", vi: "Ở đất nước tôi, chúng tôi làm khác đi.", ctx: "Chia sẻ văn hóa — người Mỹ thường rất thích nghe" },
+          { en: "What do people usually do here on weekends?", vi: "Mọi người thường làm gì vào cuối tuần ở đây?" },
+          { en: "Can you recommend a good Vietnamese restaurant nearby?", vi: "Bạn có thể giới thiệu nhà hàng Việt Nam ngon gần đây không?" },
+          { en: "I am adjusting to the weather here — it is very different!", vi: "Tôi đang thích nghi với thời tiết ở đây — rất khác!", ctx: "Thời tiết là chủ đề small talk an toàn và phổ biến ở Mỹ" },
+          { en: "Thank you for being so welcoming!", vi: "Cảm ơn bạn đã chào đón tôi nhiệt tình!" },
+        ],
+      },
+    ],
+  },
+];

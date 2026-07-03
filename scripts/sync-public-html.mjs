@@ -10,6 +10,11 @@ import { join } from "node:path";
 const ROOT = process.cwd();
 const PUBLIC_DIR = join(ROOT, "public");
 
+// Non-.html root files that also need to be served at the domain root
+// (AdSense's ads.txt validator and search-engine sitemap discovery both
+// require these at the exact root path, not under /public/ in source).
+const EXTRA_ROOT_FILES = ["sitemap.xml", "ads.txt"];
+
 rmSync(PUBLIC_DIR, { recursive: true, force: true });
 mkdirSync(PUBLIC_DIR);
 
@@ -19,4 +24,14 @@ for (const name of htmlFiles) {
   copyFileSync(join(ROOT, name), join(PUBLIC_DIR, name));
 }
 
-console.log(`sync-public-html: mirrored ${htmlFiles.length} .html files into public/`);
+let extraCount = 0;
+for (const name of EXTRA_ROOT_FILES) {
+  try {
+    copyFileSync(join(ROOT, name), join(PUBLIC_DIR, name));
+    extraCount++;
+  } catch {
+    console.warn(`sync-public-html: WARN ${name} not found at repo root, skipped`);
+  }
+}
+
+console.log(`sync-public-html: mirrored ${htmlFiles.length} .html files + ${extraCount} extra files into public/`);
