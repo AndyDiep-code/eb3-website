@@ -3,6 +3,7 @@ import { Layout } from "../components/page-layout";
 import { SIDEBAR_GROUPS } from "../components/sidebar-data";
 import { VisaBulletinDashboard } from "./visa-bulletin-dashboard";
 import { HistoricalFyTables } from "./historical-fy-tables";
+import { BacklogStats } from "./backlog-stats";
 
 export const metadata: Metadata = {
   title: "Visa Bulletin EB-3 EW (ROW) | EB3VIET",
@@ -58,6 +59,8 @@ export default function VisaBulletinPage() {
         </div>
 
         <HistoricalFyTables />
+
+        <BacklogStats />
 
         <section className="mt-6 rounded-card border border-border bg-bg p-4">
           <h2 className="text-base font-semibold text-text">
