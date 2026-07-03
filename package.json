@@ -5,7 +5,7 @@
   "scripts": {
     "sync-public-html": "node scripts/sync-public-html.mjs",
     "dev": "npm run sync-public-html && next dev",
-    "build": "npm run sync-public-html && next build",
+    "build": "npm run sync-public-html && opennextjs-cloudflare build",
     "start": "next start",
     "lint": "next lint",
     "preview": "npm run sync-public-html && opennextjs-cloudflare build && opennextjs-cloudflare preview -c wrangler.staging.jsonc",
