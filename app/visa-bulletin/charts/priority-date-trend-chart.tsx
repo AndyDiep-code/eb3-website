@@ -53,7 +53,10 @@ export function PriorityDateTrendChart({ data }: { data: PriorityDateTrendPoint[
             textAnchor="end"
             height={50}
           />
-          <YAxis tick={{ fill: "#64748b", fontSize: 10 }} domain={["dataMin - 20", "dataMax + 20"]} />
+          <YAxis
+            tick={{ fill: "#64748b", fontSize: 10 }}
+            domain={[(dataMin: number) => dataMin - 20, (dataMax: number) => dataMax + 20]}
+          />
           <Tooltip
             contentStyle={{ background: "#1e2d42", borderColor: "#2d3f55" }}
             labelStyle={{ color: "#93c5fd" }}
@@ -68,6 +71,7 @@ export function PriorityDateTrendChart({ data }: { data: PriorityDateTrendPoint[
             strokeWidth={2.5}
             dot={{ r: 3, fill: TABLE_A_COLOR }}
             connectNulls={false}
+            isAnimationActive={false}
           />
           <Line
             dataKey="tableBDays"
@@ -77,6 +81,7 @@ export function PriorityDateTrendChart({ data }: { data: PriorityDateTrendPoint[
             strokeDasharray="5 4"
             dot={{ r: 2.5, fill: TABLE_B_COLOR }}
             connectNulls={false}
+            isAnimationActive={false}
           />
         </LineChart>
       </ResponsiveContainer>

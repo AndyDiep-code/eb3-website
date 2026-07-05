@@ -55,7 +55,7 @@ export function MonthlyDeltaChart({ data }: { data: MonthlyDeltaPoint[] }) {
             formatter={renderTooltipValue}
             labelFormatter={renderTooltipLabel}
           />
-          <Bar dataKey="deltaDays" radius={2}>
+          <Bar dataKey="deltaDays" radius={2} isAnimationActive={false}>
             {data.map((point) => (
               <Cell key={point.label} fill={deltaColor(point.deltaDays)} />
             ))}

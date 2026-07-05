@@ -41,7 +41,7 @@ export function FiscalYearIssuanceChart({ data }: { data: FiscalYearIssuanceBar[
             itemStyle={{ color: "#e2e8f0" }}
             formatter={renderTooltipValue}
           />
-          <Bar dataKey="totalIssuances" radius={4}>
+          <Bar dataKey="totalIssuances" radius={4} isAnimationActive={false}>
             {data.map((entry) => (
               <Cell
                 key={entry.fiscalYear}
