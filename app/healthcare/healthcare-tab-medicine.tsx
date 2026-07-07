@@ -82,7 +82,7 @@ export function HealthcareTabMedicine() {
       <div className="mb-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
         <InfoCard
           title="🏠 Tủ Thuốc Gia Đình Cơ Bản"
-          titleColor="text-purple-600"
+          titleColor="text-teal-600"
           items={[
             <>
               <strong className="text-text">Ibuprofen (Advil generic):</strong>{" "}

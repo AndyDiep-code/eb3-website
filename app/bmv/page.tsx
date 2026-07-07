@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function BmvPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         {/* Hero */}
         <h1 className="text-2xl font-bold text-text">
           🚗 Indiana BMV — Ôn Thi Bằng Lái Xe

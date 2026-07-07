@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function EnglishWorkPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           💬 Tiếng Anh Công Việc — Theo Ngành EB-3
         </h1>

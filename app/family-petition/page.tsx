@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function FamilyPetitionPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           👨‍👩‍👧 Bảo Lãnh Vợ/Chồng Và Con
         </h1>

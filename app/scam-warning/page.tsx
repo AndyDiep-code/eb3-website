@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function ScamWarningPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           🚩 Cảnh Báo Lừa Đảo — Bảo Vệ Bản Thân
         </h1>

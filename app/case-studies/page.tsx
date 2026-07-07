@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function CaseStudiesPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">⚠️ Xử Lý Sự Cố EB-3</h1>
         <p className="mt-2 text-text-muted">
           6 tình huống thường gặp — nguyên nhân và cách phục hồi

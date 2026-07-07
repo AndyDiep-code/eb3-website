@@ -8,7 +8,7 @@ export function HealthcareTabDoctor() {
     <div>
       <SectionHeading>👨‍⚕️ Tìm Bác Sĩ &amp; Khám Bệnh Đúng Cách</SectionHeading>
 
-      <Alert tone="purple" icon="🎯">
+      <Alert tone="teal" icon="🎯">
         <strong>Nguyên tắc quan trọng nhất:</strong> Luôn kiểm tra bác sĩ có{" "}
         <strong>in-network</strong> với bảo hiểm của bạn trước khi đặt
         lịch. Cùng một bác sĩ, in-network trả $30 copay, out-of-network có
@@ -75,7 +75,7 @@ export function HealthcareTabDoctor() {
       <div className="mb-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
         <InfoCard
           title="📦 Mang Theo"
-          titleColor="text-purple-600"
+          titleColor="text-teal-600"
           items={[
             <>
               <strong className="text-text">Thẻ bảo hiểm</strong> (insurance

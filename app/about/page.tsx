@@ -96,7 +96,7 @@ const DATA_SOURCES = [
 export default function AboutPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <div className="rounded-card bg-gradient-to-br from-primary via-primary to-accent p-8 text-center text-white">
           <h1 className="text-2xl font-bold">🇺🇸 EB3VIET</h1>
           <p className="mt-2 text-sm opacity-90">

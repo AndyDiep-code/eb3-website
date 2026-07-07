@@ -63,7 +63,7 @@ export function HealthcareTabDental() {
       <div className="mb-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
         <InfoCard
           title="👁️ Bảo Hiểm Mắt Là Gì?"
-          titleColor="text-purple-600"
+          titleColor="text-teal-600"
           items={[
             <>
               Vision insurance thường bán{" "}

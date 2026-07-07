@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 export default function NewsPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">📰 Tin Tức & Cập Nhật</h1>
         <p className="mt-2 text-text-muted">
           Chính sách EB-3 · Pháp luật & Cộng đồng · USCIS & DOL

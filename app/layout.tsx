@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={beVietnamPro.variable}>
-      <body className="font-sans bg-bg text-text">{children}</body>
+      <body className="font-sans bg-bg text-text text-sm leading-relaxed antialiased">{children}</body>
     </html>
   );
 }

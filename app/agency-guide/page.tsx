@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 export default function AgencyGuidePage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           🏢 Hướng Dẫn Chọn Agency EB-3
         </h1>

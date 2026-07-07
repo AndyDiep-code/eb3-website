@@ -16,7 +16,7 @@ export function BmvArContent() {
   const [tab, setTab] = useState<Tab>("info");
 
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="w-full">
       <h1 className="text-2xl font-bold text-text">🐔 Ôn Thi Bằng Lái — Arkansas (AR)</h1>
       <p className="mt-1 text-text-muted">Song ngữ Việt-Anh · Luật giao thông Arkansas · Thi thử chấm điểm</p>
 

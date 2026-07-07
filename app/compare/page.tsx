@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function ComparePage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">⚖️ So Sánh Tiểu Bang EB-3</h1>
         <p className="mt-2 text-text-muted">
           Chọn 2–3 bang để so sánh chi tiết · Thuế · Chi phí · Lương · Cộng đồng · Khí hậu

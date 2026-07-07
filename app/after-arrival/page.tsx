@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 export default function AfterArrivalPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           ✈️ Sau Khi Đến Mỹ — Cần Làm Gì?
         </h1>

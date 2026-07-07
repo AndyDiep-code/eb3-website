@@ -57,7 +57,7 @@ export default function FaqPage() {
         // Source: FAQ_JSON_LD built from hand-authored faq-data.ts, no user input.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_JSON_LD) }}
       />
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           ❓ Câu Hỏi Thường Gặp — EB-3 Other Workers
         </h1>

@@ -74,7 +74,7 @@ export default function PermTrackerPage() {
 
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">📊 Theo Dõi PERM</h1>
 
         {/* Disclaimer — must be visible without scrolling, placed immediately

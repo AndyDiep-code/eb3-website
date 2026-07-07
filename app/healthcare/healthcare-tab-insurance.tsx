@@ -138,7 +138,7 @@ export function HealthcareTabInsurance() {
           <span className="font-bold text-accent">$5,200 ✅</span>
         </div>
       </div>
-      <Alert tone="purple" icon="💡">
+      <Alert tone="teal" icon="💡">
         Cùng tình huống đó <strong>không có bảo hiểm</strong> = bạn trả toàn
         bộ <strong>$8,000</strong>. Với bảo hiểm, chỉ trả $2,800. Đó là lý
         do bảo hiểm quan trọng dù phí hàng tháng có vẻ đắt.

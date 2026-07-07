@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { NEWS_TAGS, SORTED_NEWS, getTagClass } from "./news-data";
+import { TabNav } from "../components/tab-nav";
 
 type TabKey = "policy" | "legal" | "gov";
 
@@ -24,30 +25,6 @@ const TABS: Array<{ key: TabKey; label: string }> = [
   { key: "gov", label: "🏛️ USCIS & DOL" },
 ];
 
-function TabButton({
-  isActive,
-  label,
-  onClick,
-}: {
-  isActive: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-pressed={isActive}
-      className={`rounded-full border px-4 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
-        isActive
-          ? "border-primary bg-primary/10 text-primary"
-          : "border-border bg-bg text-text-muted hover:border-primary hover:text-text"
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
 
 function PolicyNewsTab() {
   const [search, setSearch] = useState("");
@@ -303,16 +280,7 @@ export function NewsContent({
 
   return (
     <>
-      <div className="mt-4 flex flex-wrap gap-2 border-b border-border pb-3">
-        {TABS.map((tab) => (
-          <TabButton
-            key={tab.key}
-            label={tab.label}
-            isActive={activeTab === tab.key}
-            onClick={() => setActiveTab(tab.key)}
-          />
-        ))}
-      </div>
+      <TabNav tabs={TABS} active={activeTab} onChange={setActiveTab} />
 
       <div className="mt-4">
         {activeTab === "policy" && <PolicyNewsTab />}

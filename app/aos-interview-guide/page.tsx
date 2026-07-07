@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function AosInterviewGuidePage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           📋 Phỏng Vấn AOS &amp; Khám Sức Khỏe I-693
         </h1>

@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 export default function JobsPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-5xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           🏭 Ngành Nghề &amp; Hãng Bảo Trợ EB-3
         </h1>

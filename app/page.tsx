@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Layout } from "./components/page-layout";
 import { SIDEBAR_GROUPS } from "./components/sidebar-data";
 import { Hero } from "./components/hero";
-import { VbSnapCard } from "./components/vb-snap-card";
+import { VbHomeDashboard } from "./components/vb-home-dashboard";
 import { NewsPreview } from "./components/news-preview";
 import { LinksGrid } from "./components/links-grid";
+import { SiteDirectory } from "./components/site-directory";
 
 export const metadata: Metadata = {
   title: "EB3 Vietnam Information Hub",
@@ -39,19 +40,20 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto flex max-w-3xl flex-col gap-6">
+      <div className="flex w-full flex-col gap-6">
         <Hero />
 
-        <a
-          href="/start"
-          className="rounded-card border border-primary bg-primary/5 p-4 text-center text-base font-semibold text-primary hover:bg-primary/10"
-        >
-          Mới bắt đầu? Bắt đầu từ đây →
-        </a>
+        {/* Live Visa Bulletin dashboard — first thing users see */}
+        <VbHomeDashboard />
 
-        <VbSnapCard />
-        <NewsPreview />
-        <LinksGrid />
+        {/* Full site directory — every page visible at a glance */}
+        <SiteDirectory />
+
+        {/* News + external tools */}
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+          <NewsPreview />
+          <LinksGrid />
+        </div>
       </div>
     </Layout>
   );

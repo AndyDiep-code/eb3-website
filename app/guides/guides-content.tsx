@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { TabNav } from "../components/tab-nav";
 
 type StageKey = "s1" | "s2" | "s3" | "s4" | "s5";
 
@@ -131,29 +132,6 @@ function ResultTable({ headers, rows }: { headers: string[]; rows: TableRow[] })
   );
 }
 
-function StageButton({
-  isActive,
-  label,
-  onClick,
-}: {
-  isActive: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-pressed={isActive}
-      className={`flex-1 border-r border-border px-1 py-2.5 text-center text-[11px] font-semibold transition-colors last:border-r-0 ${
-        isActive ? "bg-primary text-white" : "text-text-muted hover:bg-bg-alt hover:text-text"
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
-
 /**
  * Client component holding the 5-stage tab UI ported from guides.html's
  * inline showStage() DOM-toggle script (guides.html lines 229-414). Kept
@@ -180,15 +158,8 @@ export function GuidesContent() {
         chuẩn bị (apostille, dịch công chứng...), lưu tiến độ tự động.
       </Alert>
 
-      <div className="mt-5 flex overflow-hidden rounded-card border border-border bg-bg">
-        {STAGES.map((stage) => (
-          <StageButton
-            key={stage.key}
-            label={stage.label}
-            isActive={activeStage === stage.key}
-            onClick={() => setActiveStage(stage.key)}
-          />
-        ))}
+      <div className="mt-5">
+        <TabNav tabs={STAGES} active={activeStage} onChange={setActiveStage} />
       </div>
 
       {activeStage === "s1" && (

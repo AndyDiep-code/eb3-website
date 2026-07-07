@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function InterviewPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           🎤 Ôn Phỏng Vấn Lãnh Sự Quán EB-3
         </h1>

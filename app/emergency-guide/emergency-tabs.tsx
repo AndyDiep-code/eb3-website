@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { TabNav } from "../components/tab-nav";
 import { EmergencyTabPolice } from "./emergency-tab-police";
 import { EmergencyTabHospital } from "./emergency-tab-hospital";
 import { EmergencyTab911 } from "./emergency-tab-911";
@@ -27,23 +28,7 @@ export function EmergencyTabs() {
 
   return (
     <div>
-      <div className="mb-4 flex flex-wrap gap-2">
-        {TABS.map((tab) => (
-          <button
-            key={tab.key}
-            type="button"
-            onClick={() => setActiveTab(tab.key)}
-            aria-pressed={activeTab === tab.key}
-            className={`rounded-full px-3 py-1.5 text-xs font-semibold transition-colors ${
-              activeTab === tab.key
-                ? "border border-primary bg-primary/10 text-primary"
-                : "border border-border bg-bg text-text-muted hover:border-primary/50 hover:text-text"
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
+      <TabNav tabs={TABS} active={activeTab} onChange={setActiveTab} />
 
       {activeTab === "police" && <EmergencyTabPolice />}
       {activeTab === "hospital" && <EmergencyTabHospital />}

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function GuidesPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">📖 Hướng Dẫn Quy Trình EB-3</h1>
         <p className="mt-2 text-text-muted">5 giai đoạn từ tuyển dụng đến nhận thẻ xanh</p>
 

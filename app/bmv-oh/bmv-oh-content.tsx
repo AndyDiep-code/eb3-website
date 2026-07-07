@@ -16,7 +16,7 @@ export function BmvOhContent() {
   const [tab, setTab] = useState<Tab>("info");
 
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="w-full">
       {/* Hero */}
       <div className="rounded-card mb-4 p-5 text-center" style={{ background: "linear-gradient(135deg,#0c2340 0%,#0369a1 55%,#c2410c 100%)" }}>
         <h1 className="text-xl font-bold text-white">🎡 Ôn Thi Bằng Lái — Ohio (OH)</h1>

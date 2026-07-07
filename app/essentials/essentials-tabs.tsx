@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { TabNav } from "../components/tab-nav";
 import { EssentialsTabPhone } from "./essentials-tab-phone";
 import { EssentialsTabCar } from "./essentials-tab-car";
 import { EssentialsTabShopping } from "./essentials-tab-shopping";
@@ -28,23 +29,7 @@ export function EssentialsTabs() {
 
   return (
     <div>
-      <div className="mb-4 flex flex-wrap gap-2">
-        {TABS.map((tab) => (
-          <button
-            key={tab.key}
-            type="button"
-            onClick={() => setActiveTab(tab.key)}
-            aria-pressed={activeTab === tab.key}
-            className={`rounded-full px-3 py-1.5 text-xs font-semibold transition-colors ${
-              activeTab === tab.key
-                ? "border border-accent bg-accent/10 text-accent"
-                : "border border-border bg-bg text-text-muted hover:border-accent/50 hover:text-text"
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
+      <TabNav tabs={TABS} active={activeTab} onChange={setActiveTab} />
 
       {activeTab === "phone" && <EssentialsTabPhone />}
       {activeTab === "car" && <EssentialsTabCar />}

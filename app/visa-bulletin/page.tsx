@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 export default function VisaBulletinPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           📅 Visa Bulletin — EB-3 Other Workers (ROW)
         </h1>

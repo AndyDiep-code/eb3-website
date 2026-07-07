@@ -1,18 +1,14 @@
-// Mirrors every root-level *.html file into public/ so Next.js bundles them
-// into the OpenNext build (public/ is the only directory Next.js auto-copies
-// into its static output). Runs fresh before every build/preview/deploy —
-// public/ is a generated artifact (gitignored), never hand-edited, so the
-// root .html files (still the live source of truth until each page migrates
-// to a real Next.js route in Phase 6) can never silently drift out of sync.
-import { readdirSync, copyFileSync, mkdirSync, rmSync } from "node:fs";
+// Mirrors root-level *.html files into public/ so Next.js bundles them.
+// Skips any HTML file that has a corresponding app/<name>/page.tsx —
+// those routes are served by Next.js and the static file would shadow them
+// (Cloudflare assets html_handling serves about.html at /about, which
+// takes priority over the worker unless listed in run_worker_first).
+import { readdirSync, copyFileSync, mkdirSync, rmSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = process.cwd();
 const PUBLIC_DIR = join(ROOT, "public");
 
-// Non-.html root files that also need to be served at the domain root
-// (AdSense's ads.txt validator and search-engine sitemap discovery both
-// require these at the exact root path, not under /public/ in source).
 const EXTRA_ROOT_FILES = ["sitemap.xml", "ads.txt"];
 
 rmSync(PUBLIC_DIR, { recursive: true, force: true });
@@ -20,8 +16,18 @@ mkdirSync(PUBLIC_DIR);
 
 const htmlFiles = readdirSync(ROOT).filter((name) => name.endsWith(".html"));
 
+let copied = 0;
+let skipped = 0;
 for (const name of htmlFiles) {
+  const basename = name.replace(/\.html$/, "");
+  // index.html maps to / which is served by app/page.tsx (not app/index/page.tsx)
+  const isIndexPage = basename === "index" && existsSync(join(ROOT, "app", "page.tsx"));
+  if (isIndexPage || existsSync(join(ROOT, "app", basename, "page.tsx"))) {
+    skipped++;
+    continue; // Next.js route owns this URL — don't shadow it
+  }
   copyFileSync(join(ROOT, name), join(PUBLIC_DIR, name));
+  copied++;
 }
 
 let extraCount = 0;
@@ -34,4 +40,4 @@ for (const name of EXTRA_ROOT_FILES) {
   }
 }
 
-console.log(`sync-public-html: mirrored ${htmlFiles.length} .html files + ${extraCount} extra files into public/`);
+console.log(`sync-public-html: copied ${copied} html files, skipped ${skipped} (have Next.js route), +${extraCount} extra`);

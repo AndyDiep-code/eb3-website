@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function EssentialsPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           📱 Dịch Vụ Thiết Yếu Khi Mới Sang Mỹ
         </h1>

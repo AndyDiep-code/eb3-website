@@ -18,10 +18,10 @@ export function SubLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-type AlertTone = "purple" | "green" | "yellow" | "blue" | "red";
+type AlertTone = "teal" | "green" | "yellow" | "blue" | "red";
 
 const ALERT_TONE_CLASSES: Record<AlertTone, string> = {
-  purple: "border-purple-700/40 bg-purple-700/10 text-text",
+  teal: "border-teal-700/40 bg-teal-700/10 text-text",
   green: "border-accent/40 bg-accent/10 text-text",
   yellow: "border-secondary/40 bg-secondary/10 text-text",
   blue: "border-primary/40 bg-primary/10 text-text",
@@ -60,7 +60,7 @@ export function TermCard({
 }) {
   return (
     <div className="rounded-card border border-border bg-bg p-3.5">
-      <div className="mb-1 text-xs font-bold text-purple-600">{name}</div>
+      <div className="mb-1 text-xs font-bold text-teal-600">{name}</div>
       <div className="mb-1 text-sm font-bold text-text">{vi}</div>
       <div className="text-xs leading-relaxed text-text-muted">{desc}</div>
       <div className="mt-1 text-xs italic text-text-muted/70">{example}</div>
@@ -109,7 +109,7 @@ export function StepItem({
 }) {
   return (
     <li className="flex gap-3 border-b border-border py-2.5 last:border-0">
-      <div className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-purple-600 text-xs font-extrabold text-white">
+      <div className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-teal-600 text-xs font-extrabold text-white">
         {num}
       </div>
       <div className="text-sm leading-relaxed text-text-muted">{children}</div>

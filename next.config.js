@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/Van_Hoa_My_Danh_Cho_Huy",
+        destination: "/van-hoa-my",
+        permanent: true,
+      },
+    ];
+  },
+};
 
 module.exports = nextConfig;
 

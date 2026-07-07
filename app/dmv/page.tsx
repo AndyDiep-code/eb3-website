@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function DmvPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-4xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           🚗 Ôn Thi Bằng Lái Xe — Chọn Tiểu Bang
         </h1>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { TabNav } from "../components/tab-nav";
 
 type TabKey = "derivative" | "i130" | "process" | "special";
 
@@ -11,30 +12,6 @@ const TABS: Array<{ key: TabKey; label: string }> = [
   { key: "special", label: "⚠️ Tình Huống Đặc Biệt" },
 ];
 
-function TabButton({
-  isActive,
-  label,
-  onClick,
-}: {
-  isActive: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-pressed={isActive}
-      className={`rounded-full border px-4 py-2 text-xs font-semibold whitespace-nowrap transition-colors ${
-        isActive
-          ? "border-primary bg-primary/10 text-primary"
-          : "border-border bg-bg text-text-muted hover:border-primary hover:text-text"
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
 
 /**
  * Client component holding the 4-tab UI ported from family-petition.html's
@@ -57,16 +34,7 @@ export function FamilyPetitionContent() {
         </p>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-2">
-        {TABS.map((tab) => (
-          <TabButton
-            key={tab.key}
-            label={tab.label}
-            isActive={activeTab === tab.key}
-            onClick={() => setActiveTab(tab.key)}
-          />
-        ))}
-      </div>
+      <TabNav tabs={TABS} active={activeTab} onChange={setActiveTab} />
 
       {activeTab === "derivative" && (
         <section className="mt-4">

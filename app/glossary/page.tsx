@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function GlossaryPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           📚 Thuật Ngữ Di Trú EB-3
         </h1>

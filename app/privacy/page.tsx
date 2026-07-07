@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">🔒 Chính Sách Bảo Mật</h1>
         <p className="mt-2 text-text-muted">Privacy Policy — EB3VIET (eb3viet.com)</p>
 

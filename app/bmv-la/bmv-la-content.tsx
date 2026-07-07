@@ -16,7 +16,7 @@ export function BmvLaContent() {
   const [tab, setTab] = useState<Tab>("info");
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="w-full">
       {/* Hero */}
       <div
         className="rounded-card mb-4 px-5 py-6 text-center text-white"

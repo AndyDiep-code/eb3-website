@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function EmergencyGuidePage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">🆘 Hướng Dẫn Khẩn Cấp</h1>
         <p className="mt-2 text-text-muted">
           Cảnh sát · Bệnh viện · Gọi 911 · Script tiếng Anh sẵn sàng dùng

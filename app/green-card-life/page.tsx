@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function GreenCardLifePage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
-      <div className="mx-auto max-w-3xl">
+      <div className="w-full">
         <h1 className="text-2xl font-bold text-text">
           🟢 Thẻ Xanh Cho Bạn Quyền Gì
         </h1>
