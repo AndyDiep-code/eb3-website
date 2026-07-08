@@ -1,6 +1,33 @@
 {
-  "updated": "2026-07-07T10:29:30Z",
+  "updated": "2026-07-08T09:29:59Z",
   "items": [
+    {
+      "id": "844f02d5caef",
+      "title": "US Department of Labor awards $162M to expand Registered Apprenticeship through performance-based incentives in key industry sectors",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260707",
+      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of nearly $162 million through five cooperative agreements to expand Registered Apprenticeship in the occupations critical for the administration’s reindustrialization agenda.&nbsp;The department’s&nbsp;Employmen",
+      "date": "2026-07-07",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "3c0d75a3f187",
+      "title": "US Department of Labor seeks input from West Virginia highway construction industry to establish prevailing wage rates",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260707",
+      "desc": "WEST VIRGINIA – The U.S. Department of Labor’s Wage and Hour Division is asking the highway construction industry of West Virginia to participate in a survey to help the agency establish prevailing wage rates, as required under the Davis-Bacon Act and Related Acts, for the paymen",
+      "date": "2026-07-07",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "d62986c5cb52",
+      "title": "M-274 Section 5 Revision - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0ROQXhKVnl2R01hYWp1eVZpR013WjdsNTcyUl9KZEhZQUxWVVhfZUFkSkpGYy14YTRiWjNUbmVrS1g0SzRVR25Nc19Jb3NjZ2pfeE5iZUdEem1GXzdPOFVRLUlvRGxoVExHTTh6SzFtTngyb2R5YVV4ZlBHaEJYR0Myal9oM2M?oc=5",
+      "desc": "M-274 Section 5 Revision&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-07-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "512a23667582",
       "title": "Acting Secretary Sonderling statement on June jobs report",
@@ -511,33 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2SDlPNFJBYlNyRllBSEVhTl9SYXA3cWs0MllLQV9pS29CV2FyTHNYeXJ5bHNraEJtQm9JTkdPTGhKSThaMEV4OVdwWGw3WktsRmdkblZR?oc=5",
       "desc": "G-1055, Fee Schedule&nbsp;&nbsp;uscis.gov",
       "date": "2026-06-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "fbd7358d1bea",
-      "title": "Immigration and Citizenship Data - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYWNIcThoV3AzWXRaRUdHSUM5cFk5TEFBclpleXl5emNOSXZJOVhIUm4wZV82bmxhczdRcW9LWDVSR0JnQWpTdm1peW1OT2tFcHNZNjBZRm8ybGh0WXEtY1BSdmY3UkwxOHdkMkU2cFBMdUllMnVJdW5EOWVqelpVMmtHNmY3MGc?oc=5",
-      "desc": "",
-      "date": "2026-06-12",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "c68822478290",
-      "title": "United States Seeks Mexico’s Review of Alleged Denial of Workers’ Rights at Newmont Minera Peñasquito, S.A. de C.V.",
-      "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20260612",
-      "desc": "WASHINGTON –&nbsp;The United States has invoked the Rapid Response Labor Mechanism (RRM) in the United States-Mexico-Canada Agreement (USMCA)&nbsp;to review whether workers at Newmont Corporation’s Minera Peñasquito, S.A de C.V. (Newmont Peñasquito), located&nbsp;in the state of ",
-      "date": "2026-06-12",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "a28c58e331e5",
-      "title": "Court Order on Hold Policies - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHWGtVSXBpX2NLOEdIMkVwTnh1VmxRS3p2aTUyN1Zucm80MFpDZzliNVgyaTNsejQ2VWZEMUQzQV91a205U2VRak4zTWZFTmZxM0ZETG9iSmJHSi1xcjA5SzdHMGNkSThkZHpacG1NbGhjSG5p?oc=5",
-      "desc": "Court Order on Hold Policies&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-06-12",
       "source": "USCIS",
       "category": "uscis"
     }
