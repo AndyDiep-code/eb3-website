@@ -4,6 +4,7 @@ import { SIDEBAR_GROUPS } from "../components/sidebar-data";
 import { VisaBulletinDashboard } from "./visa-bulletin-dashboard";
 import { HistoricalFyTables } from "./historical-fy-tables";
 import { BacklogStats } from "./backlog-stats";
+import { VbEmailSubscribe } from "../components/vb-email-subscribe";
 
 export const metadata: Metadata = {
   title: "Visa Bulletin EB-3 EW (ROW) | EB3VIET",
@@ -97,6 +98,10 @@ export default function VisaBulletinPage() {
             </p>
           </div>
         </section>
+
+        <div className="mt-6">
+          <VbEmailSubscribe />
+        </div>
 
         <section className="mt-6 rounded-card border border-border bg-bg p-4">
           <h2 className="text-base font-semibold text-text">Kiểm Tra Trực Tiếp</h2>

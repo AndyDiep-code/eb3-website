@@ -22,6 +22,10 @@
     {
       "binding": "PERM_TRACKER",
       "id": "d7d494b876bf46969a473d2e3dbbf59e"
+    },
+    {
+      "binding": "EMAIL_SUBSCRIBERS",
+      "id": "bac8f3702874463480a002f1ca5c4a16"
     }
   ]
 }

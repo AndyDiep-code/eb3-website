@@ -68,8 +68,8 @@ export function Sidebar({
       )}
       <nav
         aria-label="Điều hướng chính"
-        className={`fixed inset-y-0 left-0 z-40 flex w-64 flex-col bg-gradient-to-b from-[#162e51] via-[#1a4480] to-blue-700 transition-transform md:static md:translate-x-0 ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed inset-y-0 left-0 z-40 flex w-64 flex-col bg-gradient-to-b from-[#162e51] via-[#1a4480] to-blue-700 transition-transform md:static md:translate-x-0 md:pointer-events-auto ${
+          isOpen ? "translate-x-0 pointer-events-auto" : "-translate-x-full pointer-events-none"
         }`}
       >
         {/* Logo */}

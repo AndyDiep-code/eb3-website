@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { TrackerCaseStatus } from "./tracker-case-status";
 import { TrackerInputForm } from "./tracker-input-form";
 import { TrackerResults, type TrackerFormValues } from "./tracker-results";
 import { TrackerScratchCalculator } from "./tracker-scratch-calculator";
@@ -137,6 +138,10 @@ export function TrackerContent() {
 
       <div className="mb-4">
         <TrackerScratchCalculator />
+      </div>
+
+      <div className="mb-4">
+        <TrackerCaseStatus />
       </div>
 
       <TrackerInputForm

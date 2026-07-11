@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 
@@ -15,6 +15,15 @@ const beVietnamPro = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   title: "EB3 Vietnam",
   description: "EB-3 visa guidance and resources for Vietnamese workers.",
+};
+
+// viewport-fit=cover lets env(safe-area-inset-bottom) return the real iPhone
+// home-indicator inset (~34px). Without it the inset is 0 and bottom-nav
+// buttons land inside the swipe-to-home zone where iOS intercepts all touches.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({

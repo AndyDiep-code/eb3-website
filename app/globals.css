@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/*
+ * Unlayered :root fallback — Tailwind v4 compiles @theme to
+ * `@layer theme { :host, :root { ... } }`. Some WebKit builds (e.g. iOS betas)
+ * treat the :host selector in non-Shadow-DOM context as invalid and drop the
+ * entire block, leaving all --color-* vars undefined and the page unstyled.
+ * Unlayered rules always win over @layer in the CSS cascade, so this
+ * declaration guarantees the tokens are available regardless of layer behavior.
+ */
+:root {
+  --color-primary: #0071bc;
+  --color-secondary: #f59e0b;
+  --color-accent: #10b981;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f0f2f5;
+  --color-text: #1b1b1b;
+  --color-text-muted: #565c65;
+  --color-border: #dfe1e2;
+  --radius-card: 8px;
+  --radius-btn: 6px;
+}
+
 /* Base typography reset — ensures consistent reading size across all pages */
 @layer base {
   html {
@@ -72,4 +93,16 @@
   --color-primary: #0071bc;
   --color-secondary: #f59e0b;
   --color-accent: #10b981;
+}
+
+/*
+ * On mobile, AdSense auto-placed anchor/overlay ads inject a fixed div at
+ * bottom: 0 with z-index ~2 billion, covering the mobile bottom nav and
+ * making the Menu button a dead zone. Push those ads above the nav bar.
+ * The nav is ~58px tall; safe-area-inset-bottom is ~34px on Face ID iPhones.
+ */
+@media (max-width: 767px) {
+  div[id^="google-auto-placed"] {
+    bottom: calc(60px + env(safe-area-inset-bottom)) !important;
+  }
 }

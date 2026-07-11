@@ -28,10 +28,10 @@ function renderTooltipValue(
   entry: { payload?: PriorityDateTrendPoint },
 ): [string, string] {
   const point = entry.payload;
-  const seriesKey = typeof name === "string" ? name : "";
-  if (!point) return ["—", seriesKey];
-  const display = seriesKey === "tableADays" ? point.tableADisplay : point.tableBDisplay;
-  const label = seriesKey === "tableADays" ? "Bảng A" : "Bảng B";
+  const isTableA = name === "Bảng A — Final Action Date";
+  if (!point) return ["—", isTableA ? "Bảng A" : "Bảng B"];
+  const display = isTableA ? point.tableADisplay : point.tableBDisplay;
+  const label = isTableA ? "Bảng A" : "Bảng B";
   return [display, label];
 }
 

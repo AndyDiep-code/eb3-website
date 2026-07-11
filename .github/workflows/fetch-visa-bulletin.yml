@@ -36,3 +36,13 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           npx wrangler kv key put --binding=VISA_BULLETIN "visa-bulletin-data" "$(cat data/visa-bulletin.json)" --remote -c wrangler.staging.jsonc
+
+      - name: Trigger VB email alerts
+        env:
+          VB_ALERT_SECRET: ${{ secrets.VB_ALERT_SECRET }}
+        run: |
+          curl -s -X POST "https://eb3viet.com/api/send-vb-alert" \
+            -H "Authorization: Bearer $VB_ALERT_SECRET" \
+            -H "Content-Type: application/json" \
+            -H "User-Agent: eb3viet-github-actions/1.0" \
+            --fail-with-body || true

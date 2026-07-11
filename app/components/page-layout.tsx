@@ -5,6 +5,7 @@ import Script from "next/script";
 import { Sidebar, type SidebarGroup } from "./sidebar";
 import { VbUpdateBanner } from "./vb-update-banner";
 import { GlobalSearch } from "./global-search";
+import { MobileBottomNav } from "./mobile-bottom-nav";
 
 const ADSENSE_CLIENT_ID = "ca-pub-7593939544196063";
 
@@ -39,24 +40,14 @@ export function Layout({ children, sidebarGroups }: LayoutProps) {
           </span>
           <span className="text-sm font-bold text-white">EB3VIET</span>
         </a>
-        <div className="flex items-center gap-2">
-          <button
-            type="button"
-            aria-label="Tìm kiếm"
-            onClick={() => setIsSearchOpen(true)}
-            className="rounded-md border border-white/30 bg-white/10 px-2.5 py-1.5 text-sm text-white hover:bg-white/20"
-          >
-            🔍
-          </button>
-          <button
-            type="button"
-            aria-label="Mở menu"
-            onClick={() => setIsSidebarOpen(true)}
-            className="rounded-md border border-white/30 bg-white/10 px-3 py-1.5 text-sm text-white hover:bg-white/20"
-          >
-            ☰ Menu
-          </button>
-        </div>
+        <button
+          type="button"
+          aria-label="Tìm kiếm"
+          onClick={() => setIsSearchOpen(true)}
+          className="rounded-md border border-white/30 bg-white/10 px-2.5 py-1.5 text-sm text-white hover:bg-white/20"
+        >
+          🔍 Tìm kiếm
+        </button>
       </header>
 
       <GlobalSearch open={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
@@ -70,10 +61,11 @@ export function Layout({ children, sidebarGroups }: LayoutProps) {
 
       <main className="flex-1 bg-bg-alt">
         <VbUpdateBanner />
-        <div className="mx-auto w-full max-w-7xl px-4 py-6 md:px-8 md:py-8">{children}</div>
+        {/* pb-16 on mobile reserves space above the fixed bottom nav bar */}
+        <div className="mx-auto w-full max-w-7xl px-4 py-6 pb-20 md:px-8 md:py-8 md:pb-8">{children}</div>
 
         {/* Page footer */}
-        <div className="mx-auto mt-8 w-full max-w-7xl border-t border-border px-4 pt-5 pb-2 md:px-8">
+        <div className="mx-auto mt-8 w-full max-w-7xl border-t border-border px-4 pt-5 pb-20 md:px-8 md:pb-2">
           <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
             <p className="text-xs text-text-muted">
               © EB3VIET — Thông tin miễn phí cho cộng đồng người Việt EB-3
@@ -91,6 +83,16 @@ export function Layout({ children, sidebarGroups }: LayoutProps) {
         </div>
       </main>
 
+      <MobileBottomNav onMenuOpen={() => setIsSidebarOpen(true)} />
+
+      {/* Tell AdSense not to show bottom anchor/overlay ads — they cover the mobile nav */}
+      <Script id="adsense-no-bottom-overlay" strategy="afterInteractive">{`
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({
+          google_ad_client: "${ADSENSE_CLIENT_ID}",
+          overlays: { bottom: false }
+        });
+      `}</Script>
       <Script
         async
         strategy="lazyOnload"

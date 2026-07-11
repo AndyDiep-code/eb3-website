@@ -8,6 +8,7 @@ import {
   ResponsiveContainer,
   Tooltip,
   XAxis,
+  YAxis,
 } from "recharts";
 import type { VisaBulletinData, VisaBulletinMonth } from "../visa-bulletin/types";
 import {
@@ -19,9 +20,8 @@ import {
 } from "../visa-bulletin/data-transforms";
 
 type FetchState =
-  | { status: "loading" }
-  | { status: "error" }
-  | { status: "ready"; data: VisaBulletinData };
+  | { status: "ready"; data: VisaBulletinData }
+  | { status: "error"; data: VisaBulletinData };
 
 function StatCard({
   label,
@@ -91,6 +91,12 @@ function RecentMonthsGrid({ months }: { months: VisaBulletinMonth[] }) {
 }
 
 function CompactTrendChart({ data }: { data: PriorityDateTrendPoint[] }) {
+  const allValues = data
+    .flatMap((p) => [p.tableADays, p.tableBDays])
+    .filter((v): v is number => v !== null);
+  const minY = allValues.length > 0 ? Math.min(...allValues) - 30 : 0;
+  const maxY = allValues.length > 0 ? Math.max(...allValues) + 30 : 100;
+
   return (
     <div style={{ height: 180 }}>
       <ResponsiveContainer width="100%" height="100%">
@@ -104,6 +110,7 @@ function CompactTrendChart({ data }: { data: PriorityDateTrendPoint[] }) {
             textAnchor="end"
             height={38}
           />
+          <YAxis hide domain={[minY, maxY]} />
           <Tooltip
             contentStyle={{ background: "#1e2d42", borderColor: "#2d3f55", fontSize: 11 }}
             labelStyle={{ color: "#93c5fd" }}
@@ -112,8 +119,8 @@ function CompactTrendChart({ data }: { data: PriorityDateTrendPoint[] }) {
               const p = entry.payload;
               if (!p) return ["—", String(name)];
               const display =
-                name === "tableADays" ? p.tableADisplay : p.tableBDisplay;
-              const label = name === "tableADays" ? "Bảng A" : "Bảng B";
+                name === "Bảng A" ? p.tableADisplay : p.tableBDisplay;
+              const label = name === "Bảng A" ? "Bảng A" : "Bảng B";
               return [display, label];
             }}
             labelFormatter={(l) => `VB Tháng: ${l}`}
@@ -124,7 +131,7 @@ function CompactTrendChart({ data }: { data: PriorityDateTrendPoint[] }) {
             stroke="#0071bc"
             strokeWidth={2}
             dot={{ r: 2.5, fill: "#0071bc" }}
-            connectNulls={false}
+            connectNulls={true}
             isAnimationActive={false}
           />
           <Line
@@ -143,55 +150,29 @@ function CompactTrendChart({ data }: { data: PriorityDateTrendPoint[] }) {
   );
 }
 
-const SKELETON = (
-  <div className="overflow-hidden rounded-card border border-border bg-bg shadow-sm">
-    <div className="flex items-center gap-2 border-b border-border bg-blue-50 px-4 py-3 dark:bg-blue-950/40">
-      <span className="flex h-6 w-6 items-center justify-center rounded-md bg-blue-700 text-xs text-white">
-        📅
-      </span>
-      <span className="text-sm font-bold text-text">
-        Visa Bulletin — EB-3 EW (ROW)
-      </span>
-    </div>
-    <div className="flex items-center justify-center p-8 text-sm text-text-muted">
-      Đang tải dữ liệu...
-    </div>
-  </div>
-);
-
-export function VbHomeDashboard() {
-  const [state, setState] = useState<FetchState>({ status: "loading" });
+export function VbHomeDashboard({ initialData }: { initialData: VisaBulletinData }) {
+  const [state, setState] = useState<FetchState>({ status: "ready", data: initialData });
 
   useEffect(() => {
-    let mounted = true;
-    fetch("/api/visa-bulletin")
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+    fetch("/api/visa-bulletin", { signal: controller.signal })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<VisaBulletinData>;
       })
       .then((data) => {
-        if (mounted) setState({ status: "ready", data });
+        clearTimeout(timeout);
+        setState({ status: "ready", data });
       })
       .catch(() => {
-        if (mounted) setState({ status: "error" });
+        clearTimeout(timeout);
+        setState((prev) => ({ status: "error", data: prev.data }));
       });
     return () => {
-      mounted = false;
+      controller.abort();
     };
   }, []);
-
-  if (state.status === "loading") return SKELETON;
-
-  if (state.status === "error") {
-    return (
-      <div className="rounded-card border border-border bg-bg p-4 text-sm text-text-muted shadow-sm">
-        ⚠️ Không tải được dữ liệu Visa Bulletin.{" "}
-        <a href="/visa-bulletin" className="text-primary underline">
-          Xem trang VB →
-        </a>
-      </div>
-    );
-  }
 
   const { data } = state;
   const { latestTableA, latestTableB } = findLatestPublishedDates(data.months);
@@ -210,9 +191,15 @@ export function VbHomeDashboard() {
           <span className="text-sm font-bold text-text">
             Visa Bulletin — EB-3 EW (ROW) · FY{data.fy}
           </span>
-          <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
-            LIVE
-          </span>
+          {state.status === "error" ? (
+            <span className="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-bold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+              OFFLINE
+            </span>
+          ) : (
+            <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
+              LIVE
+            </span>
+          )}
         </div>
         <a
           href="/visa-bulletin"

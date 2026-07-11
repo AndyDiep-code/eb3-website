@@ -20,9 +20,11 @@ export function formatIsoDateToDisplay(isoDate: string | null): string {
   return `${day}-${MONTH_NAMES[month - 1]}-${year}`;
 }
 
-/** ISO date -> integer days since 2018-01-01 epoch; "Current"/null -> null */
+/** ISO date -> integer days since 2018-01-01 epoch; null -> null
+ *  "Current" maps to today so the chart line stays visible at the top. */
 function daysFromEpoch(isoDate: string | null): number | null {
-  if (isoDate === null || isoDate === "Current") return null;
+  if (isoDate === null) return null;
+  if (isoDate === "Current") return Math.round((Date.now() - EPOCH_UTC_MS) / 86_400_000);
   const [year, month, day] = isoDate.split("-").map(Number);
   return Math.round((Date.UTC(year, month - 1, day) - EPOCH_UTC_MS) / 86_400_000);
 }
@@ -137,4 +139,38 @@ export function buildFiscalYearIssuanceTotals(
 ): FiscalYearIssuancePoint[] {
   const total = months.reduce((sum, entry) => sum + (entry.ew_vietnam ?? 0), 0);
   return [{ fiscalYear: `FY${fiscalYear}`, totalIssuances: total }];
+}
+
+export interface MovementRateSummary {
+  avgDaysPerMonth: number;    // average days of Table A PD advance per calendar month
+  monthsAnalyzed: number;     // how many consecutive month pairs were used
+  trend: "improving" | "stable" | "declining";
+}
+
+export function buildMovementRate(months: VisaBulletinMonth[]): MovementRateSummary {
+  // Filter to months where table_a is a non-null, non-"Current" ISO date
+  const published = months.filter(
+    (m): m is VisaBulletinMonth & { table_a: string } =>
+      m.table_a !== null && m.table_a !== "Current",
+  );
+  if (published.length < 2) {
+    return { avgDaysPerMonth: 0, monthsAnalyzed: 0, trend: "stable" };
+  }
+  // Compute day-deltas between consecutive published months
+  const deltas: number[] = [];
+  for (let i = 1; i < published.length; i++) {
+    const prev = daysFromEpoch(published[i - 1].table_a)!;
+    const curr = daysFromEpoch(published[i].table_a)!;
+    deltas.push(curr - prev);
+  }
+  const avg = deltas.reduce((a, b) => a + b, 0) / deltas.length;
+  // Trend: compare first-half avg vs second-half avg
+  const mid = Math.floor(deltas.length / 2);
+  const firstHalf = deltas.slice(0, mid);
+  const secondHalf = deltas.slice(mid);
+  const firstAvg = firstHalf.length ? firstHalf.reduce((a, b) => a + b, 0) / firstHalf.length : avg;
+  const secondAvg = secondHalf.length ? secondHalf.reduce((a, b) => a + b, 0) / secondHalf.length : avg;
+  const trend: MovementRateSummary["trend"] =
+    secondAvg > firstAvg + 5 ? "improving" : secondAvg < firstAvg - 5 ? "declining" : "stable";
+  return { avgDaysPerMonth: avg, monthsAnalyzed: deltas.length, trend };
 }

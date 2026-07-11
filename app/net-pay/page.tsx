@@ -3,6 +3,7 @@
 import { useState, useCallback } from "react";
 import { Layout } from "../components/page-layout";
 import { SIDEBAR_GROUPS } from "../components/sidebar-data";
+import { NetPayPieChart } from "../components/net-pay-pie-chart";
 import type { Metadata } from "next";
 
 const STATES = [
@@ -210,6 +211,8 @@ function NetPayContent() {
           ))}
         </div>
       </div>
+
+      <NetPayPieChart result={result} />
 
       <div className="mt-4 rounded-card border border-border bg-bg p-3 text-xs leading-relaxed text-text-muted">
         <span className="font-semibold text-text">Giải thích:</span>{" "}

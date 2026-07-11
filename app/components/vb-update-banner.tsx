@@ -19,13 +19,21 @@ export function VbUpdateBanner() {
       try {
         const res = await fetch("/api/visa-bulletin");
         if (!res.ok) return;
-        const data = await res.json() as { updated: string; months: { label: string }[] };
+        const data = await res.json() as {
+          updated: string;
+          months: { label: string; table_a: string | null; table_b: string | null }[];
+        };
 
         if (!mounted) return;
 
         const lastSeen = localStorage.getItem(LS_KEY);
         const latestUpdate = data.updated;
-        const latestMonth = data.months[data.months.length - 1]?.label ?? "";
+        // Skip future placeholder months (table_a and table_b both null)
+        const publishedMonths = data.months.filter(
+          (m) => m.table_a !== null || m.table_b !== null,
+        );
+        const latestMonth =
+          publishedMonths[publishedMonths.length - 1]?.label ?? "";
 
         if (!lastSeen || lastSeen < latestUpdate) {
           setBanner({ show: true, monthLabel: latestMonth });
