@@ -124,62 +124,68 @@ export function TimelineEstimator({ initialData }: { initialData: VisaBulletinDa
           </p>
         </div>
 
-        {/* Special: Table A is Current */}
-        {latestTableA === "Current" && (
-          <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-sm text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-            Visa Bulletin hiện đang ở trạng thái Current — bạn có thể nộp ngay.
-          </div>
-        )}
-
         {/* No PD entered */}
-        {!isValidPD && latestTableA !== "Current" && (
+        {!isValidPD && (
           <div className="rounded-lg border border-dashed border-border p-4 text-center text-sm text-text-muted">
             Nhập Priority Date của bạn để xem ước tính timeline
           </div>
         )}
 
-        {/* Main content when PD is valid and table A is not Current */}
-        {isValidPD && latestTableA !== "Current" && (
+        {/* Main content — always show when PD is valid */}
+        {isValidPD && (
           <>
             <GapCardsDisplay latestTableA={latestTableA} latestTableB={latestTableB} userPD={userPD} />
-            <RateCard rate={rate} />
 
-            {projection?.eligible && (
+            {/* VB is Current — no projection needed */}
+            {latestTableA === "Current" && (
               <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-sm font-semibold text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
-                ✓ Priority Date của bạn đã đủ điều kiện! Bạn có thể bắt đầu quy trình ngay.
+                ✓ Visa Bulletin hiện tại: Current — Priority Date của bạn đủ điều kiện nộp ngay.
               </div>
             )}
 
-            {projection?.stalled && (
-              <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-700 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-300">
-                ⚠️ Không thể ước tính — VB không tiến trong kỳ này. Theo dõi thêm tại{" "}
-                <a href="/visa-bulletin" className="underline">
-                  /visa-bulletin
-                </a>
-                .
-              </div>
-            )}
-
-            {projection && !projection.eligible && !projection.stalled && projection.projectedCurrent && (
+            {/* VB has a date — show rate card + projection */}
+            {latestTableA !== "Current" && (
               <>
-                <div className="mb-3 rounded-lg border border-primary/20 bg-primary/5 p-3">
-                  <div className="text-[11px] text-text-muted">Ước tính PD đạt ngưỡng</div>
-                  <div className="mt-0.5 text-lg font-bold text-primary">
-                    {fmtDate(projection.projectedCurrent)}
-                  </div>
-                  <div className="text-[10px] text-text-muted">
-                    (~{Math.round(projection.monthsToCurrentRaw!)} tháng nữa)
-                  </div>
-                </div>
+                <RateCard rate={rate} />
 
-                <TimelineSteps
-                  projectedCurrent={projection.projectedCurrent}
-                  nvcStart={projection.nvcStart!}
-                  nvcEnd={projection.nvcEnd!}
-                  interviewStart={projection.interviewStart!}
-                  interviewEnd={projection.interviewEnd!}
-                  arriveBy={projection.arriveBy!}
-                />
+                {projection?.eligible && (
+                  <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-sm font-semibold text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                    ✓ Priority Date của bạn đã đủ điều kiện! Bạn có thể bắt đầu quy trình ngay.
+                  </div>
+                )}
+
+                {projection?.stalled && (
+                  <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-700 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-300">
+                    ⚠️ Không thể ước tính — VB không tiến trong kỳ này. Theo dõi thêm tại{" "}
+                    <a href="/visa-bulletin" className="underline">
+                      /visa-bulletin
+                    </a>
+                    .
+                  </div>
+                )}
+
+                {projection && !projection.eligible && !projection.stalled && projection.projectedCurrent && (
+                  <>
+                    <div className="mb-3 rounded-lg border border-primary/20 bg-primary/5 p-3">
+                      <div className="text-[11px] text-text-muted">Ước tính PD đạt ngưỡng</div>
+                      <div className="mt-0.5 text-lg font-bold text-primary">
+                        {fmtDate(projection.projectedCurrent)}
+                      </div>
+                      <div className="text-[10px] text-text-muted">
+                        (~{Math.round(projection.monthsToCurrentRaw!)} tháng nữa)
+                      </div>
+                    </div>
+
+                    <TimelineSteps
+                      projectedCurrent={projection.projectedCurrent}
+                      nvcStart={projection.nvcStart!}
+                      nvcEnd={projection.nvcEnd!}
+                      interviewStart={projection.interviewStart!}
+                      interviewEnd={projection.interviewEnd!}
+                      arriveBy={projection.arriveBy!}
+                    />
+                  </>
+                )}
               </>
             )}
           </>
