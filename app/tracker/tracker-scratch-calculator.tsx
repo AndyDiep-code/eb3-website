@@ -8,6 +8,13 @@ import {
   addMonths,
   vbWaitMonths,
 } from "./tracker-data";
+import { PACE_SCENARIOS } from "../visa-bulletin/pace-scenarios";
+
+// Uses the "moderate" pace scenario (same one /visa-bulletin's Priority
+// Date Predictor labels "Kịch Bản Trung Bình") as the single representative
+// rate for this compound estimate — previously this silently reused the
+// "optimistic" rate while calling it an average.
+const MODERATE_PACE_DAYS_PER_MONTH = PACE_SCENARIOS.find((scenario) => scenario.id === "mod")!.rateDaysPerMonth;
 
 /**
  * "Chưa Bắt Đầu?" calculator — ported from tracker.html's
@@ -15,7 +22,7 @@ import {
  * purely a derived-from-input estimate, so this component only needs
  * local React state, no persistence/round-trip concerns.
  */
-export function TrackerScratchCalculator() {
+export function TrackerScratchCalculator({ currentVbAIso }: { currentVbAIso: string }) {
   const [startInput, setStartInput] = useState("");
   const [result, setResult] = useState<{
     summary: string;
@@ -34,8 +41,8 @@ export function TrackerScratchCalculator() {
     const pdEarly = addMonths(startDate, PERM_MONTHS[0]);
     const pdLate = addMonths(startDate, PERM_MONTHS[1]);
 
-    const vbWaitEarly = vbWaitMonths(pdEarly);
-    const vbWaitLate = vbWaitMonths(pdLate);
+    const vbWaitEarly = vbWaitMonths(pdEarly, currentVbAIso, MODERATE_PACE_DAYS_PER_MONTH);
+    const vbWaitLate = vbWaitMonths(pdLate, currentVbAIso, MODERATE_PACE_DAYS_PER_MONTH);
 
     // Total months = PERM + I-140 (runs mostly parallel to/after VB wait,
     // added as buffer) + VB wait + NVC/interview
