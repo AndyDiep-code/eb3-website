@@ -2,16 +2,6 @@ import type { Metadata } from "next";
 import { Layout } from "../components/page-layout";
 import { SIDEBAR_GROUPS } from "../components/sidebar-data";
 import { TrackerContent } from "./tracker-content";
-import { getVisaBulletinData } from "../visa-bulletin/get-visa-bulletin-data";
-import { findLatestPublishedDates } from "../visa-bulletin/data-transforms";
-
-const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] as const;
-
-/** "2026-07" -> "Jul-2026" */
-function toMonthYearAbbrev(month: string): string {
-  const [year, monthPart] = month.split("-");
-  return `${MONTH_NAMES[Number(monthPart) - 1]}-${year}`;
-}
 
 export const metadata: Metadata = {
   title: "Theo Dõi Hồ Sơ EB-3 Cá Nhân | EB3VIET",
@@ -43,13 +33,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function TrackerPage() {
-  const data = await getVisaBulletinData();
-  const { latestTableA } = findLatestPublishedDates(data.months);
-  const currentVbAIso = latestTableA ?? data.carry_over.table_a_prior_sep;
-  const latestTableAMonth = [...data.months].reverse().find((month) => month.table_a !== null);
-  const currentVbLabel = latestTableAMonth ? toMonthYearAbbrev(latestTableAMonth.month) : "";
-
+export default function TrackerPage() {
   return (
     <Layout sidebarGroups={SIDEBAR_GROUPS}>
       <div className="mx-auto max-w-3xl">
@@ -62,7 +46,7 @@ export default async function TrackerPage() {
         </p>
 
         <div className="mt-4">
-          <TrackerContent currentVbAIso={currentVbAIso} currentVbLabel={currentVbLabel} />
+          <TrackerContent />
         </div>
       </div>
     </Layout>

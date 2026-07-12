@@ -1,41 +1,26 @@
 "use client";
 
-import type { PaceScenario } from "../visa-bulletin/pace-scenarios";
-import { STEP_TIMES, STEPS } from "./tracker-data";
-
-const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] as const;
-
-/** Mirrors priority-date-predictor.tsx's estimateLabel so both tools format an "N months from now" projection identically. */
-function estimateMonthLabel(monthsFromNow: number, todayMs: number): string {
-  if (monthsFromNow >= 120) return "Sau 10+ năm";
-  const date = new Date(todayMs);
-  date.setUTCMonth(date.getUTCMonth() + monthsFromNow);
-  return `${MONTH_NAMES[date.getUTCMonth()]}-${date.getUTCFullYear()}`;
-}
-
-export interface ScenarioEstimate extends PaceScenario {
-  monthsToWait: number;
-}
+import {
+  AVG_ADVANCE_DAYS,
+  CURRENT_VB_MONTH,
+  STEP_TIMES,
+  STEPS,
+} from "./tracker-data";
 
 /**
  * Estimate alert + timeline sub-sections, split out of tracker-results.tsx
  * to keep each file under ~200 lines. Ported from tracker.html's calculate()
- * DOM-rendering logic (legacy lines 421-446); the single-number estimate was
- * replaced with the same 3-scenario range /visa-bulletin's Priority Date
- * Predictor shows, so the two tools never present conflicting timelines for
- * the same Priority Date again.
+ * DOM-rendering logic (legacy lines 421-446).
  */
 export function EstimateAlert({
   isCurrent,
-  scenarios,
+  monthsToWait,
   gapLabel,
-  currentVbLabel,
   today,
 }: {
   isCurrent: boolean;
-  scenarios: ScenarioEstimate[];
+  monthsToWait: number;
   gapLabel: string;
-  currentVbLabel: string;
   today: Date;
 }) {
   if (isCurrent) {
@@ -43,47 +28,37 @@ export function EstimateAlert({
       <div className="flex gap-2.5 rounded-card border border-accent bg-accent/10 p-3 text-sm leading-relaxed text-text">
         <span className="text-lg">🎉</span>
         <div>
-          <b>PD của bạn đã qua VB hiện tại ({currentVbLabel})!</b> Nếu hồ sơ
-          đã ở bước NVC/DQ, bạn có thể sắp được gọi phỏng vấn. Liên hệ agency
-          để xác nhận.
+          <b>PD của bạn đã qua VB hiện tại ({CURRENT_VB_MONTH} = 1-Mar-2022)!</b>{" "}
+          Nếu hồ sơ đã ở bước NVC/DQ, bạn có thể sắp được gọi phỏng vấn. Liên
+          hệ agency để xác nhận.
+        </div>
+      </div>
+    );
+  }
+
+  if (monthsToWait <= 12) {
+    const estDate = new Date(today.getTime() + monthsToWait * 30 * 86400000);
+    return (
+      <div className="flex gap-2.5 rounded-card border border-secondary bg-secondary/10 p-3 text-sm leading-relaxed text-text">
+        <span className="text-lg">📅</span>
+        <div>
+          <b>VB chưa đến lượt bạn.</b> PD của bạn cách VB Bảng A hiện tại{" "}
+          <b>{gapLabel}</b>. Ước tính còn khoảng <b>{monthsToWait} tháng</b> nữa
+          (~{estDate.toLocaleDateString("vi-VN", { month: "long", year: "numeric" })}
+          ) VB mới đạt PD. Thực tế có thể thay đổi.
         </div>
       </div>
     );
   }
 
   return (
-    <div className="rounded-card border border-secondary/40 bg-secondary/10 p-3">
-      <div className="flex gap-2.5 text-sm leading-relaxed text-text">
-        <span className="text-lg">📅</span>
-        <div>
-          <b>VB chưa đến lượt bạn.</b> PD của bạn cách VB Bảng A hiện tại (
-          {currentVbLabel}) <b>{gapLabel}</b>. Ước tính bên dưới theo 3 kịch
-          bản tốc độ khác nhau — thực tế có thể thay đổi đáng kể do
-          retrogression, quota, và nhiều yếu tố khác.
-        </div>
-      </div>
-      <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-3">
-        {scenarios.map((scenario) => {
-          const monthsLabel =
-            scenario.monthsToWait >= 120
-              ? "10+ năm"
-              : scenario.monthsToWait >= 12
-                ? `${(scenario.monthsToWait / 12).toFixed(1)} năm`
-                : `${scenario.monthsToWait} tháng`;
-          return (
-            <div key={scenario.id} className="rounded-card border border-border bg-bg p-3 text-center">
-              <div className="text-base">{scenario.emoji}</div>
-              <div className="mt-1 text-[10px] font-bold uppercase tracking-wide text-text-muted">
-                {scenario.labelVi}
-              </div>
-              <div className="mt-0.5 text-[10px] text-text-muted">{scenario.rateDaysPerMonth} ngày/tháng</div>
-              <div className="mt-2 text-xl font-bold text-text">{monthsLabel}</div>
-              <div className="mt-1 text-xs font-semibold text-primary">
-                Phỏng vấn: {estimateMonthLabel(scenario.monthsToWait, today.getTime())}
-              </div>
-            </div>
-          );
-        })}
+    <div className="flex gap-2.5 rounded-card border border-primary/40 bg-primary/10 p-3 text-sm leading-relaxed text-text">
+      <span className="text-lg">⏳</span>
+      <div>
+        <b>VB chưa đến lượt bạn.</b> PD của bạn cách VB Bảng A hiện tại
+        (01-Mar-2022) <b>{gapLabel}</b>. Ước tính thời gian chờ thực tế: khoảng{" "}
+        <b>{monthsToWait} tháng</b> nữa (dựa trên tốc độ ~{AVG_ADVANCE_DAYS} ngày
+        VB/tháng). Theo dõi VB hàng tháng và chuẩn bị hồ sơ.
       </div>
     </div>
   );
