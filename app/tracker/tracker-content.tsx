@@ -32,7 +32,15 @@ function checklistStorageKey(step: number, itemIndex: number): string {
  * here (in useEffect/event handlers, never during render) and are passed
  * down to TrackerResults / TrackerScratchCalculator as derived props.
  */
-export function TrackerContent() {
+export function TrackerContent({
+  currentVbAIso,
+  currentVbLabel,
+}: {
+  /** Latest published Bảng A date (ISO) or "Current", from live Visa Bulletin data — computed server-side in page.tsx. */
+  currentVbAIso: string;
+  /** Display label for that same month, e.g. "Jul-2026". */
+  currentVbLabel: string;
+}) {
   const [pdInput, setPdInput] = useState("");
   const [openDate, setOpenDate] = useState("");
   const [step, setStep] = useState(0);
@@ -136,7 +144,7 @@ export function TrackerContent() {
       </div>
 
       <div className="mb-4">
-        <TrackerScratchCalculator />
+        <TrackerScratchCalculator currentVbAIso={currentVbAIso} />
       </div>
 
       <TrackerInputForm
@@ -161,6 +169,8 @@ export function TrackerContent() {
           values={formValues}
           checkedItems={checkedItems}
           onToggleChecklistItem={handleToggleChecklistItem}
+          currentVbAIso={currentVbAIso}
+          currentVbLabel={currentVbLabel}
         />
       )}
 

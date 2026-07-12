@@ -4,12 +4,6 @@
  * importable from both server and client modules.
  */
 
-// Current VB Table A (Jul 2026) = 2022-03-01
-// Average advance FY2026: ~1 month per VB month
-export const CURRENT_VB_A = new Date("2022-03-01");
-export const CURRENT_VB_MONTH = "Jul-2026";
-export const AVG_ADVANCE_DAYS = 30; // ~1 month per VB cycle
-
 export interface TrackerStep {
   id: number;
   label: string;
@@ -218,10 +212,18 @@ export function addMonths(date: Date, months: number): Date {
   return result;
 }
 
-/** vbWaitMonths ported verbatim from legacy line 484-487 (used inside calculateFromScratch). */
-export function vbWaitMonths(pd: Date): number {
+/**
+ * vbWaitMonths, adapted from legacy line 484-487 (used inside
+ * calculateFromScratch) to take the live Bảng A baseline + pace as
+ * parameters instead of hardcoded constants, so it never drifts from the
+ * live Visa Bulletin data the rest of the site uses.
+ * @param currentVbAIso Latest published Bảng A date (ISO) or "Current" if
+ *   the category is currently unrestricted (no VB wait for anyone).
+ */
+export function vbWaitMonths(pd: Date, currentVbAIso: string, rateDaysPerMonth: number): number {
+  if (currentVbAIso === "Current") return 0;
   const daysUntilCurrent = Math.floor(
-    (pd.getTime() - CURRENT_VB_A.getTime()) / 86400000,
+    (pd.getTime() - new Date(currentVbAIso).getTime()) / 86400000,
   );
-  return daysUntilCurrent > 0 ? Math.ceil(daysUntilCurrent / AVG_ADVANCE_DAYS) : 0;
+  return daysUntilCurrent > 0 ? Math.ceil(daysUntilCurrent / rateDaysPerMonth) : 0;
 }

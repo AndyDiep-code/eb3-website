@@ -1,12 +1,7 @@
 "use client";
 
-import {
-  AVG_ADVANCE_DAYS,
-  CHECKLISTS,
-  CURRENT_VB_A,
-  STEPS,
-  type ChecklistUrgency,
-} from "./tracker-data";
+import { CHECKLISTS, STEPS, type ChecklistUrgency } from "./tracker-data";
+import { PACE_SCENARIOS } from "../visa-bulletin/pace-scenarios";
 import { EstimateAlert, Timeline } from "./tracker-timeline";
 
 export interface TrackerFormValues {
@@ -19,6 +14,10 @@ interface TrackerResultsProps {
   values: TrackerFormValues;
   checkedItems: Record<string, boolean>;
   onToggleChecklistItem: (step: number, itemIndex: number, checked: boolean) => void;
+  /** Latest published Bảng A date (ISO) or "Current", from live Visa Bulletin data. */
+  currentVbAIso: string;
+  /** Display label for that same month, e.g. "Jul-2026". */
+  currentVbLabel: string;
 }
 
 const BADGE_CLASS: Record<ChecklistUrgency, string> = {
@@ -44,15 +43,19 @@ export function TrackerResults({
   values,
   checkedItems,
   onToggleChecklistItem,
+  currentVbAIso,
+  currentVbLabel,
 }: TrackerResultsProps) {
   const { pd: pdInput, step, family } = values;
   const pd = new Date(pdInput);
   const today = new Date();
 
+  // "Current" means Bảng A has no cutoff date — every PD is already current.
   // daysUntilCurrent: positive = PD is ahead of FAD = still waiting; <=0 = already current
-  const daysUntilCurrent = Math.floor(
-    (pd.getTime() - CURRENT_VB_A.getTime()) / 86400000,
-  );
+  const daysUntilCurrent =
+    currentVbAIso === "Current"
+      ? -1
+      : Math.floor((pd.getTime() - new Date(currentVbAIso).getTime()) / 86400000);
   const isCurrent = daysUntilCurrent <= 0;
 
   // Gap in calendar months between PD and current FAD
@@ -66,9 +69,12 @@ export function TrackerResults({
         : `${gapYears} năm`
       : `${gapTotalMonths} tháng`;
 
-  const monthsToWait = !isCurrent
-    ? Math.ceil(daysUntilCurrent / AVG_ADVANCE_DAYS)
-    : 0;
+  const scenarios = isCurrent
+    ? []
+    : PACE_SCENARIOS.map((scenario) => ({
+        ...scenario,
+        monthsToWait: Math.ceil(daysUntilCurrent / scenario.rateDaysPerMonth),
+      }));
 
   const pdFormatted = pd.toLocaleDateString("vi-VN", {
     month: "long",
@@ -100,8 +106,9 @@ export function TrackerResults({
 
       <EstimateAlert
         isCurrent={isCurrent}
-        monthsToWait={monthsToWait}
+        scenarios={scenarios}
         gapLabel={gapLabel}
+        currentVbLabel={currentVbLabel}
         today={today}
       />
 

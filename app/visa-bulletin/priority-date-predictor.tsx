@@ -8,21 +8,9 @@
 // published dates rather than going stale between deploys.
 
 import { useState } from "react";
+import { PACE_SCENARIOS } from "./pace-scenarios";
 
 const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] as const;
-
-interface PaceScenario {
-  id: string;
-  labelVi: string;
-  rateDaysPerMonth: number;
-  emoji: string;
-}
-
-const PACE_SCENARIOS: PaceScenario[] = [
-  { id: "slow", labelVi: "Kịch Bản Chậm", rateDaysPerMonth: 8, emoji: "🐢" },
-  { id: "mod", labelVi: "Kịch Bản Trung Bình", rateDaysPerMonth: 18, emoji: "⚖️" },
-  { id: "fast", labelVi: "Kịch Bản Lạc Quan", rateDaysPerMonth: 30, emoji: "🚀" },
-];
 
 function formatDisplayDate(epochMs: number): string {
   const date = new Date(epochMs);
