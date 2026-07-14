@@ -51,6 +51,33 @@ export const FAMILY_OPTIONS: Array<{ value: string; label: string }> = [
   { value: "5", label: "5+ người" },
 ];
 
+export interface CityHousingData {
+  city: string;
+  stateCode: string;
+  rent1br: [number, number];
+  rent2br: [number, number];
+  utilities: number;
+  notes: string;
+}
+
+export const CITIES: CityHousingData[] = [
+  { city: "Atlanta / Doraville", stateCode: "GA", rent1br: [1100, 1450], rent2br: [1300, 1750], utilities: 175, notes: "Cộng đồng Việt đông nhất GA, tập trung ở Doraville/Chamblee" },
+  { city: "Indianapolis", stateCode: "IN", rent1br: [900, 1200], rent2br: [1100, 1450], utilities: 158, notes: "Chi phí thấp, gần nhiều nhà máy và Labor Guys" },
+  { city: "Houston (Alief/Midtown)", stateCode: "TX", rent1br: [1100, 1500], rent2br: [1350, 1800], utilities: 188, notes: "Cộng đồng Việt lớn nhất Mỹ (100K+), không thuế TN" },
+  { city: "Charlotte", stateCode: "NC", rent1br: [1050, 1400], rent2br: [1250, 1650], utilities: 165, notes: "Kinh tế phát triển nhanh, chi phí vừa phải" },
+  { city: "Greenville (SC)", stateCode: "SC", rent1br: [900, 1150], rent2br: [1050, 1350], utilities: 163, notes: "BMW/Michelin khu vực này, chi phí thấp" },
+  { city: "Columbus (OH)", stateCode: "OH", rent1br: [900, 1200], rent2br: [1050, 1400], utilities: 160, notes: "Cộng đồng VN đang phát triển, Case Farms nearby" },
+  { city: "Pittsburgh", stateCode: "PA", rent1br: [1000, 1300], rent2br: [1150, 1500], utilities: 170, notes: "Chi phí thấp hơn Philadelphia nhiều" },
+  { city: "Minneapolis", stateCode: "MN", rent1br: [1150, 1500], rent2br: [1350, 1750], utilities: 178, notes: "TPI Hospitality lớn, cộng đồng VN ~20K" },
+  { city: "Milwaukee", stateCode: "WI", rent1br: [900, 1150], rent2br: [1050, 1380], utilities: 183, notes: "Chi phí thấp hơn Minneapolis, nhiều nhà máy" },
+  { city: "New Orleans", stateCode: "LA", rent1br: [950, 1250], rent2br: [1100, 1450], utilities: 168, notes: "Cộng đồng Việt lâu đời nhất nước (từ 1975)" },
+  { city: "Sioux Falls (SD)", stateCode: "SD", rent1br: [800, 1050], rent2br: [950, 1250], utilities: 157, notes: "Chi phí rất thấp, không thuế TN, Dakota Provision" },
+  { city: "Reno (NV)", stateCode: "NV", rent1br: [1200, 1600], rent2br: [1450, 1900], utilities: 172, notes: "Không thuế TN, Labor Guys/Reno, chi phí tăng nhanh" },
+  { city: "Orlando", stateCode: "FL", rent1br: [1350, 1750], rent2br: [1600, 2100], utilities: 195, notes: "Resort nhiều, không thuế TN, nhưng thuê nhà cao" },
+  { city: "Birmingham (AL)", stateCode: "AL", rent1br: [750, 950], rent2br: [900, 1150], utilities: 153, notes: "Chi phí thấp nhất trong danh sách" },
+  { city: "Phoenix (AZ)", stateCode: "AZ", rent1br: [1150, 1550], rent2br: [1350, 1800], utilities: 182, notes: "Nóng cực đoan, thuế thấp 2.5%, Labor Guys/AZ" },
+];
+
 export const STATES: Record<string, StateCostData> = {
   GA: { name: "Georgia", flag: "🍑", tax: 5.39, rent1: [750, 950], rent2: [900, 1200], rent3: [1050, 1400], rent4: [1200, 1600], food1: 400, food2: 650, food3: 850, food4: 1050, car: 450, ins: 180, util: 180, viet: "Đáng kể (Atlanta/Doraville ~30K)", wage: 15.5, notes: "Nhiều hãng EB3 nhất · Khí hậu nóng · Gần Atlanta" },
   IN: { name: "Indiana", flag: "🏎️", tax: 3.05, rent1: [750, 950], rent2: [900, 1100], rent3: [1000, 1300], rent4: [1150, 1450], food1: 380, food2: 580, food3: 780, food4: 980, car: 400, ins: 160, util: 160, viet: "Vừa (Indianapolis ~8K)", wage: 15, notes: "Có Labor Guys · Chi phí vừa · 4 mùa rõ rệt" },

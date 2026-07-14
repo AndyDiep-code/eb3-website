@@ -11,6 +11,8 @@ import type { VisaBulletinData } from "./types";
 import {
   buildFiscalYearIssuanceTotals,
   buildMonthlyDeltaData,
+  buildMovementRate,
+  buildMultiYearTrendData,
   buildPriorityDateTrendData,
   computeNetDelta,
   findLatestPublishedDates,
@@ -19,7 +21,7 @@ import {
 import { PriorityDateTrendChart } from "./charts/priority-date-trend-chart";
 import { MonthlyDeltaChart } from "./charts/monthly-delta-chart";
 import { FiscalYearIssuanceChart, type FiscalYearIssuanceBar } from "./charts/fiscal-year-issuance-chart";
-import { HISTORICAL_ISSUANCE_ROWS } from "./historical-fy-data";
+import { HISTORICAL_FY_TABLES, HISTORICAL_ISSUANCE_ROWS } from "./historical-fy-data";
 import { CurrentFyIssuanceRow } from "./current-fy-issuance-row";
 import { PriorityDatePredictor } from "./priority-date-predictor";
 import { PaceStat, SummaryStat } from "./summary-stat-cards";
@@ -92,9 +94,11 @@ export function VisaBulletinDashboard() {
 
   const { data } = state;
   const trendData = buildPriorityDateTrendData(data.months, data.carry_over);
+  const multiYearData = buildMultiYearTrendData(HISTORICAL_FY_TABLES, data.months);
   const deltaData = buildMonthlyDeltaData(data.months, data.carry_over);
   const fyIssuanceData = buildFiscalYearIssuanceSeries(data);
   const { latestTableA, latestTableB } = findLatestPublishedDates(data.months);
+  const movementRate = buildMovementRate(data.months);
   const netDeltaA = computeNetDelta(data.carry_over.table_a_prior_sep, latestTableA);
   const netDeltaB = computeNetDelta(data.carry_over.table_b_prior_sep, latestTableB);
 
@@ -121,9 +125,21 @@ export function VisaBulletinDashboard() {
         <PaceStat label="Retrogress tệ nhất" value="-152 ngày" sublabel="Feb-2023" valueClassName="text-red-500" />
       </div>
 
+      <section className="mt-6 rounded-card border border-primary/30 bg-primary/5 p-4">
+        <h2 className="text-base font-semibold text-text">
+          🗓️ Toàn Cảnh Priority Date — FY2022 đến Nay
+        </h2>
+        <p className="mt-1 text-xs text-text-muted">
+          Biểu đồ đa năm: từ khi PD thoát khỏi "Current" (FY2022) đến tháng mới nhất. Thấy rõ xu hướng tổng thể, các lần retrogress lớn, và tốc độ tiến hiện tại.
+        </p>
+        <div className="mt-3">
+          <PriorityDateTrendChart data={multiYearData} />
+        </div>
+      </section>
+
       <section className="mt-6 rounded-card border border-border bg-bg p-4">
         <h2 className="text-base font-semibold text-text">
-          📈 Biểu Đồ Di Chuyển Priority Date — EB-3 EW (ROW)
+          📈 Biểu Đồ Di Chuyển Priority Date — FY{data.fy} (Năm Hiện Tại)
         </h2>
         <p className="mt-1 text-xs text-text-muted">
           Trục Y = số ngày Priority Date (càng cao = càng gần hiện tại = càng
@@ -183,7 +199,11 @@ export function VisaBulletinDashboard() {
           kịch bản tốc độ khác nhau, dựa trên Bảng A/B mới nhất hiện tại.
         </p>
         <div className="mt-3">
-          <PriorityDatePredictor latestTableAIso={latestTableA} latestTableBIso={latestTableB} />
+          <PriorityDatePredictor
+            latestTableAIso={latestTableA}
+            latestTableBIso={latestTableB}
+            actualRateDaysPerMonth={movementRate.avgDaysPerMonth}
+          />
         </div>
       </section>
     </div>

@@ -412,7 +412,7 @@ export function IndianaBmvSignsContent() {
   return (
     <div className="w-full">
       {/* Hero */}
-      <h1 className="text-2xl font-bold text-text">🚦 Indiana BMV — Biển Báo Song Ngữ 2026</h1>
+      <h1 className="text-2xl font-bold text-text">🚦 Biển Báo Giao Thông Mỹ — Song Ngữ Việt-Anh</h1>
       <p className="mt-1 text-text-muted">Hình ảnh trực quan · Tiếng Anh + Tiếng Việt · Flashcard + Thi thử</p>
 
       {/* Stats */}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { FAMILY_OPTIONS, STATE_OPTIONS, STATES } from "./cost-calculator-data";
+import { CITIES, FAMILY_OPTIONS, STATE_OPTIONS, STATES } from "./cost-calculator-data";
 
 /**
  * Client component porting cost-calculator.html's inline calc() function
@@ -22,6 +22,7 @@ export function CostCalculatorContent() {
   const [stateId, setStateId] = useState("GA");
   const [familySize, setFamilySize] = useState("1");
   const [wageInput, setWageInput] = useState("16");
+  const [cityIdx, setCityIdx] = useState(0);
 
   const state = STATES[stateId];
   const family = parseInt(familySize, 10);
@@ -274,6 +275,42 @@ export function CostCalculatorContent() {
         Chi phí thực tế phụ thuộc vào địa điểm cụ thể trong bang, lối sống và
         nhiều yếu tố cá nhân. Tham khảo cộng đồng người Việt tại địa phương để
         có số liệu chính xác hơn.
+      </div>
+
+      {/* City-level housing lookup */}
+      <div className="mt-4 rounded-card border border-border bg-bg p-4">
+        <h2 className="mb-3 text-sm font-bold text-text">🏙️ Giá Thuê Nhà Theo Thành Phố</h2>
+        <select
+          value={cityIdx}
+          onChange={(e) => setCityIdx(parseInt(e.target.value, 10))}
+          className="w-full rounded-btn border border-border bg-bg px-3 py-2 text-sm text-text outline-none focus:border-primary"
+        >
+          {CITIES.map((c, i) => (
+            <option key={i} value={i}>{c.city} ({c.stateCode})</option>
+          ))}
+        </select>
+        {(() => {
+          const city = CITIES[cityIdx];
+          return (
+            <div className="mt-3">
+              <div className="grid grid-cols-3 gap-2">
+                <div className="rounded-card border border-border bg-bg-alt p-3 text-center">
+                  <div className="text-[10px] text-text-muted mb-1">1BR / tháng</div>
+                  <div className="text-sm font-bold text-secondary">${formatUsd(city.rent1br[0])}–${formatUsd(city.rent1br[1])}</div>
+                </div>
+                <div className="rounded-card border border-border bg-bg-alt p-3 text-center">
+                  <div className="text-[10px] text-text-muted mb-1">2BR / tháng</div>
+                  <div className="text-sm font-bold text-secondary">${formatUsd(city.rent2br[0])}–${formatUsd(city.rent2br[1])}</div>
+                </div>
+                <div className="rounded-card border border-border bg-bg-alt p-3 text-center">
+                  <div className="text-[10px] text-text-muted mb-1">Tiện ích / tháng</div>
+                  <div className="text-sm font-bold text-text">~${formatUsd(city.utilities)}</div>
+                </div>
+              </div>
+              <p className="mt-2 text-[11px] text-text-muted">💡 {city.notes}</p>
+            </div>
+          );
+        })()}
       </div>
     </>
   );

@@ -16,7 +16,8 @@ const PAGE_TABS: Record<string, readonly string[]> = {
   "/van-hoa-my": ["Giao Tiếp", "Công Việc", "Học Đường", "Cuộc Sống"],
   "/finance": ["Ngân Hàng", "Xây Credit", "Gửi Tiền VN", "Ngân Sách", "401k"],
   "/news": ["Chính Sách EB-3", "Pháp Luật", "USCIS & DOL"],
-  "/bmv": ["Tổng Quan", "Từ Vựng", "Luật GT", "Biển Báo", "Thi Thử", "Các Bang"],
+  "/dmv": ["19 Tiểu Bang", "Lọc EB3", "Lọc Thuế TN", "Thi Thử"],
+  "/bmv": ["Tổng Quan", "Từ Vựng", "Luật Giao Thông", "Biển Báo", "Thi Thử"],
 };
 
 const MAX_CHIPS = 3;

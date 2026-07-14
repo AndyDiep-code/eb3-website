@@ -6,14 +6,16 @@ import { AcaTabMarketplace } from "./aca-tab-marketplace";
 import { AcaTabMedicaid } from "./aca-tab-medicaid";
 import { AcaTabPublicCharge } from "./aca-tab-public-charge";
 import { AcaTabChip } from "./aca-tab-chip";
+import { AcaTabPlanner } from "./aca-tab-planner";
 
-type TabKey = "marketplace" | "medicaid" | "publiccharge" | "chip";
+type TabKey = "marketplace" | "medicaid" | "publiccharge" | "chip" | "planner";
 
 const TABS: Array<{ key: TabKey; label: string }> = [
   { key: "marketplace", label: "📋 ACA Marketplace" },
   { key: "medicaid", label: "🏛️ Medicaid/CHIP" },
   { key: "publiccharge", label: "⚖️ Public Charge" },
   { key: "chip", label: "👶 CHIP Cho Con" },
+  { key: "planner", label: "🔢 Chọn Plan" },
 ];
 
 /**
@@ -34,6 +36,7 @@ export function AcaMedicaidTabs() {
       {activeTab === "medicaid" && <AcaTabMedicaid />}
       {activeTab === "publiccharge" && <AcaTabPublicCharge />}
       {activeTab === "chip" && <AcaTabChip />}
+      {activeTab === "planner" && <AcaTabPlanner />}
     </div>
   );
 }

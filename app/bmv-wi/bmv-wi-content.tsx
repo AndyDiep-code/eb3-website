@@ -2,28 +2,33 @@
 
 import { useState } from "react";
 import { BmvQuizEngine } from "../components/bmv-quiz-engine";
+import { BmvSharedVocab } from "../components/bmv-shared-vocab";
+import { BmvSharedSigns } from "../components/bmv-shared-signs";
 import { WI_QUESTIONS, WI_PASS_COUNT } from "./bmv-wi-data";
 
-type Tab = "info" | "rules" | "quiz";
+type Tab = "overview" | "vocab" | "rules" | "signs" | "quiz";
 
 const TABS: Array<{ key: Tab; label: string }> = [
-  { key: "info", label: "📋 Thông Tin" },
-  { key: "rules", label: "📜 Luật WI" },
-  { key: "quiz", label: "🎯 Thi Thử" },
+  { key: "overview", label: "📋 Tổng Quan" },
+  { key: "vocab",    label: "📖 Từ Vựng" },
+  { key: "rules",    label: "📜 Luật WI" },
+  { key: "signs",    label: "🚦 Biển Báo" },
+  { key: "quiz",     label: "🎯 Thi Thử" },
 ];
 
 export function BmvWIContent() {
-  const [tab, setTab] = useState<Tab>("info");
+  const [tab, setTab] = useState<Tab>("overview");
 
   return (
     <div className="w-full">
+      <a href="/dmv" className="mb-3 inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-primary transition-colors">← Tất cả tiểu bang</a>
       <h1 className="text-2xl font-bold text-text">🧀 Ôn Thi Bằng Lái — Wisconsin (WI)</h1>
       <p className="mt-1 text-text-muted">Song ngữ Việt–Anh · Luật giao thông Wisconsin · Thi thử có chấm điểm</p>
 
       <div className="mt-4 flex flex-wrap gap-3">
         {[
           { n: "50", label: "Câu hỏi" },
-          { n: "40/50", label: "Điểm đậu (40/50)" },
+          { n: "40/50", label: "Điểm đậu (80%)" },
           { n: "$35", label: "Lệ phí" },
           { n: "Wisconsin DMV", label: "Cơ quan" },
         ].map((stat) => (
@@ -54,70 +59,97 @@ export function BmvWIContent() {
         </div>
       </div>
 
-      {tab === "info" && (
+      {tab === "overview" && (
         <div>
-          <div className="mb-3 rounded-card border border-primary/30 bg-primary/5 p-3 text-xs text-text-muted leading-relaxed">
-            ℹ️ Wisconsin — Wilderness Hotel, Chula Vista Resort, Stoughton Trailer, Abbyland Foods. Mùa đông cực lạnh, cần chuẩn bị kỹ! · Nên dùng lốp mùa đông, chú ý nai (deer) băng qua đường đặc biệt lúc chiều tối mùa thu.
+          <div className="mb-4 flex gap-3 rounded-card border border-primary/20 bg-primary/5 p-3 text-sm leading-relaxed text-text">
+            <span className="flex-shrink-0 text-lg">🧀</span>
+            <div>
+              Wisconsin dùng thuật ngữ <strong>OWI (Operating While Intoxicated)</strong> thay vì DUI — đây là từ hay xuất hiện trong bài thi. Wilderness Hotel, Chula Vista Resort, Stoughton Trailer, Abbyland Foods. Mùa đông cực lạnh, cẩn thận nai (deer) băng qua đường mùa thu.
+            </div>
           </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">📋 Thông tin kỳ thi Wisconsin</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">Số câu:</span> 50 câu trắc nghiệm</li>
-              <li><span className="text-text font-semibold">Điểm đậu:</span> 40/50 (80%)</li>
-              <li><span className="text-text font-semibold">Lệ phí:</span> $35</li>
-              <li><span className="text-text font-semibold">Cơ quan:</span> Wisconsin DMV — wisconsindmv.gov</li>
-              <li><span className="text-text font-semibold">Giấy tờ:</span> Passport + thẻ xanh/EAD + bằng chứng địa chỉ</li>
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">⚡ Quy tắc quan trọng — Wisconsin</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">OWI (DUI):</span> Wisconsin gọi là OWI thay vì DUI. BAC ≥0.08% người lớn · ≥0.00% dưới 21t (zero tolerance)</li>
-              <li><span className="text-text font-semibold">Tốc độ:</span> 25 mph khu dân cư · 55 mph highway nông thôn · 65 mph state highway · 70 mph interstate</li>
-              <li><span className="text-text font-semibold">Mũ bảo hiểm xe máy:</span> Không bắt buộc với người 18t trở lên, nhưng strongly recommended</li>
-              <li><span className="text-text font-semibold">Move Over Law:</span> Phải chuyển làn hoặc giảm tốc 20 mph khi qua xe dừng ven đường</li>
-              <li><span className="text-text font-semibold">Điện thoại:</span> Tất cả tài xế: cấm cầm điện thoại khi lái · Tài xế mới (probationary): cấm tuyệt đối</li>
-              <li><span className="text-text font-semibold">Khu trường học:</span> 15 mph khi có đèn nhấp nháy hoặc trẻ em</li>
-              <li><span className="text-text font-semibold">Xe buýt trường học:</span> Dừng cả 2 chiều khi đèn đỏ nhấp nháy trừ khi có dải phân cách</li>
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">🪪 Đổi Bằng Lái &amp; REAL ID Khi Định Cư Tại Wisconsin</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">Chu kỳ đổi bằng:</span> 8 năm, KHÔNG có thời gian gia hạn sau khi hết hạn</li>
-              <li><span className="text-text font-semibold">Hạn chuyển bằng:</span> 60 ngày sau khi định cư tại Wisconsin — bắt buộc đổi bằng WI</li>
-              <li><span className="text-text font-semibold">REAL ID:</span> Nên đổi sang bằng có sao ★ để dùng cho chuyến bay nội địa Mỹ</li>
-              <li><span className="text-text font-semibold">Website chính thức:</span> wisconsindmv.gov</li>
-            </ul>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <InfoCard title="📝 Cấu Trúc Bài Thi" color="text-primary">
+              <InfoRow label="Số câu" value="50 câu trắc nghiệm" />
+              <InfoRow label="Điểm đậu" value="40/50 (80%)" />
+              <InfoRow label="Lệ phí" value="$35" />
+              <InfoRow label="Cơ quan" value="Wisconsin DMV — wisconsindmv.gov" />
+              <InfoRow label="Hạn chuyển bằng" value="60 ngày sau khi định cư WI" />
+              <InfoRow label="Ngôn ngữ" value="Hỏi nhân viên DMV để chọn ngôn ngữ" />
+            </InfoCard>
+            <InfoCard title="🏢 Chuẩn Bị Khi Đến DMV" color="text-accent">
+              <InfoRow label="Hộ chiếu" value="Passport hoặc birth certificate" />
+              <InfoRow label="Thẻ xanh" value="Green Card / EAD" />
+              <InfoRow label="Bằng chứng địa chỉ" value="2 tài liệu (hóa đơn, ngân hàng WI)" />
+              <InfoRow label="SSN" value="Thẻ SSN hoặc bằng chứng SSN" />
+              <InfoRow label="Website" value="wisconsindmv.gov → Licensing" />
+            </InfoCard>
+            <InfoCard title="⚠️ Luật Quan Trọng — Wisconsin" color="text-secondary">
+              <InfoRow label="OWI (DUI)" value="Wisconsin gọi là OWI — BAC ≥0.08% người lớn · ≥0.00% dưới 21t" />
+              <InfoRow label="Tốc độ" value="25 khu dân cư · 55 highway nông thôn · 65 state hwy · 70 interstate" />
+              <InfoRow label="Điện thoại" value="Cấm cầm điện thoại khi lái · Tài xế mới cấm tuyệt đối" />
+              <InfoRow label="Move Over" value="Chuyển làn hoặc giảm 20 mph khi qua xe dừng ven" />
+              <InfoRow label="Trường học" value="15 mph khi có đèn nhấp nháy hoặc trẻ em" />
+              <InfoRow label="Mũ xe máy" value="Không bắt buộc với người 18t+ nhưng khuyến nghị mạnh" />
+            </InfoCard>
+            <InfoCard title="🚗 Sau Khi Có Learner's Permit" color="text-primary">
+              <InfoRow label="Lái cùng" value="Người 25+ có bằng lái ngồi ghế phụ (dưới 18t)" />
+              <InfoRow label="Giờ lái bắt buộc" value="30 giờ (10 giờ ban đêm)" />
+              <InfoRow label="Permit có giá trị" value="1 năm" />
+              <InfoRow label="Sau 6 tháng" value="Thi Road Test tại DMV" />
+              <InfoRow label="Mùa đông" value="Cần lốp mùa đông (winter tires) khi tuyết" />
+              <InfoRow label="REAL ID" value="Nên đổi sang bằng có ★ để đi máy bay" />
+            </InfoCard>
           </div>
           <button
             type="button"
             onClick={() => setTab("quiz")}
-            className="rounded-btn bg-primary px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
+            className="mt-4 rounded-btn bg-primary px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
           >
             🎯 Bắt đầu thi thử →
           </button>
         </div>
       )}
 
+      {tab === "vocab" && <BmvSharedVocab />}
+
       {tab === "rules" && (
         <div className="rounded-card border border-border bg-bg p-4">
-          <h3 className="text-xs font-bold text-primary mb-3">📜 Tổng hợp luật — Wisconsin</h3>
+          <h3 className="mb-3 text-xs font-bold text-primary">📜 Tổng hợp luật — Wisconsin</h3>
           <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">OWI (DUI):</span> Wisconsin gọi là OWI thay vì DUI. BAC ≥0.08% người lớn · ≥0.00% dưới 21t (zero tolerance)</li>
-              <li><span className="text-text font-semibold">Tốc độ:</span> 25 mph khu dân cư · 55 mph highway nông thôn · 65 mph state highway · 70 mph interstate</li>
-              <li><span className="text-text font-semibold">Mũ bảo hiểm xe máy:</span> Không bắt buộc với người 18t trở lên, nhưng strongly recommended</li>
-              <li><span className="text-text font-semibold">Move Over Law:</span> Phải chuyển làn hoặc giảm tốc 20 mph khi qua xe dừng ven đường</li>
-              <li><span className="text-text font-semibold">Điện thoại:</span> Tất cả tài xế: cấm cầm điện thoại khi lái · Tài xế mới (probationary): cấm tuyệt đối</li>
-              <li><span className="text-text font-semibold">Khu trường học:</span> 15 mph khi có đèn nhấp nháy hoặc trẻ em</li>
-              <li><span className="text-text font-semibold">Xe buýt trường học:</span> Dừng cả 2 chiều khi đèn đỏ nhấp nháy trừ khi có dải phân cách</li>
+            <li><span className="font-semibold text-text">OWI (DUI):</span> Wisconsin gọi là OWI thay vì DUI. BAC ≥0.08% người lớn · ≥0.00% dưới 21t (zero tolerance)</li>
+            <li><span className="font-semibold text-text">Tốc độ:</span> 25 mph khu dân cư · 55 mph highway nông thôn · 65 mph state highway · 70 mph interstate</li>
+            <li><span className="font-semibold text-text">Mũ bảo hiểm xe máy:</span> Không bắt buộc với người 18t trở lên, nhưng strongly recommended</li>
+            <li><span className="font-semibold text-text">Move Over Law:</span> Phải chuyển làn hoặc giảm tốc 20 mph khi qua xe dừng ven đường</li>
+            <li><span className="font-semibold text-text">Điện thoại:</span> Tất cả tài xế: cấm cầm điện thoại khi lái · Tài xế mới (probationary): cấm tuyệt đối</li>
+            <li><span className="font-semibold text-text">Khu trường học:</span> 15 mph khi có đèn nhấp nháy hoặc trẻ em</li>
+            <li><span className="font-semibold text-text">Xe buýt trường học:</span> Dừng cả 2 chiều khi đèn đỏ nhấp nháy trừ khi có dải phân cách</li>
           </ul>
         </div>
       )}
+
+      {tab === "signs" && <BmvSharedSigns />}
 
       {tab === "quiz" && (
         <BmvQuizEngine questions={WI_QUESTIONS} passCount={WI_PASS_COUNT} />
       )}
     </div>
+  );
+}
+
+function InfoCard({ title, color, children }: { title: string; color: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-card border border-border bg-bg p-4">
+      <div className={`mb-3 text-sm font-bold ${color}`}>{title}</div>
+      <ul className="space-y-1">{children}</ul>
+    </div>
+  );
+}
+
+function InfoRow({ label, value }: { label: string; value: string }) {
+  return (
+    <li className="flex gap-2 border-b border-border py-1.5 text-xs text-text-muted last:border-b-0">
+      <span className="flex-shrink-0 text-primary">›</span>
+      <span><strong className="text-text">{label}:</strong>{" "}<em className="not-italic font-medium text-secondary">{value}</em></span>
+    </li>
   );
 }

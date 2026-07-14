@@ -2,28 +2,33 @@
 
 import { useState } from "react";
 import { BmvQuizEngine } from "../components/bmv-quiz-engine";
+import { BmvSharedVocab } from "../components/bmv-shared-vocab";
+import { BmvSharedSigns } from "../components/bmv-shared-signs";
 import { AR_QUESTIONS, AR_PASS_COUNT } from "./bmv-ar-data";
 
-type Tab = "info" | "rules" | "quiz";
+type Tab = "overview" | "vocab" | "rules" | "signs" | "quiz";
 
 const TABS: Array<{ key: Tab; label: string }> = [
-  { key: "info", label: "📋 Thông Tin" },
-  { key: "rules", label: "📜 Luật AR" },
-  { key: "quiz", label: "🎯 Thi Thử" },
+  { key: "overview", label: "📋 Tổng Quan" },
+  { key: "vocab",    label: "📖 Từ Vựng" },
+  { key: "rules",    label: "📜 Luật AR" },
+  { key: "signs",    label: "🚦 Biển Báo" },
+  { key: "quiz",     label: "🎯 Thi Thử" },
 ];
 
 export function BmvArContent() {
-  const [tab, setTab] = useState<Tab>("info");
+  const [tab, setTab] = useState<Tab>("overview");
 
   return (
     <div className="w-full">
+      <a href="/dmv" className="mb-3 inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-primary transition-colors">← Tất cả tiểu bang</a>
       <h1 className="text-2xl font-bold text-text">🐔 Ôn Thi Bằng Lái — Arkansas (AR)</h1>
-      <p className="mt-1 text-text-muted">Song ngữ Việt-Anh · Luật giao thông Arkansas · Thi thử chấm điểm</p>
+      <p className="mt-1 text-text-muted">Song ngữ Việt–Anh · Luật giao thông Arkansas · Thi thử có chấm điểm</p>
 
       <div className="mt-4 flex flex-wrap gap-3">
         {[
           { n: "25", label: "Câu hỏi" },
-          { n: "80%", label: "Điểm đậu (20/25)" },
+          { n: "20/25", label: "Điểm đậu (80%)" },
           { n: "$22", label: "Lệ phí" },
           { n: "Arkansas DFA", label: "Cơ quan" },
         ].map((stat) => (
@@ -54,70 +59,97 @@ export function BmvArContent() {
         </div>
       </div>
 
-      {tab === "info" && (
+      {tab === "overview" && (
         <div>
-          <div className="mb-3 rounded-card border border-primary/30 bg-primary/5 p-3 text-xs text-text-muted leading-relaxed">
-            ℹ️ Arkansas — Peco Foods (gia cầm), Koch Foods AR, Tyson Foods. Chi phí sinh hoạt rất thấp. Thiên nhiên đẹp. Ít cộng đồng Việt. Interstate có thể lên đến 75 mph. · Mùa xuân có nguy cơ bão lốc xoáy (tornado); miền bắc bang có thể có băng giá (ice) vào mùa đông.
+          <div className="mb-4 flex gap-3 rounded-card border border-primary/20 bg-primary/5 p-3 text-sm leading-relaxed text-text">
+            <span className="flex-shrink-0 text-lg">🌪️</span>
+            <div>
+              Arkansas cơ quan cấp bằng là <strong>DFA (Department of Finance and Administration)</strong> — không phải DMV hay DPS. Dùng thuật ngữ <strong>DWI</strong> thay vì DUI. Peco Foods, Koch Foods AR, Tyson Foods. Mùa xuân có nguy cơ <strong>tornado</strong> — biết sẵn nơi trú ẩn gần nhà.
+            </div>
           </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">📋 Thông tin kỳ thi</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">Số câu:</span> 25 câu trắc nghiệm</li>
-              <li><span className="text-text font-semibold">Điểm đậu:</span> 20/25 (80%)</li>
-              <li><span className="text-text font-semibold">Lệ phí:</span> $22</li>
-              <li><span className="text-text font-semibold">Cơ quan:</span> Arkansas DFA — mvs.ar.gov</li>
-              <li><span className="text-text font-semibold">Giấy tờ:</span> Passport + thẻ xanh/EAD + bằng chứng địa chỉ</li>
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">⚡ Quy tắc quan trọng</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">Tốc độ:</span> 30 mph khu dân cư · 65 mph highway · 75 mph một số interstate</li>
-              <li><span className="text-text font-semibold">DWI:</span> BAC ≥0.08% người lớn · ≥0.02% dưới 21t · ≥0.04% CDL</li>
-              <li><span className="text-text font-semibold">Mũ bảo hiểm xe máy:</span> Bắt buộc cho dưới 21t và người có bằng xe máy dưới 1 năm</li>
-              <li><span className="text-text font-semibold">Move Over Law:</span> Chuyển làn hoặc giảm tốc khi qua xe dừng ven đường</li>
-              <li><span className="text-text font-semibold">Điện thoại:</span> Cấm nhắn tin và handheld khi lái cho tất cả</li>
-              <li><span className="text-text font-semibold">Khu trường học:</span> 20 mph khi đèn nhấp nháy</li>
-              <li><span className="text-text font-semibold">Dây an toàn:</span> Bắt buộc tất cả người trong xe</li>
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">🪪 Đổi Bằng Lái &amp; REAL ID Khi Định Cư Tại Arkansas</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li><span className="text-text font-semibold">Chu kỳ đổi bằng:</span> 4 hoặc 8 năm (tùy lựa chọn)</li>
-              <li><span className="text-text font-semibold">Hạn chuyển bằng:</span> Nên đổi trong vòng 30-90 ngày sau khi định cư, liên hệ Arkansas DFA</li>
-              <li><span className="text-text font-semibold">REAL ID:</span> Nên đổi sang bằng có sao ★ để dùng cho chuyến bay nội địa Mỹ</li>
-              <li><span className="text-text font-semibold">Website chính thức:</span> mvs.ar.gov</li>
-            </ul>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <InfoCard title="📝 Cấu Trúc Bài Thi" color="text-primary">
+              <InfoRow label="Số câu" value="25 câu trắc nghiệm" />
+              <InfoRow label="Điểm đậu" value="20/25 (80%)" />
+              <InfoRow label="Lệ phí" value="$22" />
+              <InfoRow label="Cơ quan" value="Arkansas DFA — mvs.ar.gov" />
+              <InfoRow label="Thi lại" value="Hôm sau nếu rớt" />
+              <InfoRow label="Ngôn ngữ" value="Hỏi nhân viên DFA để chọn ngôn ngữ" />
+            </InfoCard>
+            <InfoCard title="🏢 Chuẩn Bị Khi Đến DFA" color="text-accent">
+              <InfoRow label="Hộ chiếu" value="Passport hoặc birth certificate" />
+              <InfoRow label="Thẻ xanh" value="Green Card / EAD" />
+              <InfoRow label="Bằng chứng địa chỉ" value="2 tài liệu (hóa đơn, ngân hàng AR)" />
+              <InfoRow label="SSN" value="Thẻ SSN hoặc bằng chứng SSN" />
+              <InfoRow label="Website" value="mvs.ar.gov → Driver License" />
+            </InfoCard>
+            <InfoCard title="⚠️ Luật Quan Trọng — Arkansas" color="text-secondary">
+              <InfoRow label="DWI (không phải DUI)" value="BAC ≥0.08% người lớn · ≥0.02% dưới 21t" />
+              <InfoRow label="Tốc độ" value="30 khu dân cư · 65 highway · 75 mph một số interstate" />
+              <InfoRow label="Điện thoại" value="Cấm texting và handheld khi lái cho tất cả" />
+              <InfoRow label="Mũ xe máy" value="Bắt buộc dưới 21t và bằng xe máy dưới 1 năm" />
+              <InfoRow label="Move Over" value="Chuyển làn hoặc giảm tốc khi qua xe dừng ven" />
+              <InfoRow label="Trường học" value="20 mph khi đèn nhấp nháy" />
+            </InfoCard>
+            <InfoCard title="🚗 Sau Khi Có Learner&apos;s Permit" color="text-primary">
+              <InfoRow label="Lái cùng" value="Người 21+ có bằng lái ngồi ghế phụ" />
+              <InfoRow label="Chu kỳ bằng" value="4 hoặc 8 năm (tùy lựa chọn)" />
+              <InfoRow label="Hạn chuyển bằng" value="Nên đổi trong 30-90 ngày sau khi định cư" />
+              <InfoRow label="REAL ID" value="Nên đổi sang bằng có ★ để đi máy bay" />
+              <InfoRow label="Tornado" value="Mùa xuân — biết sẵn nơi trú ẩn (shelter)" />
+              <InfoRow label="Website" value="mvs.ar.gov" />
+            </InfoCard>
           </div>
           <button
             type="button"
             onClick={() => setTab("quiz")}
-            className="rounded-btn bg-primary px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
+            className="mt-4 rounded-btn bg-primary px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
           >
             🎯 Bắt đầu thi thử →
           </button>
         </div>
       )}
 
+      {tab === "vocab" && <BmvSharedVocab />}
+
       {tab === "rules" && (
         <div className="rounded-card border border-border bg-bg p-4">
-          <h3 className="text-xs font-bold text-primary mb-3">📜 Tổng hợp luật — Arkansas</h3>
+          <h3 className="mb-3 text-xs font-bold text-primary">📜 Tổng hợp luật — Arkansas</h3>
           <ul className="space-y-1.5 text-xs text-text-muted">
-            <li><span className="text-text font-semibold">Tốc độ:</span> 30 mph khu dân cư · 65 mph highway · 75 mph một số interstate</li>
-            <li><span className="text-text font-semibold">DWI:</span> BAC ≥0.08% người lớn · ≥0.02% dưới 21t · ≥0.04% CDL</li>
-            <li><span className="text-text font-semibold">Mũ bảo hiểm xe máy:</span> Bắt buộc cho dưới 21t và người có bằng xe máy dưới 1 năm</li>
-            <li><span className="text-text font-semibold">Move Over Law:</span> Chuyển làn hoặc giảm tốc khi qua xe dừng ven đường</li>
-            <li><span className="text-text font-semibold">Điện thoại:</span> Cấm nhắn tin và handheld khi lái cho tất cả</li>
-            <li><span className="text-text font-semibold">Khu trường học:</span> 20 mph khi đèn nhấp nháy</li>
-            <li><span className="text-text font-semibold">Dây an toàn:</span> Bắt buộc tất cả người trong xe</li>
+            <li><span className="font-semibold text-text">DWI (không phải DUI):</span> Arkansas dùng DWI. BAC ≥0.08% người lớn · ≥0.02% dưới 21t · ≥0.04% CDL</li>
+            <li><span className="font-semibold text-text">Tốc độ:</span> 30 mph khu dân cư · 65 mph highway · 75 mph một số interstate</li>
+            <li><span className="font-semibold text-text">Mũ bảo hiểm xe máy:</span> Bắt buộc cho dưới 21t và người có bằng xe máy dưới 1 năm</li>
+            <li><span className="font-semibold text-text">Điện thoại:</span> Cấm nhắn tin và cầm tay (handheld) khi lái cho tất cả</li>
+            <li><span className="font-semibold text-text">Move Over Law:</span> Chuyển làn hoặc giảm tốc khi qua xe dừng ven đường</li>
+            <li><span className="font-semibold text-text">Khu trường học:</span> 20 mph khi đèn nhấp nháy</li>
+            <li><span className="font-semibold text-text">Dây an toàn:</span> Bắt buộc tất cả người trong xe</li>
           </ul>
         </div>
       )}
+
+      {tab === "signs" && <BmvSharedSigns />}
 
       {tab === "quiz" && (
         <BmvQuizEngine questions={AR_QUESTIONS} passCount={AR_PASS_COUNT} />
       )}
     </div>
+  );
+}
+
+function InfoCard({ title, color, children }: { title: string; color: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-card border border-border bg-bg p-4">
+      <div className={`mb-3 text-sm font-bold ${color}`}>{title}</div>
+      <ul className="space-y-1">{children}</ul>
+    </div>
+  );
+}
+
+function InfoRow({ label, value }: { label: string; value: string }) {
+  return (
+    <li className="flex gap-2 border-b border-border py-1.5 text-xs text-text-muted last:border-b-0">
+      <span className="flex-shrink-0 text-primary">›</span>
+      <span><strong className="text-text">{label}:</strong>{" "}<em className="not-italic font-medium text-secondary">{value}</em></span>
+    </li>
   );
 }

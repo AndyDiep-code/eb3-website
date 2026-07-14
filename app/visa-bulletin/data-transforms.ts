@@ -5,6 +5,7 @@
 // (daysFromEpoch, computeNetDelta, fmtISOToDisplay) — same math, typed.
 
 import type { VisaBulletinCarryOver, VisaBulletinMonth } from "./types";
+import type { HistoricalFiscalYearTable } from "./historical-fy-data";
 
 const EPOCH_UTC_MS = Date.UTC(2018, 0, 1);
 const MONTH_NAMES = [
@@ -145,6 +146,46 @@ export interface MovementRateSummary {
   avgDaysPerMonth: number;    // average days of Table A PD advance per calendar month
   monthsAnalyzed: number;     // how many consecutive month pairs were used
   trend: "improving" | "stable" | "declining";
+}
+
+/**
+ * Combines all historical FY tables + current FY months into one flat
+ * PriorityDateTrendPoint array spanning FY2022 to now. Used for the
+ * multi-year overview chart on the VB dashboard.
+ */
+export function buildMultiYearTrendData(
+  historicalFyTables: HistoricalFiscalYearTable[],
+  currentFyMonths: VisaBulletinMonth[],
+): PriorityDateTrendPoint[] {
+  const sorted = [...historicalFyTables].sort(
+    (a, b) => Number(a.fiscalYear.slice(2)) - Number(b.fiscalYear.slice(2)),
+  );
+  const points: PriorityDateTrendPoint[] = [];
+  for (const fy of sorted) {
+    for (let i = 0; i < fy.monthLabels.length; i++) {
+      const a = fy.tableA[i] ?? null;
+      const b = fy.tableB[i] ?? null;
+      points.push({
+        label: fy.monthLabels[i],
+        tableADays: daysFromEpoch(a),
+        tableBDays: daysFromEpoch(b),
+        tableADisplay: formatIsoDateToDisplay(a),
+        tableBDisplay: formatIsoDateToDisplay(b),
+      });
+    }
+  }
+  for (const m of currentFyMonths) {
+    if (m.table_a !== null || m.table_b !== null) {
+      points.push({
+        label: m.label,
+        tableADays: daysFromEpoch(m.table_a),
+        tableBDays: daysFromEpoch(m.table_b),
+        tableADisplay: formatIsoDateToDisplay(m.table_a),
+        tableBDisplay: formatIsoDateToDisplay(m.table_b),
+      });
+    }
+  }
+  return points;
 }
 
 export function buildMovementRate(months: VisaBulletinMonth[]): MovementRateSummary {

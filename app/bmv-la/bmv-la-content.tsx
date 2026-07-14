@@ -2,56 +2,51 @@
 
 import { useState } from "react";
 import { BmvQuizEngine } from "../components/bmv-quiz-engine";
+import { BmvSharedVocab } from "../components/bmv-shared-vocab";
+import { BmvSharedSigns } from "../components/bmv-shared-signs";
 import { LA_QUESTIONS, LA_PASS_COUNT } from "./bmv-la-data";
 
-type Tab = "info" | "rules" | "quiz";
+type Tab = "overview" | "vocab" | "rules" | "signs" | "quiz";
 
 const TABS: Array<{ key: Tab; label: string }> = [
-  { key: "info", label: "📋 Thông Tin" },
-  { key: "rules", label: "📜 Luật LA" },
-  { key: "quiz", label: "🎯 Thi Thử" },
+  { key: "overview", label: "📋 Tổng Quan" },
+  { key: "vocab",    label: "📖 Từ Vựng" },
+  { key: "rules",    label: "📜 Luật LA" },
+  { key: "signs",    label: "🚦 Biển Báo" },
+  { key: "quiz",     label: "🎯 Thi Thử" },
 ];
 
 export function BmvLaContent() {
-  const [tab, setTab] = useState<Tab>("info");
+  const [tab, setTab] = useState<Tab>("overview");
 
   return (
     <div className="w-full">
-      {/* Hero */}
-      <div
-        className="rounded-card mb-4 px-5 py-6 text-center text-white"
-        style={{ background: "linear-gradient(135deg,#1a0800 0%,#7c2d12 55%,#0f2a47 100%)" }}
-      >
-        <h1 className="text-xl font-extrabold">🎷 Ôn Thi Bằng Lái — Louisiana (LA)</h1>
-        <p className="mt-1 text-xs text-blue-200">Song ngữ Việt-Anh · Luật giao thông Louisiana · Thi thử có chấm điểm</p>
-        <div className="mt-4 flex justify-center flex-wrap gap-3">
-          {[
-            { n: "40", l: "Câu hỏi" },
-            { n: "80%", l: "Điểm đậu (32/40)" },
-            { n: "$18", l: "Lệ phí" },
-            { n: "Louisiana OMV", l: "Cơ quan" },
-          ].map((s) => (
-            <div key={s.l} className="rounded-lg px-4 py-2 text-center" style={{ background: "rgba(255,255,255,0.12)" }}>
-              <div className="text-lg font-bold text-yellow-400">{s.n}</div>
-              <div className="text-xs text-blue-200">{s.l}</div>
-            </div>
-          ))}
-        </div>
+      <a href="/dmv" className="mb-3 inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-primary transition-colors">← Tất cả tiểu bang</a>
+      <h1 className="text-2xl font-bold text-text">🎷 Ôn Thi Bằng Lái — Louisiana (LA)</h1>
+      <p className="mt-1 text-text-muted">Song ngữ Việt–Anh · Luật giao thông Louisiana · Thi thử có chấm điểm</p>
+
+      <div className="mt-4 flex flex-wrap gap-3">
+        {[
+          { n: "40", label: "Câu hỏi" },
+          { n: "32/40", label: "Điểm đậu (80%)" },
+          { n: "$18", label: "Lệ phí" },
+          { n: "Louisiana OMV", label: "Cơ quan" },
+        ].map((stat) => (
+          <div key={stat.n} className="rounded-card border border-border bg-bg px-4 py-2 text-center">
+            <div className="text-lg font-bold text-secondary">{stat.n}</div>
+            <div className="text-xs text-text-muted">{stat.label}</div>
+          </div>
+        ))}
       </div>
 
-      {/* Back link */}
-      <a href="/dmv" className="inline-flex items-center gap-1 mb-4 text-xs text-primary hover:underline">
-        ← Quay lại chọn tiểu bang
-      </a>
-
-      {/* Tabs */}
-      <div className="mb-4 -mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
-        <div className="flex gap-1 border-b border-border min-w-max sm:min-w-0">
+      <div className="mt-6 mb-4 -mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+        <div className="flex gap-1 border-b border-border min-w-max sm:min-w-0 sm:flex-wrap">
           {TABS.map((t) => (
             <button
               key={t.key}
               type="button"
               onClick={() => setTab(t.key)}
+              aria-pressed={tab === t.key}
               className={`whitespace-nowrap px-3 py-2.5 text-xs font-semibold border-b-2 transition-colors ${
                 tab === t.key
                   ? "border-primary text-primary"
@@ -64,74 +59,97 @@ export function BmvLaContent() {
         </div>
       </div>
 
-      {/* Info tab */}
-      {tab === "info" && (
+      {tab === "overview" && (
         <div>
-          <div className="mb-3 rounded-card border border-border bg-bg p-3 text-xs text-text-muted leading-relaxed flex gap-2">
-            <span className="text-lg flex-shrink-0">ℹ️</span>
-            <span>Louisiana — Hãng Cá Catfish (thủy sản, tôm cua). Cộng đồng Việt New Orleans/Metairie lâu đời ~25K. Văn hóa đặc sắc, ẩm thực phong phú. Chú ý nguy cơ bão mùa hè-thu. · Mùa bão (hurricane) và nguy cơ ngập lụt từ tháng 6-11 — chú ý cảnh báo sơ tán (evacuation) tại khu vực bạn sống.</span>
+          <div className="mb-4 flex gap-3 rounded-card border border-primary/20 bg-primary/5 p-3 text-sm leading-relaxed text-text">
+            <span className="flex-shrink-0 text-lg">🌊</span>
+            <div>
+              Louisiana cơ quan cấp bằng là <strong>OMV (Office of Motor Vehicles)</strong>, không phải DMV. Cộng đồng Việt tại New Orleans/Metairie ~25,000 người, lâu đời nhất miền Nam. Mùa bão tháng 6-11 — chú ý <strong>tuyến đường sơ tán (evacuation routes)</strong>. Thủy sản, ngành dầu khí.
+            </div>
           </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">📋 Thông tin kỳ thi</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Số câu:</strong> 40 câu trắc nghiệm</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Điểm đậu:</strong> 32/40 (80%)</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Lệ phí:</strong> $18</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Cơ quan:</strong> Louisiana OMV — expresslane.org</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Giấy tờ:</strong> Passport + thẻ xanh/EAD + bằng chứng địa chỉ</span></li>
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-3">
-            <h3 className="text-xs font-bold text-primary mb-3">⚡ Quy tắc quan trọng</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Tốc độ:</strong> 25 mph khu dân cư · 55 mph ngoài đô thị · 70 mph interstate</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">DWI:</strong> BAC &gt;=0.08% người lớn · &gt;=0.02% dưới 21t · &gt;=0.04% CDL</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Mũ bảo hiểm xe máy:</strong> Bắt buộc cho TẤT CẢ người lái và hành khách</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Move Over Law:</strong> Chuyển làn hoặc giảm tốc khi qua xe dừng ven đường</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Điện thoại:</strong> Cấm nhắn tin (texting) khi lái cho tất cả tài xế</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Khu trường học:</strong> 20 mph khi có đèn nhấp nháy hoặc trẻ em</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Dây an toàn:</strong> Bắt buộc tất cả người trong xe</span></li>
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-bg p-4 mb-4">
-            <h3 className="text-xs font-bold text-primary mb-3">🪪 Đổi Bằng Lái &amp; REAL ID Khi Định Cư Tại Louisiana</h3>
-            <ul className="space-y-1.5 text-xs text-text-muted">
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Chu kỳ đổi bằng:</strong> 6 năm, hết hạn vào ngày sinh nhật, có 10 ngày gia hạn sau khi hết hạn</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Hạn chuyển bằng:</strong> Không có hạn cố định — nên đổi trong vòng 30-90 ngày sau khi định cư</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">REAL ID:</strong> Nên đổi sang bằng có sao ★ để dùng cho chuyến bay nội địa và tòa nhà liên bang</span></li>
-              <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Website:</strong> expresslane.org</span></li>
-            </ul>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <InfoCard title="📝 Cấu Trúc Bài Thi" color="text-primary">
+              <InfoRow label="Số câu" value="40 câu trắc nghiệm" />
+              <InfoRow label="Điểm đậu" value="32/40 (80%)" />
+              <InfoRow label="Lệ phí" value="$18" />
+              <InfoRow label="Cơ quan" value="Louisiana OMV — expresslane.org" />
+              <InfoRow label="Thi lại" value="Hôm sau nếu rớt" />
+              <InfoRow label="Ngôn ngữ" value="Hỏi nhân viên OMV để chọn ngôn ngữ" />
+            </InfoCard>
+            <InfoCard title="🏢 Chuẩn Bị Khi Đến OMV" color="text-accent">
+              <InfoRow label="Hộ chiếu" value="Passport hoặc birth certificate" />
+              <InfoRow label="Thẻ xanh" value="Green Card / EAD" />
+              <InfoRow label="Bằng chứng địa chỉ" value="2 tài liệu (hóa đơn, ngân hàng LA)" />
+              <InfoRow label="SSN" value="Thẻ SSN hoặc bằng chứng SSN" />
+              <InfoRow label="Website" value="expresslane.org → Driver License" />
+            </InfoCard>
+            <InfoCard title="⚠️ Luật Quan Trọng — Louisiana" color="text-secondary">
+              <InfoRow label="Mũ xe máy" value="BẮT BUỘC cho TẤT CẢ người lái và hành khách" />
+              <InfoRow label="DWI" value="BAC ≥0.08% người lớn · ≥0.02% dưới 21t · ≥0.04% CDL" />
+              <InfoRow label="Tốc độ" value="25 khu dân cư · 55 ngoài đô thị · 70 mph interstate" />
+              <InfoRow label="Điện thoại" value="Cấm texting khi lái cho tất cả tài xế" />
+              <InfoRow label="Move Over" value="Chuyển làn hoặc giảm tốc khi qua xe dừng ven" />
+              <InfoRow label="Trường học" value="20 mph khi đèn nhấp nháy hoặc trẻ em" />
+            </InfoCard>
+            <InfoCard title="🚗 Sau Khi Có Learner&apos;s Permit" color="text-primary">
+              <InfoRow label="Lái cùng" value="Người 21+ có bằng lái ngồi ghế phụ" />
+              <InfoRow label="Chu kỳ bằng" value="6 năm, hết hạn ngày sinh nhật" />
+              <InfoRow label="Hạn chuyển bằng" value="Nên đổi trong 30-90 ngày sau khi định cư" />
+              <InfoRow label="REAL ID" value="Nên đổi sang bằng có ★ để đi máy bay" />
+              <InfoRow label="Bão" value="Tháng 6-11 — biết trước tuyến evacuation routes" />
+              <InfoRow label="Website" value="expresslane.org" />
+            </InfoCard>
           </div>
           <button
             type="button"
             onClick={() => setTab("quiz")}
-            className="rounded-btn bg-primary px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
+            className="mt-4 rounded-btn bg-primary px-5 py-2 text-sm font-semibold text-white hover:opacity-90"
           >
             🎯 Bắt đầu thi thử →
           </button>
         </div>
       )}
 
-      {/* Rules tab */}
+      {tab === "vocab" && <BmvSharedVocab />}
+
       {tab === "rules" && (
         <div className="rounded-card border border-border bg-bg p-4">
-          <h3 className="text-xs font-bold text-primary mb-3">📜 Tổng hợp luật — Louisiana</h3>
+          <h3 className="mb-3 text-xs font-bold text-primary">📜 Tổng hợp luật — Louisiana</h3>
           <ul className="space-y-1.5 text-xs text-text-muted">
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Tốc độ:</strong> 25 mph khu dân cư · 55 mph ngoài đô thị · 70 mph interstate</span></li>
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">DWI:</strong> BAC &gt;=0.08% người lớn · &gt;=0.02% dưới 21t · &gt;=0.04% CDL</span></li>
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Mũ bảo hiểm xe máy:</strong> Bắt buộc cho TẤT CẢ người lái và hành khách</span></li>
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Move Over Law:</strong> Chuyển làn hoặc giảm tốc khi qua xe dừng ven đường</span></li>
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Điện thoại:</strong> Cấm nhắn tin (texting) khi lái cho tất cả tài xế</span></li>
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Khu trường học:</strong> 20 mph khi có đèn nhấp nháy hoặc trẻ em</span></li>
-            <li className="flex gap-2"><span className="text-primary flex-shrink-0">›</span><span><strong className="text-text">Dây an toàn:</strong> Bắt buộc tất cả người trong xe</span></li>
+            <li><span className="font-semibold text-text">Cơ quan OMV:</span> Louisiana dùng OMV (Office of Motor Vehicles) thay vì DMV — expresslane.org</li>
+            <li><span className="font-semibold text-text">Mũ bảo hiểm xe máy:</span> BẮT BUỘC cho TẤT CẢ người lái và hành khách, bất kể tuổi</li>
+            <li><span className="font-semibold text-text">DWI:</span> BAC ≥0.08% người lớn · ≥0.02% dưới 21t · ≥0.04% CDL</li>
+            <li><span className="font-semibold text-text">Tốc độ:</span> 25 mph khu dân cư · 55 mph ngoài đô thị · 70 mph interstate</li>
+            <li><span className="font-semibold text-text">Điện thoại:</span> Cấm nhắn tin (texting) khi lái cho tất cả tài xế</li>
+            <li><span className="font-semibold text-text">Move Over Law:</span> Chuyển làn hoặc giảm tốc khi qua xe dừng ven đường</li>
+            <li><span className="font-semibold text-text">Khu trường học:</span> 20 mph khi có đèn nhấp nháy hoặc trẻ em</li>
           </ul>
         </div>
       )}
 
-      {/* Quiz tab */}
+      {tab === "signs" && <BmvSharedSigns />}
+
       {tab === "quiz" && (
         <BmvQuizEngine questions={LA_QUESTIONS} passCount={LA_PASS_COUNT} />
       )}
     </div>
+  );
+}
+
+function InfoCard({ title, color, children }: { title: string; color: string; children: React.ReactNode }) {
+  return (
+    <div className="rounded-card border border-border bg-bg p-4">
+      <div className={`mb-3 text-sm font-bold ${color}`}>{title}</div>
+      <ul className="space-y-1">{children}</ul>
+    </div>
+  );
+}
+
+function InfoRow({ label, value }: { label: string; value: string }) {
+  return (
+    <li className="flex gap-2 border-b border-border py-1.5 text-xs text-text-muted last:border-b-0">
+      <span className="flex-shrink-0 text-primary">›</span>
+      <span><strong className="text-text">{label}:</strong>{" "}<em className="not-italic font-medium text-secondary">{value}</em></span>
+    </li>
   );
 }

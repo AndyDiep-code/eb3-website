@@ -3,20 +3,54 @@
 import { useState } from "react";
 import { TabNav } from "../components/tab-nav";
 
-type Tab = "compare" | "howto" | "tax" | "tips";
+type Tab = "compare" | "calc" | "howto" | "tax" | "tips";
 
 const TABS: Array<{ key: Tab; label: string }> = [
   { key: "compare", label: "⚖️ So Sánh Dịch Vụ" },
+  { key: "calc", label: "🔢 Tính Nhanh" },
   { key: "howto", label: "📤 Cách Gửi An Toàn" },
   { key: "tax", label: "🧾 Quy Định Thuế" },
   { key: "tips", label: "💡 Mẹo & Lừa Đảo" },
 ];
+
+// Static fee model (representative, not live).
+// fee = flat USD + % of amount; rateMargin = % applied to exchange rate.
+interface RemitService {
+  name: string;
+  emoji: string;
+  feeUsd: number;
+  feePct: number;
+  rateMargin: number;
+  speed: string;
+  best?: boolean;
+}
+
+const SERVICES: RemitService[] = [
+  { name: "Wise", emoji: "💚", feeUsd: 0, feePct: 0.011, rateMargin: 0.003, speed: "Vài giờ - 1 ngày", best: true },
+  { name: "Remitly (Kinh Tế)", emoji: "📱", feeUsd: 0, feePct: 0.0, rateMargin: 0.018, speed: "3–5 ngày" },
+  { name: "Remitly (Express)", emoji: "⚡", feeUsd: 3.99, feePct: 0.0, rateMargin: 0.012, speed: "Vài phút" },
+  { name: "Western Union", emoji: "🌐", feeUsd: 5, feePct: 0.01, rateMargin: 0.025, speed: "Vài phút - vài ngày" },
+  { name: "Wire Ngân Hàng", emoji: "🏦", feeUsd: 35, feePct: 0.0, rateMargin: 0.03, speed: "1–5 ngày làm việc" },
+];
+
+const REFERENCE_USD_VND = 25400; // reference mid-market rate — illustrative only
+
+function calcReceived(amountUsd: number, svc: typeof SERVICES[number]) {
+  const afterFee = amountUsd - svc.feeUsd - amountUsd * svc.feePct;
+  const rate = REFERENCE_USD_VND * (1 - svc.rateMargin);
+  return Math.round(afterFee * rate);
+}
+
+function fmtVnd(n: number): string {
+  return new Intl.NumberFormat("vi-VN").format(n) + " VND";
+}
 
 const TH = "px-3 py-2 text-left text-xs font-bold text-primary bg-bg-alt border-b border-border";
 const TD = "px-3 py-2 text-xs text-text-muted border-b border-border last:border-0 align-top";
 
 export function RemittanceGuideContent() {
   const [tab, setTab] = useState<Tab>("compare");
+  const [amount, setAmount] = useState("1000");
 
   return (
     <div className="w-full">
@@ -78,6 +112,91 @@ export function RemittanceGuideContent() {
                 <span><strong className="text-text">{title as string}</strong> {body as string}</span>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* ─── CALC ─── */}
+      {tab === "calc" && (
+        <div>
+          <div className="mb-4 rounded-card border border-primary/30 bg-primary/5 p-3 text-xs text-text-muted leading-relaxed">
+            ℹ️ Số liệu mang tính <strong className="text-text">ước tính tham khảo</strong> dựa trên cấu trúc phí điển hình và tỷ giá tham chiếu. Tỷ giá thực tế thay đổi theo ngày — luôn kiểm tra số tiền nhận thực tế ngay trước khi xác nhận giao dịch.
+          </div>
+          <div className="mb-4 flex items-end gap-3">
+            <div>
+              <label className="mb-1 block text-xs font-semibold text-text-muted">Số tiền gửi (USD)</label>
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-bold text-text">$</span>
+                <input
+                  type="number"
+                  min="10"
+                  max="10000"
+                  step="50"
+                  value={amount}
+                  onChange={(e) => setAmount(e.target.value)}
+                  className="w-28 rounded-btn border border-border bg-bg px-3 py-2 text-sm font-semibold text-text outline-none"
+                />
+              </div>
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              {[200, 500, 1000, 2000].map((v) => (
+                <button
+                  key={v}
+                  type="button"
+                  onClick={() => setAmount(String(v))}
+                  className={`rounded-btn border px-3 py-1.5 text-xs font-semibold ${
+                    amount === String(v) ? "border-primary bg-primary text-white" : "border-border text-text-muted hover:text-text"
+                  }`}
+                >
+                  ${v}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            {SERVICES.map((svc) => {
+              const amtNum = Math.max(0, Number(amount) || 0);
+              const received = amtNum > 0 ? calcReceived(amtNum, svc) : null;
+              const afterFee = amtNum > 0 ? amtNum - svc.feeUsd - amtNum * svc.feePct : null;
+              return (
+                <div
+                  key={svc.name}
+                  className={`flex items-center gap-3 rounded-card border p-3 ${
+                    svc.best ? "border-green-500/40 bg-green-500/5" : "border-border bg-bg"
+                  }`}
+                >
+                  <span className="text-xl shrink-0">{svc.emoji}</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-bold text-text">{svc.name}</span>
+                      {svc.best && <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-green-500/20 text-green-500">Phổ biến nhất</span>}
+                    </div>
+                    <div className="text-xs text-text-muted mt-0.5">{svc.speed}</div>
+                  </div>
+                  <div className="text-right shrink-0">
+                    {received !== null ? (
+                      <>
+                        <div className="text-sm font-bold text-secondary">{fmtVnd(received)}</div>
+                        {afterFee !== null && afterFee < amtNum && (
+                          <div className="text-[10px] text-text-muted">gửi thực ${afterFee.toFixed(0)} · phí: ${(amtNum - afterFee).toFixed(2)}</div>
+                        )}
+                      </>
+                    ) : (
+                      <div className="text-xs text-text-muted">—</div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-3 rounded-card border border-border bg-bg p-3 text-xs text-text-muted">
+            💱 Tỷ giá tham chiếu: <strong className="text-text">1 USD ≈ {REFERENCE_USD_VND.toLocaleString("vi-VN")} VND</strong> (mid-market). Kiểm tra tỷ giá thực tế tại{" "}
+            <a href="https://wise.com/us/currency-converter/usd-to-vnd" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Wise</a>
+            {" "}hoặc{" "}
+            <a href="https://www.google.com/search?q=1+usd+to+vnd" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google</a>
+            .
           </div>
         </div>
       )}

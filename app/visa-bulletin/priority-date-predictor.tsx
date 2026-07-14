@@ -18,11 +18,14 @@ interface PaceScenario {
   emoji: string;
 }
 
-const PACE_SCENARIOS: PaceScenario[] = [
-  { id: "slow", labelVi: "Kịch Bản Chậm", rateDaysPerMonth: 8, emoji: "🐢" },
-  { id: "mod", labelVi: "Kịch Bản Trung Bình", rateDaysPerMonth: 18, emoji: "⚖️" },
-  { id: "fast", labelVi: "Kịch Bản Lạc Quan", rateDaysPerMonth: 30, emoji: "🚀" },
-];
+function buildPaceScenarios(actualRate: number): PaceScenario[] {
+  const actual = Math.max(1, Math.round(actualRate));
+  return [
+    { id: "slow", labelVi: "Kịch Bản Chậm", rateDaysPerMonth: 8, emoji: "🐢" },
+    { id: "mod", labelVi: `Thực Tế (~${actual} ngày/tháng)`, rateDaysPerMonth: actual, emoji: "📊" },
+    { id: "fast", labelVi: "Kịch Bản Lạc Quan", rateDaysPerMonth: 30, emoji: "🚀" },
+  ];
+}
 
 function formatDisplayDate(epochMs: number): string {
   const date = new Date(epochMs);
@@ -54,9 +57,11 @@ function estimateLabel(monthsFromNow: number, todayMs: number): string {
 export function PriorityDatePredictor({
   latestTableAIso,
   latestTableBIso,
+  actualRateDaysPerMonth = 18,
 }: {
   latestTableAIso: string | null;
   latestTableBIso: string | null;
+  actualRateDaysPerMonth?: number;
 }) {
   const [priorityDateInput, setPriorityDateInput] = useState("");
 
@@ -144,7 +149,7 @@ export function PriorityDatePredictor({
         </div>
 
         <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-3">
-          {PACE_SCENARIOS.map((scenario) => {
+          {buildPaceScenarios(actualRateDaysPerMonth).map((scenario) => {
             const monthsToWaitA = Math.ceil(gapADays / scenario.rateDaysPerMonth);
             const estimateA = estimateLabel(monthsToWaitA, today);
             const monthsLabel =
@@ -155,7 +160,9 @@ export function PriorityDatePredictor({
                 <div className="mt-1 text-[10px] font-bold uppercase tracking-wide text-text-muted">
                   {scenario.labelVi}
                 </div>
-                <div className="mt-0.5 text-[10px] text-text-muted">{scenario.rateDaysPerMonth} ngày/tháng</div>
+                {scenario.id !== "mod" && (
+                  <div className="mt-0.5 text-[10px] text-text-muted">{scenario.rateDaysPerMonth} ngày/tháng</div>
+                )}
                 <div className="mt-2 text-xl font-bold text-text">{monthsLabel}</div>
                 <div className="mt-1 text-xs font-semibold text-primary">Phỏng vấn: {estimateA}</div>
               </div>

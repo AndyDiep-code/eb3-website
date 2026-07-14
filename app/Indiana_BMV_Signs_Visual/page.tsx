@@ -4,14 +4,14 @@ import { SIDEBAR_GROUPS } from "../components/sidebar-data";
 import { IndianaBmvSignsContent } from "./indiana-bmv-signs-content";
 
 export const metadata: Metadata = {
-  title: "Ôn Lý Thuyết Biển Báo Indiana (IN) | EB3VIET",
+  title: "Biển Báo Giao Thông Mỹ — Song Ngữ Việt-Anh | EB3VIET",
   description:
-    "Thư viện biển báo giao thông Indiana song ngữ Việt–Anh. Flashcard, bảng tra cứu và thi thử biển báo. Cần thiết cho kỳ thi lý thuyết Indiana.",
+    "Thư viện biển báo giao thông Mỹ song ngữ Việt–Anh. Flashcard, bảng tra cứu và thi thử biển báo. Cần thiết cho kỳ thi lý thuyết bằng lái.",
   alternates: { canonical: "https://eb3viet.com/Indiana_BMV_Signs_Visual" },
   openGraph: {
-    title: "Ôn Lý Thuyết Biển Báo Indiana (IN) | EB3VIET",
+    title: "Biển Báo Giao Thông Mỹ — Song Ngữ Việt-Anh | EB3VIET",
     description:
-      "Thư viện biển báo giao thông Indiana song ngữ Việt–Anh. Flashcard, bảng tra cứu và thi thử.",
+      "Thư viện biển báo giao thông Mỹ song ngữ Việt–Anh. Flashcard, bảng tra cứu và thi thử.",
     url: "https://eb3viet.com/Indiana_BMV_Signs_Visual",
     siteName: "EB3VIET",
     images: ["https://eb3viet.com/og-image.png"],

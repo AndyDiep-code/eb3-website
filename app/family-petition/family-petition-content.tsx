@@ -2,14 +2,16 @@
 
 import { useState } from "react";
 import { TabNav } from "../components/tab-nav";
+import { FamilyPetitionTool } from "./family-petition-tool";
 
-type TabKey = "derivative" | "i130" | "process" | "special";
+type TabKey = "derivative" | "i130" | "process" | "special" | "tool";
 
 const TABS: Array<{ key: TabKey; label: string }> = [
   { key: "derivative", label: "👪 Đi Cùng (Derivative)" },
   { key: "i130", label: "📝 Bảo Lãnh Sau (I-130)" },
   { key: "process", label: "💵 Quy Trình & Chi Phí" },
   { key: "special", label: "⚠️ Tình Huống Đặc Biệt" },
+  { key: "tool", label: "🔢 Công Cụ Tính" },
 ];
 
 
@@ -601,7 +603,7 @@ export function FamilyPetitionContent() {
 
           <div className="mt-4 rounded-card border border-border bg-bg p-4">
             <h3 className="text-sm font-bold text-text">
-              📚 Nguồn tham khảo chính thức
+              📚 Nguồn Tham Khảo Chính Thức
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-text-muted">
               <a
@@ -626,6 +628,17 @@ export function FamilyPetitionContent() {
               : quy định chính thức về cách tính tuổi CSPA cho con cái đi
               theo (derivative beneficiary).
             </p>
+          </div>
+        </section>
+      )}
+
+      {activeTab === "tool" && (
+        <section className="mt-4">
+          <h2 className="border-b border-border pb-2 text-base font-bold text-text">
+            🔢 Công Cụ Tính — Diện Bảo Lãnh & Thời Gian Chờ
+          </h2>
+          <div className="mt-3">
+            <FamilyPetitionTool />
           </div>
         </section>
       )}
