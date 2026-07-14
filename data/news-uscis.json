@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-13T10:33:05Z",
+  "updated": "2026-07-14T09:10:39Z",
   "items": [
+    {
+      "id": "ded83cdc5e4b",
+      "title": "New York-based automotive service provider agrees to pay $174K to settle safety violations, protect workers after federal investigation",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260713-0",
+      "desc": "NORWICH, NY – The U.S. Department of Labor has entered into a settlement agreement with auto service provider Monro Inc. requiring it to pay $174,000 in penalties to resolve seven safety violations found at its Norwich facility in July 2025.The department’s Occupational Safety an",
+      "date": "2026-07-13",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "fcbe95b5f684",
+      "title": "US Department of Labor cites Texas contractor, staffing company after worker suffers fatal injury in elementary school crawl space",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260713",
+      "desc": "SAN ANTONIO, TX – The U.S. Department of Labor has cited a building contractor and a staffing company for safety violations after a worker suffered fatal injuries while operating a mini-excavator beneath an elementary school in Converse.The department’s&nbsp;Occupational Safety a",
+      "date": "2026-07-13",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "d1c6c266383a",
       "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
@@ -520,24 +538,6 @@
       "link": "http://www.dol.gov/newsroom/releases/eta/eta20260618-0",
       "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $1 million in grant funding to support disaster-relief jobs and employment and training services for residents of the Northern Mariana Islands in response to the severe impacts of Super Typhoon Sinlaku.&nbsp;B",
       "date": "2026-06-18",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "7092943c7078",
-      "title": "US Department of Labor issues guidance clarifying Trump Accounts are not generally employee pension benefits plans",
-      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260618",
-      "desc": "WASHINGTON – The U.S. Department of Labor today issued guidance clarifying that&nbsp;employer contributions made to a minor child’s&nbsp;Trump Account will not generally be subject to Title I of the Employee Retirement Income Security Act.&nbsp;A Technical Release from the depart",
-      "date": "2026-06-18",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "59c1485ddbc2",
-      "title": "US Department of Labor recovers over $512M in fraudulent unemployment claims to US Treasury",
-      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260617-0",
-      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor and its Office of Inspector General today announced the recovery of&nbsp;$512,138,478 in fraudulent CARES Act funds to the U.S. Department of the Treasury. This marks the second major recovery from the Maryland Division of Unemployme",
-      "date": "2026-06-17",
       "source": "DOL",
       "category": "dol"
     }
