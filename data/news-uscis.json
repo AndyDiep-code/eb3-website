@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T09:10:39Z",
+  "updated": "2026-07-15T09:16:30Z",
   "items": [
     {
       "id": "ded83cdc5e4b",
@@ -18,6 +18,15 @@
       "date": "2026-07-13",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "475404271d1e",
+      "title": "Chapter 5 - Professional Conduct and Reporting Misconduct - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGRXZwUGkzRXFrcUhDYmFqN0dSMUNvY1hsTV9YdHdsT3lpaHBaSTV2UDVLYmVLTVVJVmdhZk82SjNGeFVlVnZkZGZFaURsZ0FzTjBkNFJCUTRzazdLcDkxcnFxdlFldktMS3p1T2FR?oc=5",
+      "desc": "",
+      "date": "2026-07-13",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "d1c6c266383a",
@@ -531,15 +540,6 @@
       "date": "2026-06-22",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "100e6ef6f1ae",
-      "title": "US Department of Labor awards $1M to support  Northern Mariana Islands residents affected by Super Typhoon Sinlaku",
-      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260618-0",
-      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $1 million in grant funding to support disaster-relief jobs and employment and training services for residents of the Northern Mariana Islands in response to the severe impacts of Super Typhoon Sinlaku.&nbsp;B",
-      "date": "2026-06-18",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
