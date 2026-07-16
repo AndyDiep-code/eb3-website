@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-15T09:16:30Z",
+  "updated": "2026-07-16T09:20:59Z",
   "items": [
+    {
+      "id": "68e9963ed69f",
+      "title": "US Department of Labor fines Houston utility contractor $343K after worker hospitalized following excavation collapse at Brazoria County work site",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260715-0",
+      "desc": "HOUSTON –&nbsp;A U.S. Department of Labor investigation concluded that a Houston utility construction company exposed employees to safety hazards after an excavation collapse hospitalized a worker.The department’s&nbsp;Occupational Safety and Health Administration initiated an in",
+      "date": "2026-07-15",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "e14ebebf581c",
+      "title": "US Department of Labor cites big rig parts distributer for confined space, safety hazards after worker fatality at company’s Corpus Christi facility",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260715",
+      "desc": "CORPUS CHRISTI, TX&nbsp;‒ The U.S. Department of Labor has cited big rig parts distributer FleetPride Inc. for 16 serious safety violations after an investigation into a worker fatality found the company exposed workers to confined space and other safety hazards.The department’s ",
+      "date": "2026-07-15",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "ded83cdc5e4b",
       "title": "New York-based automotive service provider agrees to pay $174K to settle safety violations, protect workers after federal investigation",
@@ -23,6 +41,15 @@
       "id": "475404271d1e",
       "title": "Chapter 5 - Professional Conduct and Reporting Misconduct - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGRXZwUGkzRXFrcUhDYmFqN0dSMUNvY1hsTV9YdHdsT3lpaHBaSTV2UDVLYmVLTVVJVmdhZk82SjNGeFVlVnZkZGZFaURsZ0FzTjBkNFJCUTRzazdLcDkxcnFxdlFldktMS3p1T2FR?oc=5",
+      "desc": "",
+      "date": "2026-07-13",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "de6418875479",
+      "title": "Part D - Attorneys and Representatives - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rUGw4UjNMR184TURNWU85WFZGbmFKUmQwT29WOUFHeWVHRTFFUzVVMjhmMktHSm1ZaWdLOVpjV29qZW1aUGZ1SFFhVExQNHRVSktuWWJKQVpfQXVERE54YQ?oc=5",
       "desc": "",
       "date": "2026-07-13",
       "source": "USCIS",
@@ -407,6 +434,15 @@
       "category": "uscis"
     },
     {
+      "id": "46bef27e3e46",
+      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 01, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPYnJhLWowdDdOcm5YV0owdFcxU0RFc2E5RWNhTlBwUW1rcmFVdVlFNVNoYjZoWGc0X1RYVUI4TWlBUm82NmJGY1lYYkhCU1RXWmN5eHp3Mkd1M2xEb1gzM2pMTmVUeUVST0ZYYWpXczdWOGpkOEl0ZFBnbm94MnRGdHp2Y2VOT21jWmNZTlZxblFCUmM3WmJGdmJndkNmTHBWYXp6eUY0am5NYXFlZVhrMHN4dXByZ1BqV1hKWGpMaUVfdmVaSUJvbUVFeXpOcXlaN01SNjN1Q3g2dThUWFlQaXBvUXcybF9rMlVsa2xjMkJheF9fOHU5NUhB?oc=5",
+      "desc": "",
+      "date": "2026-07-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "a963dc470003",
       "title": "US Department of Labor proposes $3.5M in fines for dangerous health, safety violations by 3 employers during Houston facility chemical spill response",
       "link": "http://www.dol.gov/newsroom/releases/osha/osha20260629",
@@ -504,42 +540,6 @@
       "date": "2026-06-23",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "c9fe73207263",
-      "title": "Office of Workers’ Compensation Programs seeks public input on occupational hearing loss evaluation methods",
-      "link": "http://www.dol.gov/newsroom/releases/owcp/owcp20260623",
-      "desc": "WASHINGTON – The U.S. Department of Labor’s Office of Workers’ Compensation Programs is inviting public comment on the comparative reliability and validity of hearing testing methods and best practices for evaluating occupational hearing loss.&nbsp;In a request for information, t",
-      "date": "2026-06-23",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "80dfcb137c58",
-      "title": "SAVE Enhances Case Processing - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS3FLT1QzSHBCZk9BNWsxWHVHLWFOSDljbjhxdjRtRWhaYTlpT1Y3VjJJRTJlQ0U3X0RGTEFvb3dnN3dhOGp1S2FMYVU5a1FwcUVLSGQ4cWhlQ3FTOWk0bzdMNkljNHRIZ01kZERXVkw5MFF4cVE5N1lhYjVrNHlnX0ZEOTJzYjZtclF4LXdkS01pN2JB?oc=5",
-      "desc": "SAVE Enhances Case Processing&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-06-23",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1aba08095977",
-      "title": "Federal court enters consent order requiring 3 Maine sports bars  to pay $51K in back wages to 47 employees",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260622",
-      "desc": "PORTLAND, ME – A federal court has entered a consent order requiring three sports bars to pay $51,775 in back wages to 47 employees, and $31,436 in civil money penalties, resolving the U.S. Department of Labor’s case alleging the employers violated federal wage and child labor la",
-      "date": "2026-06-22",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "d2c1bf8480e6",
-      "title": "Update: Supreme Court Order for TPS Venezuela - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVklIbFBtejRyMGtjaXhocGdfa0NJYUhod0xmWEF2b2VFZjFzcXVVUnM0MUstT1NoTXB0eFI0YnNqRWZ5aVlPZ0RiQWVkS29pUWRsR3BHS2J6RXZsdEVlYTM4cFIySlNVVnVQSW9ZSkVyX3lIZkVDeHY5d05FbXNYZFZ3QUlhVE1PbndEeVAzS3p5VUFSdVpzM2FwTVlDNVI3YlRnVw?oc=5",
-      "desc": "",
-      "date": "2026-06-22",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
