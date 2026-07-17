@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-16T09:20:59Z",
+  "updated": "2026-07-17T09:15:07Z",
   "items": [
+    {
+      "id": "eebe2c30084a",
+      "title": "US Citizenship and Immigration Services Rescinds 2022 Public Charge Regulation - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSFdXYnFSbzZ4T0VTOFRBdXFBejhrOU5KdTR4TTVvSzdzeS11RGNiWXdjMGFRaVFJaElDSmpiTXZENWRpZndjLTNzU2xwQ3had08tLVVWTy0xUGg5OUlrMmpKTWtqQWJnRzlBLVhRdjFNQWtQcUUwUFV5dEN3TlBQVUdFbDlzTVlpM2dQQkI2WkdKbjF1NE1peDdTVWlfTGtHNm5lWjdxZkczR1NISUhqTTl3clFCQUZSZ0x1V1dtc0c?oc=5",
+      "desc": "",
+      "date": "2026-07-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "68e9963ed69f",
       "title": "US Department of Labor fines Houston utility contractor $343K after worker hospitalized following excavation collapse at Brazoria County work site",
@@ -18,6 +27,15 @@
       "date": "2026-07-15",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "a629d3fbd0c8",
+      "title": "Discretionary Options for Military Members, Enlistees and Their Families - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM3ByRklQdk1aQkt1bzRWTXVmMEkySXR2T29YX1pYVjBsOGFUS05Sdk9tdldIYzZuNVVVZVZ3cWxoN0JNVzdmVkQ0ZVBDU1kzQnA3Q043a1o1SmxEd0U2UjhscUlzTkhfNHdQcmFUT1ZSNVFGY3lmcHFvVVNXbEoybTFOV2lERUxEUUl2ekJmS2JkTGR1QVN6TG5RX3JYcjdaWmVKcw?oc=5",
+      "desc": "",
+      "date": "2026-07-14",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "ded83cdc5e4b",
@@ -213,6 +231,15 @@
       "title": "5.1 Automatic Extensions Based on a Timely Filed Application to Renew Employment Authorization and/or Employment Authorization Document During Specified Timeframes - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPNkVZa3VwWGVCZTE2enNNV1pRRzlYNldhUjE4SG9WeFdlWk1NaGoyRUcwc1RrMVNjLTZUaGxNVl9wQXJWSGs2alJVRlQwbm41TGpwYU56a2lZY0JveW15ZW90TkljUVpnb2NWUWwxYTFKaVExM1hIRWNWRGQ3bkhHVWduRFZhcWFuNWliM0tMXzExYUNLNkdiMWt4OWlWaG5aaG9laVBsdVZmd2dQQTdXQ0pVZnZEdk1nMnY4U2pFWVI5bEUtUkczbk50Rnkwd2FGTWNYSC1yc2hTOU5uQjIycng4amZ3ZXFhNDdrUFd6ZVRKaDlmUmw0eDQxY0RGQ2FIT1RUZWJUTmU1RmJxYVY4QlFmY3AxbnBJY05oTGR4UjdKY1dwTmpRTnFpN0xFNU5XRWJ4X243MXoyQ0tDOGdOaDZtNmNmQXVYRERQbmdwRDNaVjNmT2tFbU9vNXBZRlJLLVQ0RmJ3UllPeHozbTlzc216eEpkTjJkUGkwU29hdWpDeHpuRlp1bDhnOEE?oc=5",
       "desc": "",
+      "date": "2026-07-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "83ad1892c3ca",
+      "title": "Handbook for Employers M-274 - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOWtBbUdqWFhNMEZHOXc5UmRtd2hYdkNHMElicWlSUDJPdkRXaDhfZURCUFJCT093OEtnaGR3ZlVWTFo1bV94cHQ4eWVxS0NHeFhpOURpVURGbzlSOFhEODVycFBqQnE2dWNwSTJUUEs1c1hpWEdiM3dfMDRCdEZEMmczaHJlRmQx?oc=5",
+      "desc": "Handbook for Employers M-274&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-07-07",
       "source": "USCIS",
       "category": "uscis"
@@ -513,33 +540,6 @@
       "date": "2026-06-26",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "c7b710e7007a",
-      "title": "Abused Spouses, Children and Parents - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aYW9QZGVNRnFHTGgzMHNUUVVaakxwSXA0eWVlbG9FNGhoYkRvTU9VRGRzQU5RVDk2d2o4eXlLaXZ0M1g1SkV2clBjYzRUODN2R0N2NVdTWkJWNFV1bktCQkUzVkc0WkI3UTNQMUxlY200QTAwU2xEMVRB?oc=5",
-      "desc": "",
-      "date": "2026-06-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "deeb24a2e9a7",
-      "title": "Reports and Studies - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ka1M0bHhRcS12UUR1ZkJQQUwzTmFqOVBjTlBTam1vVTl0VGd1V2NraEVGeW5CNHU0WVBVcUNYbGREb19aNmNLMW9kWkt4NTVERldTTGFpT1czT1E?oc=5",
-      "desc": "Reports and Studies&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-06-25",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e6b9f82e4701",
-      "title": "US Department of Labor recovers $1.7M in back wages for 1,666 hourly employees denied overtime by multi-trade contractor",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260623",
-      "desc": "FRANKLIN, TN – The U.S. Department of Labor has recovered $1,730,598 in back wages for 1,666 workers after an investigation found that a multi-trade contractor failed to pay them their full wages, in violation of the&nbsp;Fair Labor Standards Act.&nbsp; &nbsp;Investigators with t",
-      "date": "2026-06-23",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
