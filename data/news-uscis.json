@@ -1,6 +1,69 @@
 {
-  "updated": "2026-07-17T09:15:07Z",
+  "updated": "2026-07-18T08:53:37Z",
   "items": [
+    {
+      "id": "c35f5c3535c4",
+      "title": "US Department of Labor recovers more than $500K in back wages from San Diego deli for 6 workers",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260717",
+      "desc": "SAN DIEGO&nbsp;– The U.S. Department of Labor has recovered $500,256 in back wages for six&nbsp;deli workers who were not paid the local minimum wage for regular hours or overtime premiums for hours worked over 40 per&nbsp;workweek.&nbsp;&nbsp;The department’s Wage and Hour Divis",
+      "date": "2026-07-17",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "3c4f4ca7376f",
+      "title": "USCIS Reaches Fiscal Year 2027 H-1B Cap - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSFVMSmI5ZGZ3bmZ5RFVJalAyMjRVc3Q3NlJiSG1nWkRqajctaWNPTi1WTU9hcS1VVkZUdTRuRURfUlZMYzJLcTRoS2x0eGdaVXhsMWZyMU1JNE9kT240eEJXQTFQVHhlU1FqWjlST2lfM0IwR0FJMU1vN2E4RGNaUTQwaw?oc=5",
+      "desc": "",
+      "date": "2026-07-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "42add95fe768",
+      "title": "Update on Termination of Temporary Protected Status for Yemen (Release: July 17, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRmZsZTFrNWNXU0x4RWlURW1TclJKRDQ5eE5WYU5ucEd6dFNPeWZ5R0NndlFBdXJlS3d3Smc3UXY1MUVwa2dHUWx3cHRxSmgzNkRLaUwtZDhNLXJ1YmotZmpDbjFGNldwb09NZ0d6N1Vnc1dJdkM5WTFadkNXNHhDVTEyM2lkbU56RmJKRG5Wd2ZldkhHa3I0SHppY1BXZ3VPUVAwcTdhWk5rSVpPN29KNl9TMGwydXlLVnBmMlBUZXZBZEhtX25wYTQ3d2d2eVoybzc5OQ?oc=5",
+      "desc": "",
+      "date": "2026-07-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "195a75c0cad7",
+      "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 17, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVG9hN05QU1pacmVyRzNCamNjc1p3S3A0S1UtT3RLeFh1djFhSnVNcVdiWS1NZEhjaExrV2pMYllnMGtZYmlGVmpPRmFBYnljWGtCaWVkbng1dDlyTFpPc25zbGVIbi1BdEdEN3MteXRZYW9IMGRvRHFlN1J2TzEtdEJSYnRZRGxvZGVnRWIxMVlaVlNsLU1HNnBMaVpmOGZicHQ2UUVlMk9jMnVvR1djVWFiNTZtYmFXaXhaU3kxM3lIY2ltRjF0bkozeUNyaW14OHhfZA?oc=5",
+      "desc": "",
+      "date": "2026-07-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "0bdf52673c59",
+      "title": "Update on Termination of Temporary Protected Status for Ethiopia (Release: July 17, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaS1PcEpsRm13cmFjNXViNEZ3dl9PUnljc0Vkc2xMZmZGTHV0c0ZUbnFWaDVlSl9zLW9MOE5KQ0VZWVo1ZGdCQjhRM0ZXNmRPMk1KeTlvelRZcmN6eHBnSmYyQ3JfSTJxMUFXdk9vMXNvZTJvZzEwYUJwS3ZxbVE3bHpMc05HeE04anRSQlNZUmQzeDJfSWozUEJhYUg5N0UyNVhMT205a1JPdnhOc0lIdTVNdVpJOWxScG9ZSTduOUZHSWRmUC12M1Y0Tm1uRDc0TUNXcWRJWHU?oc=5",
+      "desc": "",
+      "date": "2026-07-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ef60c27f7f53",
+      "title": "Update on Termination of Temporary Protected Status for South Sudan (Release: July 17, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU09LRzdHR3E2bHloVHdfS1BRV29fUU9sa2o2VTVYY1lpb0VyVXBWZmFJdkEwT2F5eVdEamsyTXplb0habUxfUXVnOVhReENJUldjbWR0RHN6Mm5EOFJOX0Z6Vk9fR1FOeWdKX3I2Yl84VDhFMjY3dl8xTm9vQ092dHVRQjVGVVNSWmNwdFhRdGFQVG11S0JoNHAxNXlFbVhVU2ltYndPZzgxS2IzRFhHTm9wcTEyOFUweFVuenlVR25PWkF2cnotTDJ1enlsdTZzV0h6ZjBkV1lRbXVC?oc=5",
+      "desc": "",
+      "date": "2026-07-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "0114d8bc37a4",
+      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 17, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQY2c0OGFXWU9peUNtdmJJa0lZMHZFNHVuUmRKS19odHlPQ2ZnT0gxd1ZpQnZ1MkhkdTNta1p0NklRYlhPeTBNTXhOVWZaTTc1RE1qMnlFcHdBREJ3OFZId05WSVk5b2RLeFl6N3BwV2wzSkZHWnNNWFNpNkNhdUl0UHdaV0lnN1Q1SERWNk1Xd1I0QjFtR3pKY3c0dHNTSHlkWjB1QXp2S2cxdU0zVGIwRE1Pam5IMTRRODBDUVBUQmNHYXJRZTJhb3BfbmJ3OUwxQlFKcA?oc=5",
+      "desc": "",
+      "date": "2026-07-17",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "eebe2c30084a",
       "title": "US Citizenship and Immigration Services Rescinds 2022 Public Charge Regulation - USCIS (.gov)",
@@ -185,6 +248,51 @@
       "id": "f90a2ecd1c7a",
       "title": "I-140, Immigrant Petition for Alien Workers - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dEpWaDFqXzllWnlmVUd5Y3VSMjVXYmlod2tiaFY3RXNHbFhVV0pNS1RlRFFZYVhteko0U3lqS3U?oc=5",
+      "desc": "",
+      "date": "2026-07-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3b7b785271b7",
+      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 10, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaEFzN2ZtWl91ak1SSmg2aFduY09DT2VSSnkwX2NNZWM5YU5rakJQYzBLenBubzVoMTJSNElHdFQ4anU1cXV4QzQ1MFVjdllHRHlEdy1FWDhYMm5sOGhyd0pQSnVHZW1Qal9kQUI5cGdTMmVRdGtadUxpZ2Y3WG43amE1SHFJcGtzU05VdVU0UWZUY2pTWHlpV0JvZXJGbTY3bkRtNGxab19pZ3hnNUQ1WGc0VUdCcS10cHpWUWc0RUc4NElNSk1aaXE2b2dwd0RpVjZDR3dUXzZ5a010RzVUVnpaeThEakVTczRHcVNOMmdCei1KREFvZW9QWEE?oc=5",
+      "desc": "",
+      "date": "2026-07-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "211d4e157f84",
+      "title": "Update on Termination of Temporary Protected Status for South Sudan (Release: July 10, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZWlSYVh4VkVmV050eFBHeHppYXVPVVpBMnhTdWxXdUJkaDBWRHFEbXVDV25HbHFldlZjU3o4c0gyMFhRNFZLSWNaMDIweHl4NG9vdk1RamU2R1RIQk5hYzNQSmNGbHVZZDFyU2MzTnNZTVozQ19qWUo3WlMyQTU1X1lzT0NhWFY4T2dfaXNDLVVmdWYzaXRpRDhQTUNndWJieW5tamtWWVFwWkViSUFZNGR6eDhKQlIteTNvdFg2OEtjZVZ3eDZodTJUUmhuYjNBaENhTE1fYlBXUExvWUZQemxJbjhTd1JXWURRVU4ycndUM1B6RVZCUUF3ZDNSbjJIc3c?oc=5",
+      "desc": "",
+      "date": "2026-07-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e5ef1bde1196",
+      "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 10, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaTIteGhZNzJUdU9seElyM1ZwbjFQRUlJN1dLLU9MaDF5VTdzXzZWM3ZoOVVLeVNFeUF3enhHZFVGaVF4NXVGMk5xc1pKVlJEcXFWOEoyZVBhVVZIZE1uS29KU25LZVQ2RnduaElKaUdJX3RUWDFmTzdCcF9jcWhiVjBvQzF4WGE3MFJVY1ZaNW8tMUU5emllSTJNaWVBUVNCbHBpdW1OSUdCTW04U284ZHZSMVhPdFF0THM5eFZPYzlFaVJfRU84RGVnT29RM0Y3Mk1pTmhscnQtNXV0cUZmX1hoaVlUbDZCTjBueEZQb2xfc2JhTkhHWC1R?oc=5",
+      "desc": "",
+      "date": "2026-07-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "a4a29f2abeea",
+      "title": "Update on Termination of Temporary Protected Status for Somalia (Release: July 10, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQY2dmN0RCZmhYa0RQdmNYT2UwSmw4UzJVVG85WktsS1BiTi10cHlPTWdtaW5pVUpiTXBJSnR4a2JBSDAtZllhRDhGWVI5Wkt3cHdvVFNFR2Z6ZXcxUFpOTldXVWp0WmswSUItOVlicF9NTzNRQXczTjFXSG9ncnZDQUlmZklnQTc0WG5KUHhCek81dDFtYVNEWWt5VENjdDY2SGZlU2tWTWZrU0RCTHlaTjFqZ1dERHlGeVBldkVSWWJJU1pjMEZ1eTRKTV8ya0NmVUFlbDJkUDBDaEJpLUFRYWJpMFVNVXBfUXpRNXZUTmV3Z2p5M09WM3FBT1M?oc=5",
+      "desc": "",
+      "date": "2026-07-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ceafb9962232",
+      "title": "Update on Termination of Temporary Protected Status for Ethiopia (Release: July 10, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQeC1iRXZ6RXVDbDVqTkVjczA0enpGcEx1S2Z6QThWWWtfWkQ3bnA4SUZ5dFlsWVRyaHc1VnRMcXpmYTJtQnNhWWZJSEdVREI3c3puYW5oYjZsZTZ3bWt4RC1SZThlOVFOMURFX1Q3UVB5cTVNekpzUUswb0dWVUFpWWk1VVpyaW1MamoyVlJ3dVhNLWVKVFJNV3RFZHdSZTRyd3JjSzJtUGpUT2Zwb0dSS1FHanh1Rll3SE5ka0ZPSGhKZjBwUGdWaGdQWHI5WDJyZl9WbGFUZldDVm5jLWE5REdaLUdDemsxRkI1U2ZkcG5ZWTczc1ZLcmlHM2lVUQ?oc=5",
       "desc": "",
       "date": "2026-07-10",
       "source": "USCIS",
@@ -430,114 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxONHlocDJCOUw2dkJnWHhUWnFyb3pwdjljeWlnVmhTOGxEY25JSUJjdVRUOTlSTFlWYzdXdUhTcmNKcjZlN0dkcDVmbU44RUF1RE5Dem8wZVp4UkxUbTBDdXIyVkMxYkFlSWZRV0NubWFzLXNsNXRRaUFaYWQyb282Zm1pMGpBZVBvZ0ZNQ0gzU1NGeHlFRnZleG5CeG45VV9zU1lpUlpqZjVJUXNublZwRlZyYWdkMzhvd193STZpeFZNeU1hV2hOZWNna0ZFd1pfVVpMbFFWT19QVlJIbVR0UlFyaDgwd0ZlWE9HQ09YVklmSHR0RTJsTm9aa0s?oc=5",
       "desc": "",
       "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2cda63659ca9",
-      "title": "Update on Termination of Temporary Protected Status for Ethiopia (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQYTZpdlN3ZFdCcEpIcnBrYk9saWdLMHJVNFUwblJ0ZGhVZnNhUkJueFM2bXc2Zmt4d210NDBqM1pVV1A1QXNkemotSU1pUnJTZGVLYUVxejhINlBub3dadUVxX19xcVg0Tzk5aER0c0k0REtGWVZweVRuWFpnWmZfR2x4OTJ5UWFWMlJVYUtmOWdYNTBEaFc0dFhZTXctT2tLVW5lZVNQT3BPNmZ4OTgxZmpoRHYtdmE0akJ4NGVtdnF0akxYY0FETFhodG96VlB2b2QtQnlaRlRkRU93UUtjWFljSGR0ZTRSbllVbEUtU0xXMmdDQ183LW1BTHhwQQ?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "5a75c5cad538",
-      "title": "Update on Termination of Temporary Protected Status for South Sudan (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNGhtMWtGTUFkWS1CTVFSY1pUeENCaTl5ZjdyZER6TmlMY1ltQU9nOXVNT2pjX2VqS3NxNkRmbUk0QkdyVVdWQ1U4SEF5Zk95YW5SdmNqY3AweVMxM1RCMUdicGFOZUVtSmVqMXBDVFpEc3U4dG56dUlCeUpBazVVVEZNT3BOdnJtVlA1WTg2U0VLU1pvZUE3bmREMFNwTlNDRDBmRzJrem9uMW1yYkE2dWZBTmpfel9oXzJKVlhKOTdxRXZlVXR4WUI5dV9KRXA3b0pRcTBZR1NqbDlFR0JDeVk0Z05FVnhzZmFicVltQ09lci1ERHpmYnNSY0NCYnRoYnc?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ffa8c51a8a81",
-      "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQjM4NlZDTTdZSk5RaXdoT00tdVpLNGtVVl9UNTVhYU50dzFuYTdoV3Nnd1dsLTdqWUVLUjdWZTJ4Ylk1VzdHMUtNdjk2dmR3NFptbktua1hjZVZSV280OFNoVWFYT2MwUEtRd3loNFFzLTNNT3pHdklya0tXOUJUZkYwelpMSlFuMEZuSncxaU9ZbUxUWEZKRUJQZkRQVW80a1VVcjUzRlR1QXgxV3BJN2lLQnd5d3Rfd1VaUVVFSWhsWVlxNlE1NmxuOWNpQW5UWmNPZjhTTi11cnN4Q3l0RVM2dEtvRW84dEpzZjBHTGxsZnpHM1JXRjNB?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "46bef27e3e46",
-      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPYnJhLWowdDdOcm5YV0owdFcxU0RFc2E5RWNhTlBwUW1rcmFVdVlFNVNoYjZoWGc0X1RYVUI4TWlBUm82NmJGY1lYYkhCU1RXWmN5eHp3Mkd1M2xEb1gzM2pMTmVUeUVST0ZYYWpXczdWOGpkOEl0ZFBnbm94MnRGdHp2Y2VOT21jWmNZTlZxblFCUmM3WmJGdmJndkNmTHBWYXp6eUY0am5NYXFlZVhrMHN4dXByZ1BqV1hKWGpMaUVfdmVaSUJvbUVFeXpOcXlaN01SNjN1Q3g2dThUWFlQaXBvUXcybF9rMlVsa2xjMkJheF9fOHU5NUhB?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a963dc470003",
-      "title": "US Department of Labor proposes $3.5M in fines for dangerous health, safety violations by 3 employers during Houston facility chemical spill response",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260629",
-      "desc": "HOUSTON – The U.S. Department of Labor has proposed more than $3.5 million in fines against three companies after federal inspectors determined they failed to protect workers during post-emergency response cleanup after a chemical spill at the BWC Terminals industrial facility in",
-      "date": "2026-06-29",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "3bd1b0f65c79",
-      "title": "Alien Registration Requirement - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1GMFR1UUROdnQ4RXo2cUJsbjAwV0RCb3E3XzVmNjBmck5CN2gzMERyaHZHbHJFb3o1Mi1qWVlsZ0V6bjhPQlZWYTNMdVRFa19m?oc=5",
-      "desc": "",
-      "date": "2026-06-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a187e5035bfd",
-      "title": "Man Sentenced to One Year Home Detention for Visa Fraud - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeU5CUmMtYjJNNjVoa0djMFExdkVVUWJNMkZkRnR2OFVqMDdVSlZWck13cEItNWw5aW1XMHlTX1BxUjNPaXh6cTV4Rl9ramVDNzNXRGhRNWZqbHJnTU1rS1NQSTZyM0VLVFF2OExHVUtqUFA2T05DS0xmcVVKTGF1eW1zdkhXbkJfVzZiZGJ2RjRzOEwtZER4UmpPOU5sR21sN1E?oc=5",
-      "desc": "",
-      "date": "2026-06-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "fa6142010ea2",
-      "title": "Policy & Related News Archive - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRjBYOTE1MDdNbFhpb1loeU8xc21QcDhxd1lzUnFRU2tOUnVBM1FSckM5dDVxYS1nVXlZQ2JVdkp2a2N4WkUtYmhjSzBMTTdiUXZWLVlJMWZ5NnZMcE5kVXYzSmhVaF92VEFpdHdxNjFiYXZpUDBTd3FRTVVieTVUZkpRbkJraG00aEpuVlBjc3U5cmFMMkh0bnhaUW5VNnhVQXhLZVpXa2E5azdfaGgteG44bnEyOW5IMGowVTEtdDZiMUFLbE5TdDNhbVFIWGV6ZTN3SlFZWHR4bGRrMm1ScnJvSzVESkVP?oc=5",
-      "desc": "Policy & Related News Archive&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-06-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ecb45f2f4d9d",
-      "title": "H-2B Temporary Non-Agricultural Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVFMbkxpRTJQd3I0UEh3a015bTFhZ0hpR3NxQ3NVZXdEREIyR0lpMWoxblhVWGE4d1FSRVk5b0FyVHpWTVJRelFCR2FJNHNRNGYyLVhvWGtTSzhaQXlGVUVxeDFJOENKQ0RNZ0pVakk5bDBzbTVUR1ZlOG9ZV0dDM1dUWnF5c3ZvTzhMdU5tRmlJYzU2YkRJOXk0SGxvaEl0ZkdleXFUcG0zYTJE?oc=5",
-      "desc": "",
-      "date": "2026-06-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "eed237ef915a",
-      "title": "Important Notice for Clients of Former Immigration Attorney Alexandra Lozano - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjZiUGRoSVdYc2NQckRLaG1lNXI3dFFIMEJGRjBsQ2djV2ZWaldRVldpR2tCWFc2SlRZdVRWT3EwT3otM2FQdkM4TE5PanQwRDZWdDVwejZ2MnIxUkVwejJLMEZibHZ0UWV1OGlkdnpibjNRY1hvVDN6ckE4ZWJOWldrcjJDb3VuRjBkb3ZLVDBXdDVnRWNYSjdQWU9hQVRucUxwUW96RDdsSnBBR25WMnBZLXk?oc=5",
-      "desc": "",
-      "date": "2026-06-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3a473d58dd2e",
-      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
-      "desc": "",
-      "date": "2026-06-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d24a8eba24c0",
-      "title": "Green Card for VAWA Self-Petitioner - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYjVKeGMycnhxdW1Oa0hjT0xMT1RjSk1tTGM1ZjkwcURKTExaTkdjVi15d3BZVGVJOGZkaHF0V214X0JkQVo4Vy1yUG8zc29qS3JQaXFGQkR6RThwY2Nsc2piN1BCQTBaUTZBaEFSNElsUmdaaDVZa1gwRERobXptekFGdlp5TFhmZnFKYzFKTkw0OTBDVnc?oc=5",
-      "desc": "",
-      "date": "2026-06-26",
       "source": "USCIS",
       "category": "uscis"
     }
