@@ -1,6 +1,33 @@
 {
-  "updated": "2026-07-22T09:32:29Z",
+  "updated": "2026-07-23T09:29:18Z",
   "items": [
+    {
+      "id": "d4b55d3a3cc5",
+      "title": "US Department of Labor issues a pair of opinion letters addressing commuter travel, remote work under FLSA",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260722",
+      "desc": "WASHINGTON – The U.S. Department of Labor today issued two opinion letters addressing how the Fair Labor Standards Act applies to the commuter travel of employees who work part of their workday at home.&nbsp;Opinion letters provide official written interpretations from the depart",
+      "date": "2026-07-22",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "1f040a306047",
+      "title": "US Department of Labor proposes rule to modernize electronic delivery for group health plans, lowering costs",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260722",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s Employee Benefits Security Administration today issued a proposed rule that would modernize how group health plans deliver required disclosures, making communication faster, more efficient, and less costly.&nbsp;The proposed rule would ",
+      "date": "2026-07-22",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "9238962891ce",
+      "title": "DHS and Department of Justice Announce Move to Revoke U.S. Citizenship from 10 Naturalized Criminals Including Child Molesters, Scammers, and Drug Dealers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObS1xeTV5ZXVBRW1CTXdaZHBtQ29qQ2dPNkV6VWszNG1hTkYxOUJfVXR1SDBtcVBnM3FZRGVVUmxDeDc0TEdYQzZfX0RvdzBWRVRCQW1IVWFBZnNySHFmbnlJNjBNMHk0MU0wcTdtVndTNk1OVkpTRWVKLVF0enMzQ2NhblVEekRtVzlLOERaZnZWTGdpbkVSUC0tUlJQdTJSZjR3RlZlSExUSmh5c3VJYlE1SjMyal84cjJBSVVja2lHVTl2SjBueVJ3b2VrZVNCWWhLenZBZkNGeUE?oc=5",
+      "desc": "",
+      "date": "2026-07-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "1e20c89978a1",
       "title": "Illegal Alien Child Rapist Sentenced for Immigration Fraud - USCIS (.gov)",
@@ -9,6 +36,15 @@
       "date": "2026-07-21",
       "source": "USCIS",
       "category": "uscis"
+    },
+    {
+      "id": "04dc568b41ee",
+      "title": "US Department of Labor files amicus brief clarifying use of pension risk transfers to annuity providers",
+      "link": "http://www.dol.gov/newsroom/releases/dol/dol20260721",
+      "desc": "WASHINGTON – The U.S. Department of Labor today filed an amicus brief with the U.S. Court of Appeals for the Second Circuit, clarifying the business requirements for offloading defined benefit plan liabilities through pension risk transfers.In the brief, filed in Doherty v. Brist",
+      "date": "2026-07-21",
+      "source": "DOL",
+      "category": "dol"
     },
     {
       "id": "fff5b9cc6a20",
@@ -500,42 +536,6 @@
       "id": "90a3d0ecf46e",
       "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 01, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWWhycXZWNzdVeTNtZTZWaWRFc0FLSGlOWGZ4dF9LNUpqcUhXdGRkaVBpT2RURmEtbTIwdndrNEk4eGxLRUtRNU5MWUctdThXVlRBSFNPTWQ5eGd2ZUhUOF9oWHZXRjNkdzNyOGhpWThVWVJ3WWwtSldzT3h6MFBWMjRvODJIZXFfeW53dnNQV2VQWGE1LWJYLVY3NUk0TzVBbzd6MXh1d3dpUzJFSUo2VVJoRWVUdTZoZFdNem1qVVhfRlFzNlM1aXpaWEs3Z3dEZ3h2Ng?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "aed4e1bf050b",
-      "title": "Update on Termination of Temporary Protected Status for Yemen (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQY01hNm9QVXpMRGNJak9fU21tZ3c4QXRPUDlSNldJdlo4bVVQMzNiS1h6amRXMVFNTFdJVUY5Yklqemlqc0Q1dFdNZlFSTXRybXR2bzdibjJiNEVVYnBGbjA5UWhiOUJjaTRBLXRSZ1o1WW41Y3NSRktJTVo0dlg1Z1RwVDJCT1NtTjkzSURnRmRMSVBJMzNQNVlabFdENmVLVlRTWGlkOVlqRjRoVmY4OTVIX1VkQlAtdVpFQ1h2U0FrVjV2Z0pZZGh5WU5Tb2FPSXZmSw?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e9143144bf9d",
-      "title": "Update on Termination of Temporary Protected Status for South Sudan (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORUdKRmFuS1dlLXFPejJKVGhsWU5rWnhwc3p2ZUJNZFNrRGMzcXhDRlBRdVA4c2FSdjkzRkx1ZUdlQWpBLU5JRjNPQ1JHa3Q0WDJUdVo1NDNyMTF1V01JcHBKbjhCU3lrSkhZZWU5c2pJdGNKaEtUSzRvb08wUzRkZlpqVzdkbGVId3NkWWsxOWRqNDN1Y3ZFSDVoODVMSWlVS3BFZkZBbERhTlZrMmsxcTA3VFBEdkRZRlRIM1JOaXFRVlphQm15R3drWnRWcnFhZ1c4aUpsS1FrNkxf?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "26fc3b0fa286",
-      "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLWFtWGI5SlNSUXQxdzR5djhFZGdDY3FnYWx5N1h1VzBGcjhrZmluRDA3T1NCUXhuaEU5c1RpdmU4dzZHemFoNmZNUXdFOUppYlB6WEJxVk4xdXhiZVpBQ1ZTWVVWb1VvWU5VS041bG1WeTBORlNVNkUwa28yUHpGNUZodXQzem50ako1RXl4M0NuS3hWdUFXdVBHOUM4MVNOWm83YmZmUUlWZ0lRN0FtaDJwMXNiQUZ4MXI3bnAwcFFpWFBhWEVCdnhoRS1ZOW52elpoRg?oc=5",
-      "desc": "",
-      "date": "2026-07-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "76d6e1aaf7f6",
-      "title": "Update on Termination of Temporary Protected Status for Ethiopia (Release: July 01, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT1Jnb0dvUEZ2TElta2Q5bkFkaEZBVm1ZUm9veU9xZndfQjVOQ0hoblQ1c1V1SjB3c2staV80NEJQUTUwLXk0dnYxenNNMGxXWXJMUnRiWHFpWVNEZGFXWXd4UXF5b1o1X3NwX2tKendRN25teHZWYk9QcWNDTDd3VEM5Y0RjbVVZTEVLcUxLXzZ6dHlqdE1IaGQwVTB6TWQ5Nm02dnBlQUpjNVU5NEFvMXBqSWlsekhwLTBHaS12WVV6UXgwUWVfekpLYldMdzhoV3pKSE9QaTk?oc=5",
       "desc": "",
       "date": "2026-07-01",
       "source": "USCIS",
