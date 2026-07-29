@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-28T09:41:26Z",
+  "updated": "2026-07-29T09:43:57Z",
   "items": [
+    {
+      "id": "66cd38c7d058",
+      "title": "US Department of Labor recovers $613K for 46 workers denied minimum wage, overtime by Minnesota restaurant",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260728",
+      "desc": "MINNEAPOLIS –&nbsp;The U.S. Department of Labor has recovered $613,037 in back wages for 46 workers after a federal investigation found a Minnesota restaurant failed to pay minimum and overtime wages as required by law.&nbsp;Investigators with the department’s Wage and Hour Divis",
+      "date": "2026-07-28",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "7aff1aa6485d",
       "title": "US Department of Labor advances partnership with Huntington Ingalls Industries to strengthen skilled-workforce pipeline, support maritime reindustrialization",
@@ -23,6 +32,15 @@
       "id": "2df1563e511c",
       "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 27, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPalYxcjNjXzFvVDJELTQwTC1kMTZBMWVDTl93TDhxR2lSMF9xUjFucjlJUnA5WW13SFhvaE9kcU5aUlM3VFJTeFJ2MVFVazZ5am1PcGxjMktLa2JLTS11Q2oxU1pjeHFMOGlaSU9ERGFqSlhtdl9wUmw0QkpXYlJxUENxWWVGMVBCSkNDVGQtRk5mR082MndWNVgzZWp2bTRPdWt4emJWdnZpemdjRERnTEFWenRpeFN5Qm1aeHpEUl93akRRTkx1VG9qdUJoOGhKd01mUQ?oc=5",
+      "desc": "",
+      "date": "2026-07-27",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "5fafd4667c6e",
+      "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 27, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEx4RmRrb01YTldad2p5djI5X3RaODhxQnFlTjFzb1UwYUlWRk1ESHA5LXh4YUNadXlXdWJmcVhCOXk4TE9abHRmc3RWMkhza1ZQYUJUSnFPYm4zTWc3cjRjOFRlNXJpa3B0X080QUJaVVd0bDNDaGNveGlEYkxXWGY1M2hlVlQ3UmNiUzVBNTBkeU5xM1JiRmlBZXcyNndrV1NMSzM5cS10WTRvZV9FWlFVM3hHSVg1eWNxd0tuZ1ZXVTNPLXdIRmFJYnl4RjZhbG1pc2EtWDNEc00?oc=5",
       "desc": "",
       "date": "2026-07-27",
       "source": "USCIS",
@@ -518,24 +536,6 @@
       "id": "211d4e157f84",
       "title": "Update on Termination of Temporary Protected Status for South Sudan (Release: July 10, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZWlSYVh4VkVmV050eFBHeHppYXVPVVpBMnhTdWxXdUJkaDBWRHFEbXVDV25HbHFldlZjU3o4c0gyMFhRNFZLSWNaMDIweHl4NG9vdk1RamU2R1RIQk5hYzNQSmNGbHVZZDFyU2MzTnNZTVozQ19qWUo3WlMyQTU1X1lzT0NhWFY4T2dfaXNDLVVmdWYzaXRpRDhQTUNndWJieW5tamtWWVFwWkViSUFZNGR6eDhKQlIteTNvdFg2OEtjZVZ3eDZodTJUUmhuYjNBaENhTE1fYlBXUExvWUZQemxJbjhTd1JXWURRVU4ycndUM1B6RVZCUUF3ZDNSbjJIc3c?oc=5",
-      "desc": "",
-      "date": "2026-07-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e5ef1bde1196",
-      "title": "Update on Termination of Temporary Protected Status for Burma (Release: July 10, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaTIteGhZNzJUdU9seElyM1ZwbjFQRUlJN1dLLU9MaDF5VTdzXzZWM3ZoOVVLeVNFeUF3enhHZFVGaVF4NXVGMk5xc1pKVlJEcXFWOEoyZVBhVVZIZE1uS29KU25LZVQ2RnduaElKaUdJX3RUWDFmTzdCcF9jcWhiVjBvQzF4WGE3MFJVY1ZaNW8tMUU5emllSTJNaWVBUVNCbHBpdW1OSUdCTW04U284ZHZSMVhPdFF0THM5eFZPYzlFaVJfRU84RGVnT29RM0Y3Mk1pTmhscnQtNXV0cUZmX1hoaVlUbDZCTjBueEZQb2xfc2JhTkhHWC1R?oc=5",
-      "desc": "",
-      "date": "2026-07-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a4a29f2abeea",
-      "title": "Update on Termination of Temporary Protected Status for Somalia (Release: July 10, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQY2dmN0RCZmhYa0RQdmNYT2UwSmw4UzJVVG85WktsS1BiTi10cHlPTWdtaW5pVUpiTXBJSnR4a2JBSDAtZllhRDhGWVI5Wkt3cHdvVFNFR2Z6ZXcxUFpOTldXVWp0WmswSUItOVlicF9NTzNRQXczTjFXSG9ncnZDQUlmZklnQTc0WG5KUHhCek81dDFtYVNEWWt5VENjdDY2SGZlU2tWTWZrU0RCTHlaTjFqZ1dERHlGeVBldkVSWWJJU1pjMEZ1eTRKTV8ya0NmVUFlbDJkUDBDaEJpLUFRYWJpMFVNVXBfUXpRNXZUTmV3Z2p5M09WM3FBT1M?oc=5",
       "desc": "",
       "date": "2026-07-10",
       "source": "USCIS",
