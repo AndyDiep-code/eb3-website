@@ -1,10 +1,55 @@
 {
-  "updated": "2026-08-04T09:43:31Z",
+  "updated": "2026-08-05T09:41:53Z",
   "items": [
+    {
+      "id": "3e49072cdbc8",
+      "title": "US Department of Labor finds child labor and wage violations  at 3 San Antonio bakery and café locations",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260804",
+      "desc": "SAN ANTONIO –&nbsp;The U.S. Department of Labor has recovered thousands in back wages and assessed penalties after a federal investigation revealed child labor, minimum wage, and overtime violations by the operators of three La Panaderia Bakery &amp; Café locations in San Antonio",
+      "date": "2026-08-04",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "1c52b18e2269",
+      "title": "Protect America Together - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VUlBKR0NQaFVKcjJ4dmhDNTgxbUZGdDJteE1EVGRJSnctemVhM3FEVU5rbDBfUEpZSzZ6SDVGQ2xwSGY1d2tBS3ZULVQ?oc=5",
+      "desc": "Protect America Together&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "27ff07114147",
+      "title": "Mexican Alien Sentenced for Fraud Conspiracy - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1FkWklpX3hwejQ3QkpiY2dZQWRrVEU4OUY1UmQyVnp1RzlpemNVbUxOOVZQX1NyVmRBemlHQXdab2JiNjBGLUI0WWxVWENhWjFOUFdMTGpaLUtjZFZOLWFVYTBoanFxckpVU0FSMzVSSWpXWm84SmlOR2VMNjk3b2d1ZmR4NnJ4eDFZZF94N0NIcFE?oc=5",
+      "desc": "",
+      "date": "2026-08-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "ac10feb9a4d1",
       "title": "Update on Termination of Temporary Protected Status for Somalia (Release: August 03, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbl9ZLXg4MUhaY1BwMXFBenZsTnRRdlRHWmRZbVhtUzk5bVZaZzNtSWtkbDJhTEJCR0VEOVFPM3NFZERXb1dSWXFEenY1M0YtemtWQktZWm51MFQ0ZmxfdHRYNndFVUNTeWh6bDlHMjNRZjlnQTdESXZUa3FyeGI1eFJZTDVXQzF4SWhuRnV4UGh1ZlR6elpOa0JSa2pxYWgxRnphaVVkV2xLRThmSFQ2dTlYNkhkRHJySlo1TElIVGlnQWpNUTdnMTVlTURvTkhJMVV1YzVTVGJtQQ?oc=5",
+      "desc": "",
+      "date": "2026-08-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "969579eb0a2b",
+      "title": "Adjustment of Status Filing Charts from the Visa Bulletin - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
+      "desc": "",
+      "date": "2026-08-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "edd7166b4234",
+      "title": "Update on Termination of Temporary Protected Status for Burma (Release: August 03, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOURUQlJXQVROX2p5NjhaVUtUcTFaa1BzNjIwajlnYkRUMVNMX3VVZjhMRU9FSUJIbFJVOVZHRy10N09VUGpzenNoNENRX2dFSFU5YmxlUWpQR2tTZlpUYWlHaXotWUxBUkZ0dmt5NWNLVTdpS1V2QlpDQjRzcjNIOEo2T081QkJtS2wwQ0pMME9IdURtZzdIUG1jal9OcXlCR0wzS2R2c2JVWGQzZjZuNGdsR1lNcDExS0QzcnVFVWFpZGI0azluODA4d242cG5TMEFSZU1tSQ?oc=5",
       "desc": "",
       "date": "2026-08-03",
       "source": "USCIS",
@@ -495,51 +540,6 @@
       "date": "2026-07-24",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "d9db4c4e7537",
-      "title": "Update on Termination of Temporary Protected Status for Haiti (Release: July 24, 2026) - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYkpMOTJ4MGRocVBYc0ZIVnlfWFcwazlPN1JBb011V3F2RGVQUVRXekpySXdJUlgzNENsWUQ2MEdyMEVFRkJvUl9sVUFSSWRtLUIyZkRVbHZuZ2FnTTl3UXVieWlnM1hlMzVPRzhFRkFlYVF4T0ZhdkR0RTNvTW4tQkhIN013a01hZ0Q3andNLTNJWi13Zm5NQzhyZTN1NENfZ1RWX0FWeUkyekpYSGxMOFVFSi1SMjB1X3I4R3BNbUk5OVN6cDU0aGR6VFYzM1hUSVlFODVQN0FDbURtVnBuckdJU21FbjRXTFJVdmdPelh2Y0xoQnBET3E0RWQ?oc=5",
-      "desc": "",
-      "date": "2026-07-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0963b92bcf76",
-      "title": "Update on Termination of Temporary Protected Status for Haiti (Release: July 24, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOFFFY09HQ3NkOVQ4X1dMQjZKMU9VOWdvVnAxMlRjYURTR0UybmRTSlp3YkRhMWdvU3I2aUJJZXQ4SWZkR3ByS0E2ZHNYRjRvRHp0RDJlSHJxMThTTHlfRGFYTXgwSmU3UC1ELTc5dWd5empGd2JRMWdQbm1fcWRGZThOOWVnQnA4RUVKRTBvX1RIYlZjblIzVTEtTW9FWjkxQzljRGFNYXRhT2dSdlJSWFNCamVvcTBvbWVsY19MT1ZCWG1xX3RybUVjdUxReTR3UkdJUlRtX2NYUFVldW1EMWlQMVFUVlhBUllndkp5V2haOW5kdnlFUEtn?oc=5",
-      "desc": "",
-      "date": "2026-07-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3c43889bb42c",
-      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 24, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSFdUNGVVVVkyendWOGhuR2NmUzl3UC1kSFhyeGkyUmlVMi1CZjlYZ3p1ejBRLUNINnl2TVVpbUJTUzZlRE9KQVpfaVJYSVZzWjJtTTNibjdqOExkUkxtQUNST19CWlBlUUlmZkdnOXEzOVdHTm5zNFl4WUpHX3dRcjBoWS03Vl9MRDdnSWRlRmNnbF9ONzA4RTYzZFY3Y3hadEI5VEtJUjVfOHBPQ2xhelAtSUxvOFFPNXRmaHdBZmQ0dFBEVjE1V1lnVjBYallVWXdxcjRhck1pZGZXY1czeUh5a1FOWGJNYTJxU2RQZ1k1UmpCTFpBZUd3?oc=5",
-      "desc": "",
-      "date": "2026-07-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4c2ec72d361f",
-      "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
-      "desc": "",
-      "date": "2026-07-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2fa308c4b0ad",
-      "title": "Federal investigators cite Florida roofing contractor for willfully, repeatedly ignoring fall protection standards, propose $349K in fines",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260723",
-      "desc": "ORLANDO, FL – The U.S. Department of Labor has cited a Florida roofing company for willfully putting workers at risk of falling at residential construction sites.&nbsp;Investigators with the department’s&nbsp;Occupational Safety and Health Administration found that on Jan. 21, 20",
-      "date": "2026-07-23",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
