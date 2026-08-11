@@ -1,6 +1,24 @@
 {
-  "updated": "2026-08-10T08:45:00Z",
+  "updated": "2026-08-11T08:12:31Z",
   "items": [
+    {
+      "id": "b2a29eff8fdd",
+      "title": "US Department of Labor finds urgent care employer failed to pay over $113K in owed wages to workers for required orientation, meetings, training",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260810",
+      "desc": "ATLANTA –&nbsp;The U.S. Department of Labor has recovered $113,199 in back wages after an investigation found a Richmond Hill urgent care facility failed to pay its workers for hours worked and&nbsp;retaliated against a worker for questioning its pay practices.An investigation by",
+      "date": "2026-08-10",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "219f6121c7ac",
+      "title": "USCIS To Require Electronic Filing of Forms: Strengthening National Security - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVlBadzRoN2ZGWkZTWFlaYS1Qb2g3RTFublVLYlpVODVZeURVSGFRWE9KSmVCaVh6OHd3MDZ0ek9PQ0hGcnJWYTBYNERyQW1TMm9nd1hHV0FnUnhxcmNZUWsxWW1ENHJMRmp4YU55eEZjOFh4dERXOXJSeUVpRy1YbHdpS3JjbktEVXQwWGdBbWVmUVBZaV9WamVPMWpvYU1kbnV3RE9USXpDRFBlZTlGUTNrYw?oc=5",
+      "desc": "",
+      "date": "2026-08-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "5c4913e5d717",
       "title": "Acting Secretary Sonderling statement on July jobs report",
@@ -42,6 +60,15 @@
       "title": "Secure Tip Evidence Upload - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBxNVJ0aHZaUHQxYWd3cHR1VjhUUlN5R0FjRU01aExHNnB4bWVjLUhlOWdmY2FnWUpHQkJV?oc=5",
       "desc": "Secure Tip Evidence Upload&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "76563967cd6f",
+      "title": "I-9 Central - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKa19LdVFRNUpFOTRtU1l1em8xVDRmVWtzZDB6SS1reVdRNEJDSy0zVG14TzVxdmdTTHRVaWMxbjFzNmVKaEJfUA?oc=5",
+      "desc": "I-9 Central&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-07",
       "source": "USCIS",
       "category": "uscis"
@@ -509,33 +536,6 @@
       "id": "62b1a29c45e9",
       "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 24, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSXM3dE9Vek8xTmdmZ0JkcHlzNTBranB4dXJhMGRaeWpXTWpHOEUxdXY5elhSUEYxZDktUkE1aU9rQTVyc2t4QWg3ZFN2Wm1RemZaOS0tV2s3TldQdEhVc0VjUlNnTGtxM19Vd1Y2V0Z2R2JheVJvNkFtdmkySmhQZy1QbmRqSERKeWVJZVpQSEJhMS1tMlg0ZnhnT1czM1BsT19vOTcwQTFpWWtRSnY2TTJzRzdZYkIzWjBhUVRVRElJSUFGcEYzV3dMUUpISUs0S0ZrTw?oc=5",
-      "desc": "",
-      "date": "2026-07-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "f8bf1c4c9d29",
-      "title": "Update on Termination of Temporary Protected Status for Haiti (Release: July 24, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc1V5bG5aTTVIbnl3TzdnUGpma0ZTVUtPdGIzdTI3RVZzMlNWOHhRd3dzNFc5ZnN3U0dSN3R2OHp6cy1JeUo1d3lsOHRyeWxrdF9DX0dTQW1YdFc3NW9qbTYwT2hZMERVU1R2ZkVfWjJBQ1gtTjJyYmZKM1FtWEVMb3NmMkM5NVNIcVR6ZDhueUFoSEJSWGRwNktCUTQ4c203OHV0T1Y3Zk9sdzZqOE5YWnh0N3RlekRKOVREYUZYZ2ZzTmZjNlp2ZlpoMDBRMTNJZklLVg?oc=5",
-      "desc": "",
-      "date": "2026-07-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "9271ef681dc2",
-      "title": "US Department of Labor files amicus brief supporting fiduciary discretion in use of forfeited funds under ERISA",
-      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260724-0",
-      "desc": "WASHINGTON – The U.S. Department of Labor today filed an amicus brief urging the Fourth Circuit to affirm a district court’s decision dismissing the claims in Stana v. SAS Institute Inc., No. 26-1305, that the employer breached its fiduciary obligations by not using forfeited fun",
-      "date": "2026-07-24",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "acc3c6b14aa8",
-      "title": "I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBWdWU5Y2pndzJrX0FNblh4eWRZR05TMTlWaUxLZXpIekFvdE9qeHVhbUZwdnF6aUVQbnVQLXZIaTU?oc=5",
       "desc": "",
       "date": "2026-07-24",
       "source": "USCIS",
