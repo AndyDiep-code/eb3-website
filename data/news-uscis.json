@@ -1,6 +1,33 @@
 {
-  "updated": "2026-08-14T08:22:07Z",
+  "updated": "2026-08-15T07:36:18Z",
   "items": [
+    {
+      "id": "2f1e34385620",
+      "title": "Update on Temporary Protected Status for Ukraine (Release: Aug. 14, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGNTMW4yOG5rTUpfcmtwaVlITm9ZWV81clJXaTFPMHF1eWhvSXZRRlA5ZUZjYWphZXZLV252b01uVjh4dFpwTGxHSWdXSHBUM19ib2NFYmh3TGVaTkJ5VEtuTlhFcnJQZzNOemxBNU15eER6dW5ENG44cmdwc1VYMjI5Sll4UWRUYkIzbUVUNjFVNmxwaXdfTXl6ZTV0aktoSlJMV3BtNVFKN01CMF9FYnZUQUtfcXN3TnZxby16WVlLdw?oc=5",
+      "desc": "",
+      "date": "2026-08-14",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7355315b8887",
+      "title": "USCIS to Publish New Editions of Form I-539 and Form I-765; Older Editions Will Be Rejected Starting Sept. 15 - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNek10Zkl6OWNrWWE2clZVdUtFRlQ2TmFHT1JGdWxfdUlEbmNKdmVpMVFTXzVCNElpeXJMdkZHbERmN2JoR0VNWS1mclFDVkpCdzlJdmc2dkJ5SmNMMGFvM2d2OXVJZVltWDNOZ0d5cVZfNVA1bjZybTlXOFUtMGRRdnJTUVg1TjUzdUhjaVl4YzJ4LUhiQkZqMFA3Vk12VnlySXhXclNSSWdySFNXQUliaDAwblAyY1FMdWdScjdZVF8wbXV3TGRTTjM5UHJjRkM4YUQw?oc=5",
+      "desc": "",
+      "date": "2026-08-14",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "4c2ec72d361f",
+      "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
+      "desc": "",
+      "date": "2026-08-13",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "d5b83473b24a",
       "title": "Update on Temporary Protected Status for El Salvador (Release: Aug. 12, 2026) - USCIS (.gov)",
@@ -509,33 +536,6 @@
       "id": "1736450de535",
       "title": "I-129, Petition for a Nonimmigrant Worker - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
-      "desc": "",
-      "date": "2026-07-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "9d865fd419b8",
-      "title": "H-1B Specialty Occupations - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
-      "desc": "H-1B Specialty Occupations&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-07-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d1c6c266383a",
-      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
-      "desc": "",
-      "date": "2026-07-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "f060d7e28308",
-      "title": "The Affirmative Asylum Process - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHNFRVBLR0ZyOERyaS16UlY3V1JDUDJ3cXBIbkR0UWJtVi1hbTVYazNGTDhzUlotRzl3RzNIM0pLOXhaTExJM09PWUtISFBnYzJBY25xMk83OGF5Q2xhc0l6enVkNUx2eWhxenRabzFZb2hFOGg0Z3pXanVMU3otSFUtWnJ5N0hBaTdxUDB0Zy1TOFJwZHpj?oc=5",
       "desc": "",
       "date": "2026-07-28",
       "source": "USCIS",
