@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T07:37:12Z",
+  "updated": "2026-08-17T07:56:18Z",
   "items": [
     {
       "id": "2f1e34385620",
@@ -74,9 +74,27 @@
       "category": "uscis"
     },
     {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
+      "desc": "",
+      "date": "2026-08-14",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "4c2ec72d361f",
       "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
+      "desc": "",
+      "date": "2026-08-13",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "0713917227c9",
+      "title": "Unlawful Presence and Inadmissibility - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVUROWUZ6QXU1R0hXUVVJTjdKcTZYSTU1dmFrME1EaXJPUWY5QlRoOTNlNHdGYm9VcEZWMVlPYzF5YjBKWU5JX05rTFVBOFRRNHFKU2xiOUN3elBNUzRCS0x3RkluSzU5QmtzS3pMWGVGRUhWZThZWnpsUDUxc2Y2QnVPdk1XWGc3Ukl3NnFFZUJhaHpFcmc?oc=5",
       "desc": "",
       "date": "2026-08-13",
       "source": "USCIS",
@@ -204,6 +222,15 @@
       "title": "I-9 Central - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKa19LdVFRNUpFOTRtU1l1em8xVDRmVWtzZDB6SS1reVdRNEJDSy0zVG14TzVxdmdTTHRVaWMxbjFzNmVKaEJfUA?oc=5",
       "desc": "I-9 Central&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d5f948b5990e",
+      "title": "Immigration and Citizenship Data - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQd3F6bU8xVEtEU2lrOUplZTlqQU4yM19LUWVxWThHcW4teGlXZERwNUpKaHRERURKRDlHMmh2cHl0aTNDN2dDTFF0MXdXLUpFWUlvbTlERDhGbTRxaHUwWTdCYU02UHBhVnp2NDBjalFKdUxPNklaQ3AtVzNJNEFXVllUcExYdWV3QWxuQm1LTEticUxkZ3o0RWZURl8zMnBvZFhlblFOb1FMUXphT0swX2hibXF2VU1ZdU5vQ1d6OXo3WFJlZGdEanRDYnpwTU9LbTBTRjZTMS1iVHdaWUlVS1hFUTBCU0ZsbjU1SFJiNnpmbGh6U3ZRSQ?oc=5",
+      "desc": "",
       "date": "2026-08-10",
       "source": "USCIS",
       "category": "uscis"
@@ -407,6 +434,15 @@
       "category": "uscis"
     },
     {
+      "id": "1e9e9cc9df7d",
+      "title": "Update on Termination of Temporary Protected Status for Burma (Release: August 03, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTTZyNnBueExwWWdDSl9xOHp4TjRReVhKREN3WFRzMks0anZJVHZ4amZHTC1lMTFHM1VFQm44SER0Y1BQdi1ETTJHYUhtYTZpM2V6U3pWWGUxRkRZZG1ZaVRhUzJaS2Y0S0s4Tkg5eF9PZ2V3WVZVNENQeVBGU2UtaEh4UTBKM2ZRSUY4R2JpZ00tVGVuOGxZV1BoQ2xfZXVzS2VwbkpKWndjYlNYa09SY0cxekh0TXVJUGstdjZPUEdPMWpxRFF0UU45WUlnZHFCVlZoODdqajI4ZlZxRDFWVWR6VUhHMnE4akxGZmc3QzZkTjlIX3BaR1VvTmM?oc=5",
+      "desc": "",
+      "date": "2026-08-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "61e4c0dda163",
       "title": "Update on Termination of Temporary Protected Status for Somalia (Release: July 29, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQam9XNmFoQWZudG95UEM5bmZqMGdTR3ljT19FdGQ5WTFmemJXSG9GNnE0b1F0QkJLRDRTWFlPa0pGTnBsbjFCZTNJVXR5MXZzOWRmNlhWZVZTdmNBU2NCOVBjTDF0d3RvaHRNTFJIb0x1VEVDMnA1eGJtSkEzM2Q0UVRMcl91OFZHMFdzckczX051ZE5HN2dSNktWS0Q3VUJ6RzdPcUx5enVfN3lYRjhDdE0zd1RLUkFpbWwydnJ1N095Zk9aazZNcGtKZEhOamozY3phbE9OZw?oc=5",
@@ -502,42 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMWRrYWp5SmcxRDZuZ0x4Znl4VUdFT1hNcm13UXZjN2sxV2gyaHdXa0w4c3VKOFFpQTd6Z0dmQTEwR3RlZzVQRzBnZUY0ZTY0NmZXZS1DRVpRcGR3M2ZqbGZ6OHhvM1U3N0hpd0FMT3RhNHI5YWRrWXR6N1hFUFpESHlXVHlfc0psUlFjbmd2Z1ktUWV3Q3BtMXRoMHJxY3I0bzBKUERNdGEyMDAtVkJsaVlqaWpuVjMxV01mY09hU3owZUQ4UlVGdk11OGE0MXJiMGM1aE4zcFpZYVNPaUZ6RXpQNkxKMDR0MzMzN0ZSVmwxSlVfelpnREUxNE5YZw?oc=5",
       "desc": "",
       "date": "2026-07-30",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e211a498e0d8",
-      "title": "Update on Termination of Temporary Protected Status for Haiti (Release: July 29, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWEJxa0hiQ3NqYThsdm5OajNSbmlCbTg1QkhPWVJpVF94UW53YXJHYkdBbVN5VjJjRG1iTC1rdGF2QVYtWUpGNS1FVjZENlRkR3V1TGZLSmZqSTRzTmdtdXRTZFN0ZXhLUFZITHNFVG1BSnd4VVM0MGU2eUd1eVI3ZWdScHpQYkVLaXFvdlNIZEgxNWpnaWllam5ReF9kSjRqeXNxdXFNZ3VTeVRzSC1ZcEFUeWplalYyNDZMUUNVUU8tcVcwWHFfYkhSOWY2X3RGTndVdg?oc=5",
-      "desc": "",
-      "date": "2026-07-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6aa4276cca27",
-      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 29, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREg5S25Ha2YxMDA3eVZ1VDYtLU5lSmdlLWZPMlV1S2k0cElUNWZpQVpnSlVITVdpeVdxRmJuQWVRcWZkaTROWXd6YXpWR3ZxdVZYZDRSRmlmRXJOaHRjeE9ib3NWTE1EcG1KUlJGMjF0SUN1cjZ4WjdGZ1hFWml0cHU2bkJROEo1R2RLanBobzZ3QkJ5MUtlRU1jVHZIeGdPQy1GSGJlZnhQTnJ6NHNxTUs4VVlNdUYwdkxCbE9ISnotRzAwWXZkN0xKVWd4a0Q3blMzZg?oc=5",
-      "desc": "",
-      "date": "2026-07-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d528dff75b03",
-      "title": "Update on Termination of Temporary Protected Status for Haiti (Release: July 29, 2026) - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWEJxa0hiQ3NqYThsdm5OajNSbmlCbTg1QkhPWVJpVF94UW53YXJHYkdBbVN5VjJjRG1iTC1rdGF2QVYtWUpGNS1FVjZENlRkR3V1TGZLSmZqSTRzTmdtdXRTZFN0ZXhLUFZITHNFVG1BSnd4VVM0MGU2eUd1eVI3ZWdScHpQYkVLaXFvdlNIZEgxNWpnaWllam5ReF9kSjRqeXNxdXFNZ3VTeVRzSC1ZcEFUeWplalYyNDZMUUNVUU8tcVcwWHFfYkhSOWY2X3RGTndVdg?oc=5",
-      "desc": "",
-      "date": "2026-07-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6b5f428bc896",
-      "title": "Update on Termination of Temporary Protected Status for Syria (Release: July 29, 2026) - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREg5S25Ha2YxMDA3eVZ1VDYtLU5lSmdlLWZPMlV1S2k0cElUNWZpQVpnSlVITVdpeVdxRmJuQWVRcWZkaTROWXd6YXpWR3ZxdVZYZDRSRmlmRXJOaHRjeE9ib3NWTE1EcG1KUlJGMjF0SUN1cjZ4WjdGZ1hFWml0cHU2bkJROEo1R2RLanBobzZ3QkJ5MUtlRU1jVHZIeGdPQy1GSGJlZnhQTnJ6NHNxTUs4VVlNdUYwdkxCbE9ISnotRzAwWXZkN0xKVWd4a0Q3blMzZg?oc=5",
-      "desc": "",
-      "date": "2026-07-29",
       "source": "USCIS",
       "category": "uscis"
     }
