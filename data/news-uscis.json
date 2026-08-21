@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-20T07:47:54Z",
+  "updated": "2026-08-21T07:49:13Z",
   "items": [
+    {
+      "id": "16be0671da1c",
+      "title": "US Labor Department finds Wisconsin food manufacturer repeatedly exposed workers to safety hazards following 2 incidents, 3 fatalities",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260820",
+      "desc": "JANESVILLE, WI – The U.S. Department of Labor has cited a Wisconsin-based food products manufacturer after two incidents involving industrial kettles releasing hot steam and liquid, causing three worker deaths and two serious injuries.Investigators with the department’s Occupatio",
+      "date": "2026-08-20",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "c7bf01f9eabc",
       "title": "US Department of Labor announces successful resolution of rapid response labor mechanism matter at Grupo Yazaki S.A. de C.V.",
@@ -15,6 +24,24 @@
       "title": "USCIS to Publish New Edition of Form I-485; Older Editions Will Be Rejected Starting Sept. 18 - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWWd5VVc3dVJXVEI0SVJadmlqMWUtdkc0aGEwNmJoenMzaVVzWTctTnNFOGRhRmFobWZzUUs0bFlZemhxelg0TEpKeVpWWkw2c1Z6NHJGM0hSVmtFZndzaExRXzJibEh5bWp3YUt4NHlZbFVETzE3dVNKc1dVNFpFSnJ3X0J1LXEwMF9mZkgzSmFteFk0SnViaVhlRlE4M3djQktBT2h5RGV4cmRhNjRoVGpnUVp5SFRObzlaaU5tMUtPci16ZFBJZQ?oc=5",
       "desc": "",
+      "date": "2026-08-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f1e1fbcd856c",
+      "title": "Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3ZZdTBJcmhfLUFhMUhRQmlJaHM4eVBoR3ZDeURBXzJpNHlNN2xmRUtFSmVNMGtMZ2ExSnBvT3JmMFRTbzR5aXZtMGQyT3VweXZQVE5sUUlfYjRzVHlCbDdZWTB4SG5sWUFqekk2c0Z0RHpVOW1DaC1nSHZLX1l4NlRrV0p2Tm5pSDhTREh5Ykx6YTlkZFFmTWFJTk9SRmJxQWRsNFVCQjlWR2JwcWpjOWtab3Bfb1c1UzNFcUx0ZVhETHlBSXJ5SHgzQ2xOb1dRVDZtUk55ZzRSN28?oc=5",
+      "desc": "",
+      "date": "2026-08-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "085169a025c3",
+      "title": "Online Filing Options - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56ZTBsRVJIVWs0eWgzYTlWcnl6SFcyWXJDQlJDQnVXVHRfWno4bmdvVTBncTRoS0NqdkNVeWRnc0F5c0RrT3hIbGQ4eng3eTlGNlpiOXl3?oc=5",
+      "desc": "Online Filing Options&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-19",
       "source": "USCIS",
       "category": "uscis"
@@ -159,7 +186,7 @@
       "title": "Unlawful Presence and Inadmissibility - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVUROWUZ6QXU1R0hXUVVJTjdKcTZYSTU1dmFrME1EaXJPUWY5QlRoOTNlNHdGYm9VcEZWMVlPYzF5YjBKWU5JX05rTFVBOFRRNHFKU2xiOUN3elBNUzRCS0x3RkluSzU5QmtzS3pMWGVGRUhWZThZWnpsUDUxc2Y2QnVPdk1XWGc3Ukl3NnFFZUJhaHpFcmc?oc=5",
       "desc": "",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -511,33 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
       "desc": "",
       "date": "2026-08-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "edd7166b4234",
-      "title": "Update on Termination of Temporary Protected Status for Burma (Release: August 03, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOURUQlJXQVROX2p5NjhaVUtUcTFaa1BzNjIwajlnYkRUMVNMX3VVZjhMRU9FSUJIbFJVOVZHRy10N09VUGpzenNoNENRX2dFSFU5YmxlUWpQR2tTZlpUYWlHaXotWUxBUkZ0dmt5NWNLVTdpS1V2QlpDQjRzcjNIOEo2T081QkJtS2wwQ0pMME9IdURtZzdIUG1jal9OcXlCR0wzS2R2c2JVWGQzZjZuNGdsR1lNcDExS0QzcnVFVWFpZGI0azluODA4d242cG5TMEFSZU1tSQ?oc=5",
-      "desc": "",
-      "date": "2026-08-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1e9e9cc9df7d",
-      "title": "Update on Termination of Temporary Protected Status for Burma (Release: August 03, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTTZyNnBueExwWWdDSl9xOHp4TjRReVhKREN3WFRzMks0anZJVHZ4amZHTC1lMTFHM1VFQm44SER0Y1BQdi1ETTJHYUhtYTZpM2V6U3pWWGUxRkRZZG1ZaVRhUzJaS2Y0S0s4Tkg5eF9PZ2V3WVZVNENQeVBGU2UtaEh4UTBKM2ZRSUY4R2JpZ00tVGVuOGxZV1BoQ2xfZXVzS2VwbkpKWndjYlNYa09SY0cxekh0TXVJUGstdjZPUEdPMWpxRFF0UU45WUlnZHFCVlZoODdqajI4ZlZxRDFWVWR6VUhHMnE4akxGZmc3QzZkTjlIX3BaR1VvTmM?oc=5",
-      "desc": "",
-      "date": "2026-08-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "61e4c0dda163",
-      "title": "Update on Termination of Temporary Protected Status for Somalia (Release: July 29, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQam9XNmFoQWZudG95UEM5bmZqMGdTR3ljT19FdGQ5WTFmemJXSG9GNnE0b1F0QkJLRDRTWFlPa0pGTnBsbjFCZTNJVXR5MXZzOWRmNlhWZVZTdmNBU2NCOVBjTDF0d3RvaHRNTFJIb0x1VEVDMnA1eGJtSkEzM2Q0UVRMcl91OFZHMFdzckczX051ZE5HN2dSNktWS0Q3VUJ6RzdPcUx5enVfN3lYRjhDdE0zd1RLUkFpbWwydnJ1N095Zk9aazZNcGtKZEhOamozY3phbE9OZw?oc=5",
-      "desc": "",
-      "date": "2026-07-30",
       "source": "USCIS",
       "category": "uscis"
     }
