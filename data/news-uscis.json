@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T07:37:32Z",
+  "updated": "2026-08-23T07:39:09Z",
   "items": [
     {
       "id": "2e549eb3e478",
@@ -24,6 +24,24 @@
       "title": "Employment-Based Immigration: Third Preference EB-3 - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnRkOGMyUklvRnpkcHZaaUczcENKS0JRb2tHajBsdFg1VzVmVlpFeFd5TGZwaHhTemZSUVNWLXJQUl92QjF2ZDgxbUM2THVZanIzakpuRjJ1TUppX3k4SWtaQnQ5eW9ybVlsOXZvY25OUHdNMWp6ZVp1czlaTGVBZ3BEVDh4NEFNWjU4RGY4U19GUXBCbUxBYjBMME93ZGtoNm9YbG5ZMmQwN2lWTVBfbjdEd0xXazBsM0Nn?oc=5",
       "desc": "",
+      "date": "2026-08-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f7daacfbc2b8",
+      "title": "H-2A Temporary Agricultural Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM2JteElvZ0h6a2VsUXVPckZBeWpQa3FqaGZCc1V5MnV1andOVU9LWjJpYXd1LTJvVTZuVE5BRFRkcDFUQUtUbU0wbW9mcnRFUHhwM19qdWpPVVVWdDlNbVBUVkUxaVNibEZZdTBTcUJ4Q0g3WGdpUXlmQ0d5akoyQktNaHNnV0lQeUFXOTJlVTN6akZiNmt2bUFXZmZfZzJLZGVjQU9ZWQ?oc=5",
+      "desc": "",
+      "date": "2026-08-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "301966b3f7f6",
+      "title": "Permanent Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYUkzaFcyZ0d3WXZMX0ZnYlhkYy1SMi0xZXczWGNZQW1SWlFtdjg3amRYblRON2pxQmNCSUpaTnFLd2ptX3g5cG1lbzUwOUFET1VWU3VTY2FHN0lpZjFMTFZiaGZjTkx4bDBQdEdEa0hwNkc0RHN3?oc=5",
+      "desc": "Permanent Workers&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-20",
       "source": "USCIS",
       "category": "uscis"
@@ -87,6 +105,15 @@
       "title": "Immigration and Citizenship Data - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSENMbjdyWUFlY3VLa0s5aVJFN1AtYl9QR2hFeXVwTzFCWHBQVDZObFV4RkpRcXJWZmtOblVpVHNwbklFY0JGY1VTdndLVUFuWEVoN3NDT1o2OHVIYWp2bHoxNWpsTlVWeXp1OWVLWXFONnFVMWN6R0hURkVrWkZKOW1JZk1QVFMyV2Q1QW1RVnBVRWlTQmxmUjQtaV83a0ttZzVZOElBMkFKNDZtQm1iNkQ3Nll0aEZYNFAyUmNwSkdoUExvQ0RXVm5BelJiaGhWUzNnUVIzdlBQYm5wM29kbWcyYTNaWC0zZmdfbTVaVmdXc2o2S1Vqa1Nybw?oc=5",
       "desc": "",
+      "date": "2026-08-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "246fb820ae9c",
+      "title": "I-945, Public Charge Bond - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9XVXpiNHVnUGJoN21kcUxqMUNVQUVWbUpkM09wSzZ2Z2sxYVgwc1diZTJNcndVanB0SmdpVkJ6cmU?oc=5",
+      "desc": "I-945, Public Charge Bond&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-19",
       "source": "USCIS",
       "category": "uscis"
@@ -510,33 +537,6 @@
       "title": "Protect America Together - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VUlBKR0NQaFVKcjJ4dmhDNTgxbUZGdDJteE1EVGRJSnctemVhM3FEVU5rbDBfUEpZSzZ6SDVGQ2xwSGY1d2tBS3ZULVQ?oc=5",
       "desc": "Protect America Together&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-08-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "27ff07114147",
-      "title": "Mexican Alien Sentenced for Fraud Conspiracy - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY1FkWklpX3hwejQ3QkpiY2dZQWRrVEU4OUY1UmQyVnp1RzlpemNVbUxOOVZQX1NyVmRBemlHQXdab2JiNjBGLUI0WWxVWENhWjFOUFdMTGpaLUtjZFZOLWFVYTBoanFxckpVU0FSMzVSSWpXWm84SmlOR2VMNjk3b2d1ZmR4NnJ4eDFZZF94N0NIcFE?oc=5",
-      "desc": "",
-      "date": "2026-08-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "803c713944fe",
-      "title": "How to Change Your Address - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBJMkN1a3FBUHltWmFHeXE4YVlJT2xDTmdiYVNlSkpMNVNRaml2VFh1WWlHVUZrcWdvZ1E0aWVrczVqMWd3WW40Nkw3cw?oc=5",
-      "desc": "How to Change Your Address&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-08-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6d3fd0a960ca",
-      "title": "USCIS Tip Form - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VOW1CXy1Ea2lvVTRKNU5yMnA5Z3FoZnctd2JUOHYtVU1ydDQ3R0psdHpqMnVnV0tyM0twbTlEUmR5RlloVFFGRkFFR05wZm5pN09FTkE4RjhUdndLWkZRNDlGY2sxeEpy?oc=5",
-      "desc": "USCIS Tip Form&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-04",
       "source": "USCIS",
       "category": "uscis"
