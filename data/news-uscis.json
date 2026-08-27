@@ -1,6 +1,24 @@
 {
-  "updated": "2026-08-26T07:51:45Z",
+  "updated": "2026-08-27T18:12:57Z",
   "items": [
+    {
+      "id": "72d10559dda3",
+      "title": "US Department of Labor cites Pennsylvania brick manufacturer for willfully exposing workers to silica hazards, proposes $496K in fines",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260826",
+      "desc": "WATSONTOWN, PA –&nbsp;The U.S. Department of Labor has cited a brick manufacturer with three willful and four serious violations for knowingly exposing its workers to unsafe levels of respirable silica dust at its Watsontown plant.On Feb. 12, 2026, investigators with the departme",
+      "date": "2026-08-26",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "23219a122636",
+      "title": "Trump Administration issues guidance on health-contingent wellness programs, including tobacco cessation programs",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260826",
+      "desc": "WASHINGTON – The U.S. Department of Labor announced today that its&nbsp;Employee Benefits Security Administration, along with the departments of Health and Human Services and Treasury, issued&nbsp;guidance related to questions raised in dozens of class-action lawsuits challenging",
+      "date": "2026-08-26",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "7df8b7724d7d",
       "title": "US Department of Labor recovers $618K in back wages for 779 workers denied pay, full tips by South Carolina restaurant group",
@@ -50,6 +68,15 @@
       "id": "d1c6c266383a",
       "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
+      "desc": "",
+      "date": "2026-08-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "969579eb0a2b",
+      "title": "Adjustment of Status Filing Charts from the Visa Bulletin - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
       "desc": "",
       "date": "2026-08-24",
       "source": "USCIS",
@@ -168,6 +195,15 @@
       "title": "I-945, Public Charge Bond - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9XVXpiNHVnUGJoN21kcUxqMUNVQUVWbUpkM09wSzZ2Z2sxYVgwc1diZTJNcndVanB0SmdpVkJ6cmU?oc=5",
       "desc": "I-945, Public Charge Bond&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2a7b88be5371",
+      "title": "I-485 Supplement J, Confirmation of Valid Job Offer or Request for Job Portability Under INA Section 204(j) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE51TEZEVG93aW8zZE1kM0xlNnVuWFRfMkNRTHhfQXc1U1dQZTlpZ1JUcnRMcHVXaEFvT0MyTHhoOXlZeGhsX1E?oc=5",
+      "desc": "",
       "date": "2026-08-19",
       "source": "USCIS",
       "category": "uscis"
@@ -502,42 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBxNVJ0aHZaUHQxYWd3cHR1VjhUUlN5R0FjRU01aExHNnB4bWVjLUhlOWdmY2FnWUpHQkJV?oc=5",
       "desc": "Secure Tip Evidence Upload&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "34cf5a0121d0",
-      "title": "Asylum - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
-      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-08-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4d6ead1269e9",
-      "title": "USCIS Identity Checks Lead to Arrest of Former Latvian Reality TV Contestant with Violent Criminal History - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQm5nYWhqXy1fRnFhdXJfSkpXd0YwUk1WU0NoZElRMjZmcVJzeVlPN3FqNjVvR1h2UEU2ekxUdGswT3NBa2IzQVdpWkI5MkRWR2tJelRFV2p6aUJ3S2ZpNEpvcExZVGRCWEsxYnJWLVB4Mm56N3U4ZGJ5RWJadXVIQ2dPVGhrUFNsTENFY0V6Q1l2anhqUHY3R2owZDNFVHpyRF9WZzVwZ1JqTmJ4WVpLazA2WVA3dTM4ME5YTDluQ21fbS0xS3ozMlFULUd3THRRb2ItX2szQlUyVWM?oc=5",
-      "desc": "",
-      "date": "2026-08-06",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "209a1589c5e0",
-      "title": "Update on Termination of Temporary Protected Status for South Sudan (Release: Aug. 06, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdzYya0tRcWtPRWxIa3IyREJjM2ZpbkdVeTBPLWJMM0RRRE5SWXNEcWRRUnJLNm45Z2NKRzNwTTNMcTR5RFVLeG1FcU1CN3p0VTExT2NXVEdnSXZDbGg4QTRkTC1zYjZtVTNKVzNoU2JTMHlFSkhMeTF5aFBsVVVzZHE1YnVXNy1GRjJLRG5FYW5MR01yYURQYzNUVkJWcGFwMWg4MGdyV1hFWW9HWFBTQW56cGVud3o4TV9Zb3FmTnJ4V1FWLU95Y0p2eHEwSHZMR3M0M2Qyd1RJZjA?oc=5",
-      "desc": "",
-      "date": "2026-08-06",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "be2ef5454ca2",
-      "title": "Update on Termination of Temporary Protected Status for Ethiopia (Release: Aug. 06, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWXpYeXpBVjNmTExpNTJMRzJoYWM1b2duMFdOWFBtQzZpOWJXWVVfQ29zUEVSa09CX3JuZXBkdXNIZm1LNkZ4bmRKOGY2d24ybXVja3pFb3Z1bVJXX2FWbF9JOHJjTUlRNUlIaTRiM0dTWG9SMjdTU0hEZ2VDUTZ6V0FlcGZWTkQzazJjTWVJVXdQN3lQZUR2YmkyNktoX2JvNm5yN3dIOFdvSmZzSXkzNE1yTVdnek1jaEZ6Qi1rbVNYS3Y1OU1HWERST1ZRYThVdFdUeVpDcDdkNkx0V1BSMVAtNWxSdW5tb3BIY0FyaDBWell6RUc1c24zdUc?oc=5",
-      "desc": "",
-      "date": "2026-08-06",
       "source": "USCIS",
       "category": "uscis"
     }
