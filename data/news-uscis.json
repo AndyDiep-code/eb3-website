@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T18:12:57Z",
+  "updated": "2026-08-28T19:22:26Z",
   "items": [
     {
       "id": "72d10559dda3",
@@ -18,6 +18,24 @@
       "date": "2026-08-26",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "34cf5a0121d0",
+      "title": "Asylum - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
+      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "4d20c83cd6da",
+      "title": "Policy Alert - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMWRPRU84WjJZU1gya2ppNFhzT3UtZmRRVXlzSGZLa2d6Wm5SUzI4ODRZMHpuTHQ5Y21VbkpNeVFCWTV2ODNnMGNaUElIQjVLVWJDT3F3d2lUVDUwMmlreVUtN2pZUHhCX2RmVlVWYi1SeGFXcmY0SWgxb2JZdmhIZkhBa2llSkdoUTktcjdjMWFtV3ZsU3BRR1Q1eUVvaU5QYkRtVjZwTWRLTmxHcXlSZnpRVlhRc0lnLXc?oc=5",
+      "desc": "Policy Alert&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-25",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "7df8b7724d7d",
@@ -519,24 +537,6 @@
       "title": "Update on Termination of Temporary Protected Status for Ethiopia (Release: Aug. 06, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYUJBTjI5NnhFVE5VTzJKX1lXOFhEeWVOTDJSRkVVVWdRWFZvTkFsYmR2LVNsZDM4TDVPbU53djBLMlhXTFlWVDJJdVpreUpqNW1rMzBlUjYyVXFJSlJqdWVreUdmTmZxODY1T1NCS1NwVEdNVEktblB3ZmgzSXhKa1RZUGlUMG9Fbnkwa0JzelJ1RUNWM0c5R3U5ZWx3YWt4REhJZkphaXE4QU15Rzl4UWpzU1FoU2s1VkRKWHJYeFBwOWk3VGx4eGExMm5jQVREcGxkLUZ6bw?oc=5",
       "desc": "",
-      "date": "2026-08-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "100ab15d730a",
-      "title": "Update on Termination of Temporary Protected Status for Burma (Release: Aug. 7, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQakhFWl9RbXpSQWdSTVJqcGppSUdvd0UtY1J6Qi1GMHV0Z1hSTmpXU3ptTW5YTm4xOVR6dFFvcmhKZGRJWGpuYk9aSkdHdmVwcGFLQVNlTmlRZ0xYTnFWZGtodGNQUkc4Y2xLLXZ2LWZjQi1wTmFKR2NPVlB6QllSNnVJU2p6UWJOQzNoVWg0bG92cFM4dWNtdEFqZjcwY3hPeXYyRExPWWtFTXRhdWt4ejFfdDZ5S1NvNjU1cVhhLTNtLWt4eXZyWVhZRDZmMDFxOFE?oc=5",
-      "desc": "",
-      "date": "2026-08-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "c5fcc0ce680c",
-      "title": "Secure Tip Evidence Upload - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBxNVJ0aHZaUHQxYWd3cHR1VjhUUlN5R0FjRU01aExHNnB4bWVjLUhlOWdmY2FnWUpHQkJV?oc=5",
-      "desc": "Secure Tip Evidence Upload&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-07",
       "source": "USCIS",
       "category": "uscis"
