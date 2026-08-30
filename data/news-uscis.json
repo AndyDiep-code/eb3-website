@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T13:07:12Z",
+  "updated": "2026-08-30T12:45:18Z",
   "items": [
     {
       "id": "6fb8d59d9295",
@@ -239,6 +239,15 @@
       "id": "2a7b88be5371",
       "title": "I-485 Supplement J, Confirmation of Valid Job Offer or Request for Job Portability Under INA Section 204(j) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE51TEZEVG93aW8zZE1kM0xlNnVuWFRfMkNRTHhfQXc1U1dQZTlpZ1JUcnRMcHVXaEFvT0MyTHhoOXlZeGhsX1E?oc=5",
+      "desc": "",
+      "date": "2026-08-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "4163ee15fc33",
+      "title": "I-485 Supplement A, Supplement A to Form I-485, Adjustment of Status Under Section 245(i) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9KQm45LWY3bHlKaEhmRUJiTkxReVNDcUdRTy11SjdGX1htWFFLOUx1VzZZUWFWdzBkenp4b0xJRWtQMlFvWUE?oc=5",
       "desc": "",
       "date": "2026-08-19",
       "source": "USCIS",
@@ -497,6 +506,15 @@
       "category": "uscis"
     },
     {
+      "id": "a31f8ab574b9",
+      "title": "Status Change Report Now Includes TPS and Asylum-related Employment Authorization Documents - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcUk3V0ZTZ2dYWnJLcW45dGRnMkhrY0pMRU85M0NBQ21zUFVscFBfT1ZrbE9xUDZUeG1hSnl1ZXZkV1g3Qm5XVW9MRmJnOUppMU0yeWx5VjFUakh0eEZSakVJdGFoN2toVzhJOUVLXzJZS2h2S0IxbjA3ZmJtc2lTNGtFLWVZYVlBU2ljOTdpRTNiOVEzUFdVQ3RuMHM0MnhHNVRwdFoxSE55ZkxKZVVuVDJITTZYTnV2ZENSRWlfZXdFUGV2cExjWFR5dmwwUmR1ZkFwOFkyWTFnTk13NGgydQ?oc=5",
+      "desc": "",
+      "date": "2026-08-11",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "b2a29eff8fdd",
       "title": "US Department of Labor finds urgent care employer failed to pay over $113K in owed wages to workers for required orientation, meetings, training",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260810",
@@ -519,24 +537,6 @@
       "title": "Court issues Stay: Permits participation of Non-Governmental Organizations at Administrative Naturalization Ceremonies - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWVpHZkhqbnVmS1VnQnV4QmpxRkdjMnEwVjVVbTlHTkNBVUg1YTJ6RmNPaC1UYmludmpoMVoxVmNIV0p0TUREU29lZnZ2QXdsYkFxTTNVUDZuNVdRMnFiREZ3V3M4eEYtUlV0V3FWSVJFdF81YjhyQ2c5Mkc2RzNiMDlwek5uS0dLWXRLbzZhM3JGLWJMUVhZZHYzTmhUU3pLNnpmNFlhOWpfTVY0X04taElZeHNfX2ltWW01MnhleFlDQnF0cExNWg?oc=5",
       "desc": "",
-      "date": "2026-08-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "128189f89bcb",
-      "title": "Update on Termination of Temporary Protected Status for Somalia (Release: Aug. 10, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbjFmQU85OGo3OGlaaXV0TXRaV1dpV1ZxamJmb0o4cVJ2ZEwxaWRmSm12OGUtMmJpLWh4QjE3OUtVTUEwVWFDUkxKajlabTcwZU91MURpbzZjOG91bjZKUlJCNHFucXdacFVObG5TaGJ0WXV1MXEwTGd3VW14ZnlkdXN1OG12YlBnM1hXcENjelZmYlN0TXg5d2lqS24zOHBuaXNZUkR6aDFaU05zTTJ4OGZfWXJhVFlLb2w2UXNiZDhEM0NsX2JxYnN3WjBPR0V4QThEQUZB?oc=5",
-      "desc": "",
-      "date": "2026-08-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "76563967cd6f",
-      "title": "I-9 Central - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKa19LdVFRNUpFOTRtU1l1em8xVDRmVWtzZDB6SS1reVdRNEJDSy0zVG14TzVxdmdTTHRVaWMxbjFzNmVKaEJfUA?oc=5",
-      "desc": "I-9 Central&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-10",
       "source": "USCIS",
       "category": "uscis"
