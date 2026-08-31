@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T12:45:18Z",
+  "updated": "2026-08-31T15:00:01Z",
   "items": [
     {
       "id": "6fb8d59d9295",
@@ -7,6 +7,15 @@
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GaEpINWh6Q2l0NEdfa1pYTGhjR0NySDhlZTJweGtQa24tUkhZc3BtR0NXT3VNRkV4NjRsZVZCWU41cm42Q2EtalQ4VFNIXzFfRVhrc3gydXRDcEFuRGY4T2ZjRnhCZF9zRXV4SGxPejhXVUMyZDZKSl9lbS1pZw?oc=5",
       "desc": "",
       "date": "2026-08-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "29d959f5f44a",
+      "title": "Immigration and Citizenship Data - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNmU4UDBSMXJvWExnVWFPLUxyaDhSM0VIelIwcTZCZVhfX2swdWNlcjhMSXJkbWtnSjEzQUZUbFFLVnlDWDhja2piZFFhbjZCQ0FKcUpLcDVreUlsRlJTZFpHc0NucjRmMkw4dURXMkpqRTFXZkFaZHdHRHoxVVl0ZTU5bm5ZNVBBMlhIc3VSOXdUNFdNZGdFVHdrZzlXbzNNR2RmaHp1YjZjQQ?oc=5",
+      "desc": "",
+      "date": "2026-08-27",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -104,6 +113,24 @@
       "id": "969579eb0a2b",
       "title": "Adjustment of Status Filing Charts from the Visa Bulletin - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
+      "desc": "",
+      "date": "2026-08-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1866f2d0ab20",
+      "title": "I-129, Petition31 for a Nonimmigrant Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
+      "desc": "",
+      "date": "2026-08-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "83fe84077441",
+      "title": "Form I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3c29MbTNMU001MzJOU1RUcGhTc1JQSHZQaXdtS2g2ZzVJb1ExVVExaDdpRUxiZDhubUNRd1FLTVc3X19hRlNtLVRmSW55eU9Ud2pVOWlzd2JDd05peXBZeXQ0eHRETXdkWHVwSDV6eUQ4d3BU?oc=5",
       "desc": "",
       "date": "2026-08-24",
       "source": "USCIS",
@@ -511,33 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcUk3V0ZTZ2dYWnJLcW45dGRnMkhrY0pMRU85M0NBQ21zUFVscFBfT1ZrbE9xUDZUeG1hSnl1ZXZkV1g3Qm5XVW9MRmJnOUppMU0yeWx5VjFUakh0eEZSakVJdGFoN2toVzhJOUVLXzJZS2h2S0IxbjA3ZmJtc2lTNGtFLWVZYVlBU2ljOTdpRTNiOVEzUFdVQ3RuMHM0MnhHNVRwdFoxSE55ZkxKZVVuVDJITTZYTnV2ZENSRWlfZXdFUGV2cExjWFR5dmwwUmR1ZkFwOFkyWTFnTk13NGgydQ?oc=5",
       "desc": "",
       "date": "2026-08-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "b2a29eff8fdd",
-      "title": "US Department of Labor finds urgent care employer failed to pay over $113K in owed wages to workers for required orientation, meetings, training",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260810",
-      "desc": "ATLANTA –&nbsp;The U.S. Department of Labor has recovered $113,199 in back wages after an investigation found a Richmond Hill urgent care facility failed to pay its workers for hours worked and&nbsp;retaliated against a worker for questioning its pay practices.An investigation by",
-      "date": "2026-08-10",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "219f6121c7ac",
-      "title": "USCIS To Require Electronic Filing of Forms: Strengthening National Security - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVlBadzRoN2ZGWkZTWFlaYS1Qb2g3RTFublVLYlpVODVZeURVSGFRWE9KSmVCaVh6OHd3MDZ0ek9PQ0hGcnJWYTBYNERyQW1TMm9nd1hHV0FnUnhxcmNZUWsxWW1ENHJMRmp4YU55eEZjOFh4dERXOXJSeUVpRy1YbHdpS3JjbktEVXQwWGdBbWVmUVBZaV9WamVPMWpvYU1kbnV3RE9USXpDRFBlZTlGUTNrYw?oc=5",
-      "desc": "",
-      "date": "2026-08-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "5343e61b5b06",
-      "title": "Court issues Stay: Permits participation of Non-Governmental Organizations at Administrative Naturalization Ceremonies - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWVpHZkhqbnVmS1VnQnV4QmpxRkdjMnEwVjVVbTlHTkNBVUg1YTJ6RmNPaC1UYmludmpoMVoxVmNIV0p0TUREU29lZnZ2QXdsYkFxTTNVUDZuNVdRMnFiREZ3V3M4eEYtUlV0V3FWSVJFdF81YjhyQ2c5Mkc2RzNiMDlwek5uS0dLWXRLbzZhM3JGLWJMUVhZZHYzTmhUU3pLNnpmNFlhOWpfTVY0X04taElZeHNfX2ltWW01MnhleFlDQnF0cExNWg?oc=5",
-      "desc": "",
-      "date": "2026-08-10",
       "source": "USCIS",
       "category": "uscis"
     }
