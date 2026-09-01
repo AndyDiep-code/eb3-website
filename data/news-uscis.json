@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T15:00:01Z",
+  "updated": "2026-09-01T12:30:19Z",
   "items": [
     {
       "id": "6fb8d59d9295",
@@ -42,6 +42,15 @@
       "title": "Asylum - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
       "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e60d664b5570",
+      "title": "Rosario Class Action - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVnBUVVc3UzI2X3dGRjNKRjB5dnpTU0hTNTZ1QjRjb0xZeDgwa0tndkdxV1Y2T2dUR1I2MkhtVkR5b2IxRkkxX2NlOTFqQkIwUFljdzc1alFXeW0tRDVyMWM2cVdaaTZmSkczNWsxbTNNek9wR3dDeFA5Q01IQjRoNEM3OEpvdXRlSElGUklzVXoxM01rbmRPbUxPbmk2c2dOcWJxUmZfWlJBekpiY2dUUk9LaV9SMkczS1EzN0dB?oc=5",
+      "desc": "Rosario Class Action&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-26",
       "source": "USCIS",
       "category": "uscis"
@@ -137,6 +146,24 @@
       "category": "uscis"
     },
     {
+      "id": "1cf755b9d784",
+      "title": "Temporary Protected Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
+      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-08-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ecb45f2f4d9d",
+      "title": "H-2B Temporary Non-Agricultural Workers - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVFMbkxpRTJQd3I0UEh3a015bTFhZ0hpR3NxQ3NVZXdEREIyR0lpMWoxblhVWGE4d1FSRVk5b0FyVHpWTVJRelFCR2FJNHNRNGYyLVhvWGtTSzhaQXlGVUVxeDFJOENKQ0RNZ0pVakk5bDBzbTVUR1ZlOG9ZV0dDM1dUWnF5c3ZvTzhMdU5tRmlJYzU2YkRJOXk0SGxvaEl0ZkdleXFUcG0zYTJE?oc=5",
+      "desc": "",
+      "date": "2026-08-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "2e549eb3e478",
       "title": "Chinese Alien Charged with Voter Fraud in Massachusetts - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeEVwMXNZeDE5blVHN016dEF2YWpzN1pIVjBoTF9VeldsaERmUWMwR1NjMmxYTVhQMm5ZaWNJaFp4S2FyM0lTLUJzbGk1QzRfR3BLWXg0NGgtVzdvOXdFR2ttR2pxc1lHUlJkcFM0R0F3VENvRG1NZU4xX3JFVV9lRUV5T3c0RWRUb1lfWHZISTlBbzh3MktvUm0xeTVEclhEZVE?oc=5",
@@ -186,6 +213,15 @@
       "title": "Temporary (Nonimmigrant) Workers - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1JaVTRXU2prNHMzQnFoWUo2bjduUzF4dWNvSWRpMEc3M2NkckdZczhsLXdPUE81SUprUTZFZTNYcXZNNnVMenU0UVl5QmpEX0lQbl8xZFNnVkpNMDBjc3ZCSzdLdmRUS0xmd3F6ekZvdEQ0R3VDVmRiMU1HSndVclFzZTRwZ1N4?oc=5",
       "desc": "",
+      "date": "2026-08-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "eb44dbff66c0",
+      "title": "E-2 Treaty Investors - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb0MtUzdNMG43VzJJbF9waVlDSlp3c3NMSXhubUNqZVp2ZV92NkZZdzF2WERpRFpFRXN6NjFZR2Jyci1UOXJ5c3FjdW44OUxrOWRjbXBwdlktSEdkYXlJY3hiRUw2NmRXRi14X1ltV3hEWEhvaERDWjFIZVdVVEpLckt6SEduRTVsZnE4R2JVUjVfelE?oc=5",
+      "desc": "E-2 Treaty Investors&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-20",
       "source": "USCIS",
       "category": "uscis"
@@ -321,15 +357,6 @@
       "title": "Temporary Protected Status Designated Country: Ethiopia - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObTh4UUFaMmk4ZWlQMGMtRll2RGdvOG02NExhcnZ4ckN1dzRVbGVZMnNqRGhZMHoxSDZkTUw1bEhodkJFMnVqaFUwTFpfY3NJSXBrRjhJa2cxQk9vanNtandqb3FJTDFoZVJ6SjdpSmx6VUh3NHFMazRGZDJDYS1nZWpkT05jLU1sUjh2LQ?oc=5",
       "desc": "",
-      "date": "2026-08-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1cf755b9d784",
-      "title": "Temporary Protected Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
-      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-18",
       "source": "USCIS",
       "category": "uscis"
@@ -509,33 +536,6 @@
       "id": "a7ddbcc51ed7",
       "title": "G-325A, Biographic Information (for Deferred Action) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBXbzIwbFo4VHdOandZUFNLelBtdUEzcWVVUkMyUDFvUW1PNGJ5MUJ4ZTZOdVR5cGNWUV9yMktYYWs2Zw?oc=5",
-      "desc": "",
-      "date": "2026-08-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "db7895f05877",
-      "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
-      "desc": "",
-      "date": "2026-08-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7682080fcde5",
-      "title": "Direct Filing Addresses for Form I-131, Application for Travel Document, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5abUFSQVN0ZEFqUTZBalpacVpIVG9oanQyZE1kaXFMNV84Rk9BWThkQ0ZRU2VkSUJ4eG9mYWlOYjgyOTRvQUR1Nk54WVRIUQ?oc=5",
-      "desc": "",
-      "date": "2026-08-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a31f8ab574b9",
-      "title": "Status Change Report Now Includes TPS and Asylum-related Employment Authorization Documents - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcUk3V0ZTZ2dYWnJLcW45dGRnMkhrY0pMRU85M0NBQ21zUFVscFBfT1ZrbE9xUDZUeG1hSnl1ZXZkV1g3Qm5XVW9MRmJnOUppMU0yeWx5VjFUakh0eEZSakVJdGFoN2toVzhJOUVLXzJZS2h2S0IxbjA3ZmJtc2lTNGtFLWVZYVlBU2ljOTdpRTNiOVEzUFdVQ3RuMHM0MnhHNVRwdFoxSE55ZkxKZVVuVDJITTZYTnV2ZENSRWlfZXdFUGV2cExjWFR5dmwwUmR1ZkFwOFkyWTFnTk13NGgydQ?oc=5",
       "desc": "",
       "date": "2026-08-11",
       "source": "USCIS",
