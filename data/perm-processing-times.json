@@ -1,9 +1,9 @@
 {
-  "source_as_of": "8/7/2026",
+  "source_as_of": "8/28/2026",
   "queue": {
-    "analyst_review": "September 2025",
+    "analyst_review": "November 2025",
     "audit_review": "December 2025",
-    "reconsideration_review": "March 2026"
+    "reconsideration_review": "April 2026"
   },
   "average_days": {
     "analyst_review": {
@@ -15,5 +15,5 @@
       "days": null
     }
   },
-  "updated": "2026-08-10T10:16:00Z"
+  "updated": "2026-09-01T13:57:15Z"
 }
