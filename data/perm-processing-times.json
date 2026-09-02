@@ -7,13 +7,13 @@
   },
   "average_days": {
     "analyst_review": {
-      "month": "July 2026",
-      "days": 372
+      "month": "August 2026",
+      "days": 336
     },
     "audit_review": {
-      "month": "July 2026",
+      "month": "August 2026",
       "days": null
     }
   },
-  "updated": "2026-09-01T13:57:15Z"
+  "updated": "2026-09-02T13:17:22Z"
 }
