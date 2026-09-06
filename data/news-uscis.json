@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T11:13:37Z",
+  "updated": "2026-09-06T11:36:24Z",
   "items": [
     {
       "id": "72fcf6f9bf69",
@@ -22,6 +22,51 @@
     {
       "id": "5b8018563984",
       "title": "DHS Announces Rule for Certain Children Born in the United States to Foreign Government Employees - uscis.gov",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdVgxYmFzMlE5cGo3S29IazU4ZElYX0tET2wzbE16LXY2OW83MmVPTEl4bHhwSHRKc2JFbndCNkFzaFhxWGs1Q3U5U3JfR3J5eUJISDFkdHFPUlJ2Tm1CT1JHcU8zQVFVd1IzQ0REUVhIQ3VFVThPTmR2aWNKMlFuUVZMUkNsWnVTT1ZVYTRoLS1kekVSdkc1QkRsbjdNUEs4bGxxX0cwazFaZm5UT2NzOERTc1VMaGZoNk4yS1ZmQXJ6ZDRrUlhUVzVTYXQ2N2hT?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "acc3c6b14aa8",
+      "title": "I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBWdWU5Y2pndzJrX0FNblh4eWRZR05TMTlWaUxLZXpIekFvdE9qeHVhbUZwdnF6aUVQbnVQLXZIaTU?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1d97d1b59f9c",
+      "title": "Green Card Eligibility Categories - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90dXpvU0lrcHR1TjNkUXRjWDdIY1lieWlmMzMtNkRKbVEzMG9yX1NtWjRYVmR0N0VEdG14djlmQ3l4VGZfamNLTjNzQWVMRTl2SE90U0E4blB4SUlHZjhJeWRWWUJKLXZFc21hbWJmT2ZhZTRf?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7c8e1899effd",
+      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "41a3a788394c",
+      "title": "Court Order on Diversity Immigrant Visa Program Hold Policy - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFZLT285aUdCZjduQUJrZzZ4SEtNdDdzWWhWdVZQS0t0VGV3cTJHRHFCZzU4NVJJWUtMZHRCUGxjUlBRYkRuenVGWXhyeTBmaFZJUUhNRlBqQmdfbXBFcTJjMzdmRU9TUUVtSWIxNU9jb3d1SWc3OVQwQi0zdTYtdkFydUdSSU0zbE1CejhzRnF0MGNuTE5CZTh4WFR1UQ?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "0080d4ec26b6",
+      "title": "DHS Announces Rule for Certain Children Born in the United States to Foreign Government Employees - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdVgxYmFzMlE5cGo3S29IazU4ZElYX0tET2wzbE16LXY2OW83MmVPTEl4bHhwSHRKc2JFbndCNkFzaFhxWGs1Q3U5U3JfR3J5eUJISDFkdHFPUlJ2Tm1CT1JHcU8zQVFVd1IzQ0REUVhIQ3VFVThPTmR2aWNKMlFuUVZMUkNsWnVTT1ZVYTRoLS1kekVSdkc1QkRsbjdNUEs4bGxxX0cwazFaZm5UT2NzOERTc1VMaGZoNk4yS1ZmQXJ6ZDRrUlhUVzVTYXQ2N2hT?oc=5",
       "desc": "",
       "date": "2026-09-04",
@@ -155,6 +200,24 @@
       "category": "uscis"
     },
     {
+      "id": "db7895f05877",
+      "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
+      "desc": "",
+      "date": "2026-09-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "26c37dcd7709",
+      "title": "Update on Temporary Protected Status for Sudan (Release: Sept. 03, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaDFrdUl2MGxzcTZxa2RVd3B2S25YN0VhMjQ1QTZpajlwcUJZc1B4M00xcWNLbmdvRlkxai1MZU9ua05ZUnNfYjRsNVl0emhLNTZRVFFFWTY1eWRfUjVfbXZRcWd1V01IWXpleEdSSUhNYnMyYlF1MVpvY1AtTVl0OHZqc0F3Si15MVZHcnlYVGJrOGZlemJoWnJuSk9RNnE3Z05aUmotSjFVSXZGZ3M3MnpvcjREVjdsbmxkTk9MZFQ?oc=5",
+      "desc": "",
+      "date": "2026-09-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "598db551f0b3",
       "title": "Religious Worker (R-1) Resources - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6dGdMUUxCeHNJSThqenp5WGRRR29CTHFTaGNycWNjcF9IeC01U1pPRG11NFNKc1BKUjh6VmhvQUo0NUJxanJ5NWF3?oc=5",
@@ -232,15 +295,6 @@
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
       "desc": "",
       "date": "2026-09-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "acc3c6b14aa8",
-      "title": "I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBWdWU5Y2pndzJrX0FNblh4eWRZR05TMTlWaUxLZXpIekFvdE9qeHVhbUZwdnF6aUVQbnVQLXZIaTU?oc=5",
-      "desc": "",
-      "date": "2026-08-31",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -484,60 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWZqSkp2MzdQVTBLVmZMUjZITGt3UzBoT3U2aTVybUZ5UlFXY3lqMzVBR0haR2t3YUg1TmI5RWxzdmZkaTdnal9Pc0djNmxOOG8xbFhZX3hjR1NINWU3d3NZWVdpRm05MFZoT0pxM3pkOEtibHhjNXVxVno0NFVoNk85SQ?oc=5",
       "desc": "",
       "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2e549eb3e478",
-      "title": "Chinese Alien Charged with Voter Fraud in Massachusetts - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeEVwMXNZeDE5blVHN016dEF2YWpzN1pIVjBoTF9VeldsaERmUWMwR1NjMmxYTVhQMm5ZaWNJaFp4S2FyM0lTLUJzbGk1QzRfR3BLWXg0NGgtVzdvOXdFR2ttR2pxc1lHUlJkcFM0R0F3VENvRG1NZU4xX3JFVV9lRUV5T3c0RWRUb1lfWHZISTlBbzh3MktvUm0xeTVEclhEZVE?oc=5",
-      "desc": "",
-      "date": "2026-08-21",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2dbd81e92814",
-      "title": "I-102, Application for Replacement/Initial Nonimmigrant Arrival-Departure Document - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OV3QyTjFBSm5ab0IxdlB5YlhSZU93Mzd5cG1YNG1qekxnS3dJTjlLNEZoSTNnakNQdGcyTmoxZnA?oc=5",
-      "desc": "",
-      "date": "2026-08-21",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "16be0671da1c",
-      "title": "US Labor Department finds Wisconsin food manufacturer repeatedly exposed workers to safety hazards following 2 incidents, 3 fatalities",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260820",
-      "desc": "JANESVILLE, WI – The U.S. Department of Labor has cited a Wisconsin-based food products manufacturer after two incidents involving industrial kettles releasing hot steam and liquid, causing three worker deaths and two serious injuries.Investigators with the department’s Occupatio",
-      "date": "2026-08-20",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "a8aebba4006f",
-      "title": "Employment-Based Immigration: Third Preference EB-3 - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZnRkOGMyUklvRnpkcHZaaUczcENKS0JRb2tHajBsdFg1VzVmVlpFeFd5TGZwaHhTemZSUVNWLXJQUl92QjF2ZDgxbUM2THVZanIzakpuRjJ1TUppX3k4SWtaQnQ5eW9ybVlsOXZvY25OUHdNMWp6ZVp1czlaTGVBZ3BEVDh4NEFNWjU4RGY4U19GUXBCbUxBYjBMME93ZGtoNm9YbG5ZMmQwN2lWTVBfbjdEd0xXazBsM0Nn?oc=5",
-      "desc": "",
-      "date": "2026-08-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "301966b3f7f6",
-      "title": "Permanent Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jYUkzaFcyZ0d3WXZMX0ZnYlhkYy1SMi0xZXczWGNZQW1SWlFtdjg3amRYblRON2pxQmNCSUpaTnFLd2ptX3g5cG1lbzUwOUFET1VWU3VTY2FHN0lpZjFMTFZiaGZjTkx4bDBQdEdEa0hwNkc0RHN3?oc=5",
-      "desc": "Permanent Workers&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-08-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "026d43e0fd89",
-      "title": "Temporary (Nonimmigrant) Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1JaVTRXU2prNHMzQnFoWUo2bjduUzF4dWNvSWRpMEc3M2NkckdZczhsLXdPUE81SUprUTZFZTNYcXZNNnVMenU0UVl5QmpEX0lQbl8xZFNnVkpNMDBjc3ZCSzdLdmRUS0xmd3F6ekZvdEQ0R3VDVmRiMU1HSndVclFzZTRwZ1N4?oc=5",
-      "desc": "",
-      "date": "2026-08-20",
       "source": "USCIS",
       "category": "uscis"
     }
