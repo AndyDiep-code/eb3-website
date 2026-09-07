@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T11:36:24Z",
+  "updated": "2026-09-07T13:26:54Z",
   "items": [
     {
       "id": "72fcf6f9bf69",
@@ -68,6 +68,42 @@
       "id": "0080d4ec26b6",
       "title": "DHS Announces Rule for Certain Children Born in the United States to Foreign Government Employees - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdVgxYmFzMlE5cGo3S29IazU4ZElYX0tET2wzbE16LXY2OW83MmVPTEl4bHhwSHRKc2JFbndCNkFzaFhxWGs1Q3U5U3JfR3J5eUJISDFkdHFPUlJ2Tm1CT1JHcU8zQVFVd1IzQ0REUVhIQ3VFVThPTmR2aWNKMlFuUVZMUkNsWnVTT1ZVYTRoLS1kekVSdkc1QkRsbjdNUEs4bGxxX0cwazFaZm5UT2NzOERTc1VMaGZoNk4yS1ZmQXJ6ZDRrUlhUVzVTYXQ2N2hT?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "8041de1d4621",
+      "title": "Affidavit of Support - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2ZpLXJxbHRaWWY0bktLMGpDcmtaQWtsOTR4N0pablphNjJVY0c5MWNia2xZVmhMQXhXZkJSX2pjSUNUZEwtc01FbkU0VEZDYzZhNE5rd1hRUTNfem42ZjluczdQdjA5Z2xPOERKTm12MHIwV2x6eEdob1NQeGhzN3pub2FCR201a1RGUEpnWHJFUlE?oc=5",
+      "desc": "Affidavit of Support&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1a89522390a3",
+      "title": "I-864A, Contract Between Sponsor and Household Member - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE94c0NQa3RaelVmTWtneHQxVTc1OG03cHg0SHdPMTVpbUt2S0RPNTQ3Z0lCTm9JaE9QRmxxUlhjNGZVQQ?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "235e6437f5b9",
+      "title": "I-864EZ, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8xekQ3bGt0V3N5VHdPQ0xmQzliTVRHV3RNcnZyR1c5TExrZ3Y1c1VqdlZLN242SjBJNUZqQW9BY1k1SEU?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "bd8f88a09a67",
+      "title": "Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yOWhnTnFONld1Tl9wOGRTZVZaNHBhbW5kNDNoZFN6THhRZ2kwbTVEV0I5ZnFXU21McEN6bnBQZ0xKTjhTU0twZ19EenhhbFBZSEVCeFRMNDRJaUx2QUthNmd5YlEyRVJhMEswSFBjVWo3X0tD?oc=5",
       "desc": "",
       "date": "2026-09-04",
       "source": "USCIS",
@@ -218,6 +254,15 @@
       "category": "uscis"
     },
     {
+      "id": "d2eb105fe464",
+      "title": "Update on Temporary Protected Status for El Salvador (Release: Sept. 03, 2026) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY1QyTHNybzc4X18xcllMdVY2ZWhYcmV3eG83NW9PV1d3VHhLNnZQYjhtMGozYnRkLTNIYUVPWGZxWERCZEVKYzN1QkN4SXczZGswZ1NfaDV6TWNfTTljOElrYTlUZHVsZ3ZaYkJ6QTVMSW1tRmlBdkJqOWVyYUd4RnRkOVJOMmplQksweTFzSkdwbmxaaU9CSTNhaUtQU21uUlJKMXlxV01iSGdkQmNXTU5OM2J4MTBNM0dIYThkZUVrSjYtV2xhN1pUSFdRcDQ?oc=5",
+      "desc": "",
+      "date": "2026-09-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "598db551f0b3",
       "title": "Religious Worker (R-1) Resources - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6dGdMUUxCeHNJSThqenp5WGRRR29CTHFTaGNycWNjcF9IeC01U1pPRG11NFNKc1BKUjh6VmhvQUo0NUJxanJ5NWF3?oc=5",
@@ -299,33 +344,6 @@
       "category": "uscis"
     },
     {
-      "id": "8041de1d4621",
-      "title": "Affidavit of Support - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2ZpLXJxbHRaWWY0bktLMGpDcmtaQWtsOTR4N0pablphNjJVY0c5MWNia2xZVmhMQXhXZkJSX2pjSUNUZEwtc01FbkU0VEZDYzZhNE5rd1hRUTNfem42ZjluczdQdjA5Z2xPOERKTm12MHIwV2x6eEdob1NQeGhzN3pub2FCR201a1RGUEpnWHJFUlE?oc=5",
-      "desc": "Affidavit of Support&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-08-31",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1a89522390a3",
-      "title": "I-864A, Contract Between Sponsor and Household Member - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE94c0NQa3RaelVmTWtneHQxVTc1OG03cHg0SHdPMTVpbUt2S0RPNTQ3Z0lCTm9JaE9QRmxxUlhjNGZVQQ?oc=5",
-      "desc": "",
-      "date": "2026-08-31",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "235e6437f5b9",
-      "title": "I-864EZ, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8xekQ3bGt0V3N5VHdPQ0xmQzliTVRHV3RNcnZyR1c5TExrZ3Y1c1VqdlZLN242SjBJNUZqQW9BY1k1SEU?oc=5",
-      "desc": "",
-      "date": "2026-08-31",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "9224da8ddf09",
       "title": "H and L Filing Fees for Form I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0ZEUzFzRVpXMjIxbExsa2dHNHIxUVVSd3VPSGNrWTNDaDNyMTJqOTJ4NXFtcE53NnVFclc5NFJtaFFtM3NZdEJaZXNtcVBZR01pVG02NnlNOGdJWXZlNTY3VlMyRjlWUkd2OU1CMDJqQXJBNUR5b181M0R2Ry1Cd2Rjc0tjRTFXaDF4ZW5DQTNZXzZ2UFhiRnRDQUhyN29GZ0tWbnZJVzlmb0U?oc=5",
@@ -356,6 +374,15 @@
       "id": "c23755fbf659",
       "title": "Recent Court Order on Hold Policies - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GaEpINWh6Q2l0NEdfa1pYTGhjR0NySDhlZTJweGtQa24tUkhZc3BtR0NXT3VNRkV4NjRsZVZCWU41cm42Q2EtalQ4VFNIXzFfRVhrc3gydXRDcEFuRGY4T2ZjRnhCZF9zRXV4SGxPejhXVUMyZDZKSl9lbS1pZw?oc=5",
+      "desc": "",
+      "date": "2026-08-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d701375c78e5",
+      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
       "desc": "",
       "date": "2026-08-28",
       "source": "USCIS",
@@ -510,33 +537,6 @@
       "title": "Temporary Protected Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
       "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ecb45f2f4d9d",
-      "title": "H-2B Temporary Non-Agricultural Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVFMbkxpRTJQd3I0UEh3a015bTFhZ0hpR3NxQ3NVZXdEREIyR0lpMWoxblhVWGE4d1FSRVk5b0FyVHpWTVJRelFCR2FJNHNRNGYyLVhvWGtTSzhaQXlGVUVxeDFJOENKQ0RNZ0pVakk5bDBzbTVUR1ZlOG9ZV0dDM1dUWnF5c3ZvTzhMdU5tRmlJYzU2YkRJOXk0SGxvaEl0ZkdleXFUcG0zYTJE?oc=5",
-      "desc": "",
-      "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6e805df1a617",
-      "title": "Form I-864, Affidavit of Support Under Section 213A of the INA - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3c29MbTNMU001MzJOU1RUcGhTc1JQSHZQaXdtS2g2ZzVJb1ExVVExaDdpRUxiZDhubUNRd1FLTVc3X19hRlNtLVRmSW55eU9Ud2pVOWlzd2JDd05peXBZeXQ0eHRETXdkWHVwSDV6eUQ4d3BU?oc=5",
-      "desc": "",
-      "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1e23d3226afb",
-      "title": "DHS Proposes Additional H-1B Fee - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWZqSkp2MzdQVTBLVmZMUjZITGt3UzBoT3U2aTVybUZ5UlFXY3lqMzVBR0haR2t3YUg1TmI5RWxzdmZkaTdnal9Pc0djNmxOOG8xbFhZX3hjR1NINWU3d3NZWVdpRm05MFZoT0pxM3pkOEtibHhjNXVxVno0NFVoNk85SQ?oc=5",
-      "desc": "",
       "date": "2026-08-24",
       "source": "USCIS",
       "category": "uscis"
