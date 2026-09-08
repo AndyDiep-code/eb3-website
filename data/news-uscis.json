@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-07T13:26:54Z",
+  "updated": "2026-09-08T12:05:08Z",
   "items": [
+    {
+      "id": "2f0afcabfdf3",
+      "title": "This Labor Day, the US Department of Labor celebrates 250 years of the American worker, our nation’s greatest asset",
+      "link": "http://www.dol.gov/newsroom/releases/dol/dol20260907",
+      "desc": "WASHINGTON – As America celebrates Labor Day and its 250th anniversary, the U.S. Department of Labor is honoring the generations of American workers whose skill, strength, ingenuity, and determination built the greatest nation and most powerful economy the world has ever known.Fo",
+      "date": "2026-09-07",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "72fcf6f9bf69",
       "title": "Acting Secretary Sonderling statement on August jobs report",
@@ -104,6 +113,15 @@
       "id": "bd8f88a09a67",
       "title": "Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yOWhnTnFONld1Tl9wOGRTZVZaNHBhbW5kNDNoZFN6THhRZ2kwbTVEV0I5ZnFXU21McEN6bnBQZ0xKTjhTU0twZ19EenhhbFBZSEVCeFRMNDRJaUx2QUthNmd5YlEyRVJhMEswSFBjVWo3X0tD?oc=5",
+      "desc": "",
+      "date": "2026-09-04",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3bd1b0f65c79",
+      "title": "Alien Registration Requirement - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1GMFR1UUROdnQ4RXo2cUJsbjAwV0RCb3E3XzVmNjBmck5CN2gzMERyaHZHbHJFb3o1Mi1qWVlsZ0V6bjhPQlZWYTNMdVRFa19m?oc=5",
       "desc": "",
       "date": "2026-09-04",
       "source": "USCIS",
@@ -257,6 +275,15 @@
       "id": "d2eb105fe464",
       "title": "Update on Temporary Protected Status for El Salvador (Release: Sept. 03, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY1QyTHNybzc4X18xcllMdVY2ZWhYcmV3eG83NW9PV1d3VHhLNnZQYjhtMGozYnRkLTNIYUVPWGZxWERCZEVKYzN1QkN4SXczZGswZ1NfaDV6TWNfTTljOElrYTlUZHVsZ3ZaYkJ6QTVMSW1tRmlBdkJqOWVyYUd4RnRkOVJOMmplQksweTFzSkdwbmxaaU9CSTNhaUtQU21uUlJKMXlxV01iSGdkQmNXTU5OM2J4MTBNM0dIYThkZUVrSjYtV2xhN1pUSFdRcDQ?oc=5",
+      "desc": "",
+      "date": "2026-09-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "183a34611c0a",
+      "title": "Temporary Protected Status Designated Country: Sudan - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdVh1Q2FaRUR0TmUxODJmWkJNblV0ZWNxVkFvZlpZWG1mdXJIUDk0M1ZOM3pZQ1FNSHNBMUQtRG5qSXBTTk5POGNhZlVGakdKMHBfUkNka00yZ2ZkNkhtT01sMHk5VExGRjlIdzV0Y24zYWZWazJJdFpFakcyeXIxQzZwZHZlSGdHVDFTRXdmd3B5blZxRjl3VzQzNmlEcGRNX0sycElDNnpIbWQtRUZERFNTWQ?oc=5",
       "desc": "",
       "date": "2026-09-03",
       "source": "USCIS",
@@ -510,33 +537,6 @@
       "title": "DHS Proposes Additional H-1B Fee - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWZqSkp2MzdQVTBLVmZMUjZITGt3UzBoT3U2aTVybUZ5UlFXY3lqMzVBR0haR2t3YUg1TmI5RWxzdmZkaTdnal9Pc0djNmxOOG8xbFhZX3hjR1NINWU3d3NZWVdpRm05MFZoT0pxM3pkOEtibHhjNXVxVno0NFVoNk85SQ?oc=5",
       "desc": "",
-      "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1866f2d0ab20",
-      "title": "I-129, Petition31 for a Nonimmigrant Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
-      "desc": "",
-      "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "83fe84077441",
-      "title": "Form I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3c29MbTNMU001MzJOU1RUcGhTc1JQSHZQaXdtS2g2ZzVJb1ExVVExaDdpRUxiZDhubUNRd1FLTVc3X19hRlNtLVRmSW55eU9Ud2pVOWlzd2JDd05peXBZeXQ0eHRETXdkWHVwSDV6eUQ4d3BU?oc=5",
-      "desc": "",
-      "date": "2026-08-24",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1cf755b9d784",
-      "title": "Temporary Protected Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
-      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-08-24",
       "source": "USCIS",
       "category": "uscis"
