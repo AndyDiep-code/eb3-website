@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-15T12:36:05Z",
+  "updated": "2026-09-16T12:32:23Z",
   "items": [
+    {
+      "id": "419df2a9f33e",
+      "title": "US Department of Labor investigation finds Chicago construction employer exposed workers to continued safety hazards, proposes $265K in penalties",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260915",
+      "desc": "CHICAGO – The U.S. Department of Labor has cited a Calumet City-based residential construction and carpentry employer after two separate investigations into its continued failure to provide fall protection for workers.&nbsp;The department’s Occupational Safety and Health Administ",
+      "date": "2026-09-15",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "317da3f02f01",
       "title": "US Department of Labor debars Louisiana employer from H-2A visa program for federal violations",
@@ -14,6 +23,15 @@
       "id": "7286e94b0acd",
       "title": "Peruvian Alien Indicted for Illegally Voting - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTTluYU9KOHlEbzROVVdOX0VkdUY0WmUwb1JJaVdxbEVBdHBhWHA3NDdlQnc2UmhzeWduRlVxUm5kSVBSXzctQ0ktX2MtbFlhdXRyelpsNU1Rb2cxUEFHNGhTVk9Xa0hoNEU1eUM0cTItWWQ5RW9YTGMzR2RCQ2JqekU0N2xMSjhGbkJzbjdzU2Y4YkE?oc=5",
+      "desc": "",
+      "date": "2026-09-14",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
       "desc": "",
       "date": "2026-09-14",
       "source": "USCIS",
@@ -517,24 +535,6 @@
     {
       "id": "20c2f8461931",
       "title": "Aunt and U.S. Airman Nephew Arrested in Immigration Fraud Scheme - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSElWQnREUEVtREdnTEZXeGh2ZHk3TmhwdWl3LTZqTW1ZOTg0Z3pmOG53dzBQZlQ2M21od2NPRUtVcWhhd01idDRzVUd4MzlHMUoyUUFDbzBpYW1ZeDNQRERIZUlJc1oxbnBKYXhHdEFUWXRKMHY1YXZUSHdpcXdpdEU5U2F3eWhPMy1GQWd1NTJ3Vm5VaS1xbE9VVDNsdTBPVGJuWkc1dmJ6U0k?oc=5",
-      "desc": "",
-      "date": "2026-09-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "9368f82798de",
-      "title": "Religious Worker (R-1) Resources - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6dGdMUUxCeHNJSThqenp5WGRRR29CTHFTaGNycWNjcF9IeC01U1pPRG11NFNKc1BKUjh6VmhvQUo0NUJxanJ5NWF3?oc=5",
-      "desc": "",
-      "date": "2026-09-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "521c44d0317c",
-      "title": "Aunt and U.S. Airman Nephew Arrested in Immigration Fraud Scheme - uscis.gov",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSElWQnREUEVtREdnTEZXeGh2ZHk3TmhwdWl3LTZqTW1ZOTg0Z3pmOG53dzBQZlQ2M21od2NPRUtVcWhhd01idDRzVUd4MzlHMUoyUUFDbzBpYW1ZeDNQRERIZUlJc1oxbnBKYXhHdEFUWXRKMHY1YXZUSHdpcXdpdEU5U2F3eWhPMy1GQWd1NTJ3Vm5VaS1xbE9VVDNsdTBPVGJuWkc1dmJ6U0k?oc=5",
       "desc": "",
       "date": "2026-09-02",
