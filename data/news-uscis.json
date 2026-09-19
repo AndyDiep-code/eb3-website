@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-18T12:10:50Z",
+  "updated": "2026-09-19T11:53:27Z",
   "items": [
+    {
+      "id": "b1e67cb13ac1",
+      "title": "Five Defendants Charged with Defrauding and Exploiting H-2A Visa Program to Smuggle Aliens into the United States - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaEZXMG1za3d2V0U4TFRBdUNhd2owMXlVck5kQ0REaTdfdzVyMEpRckdQTjhEcGRic0xyc29CQU1RRm11THBDN2lrTV9NOHN4VWc0clJndWt4RWNlNDBYUUNIUnN0a3R0YWNRS3luRU5KV1h4OWwzcXRlSWZmSUJFbzZrRnE3NExDcWhMbDJFQnpidnJ5eHA0bTRpZkpDRzdzX0M1d2hGeWMzeFNFTDdXN2FBaG1ZVW1maFRYWW5CR04yLTJsd3Y1UVp2S0NaLUtRZThRMVRUblRJeDVT?oc=5",
+      "desc": "",
+      "date": "2026-09-18",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "ed91c94dec25",
       "title": "Immigration Attorney Arrested in Alleged Fraud Scheme - USCIS (.gov)",
@@ -96,6 +105,15 @@
       "title": "Cap Count for H-2B Nonimmigrants - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdU4xWHBZWGl3THNnYlNQb3BrN0ZsNXgyZDE3YkNBb2N3LVlfMjhWVHVhSE1oRi1NSHpsTVFPYnBJWjhFTzhiMmhJNEQyaDM1a1M1V3k5OV9NMmdwRFBnNm14ZVZVSmhMZFk3UmEtZmpXSDFnMi1ldnFHeFRYd2t3N1ZHU1R4ZzhJRzRyTDlyNV9fUW1mNW5DRzFOWGVjcV9wX2JMazlwNWJWZVoxQ1ZhZW9xX3ZfTWk4R3kzc0FDRUw3MHhONWFVM3RmSQ?oc=5",
       "desc": "",
+      "date": "2026-09-11",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "c0c0fe70c6f9",
+      "title": "Completing Form I-9 - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FS0dWTlExbGNvRkE3SG02RnlHU3lucTl5NmN2Z3h5NHFYd1lvMHptZlMxNG11Y194c0VXMFVCUTdEUm9jMjQtVkFrNnNQQnphNGZ2WFZ3TnpyUm9xT1l5UnY2MA?oc=5",
+      "desc": "Completing Form I-9&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-09-11",
       "source": "USCIS",
       "category": "uscis"
@@ -518,24 +536,6 @@
       "id": "db7895f05877",
       "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "26c37dcd7709",
-      "title": "Update on Temporary Protected Status for Sudan (Release: Sept. 03, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaDFrdUl2MGxzcTZxa2RVd3B2S25YN0VhMjQ1QTZpajlwcUJZc1B4M00xcWNLbmdvRlkxai1MZU9ua05ZUnNfYjRsNVl0emhLNTZRVFFFWTY1eWRfUjVfbXZRcWd1V01IWXpleEdSSUhNYnMyYlF1MVpvY1AtTVl0OHZqc0F3Si15MVZHcnlYVGJrOGZlemJoWnJuSk9RNnE3Z05aUmotSjFVSXZGZ3M3MnpvcjREVjdsbmxkTk9MZFQ?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d2eb105fe464",
-      "title": "Update on Temporary Protected Status for El Salvador (Release: Sept. 03, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY1QyTHNybzc4X18xcllMdVY2ZWhYcmV3eG83NW9PV1d3VHhLNnZQYjhtMGozYnRkLTNIYUVPWGZxWERCZEVKYzN1QkN4SXczZGswZ1NfaDV6TWNfTTljOElrYTlUZHVsZ3ZaYkJ6QTVMSW1tRmlBdkJqOWVyYUd4RnRkOVJOMmplQksweTFzSkdwbmxaaU9CSTNhaUtQU21uUlJKMXlxV01iSGdkQmNXTU5OM2J4MTBNM0dIYThkZUVrSjYtV2xhN1pUSFdRcDQ?oc=5",
       "desc": "",
       "date": "2026-09-03",
       "source": "USCIS",
