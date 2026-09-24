@@ -1,6 +1,42 @@
 {
-  "updated": "2026-09-23T12:41:48Z",
+  "updated": "2026-09-24T12:40:19Z",
   "items": [
+    {
+      "id": "c094b97c271b",
+      "title": "US Department of Labor cites New Jersey car wash for willfully exposing workers to safety hazards, proposes more than $446K in fines",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260923-0",
+      "desc": "SICKLERVILLE, NJ&nbsp;– The U.S. Department of Labor has cited a New Jersey car wash service for willfully exposing workers to safety hazards related to hazardous energy and excessive noise levels, proposing $446,864 in penalties.The department’s&nbsp;Occupational Safety and Heal",
+      "date": "2026-09-23",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "cb3acb462ecb",
+      "title": "US Department of Labor cites Florida pipeline installation contractor for willfully exposing workers to safety hazards after March fatality",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260923",
+      "desc": "ORLANDO, FL&nbsp;– The U.S. Department of Labor has cited an Orlando-based pipeline installation contractor for willfully exposing employees to safety hazards after an incident claimed the life of a worker at a New Smyrna Beach worksite in March 2026.The department’s Occupational",
+      "date": "2026-09-23",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "0a7ab0466a51",
+      "title": "US Department of Labor awards $65M to develop, expand access to training opportunities through Workforce Pell Grants",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260923",
+      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $65 million in grants to consortia in seven states to help community colleges&nbsp;develop high-quality, short-term programs that can qualify for Workforce Pell funding.&nbsp;Administered by the department’s&n",
+      "date": "2026-09-23",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "2ae0e375bb23",
+      "title": "Haitian Alien Pleads Guilty to Illegally Voting in 2024 Election - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNldGUWhwb1g3UXRaSWdhSm5PbDlzZU5yc2RQNzhkaDhmeWxxVF9qNUx1dFhqbVNBNWJyekxGbmFjb3dTVUhnLWgwdVRFOF94YU0tdlhzTFNMSFR2cDVJSlhvWUZ3ZDBrV2lVeU1sWmN3SU54cWtSd2h0Y1hmc3N2OU01dDB6YUNGd3pYc3VnN0ZMcWNhaFc1UHYzNS1sY2pRbjJqOVBjOE5EbzAzMVE?oc=5",
+      "desc": "",
+      "date": "2026-09-23",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "10d4ee638ec3",
       "title": "Chinese Aliens Indicted on Naturalization and Firearms Charges - USCIS (.gov)",
@@ -500,42 +536,6 @@
       "id": "647057c0e8e1",
       "title": "USCIS Opens New International Field Office in Ethiopia to Support Fraud Prevention - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWmwyNnhnVkkwUTZjOGktUEVQcjBLTXJXZDlodUNVaFoydjYwUGhadGwyNGpBTjI0aDR6c1JScXhsSlRGRFNGSXYxTXRFZkFfUFpuX3V5M0RjSVlRZW9jUFAtVmlPNUl0WVVOQjhveXNSOElmT2hvV2xEX254Y214LUVBaEZTT3BJdUZibUJzYzU5dHZJdVZoNVhERHRPMllEdDh6LTJmS2RwWnlvUTJpU0huOURSU0dqdG4tUA?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "14e2f12ad054",
-      "title": "Naturalized U.S. Citizen Indicted for Lying to Obtain U.S. Citizenship After Committing Felonies - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONEw2d3lZLW9tNV9XcjF2X201dWlUdXJ0dHhES2pWYlVKWEZtM3RZeTJxRHBrMFR2NzlRU3JmeDFmRWdYWFVzV3FDanc0ZlZ4UXE1RDItUDVkRTduX212ckZ2XzF3WGlzS2ktUDZPWi1FWnJEX3VjUkJxREpILXUtVVFpOUhRek9jZmhHZXhHQnhfYm5BdEN4U0hPT1MwaVpTZE1HYzM0S2d6Z0ViUndnUGZ4a3JIanRhX2Y5RHhheVR6b2w3SHJhUUhidWlySUpSV0ZR?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "823b4b41dce3",
-      "title": "Illegal Alien Indicted in Marriage-Related Immigration Fraud - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3pxbm5RTEQxcnhkTUd5blQxTS1SVHk1UkR6cHVQb1JIOG5Sdzh6WE1fTVJ0emktd1Z5T1gzTFhhdFJUMXB0S2YwSzdfZXhmTUJJVFJiMHU0amNvNmo3SkJyOFRNTDVBdm9Rd2N6V0FZS1ZNdU10eENVcTQ1Nm91SXNSZVpCUVRHQ1RPTnI1dXpLeUJtOERVVENFN2llblFhVjhkOVVqZUE?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "08c27305be7c",
-      "title": "Temporary Protected Status Designated Country: El Salvador - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "c54f63ab7807",
-      "title": "Update on Temporary Protected Status for El Salvador (Release: Sept. 03, 2026) - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcjhtRlFfQktyRzRRelRiZUNMeHBUaEJpNmIwenRlenc2c014b0hZZW1PZ1dSaE14WWp4X1BKUk03Sl9NcTVlUEEtUFlvVnNhcHVsYXNDYmVVT1h6UjRWT3J5Tnh4Z3RuVV92a1RBeUlKUmljMDRUb3BJenJ3RWRIWkxvTjJfSDVudGlySDhacjh5Nmh5dzJ2R2IxYUdNd0EydXJmYl9CM2N0ZmpNdHlEaUFiUnEyMzloWC1abDc1QUZxdW1VM3N0Ng?oc=5",
       "desc": "",
       "date": "2026-09-03",
       "source": "USCIS",
