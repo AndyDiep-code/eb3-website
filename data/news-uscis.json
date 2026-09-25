@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-24T12:40:19Z",
+  "updated": "2026-09-25T12:42:00Z",
   "items": [
+    {
+      "id": "1b9efc6bbe87",
+      "title": "US Department of Labor releases new workplace guidance to prepare employers, workers for opioid emergencies",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260924",
+      "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor’s Occupational Safety and Health Administration today released a fact sheet to help employers and workers rapidly respond to opioid-related overdose emergencies in the workplace.Opioid emergencies can happen anywhere,&nbsp;including ",
+      "date": "2026-09-24",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "c094b97c271b",
       "title": "US Department of Labor cites New Jersey car wash for willfully exposing workers to safety hazards, proposes more than $446K in fines",
@@ -32,6 +41,15 @@
       "id": "2ae0e375bb23",
       "title": "Haitian Alien Pleads Guilty to Illegally Voting in 2024 Election - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNldGUWhwb1g3UXRaSWdhSm5PbDlzZU5yc2RQNzhkaDhmeWxxVF9qNUx1dFhqbVNBNWJyekxGbmFjb3dTVUhnLWgwdVRFOF94YU0tdlhzTFNMSFR2cDVJSlhvWUZ3ZDBrV2lVeU1sWmN3SU54cWtSd2h0Y1hmc3N2OU01dDB6YUNGd3pYc3VnN0ZMcWNhaFc1UHYzNS1sY2pRbjJqOVBjOE5EbzAzMVE?oc=5",
+      "desc": "",
+      "date": "2026-09-23",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3bba058a3026",
+      "title": "Man Charged with Naturalization Fraud; Three Others Face Denaturalization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQajFEb2dLbUNWS202YThnd0V1ZTVrY1JGUFNnSllESHk1enowNmkyRU40cXhRMFgxR0dqaHdXaWx2aEdCQm5nYXVkci1RVGVWNlliQ0lwQjUyZk5oWGNla1YzY3lkeDlhdllZaWZXb2ItZ0o2Zld5cGkwbHB3TGQwZ09ob0FPVWt5YnAwMlZteHRrLWhfZDF2MlVBTW9KN2RnNXpOcndmZ3dyZ1RuSHgyc0VveWNFaFBE?oc=5",
       "desc": "",
       "date": "2026-09-23",
       "source": "USCIS",
@@ -518,24 +536,6 @@
       "id": "9f23d46ee55a",
       "title": "Update on Temporary Protected Status for El Salvador (Release: Sept. 03, 2026) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcjhtRlFfQktyRzRRelRiZUNMeHBUaEJpNmIwenRlenc2c014b0hZZW1PZ1dSaE14WWp4X1BKUk03Sl9NcTVlUEEtUFlvVnNhcHVsYXNDYmVVT1h6UjRWT3J5Tnh4Z3RuVV92a1RBeUlKUmljMDRUb3BJenJ3RWRIWkxvTjJfSDVudGlySDhacjh5Nmh5dzJ2R2IxYUdNd0EydXJmYl9CM2N0ZmpNdHlEaUFiUnEyMzloWC1abDc1QUZxdW1VM3N0Ng?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4ae51249deeb",
-      "title": "Update on Temporary Protected Status for Ukraine (Release: Sept. 03, 2026) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGpWVUhJNkdHZFlTcWxvc3JPbTE2UnZwNmJUWF9UbkhKeG9Od2FBbEVGM3pwZEpmRXNZU081MklWQ2ZIeENkMDlNeTVUNF9Dd3E4eVZRZWt3ZGdnVmk0cHV5UmhKRW1JcnEyOU5WQ0RXWUZWNV9kMTlET0t1OW9OcUxkOFZmcmxXR01ZMjNkM09jX3lrbC1xWU1ybjMycWRoclBmcGpxY0ZBaV9GTjBvS2lRbjZOR0VqQ0REcG5qc0xPdVk?oc=5",
-      "desc": "",
-      "date": "2026-09-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "647057c0e8e1",
-      "title": "USCIS Opens New International Field Office in Ethiopia to Support Fraud Prevention - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWmwyNnhnVkkwUTZjOGktUEVQcjBLTXJXZDlodUNVaFoydjYwUGhadGwyNGpBTjI0aDR6c1JScXhsSlRGRFNGSXYxTXRFZkFfUFpuX3V5M0RjSVlRZW9jUFAtVmlPNUl0WVVOQjhveXNSOElmT2hvV2xEX254Y214LUVBaEZTT3BJdUZibUJzYzU5dHZJdVZoNVhERHRPMllEdDh6LTJmS2RwWnlvUTJpU0huOURSU0dqdG4tUA?oc=5",
       "desc": "",
       "date": "2026-09-03",
       "source": "USCIS",
