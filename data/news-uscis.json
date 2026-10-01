@@ -1,6 +1,42 @@
 {
-  "updated": "2026-09-30T13:33:08Z",
+  "updated": "2026-10-01T14:23:00Z",
   "items": [
+    {
+      "id": "5d80ab6cf8eb",
+      "title": "US Department of Labor awards $43 million to 7 states to support skills training in shipbuilding, manufacturing, aerospace, other critical industries",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260930",
+      "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor today announced the award of $43 million in Industry-Driven Skills Training Fund grants to seven states to invest in employer-driven skills training programs for critical industries like shipbuilding, advanced manufacturing, and nucl",
+      "date": "2026-09-30",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "b106ad4038c6",
+      "title": "US Labor Department obtains court order naming independent fiduciary  for 401(k) plan of defunct WA-based aerospace company",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260930",
+      "desc": "SEATTLE – The U.S. Department of Labor has secured a court order to appoint an independent fiduciary to manage the abandoned 401(k) plan of a defunct Arlington-based aerospace company.The order, entered in the U.S. District Court for the Western District of Washington, appoints A",
+      "date": "2026-09-30",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "27d3ce1d3113",
+      "title": "Former union officials charged with wire fraud, conspiracy to commit wire fraud for embezzling approximately $350K in member funds over 5 years",
+      "link": "http://www.dol.gov/newsroom/releases/olms/olms20260930",
+      "desc": "CLEVELAND – An investigation by the U.S. Department of Labor has led to criminal charges for two former union officials who allegedly embezzled approximately $350,000 from the union members they swore to serve.An investigation by the department’s Office of Labor-Management Standa",
+      "date": "2026-09-30",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "de3ac1b9fed9",
+      "title": "USCIS Announces FY 2027 Inflation Increase for Certain Immigration-Related Fees - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWHd2RlYyX1VadFdqZ1VFU2h1OEhyOHpxazRYRjBvRWZfdUhnRzhxOGVkRFpUd0h2TzY0V3hQaVU5TFJXYW9xa25DOUVOQXc5OVk3R3FrLUdybU9jejg3azFqWUhBUjlyYm9mc0I0Z0RXV3YwdGh5SVZ6bFFHTTJRbzd6cG5yUWdTUjI0dExfTXMwREsxSlFQMDFzaHQwbkFKa3F3bk9EZGYyMnBWRzBNTEg4ZkhNRUpO?oc=5",
+      "desc": "",
+      "date": "2026-09-30",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "345be9d2b3f3",
       "title": "United States, Mexico Announce Successful Resolution of Rapid Response Labor Mechanism Matter at Akwel Juárez México Facility",
@@ -9,6 +45,33 @@
       "date": "2026-09-29",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "e144da61d20e",
+      "title": "When to File Your Adjustment of Status Application for Family-Sponsored or Employment-Based Preference Visas: October 2026 - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOS3M3RTN1Ukl1X25lRG9HQjQ4MThzMHY3OEpfN0xtVGlEb1lZUnRkUVAyaG5ScE93NkZFanI1S3FiV0FnLTlIcm9JY0kzODczbUxOY2RMQmlWUmxOZlQ5NEN4VFQtWm9pSE5BU19LdXpDVkFqRENqWmlJWXlZWXRVb19fRndmM2FfVU9ySHROZDB1MzQyeVhCMEpwd1hKTzZ0VFVMYndDZzUtTERET2dBREtQdHZocXM0VzRDOTh0NG1zd3I0b0hTdHBTU3NfSHBEYWVlS0xPX3ZFZkFXcDI4U2FuX2l6N1Q2UzNQUGYtWVVmT3BpZ2p2U2tqUlU2VEtJNnJFSVFMejhRWWpaZEw4OTNfbDU5U2JqamdzVmR0S0l0ajA?oc=5",
+      "desc": "",
+      "date": "2026-09-29",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7781dcb7096b",
+      "title": "USCIS Adjusts EB-5 Fees to Cover Program Costs and Strengthen Integrity Measures - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelRMWG1NcXY0SzZaUDRvb2xETGVMc2lmdm5Hb1JPbzRhb01iR3o3aTBZM1J6ZFVhWXJCaHNIV084OEFoRl9sWGZpMDEwSUJXb182OGhjNTJvald1blZpOFdTTVY1b2dIY0x3SVhzc3FpWjd2OTdlSXhTVDBqOUJySlBBT3JjMjhNelF2U2R5Ql9JTURjU3h2eGZMVm85WHdVSnEya29CMElDeFNYcUg2Y2E3LWV4ZHQtSHc?oc=5",
+      "desc": "",
+      "date": "2026-09-29",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "dc2cd0b3af32",
+      "title": "USCIS Assists Florida Investigation Leading to Charges for Unlawful Voting - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZDFxT1BSeHZPWGZPakZ5eFFSVG1HS04xNGMxUE1XODhtN2xrZTVkcEIzdVVPSHc1aC1vcnNUNlBwLTdwcjlveGxnMW1IYkJGcDhDTk9NT3RURVlBU0dfbVJqdnJSS0tHS3h0NG54cDFDVnJUbEstd0FLS25EWXhnSU5RRk13dEczYzg3bmhJQmdHVHhXV3dvalBqdFZScUN3NWlTcVMzRlY1WG5iSVBPbWVTYzFMTi0yOUU4?oc=5",
+      "desc": "",
+      "date": "2026-09-29",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "77747694ed91",
@@ -155,6 +218,15 @@
       "category": "uscis"
     },
     {
+      "id": "4590071633e8",
+      "title": "H-1B Cap Season - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU2xVT0Y5MEpIaU1UX0N4MTRUQ0VMOExWNzlnYUNiS29PUlpKMXhtcDdPZkoxOTBTTndxQ0Y5UTZKb0M2SklycHZJb1NSblBseEJKNEpUcFZ4MHJDc0pQVzZRdlBkNW1qN1FrUk54VzdlTzdLNWtOLVIxWVZKUVM3U1lSeHp2SDVyaHkxaUdxX0QyNnZUUXpraHpZRXBUenR4cVgtNjF4ZVg4YmY0c0JHVg?oc=5",
+      "desc": "H-1B Cap Season&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-09-21",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "b1e67cb13ac1",
       "title": "Five Defendants Charged with Defrauding and Exploiting H-2A Visa Program to Smuggle Aliens into the United States - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaEZXMG1za3d2V0U4TFRBdUNhd2owMXlVck5kQ0REaTdfdzVyMEpRckdQTjhEcGRic0xyc29CQU1RRm11THBDN2lrTV9NOHN4VWc0clJndWt4RWNlNDBYUUNIUnN0a3R0YWNRS3luRU5KV1h4OWwzcXRlSWZmSUJFbzZrRnE3NExDcWhMbDJFQnpidnJ5eHA0bTRpZkpDRzdzX0M1d2hGeWMzeFNFTDdXN2FBaG1ZVW1maFRYWW5CR04yLTJsd3Y1UVp2S0NaLUtRZThRMVRUblRJeDVT?oc=5",
@@ -194,6 +266,42 @@
       "id": "a2046ec227c2",
       "title": "Employment Authorization Extensions - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaHVQZExUXzFCbzVFRUJoZ3NRbFFqcjk1R0hoSTQ2ZnhFSVpQc280TzIyc002bVJTQzhHa1BTdkRERFNDbmtST05VRmdfbXBUYnVxX3U5SDlQYnoyYmd3ZjVQTWVfdGUyWkJZMEJDYzdleXNieE9HUjNrVkFOa25ybjhpSW95cFNXWU11VzdQcUhpTmVFMW9VaFZtcEtEcjQy?oc=5",
+      "desc": "",
+      "date": "2026-09-18",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "40b3d364ac33",
+      "title": "Receipts - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKVjhvOTgtcmViNms5b1RJYkhlXzJWYUE2aDhrQU9ncWJqTjV2TU5GUDAxQ2dqZzRWck92SjF6bkhNdk9OLXJUaWFpMFc1UktKQzdiMFF6VklwMXBkZHNITWliajFNMndPUzNJT3pmN0ZwbnhGTjJNSElzbGU?oc=5",
+      "desc": "Receipts&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-09-18",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ead94ad043f9",
+      "title": "Preventing Discrimination - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWk1SS1VCVlc2bzBlUDJrVDk4bVRjOVBDWGNiM2JhZ2doZGNYS3dxdlNPbTctSjJKMkdkWE94TFFPZGN2cWVvUWdBaG5IRVY1VTluVU5NRTFPSmJjVXhodHZ6Uk9Ka3k2WjF0QnhUeF95VDhzajM2azhVcG1SaE5yOTYwalpQUXNXOHM3Q1BFYlM1ZUU?oc=5",
+      "desc": "Preventing Discrimination&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-09-18",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2a7b88be5371",
+      "title": "I-485 Supplement J, Confirmation of Valid Job Offer or Request for Job Portability Under INA Section 204(j) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE51TEZEVG93aW8zZE1kM0xlNnVuWFRfMkNRTHhfQXc1U1dQZTlpZ1JUcnRMcHVXaEFvT0MyTHhoOXlZeGhsX1E?oc=5",
+      "desc": "",
+      "date": "2026-09-18",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "c907ebcfe534",
+      "title": "Completing Section 2, Employer Review and Attestation - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTVRYVdFdU94V2FNaGZtSGJ1b09CWVBINDlRekFrTFlQOE5XTkNKLUhQdG1pbEJnaFhSelZtR0pTTUU2UzhBX0IzQWVqelNOWW1XbVFzMUFCd3piaUtKYkF4VXliRGN0TXIyZXN6bkR5d2VvYlRmQmxhNF9WdTFUX0o1TkNGUVdyb0NhSHRITm9IVTNIR2lqZXlIdzZqMkN5Y0ZveUsteVc4dw?oc=5",
       "desc": "",
       "date": "2026-09-18",
       "source": "USCIS",
@@ -432,114 +540,6 @@
       "date": "2026-09-04",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "27d7c328ad5b",
-      "title": "Court Order on Diversity Immigrant Visa Program Hold Policy - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFZLT285aUdCZjduQUJrZzZ4SEtNdDdzWWhWdVZQS0t0VGV3cTJHRHFCZzU4NVJJWUtMZHRCUGxjUlBRYkRuenVGWXhyeTBmaFZJUUhNRlBqQmdfbXBFcTJjMzdmRU9TUUVtSWIxNU9jb3d1SWc3OVQwQi0zdTYtdkFydUdSSU0zbE1CejhzRnF0MGNuTE5CZTh4WFR1UQ?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "5b8018563984",
-      "title": "DHS Announces Rule for Certain Children Born in the United States to Foreign Government Employees - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdVgxYmFzMlE5cGo3S29IazU4ZElYX0tET2wzbE16LXY2OW83MmVPTEl4bHhwSHRKc2JFbndCNkFzaFhxWGs1Q3U5U3JfR3J5eUJISDFkdHFPUlJ2Tm1CT1JHcU8zQVFVd1IzQ0REUVhIQ3VFVThPTmR2aWNKMlFuUVZMUkNsWnVTT1ZVYTRoLS1kekVSdkc1QkRsbjdNUEs4bGxxX0cwazFaZm5UT2NzOERTc1VMaGZoNk4yS1ZmQXJ6ZDRrUlhUVzVTYXQ2N2hT?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "acc3c6b14aa8",
-      "title": "I-864, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBWdWU5Y2pndzJrX0FNblh4eWRZR05TMTlWaUxLZXpIekFvdE9qeHVhbUZwdnF6aUVQbnVQLXZIaTU?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1d97d1b59f9c",
-      "title": "Green Card Eligibility Categories - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90dXpvU0lrcHR1TjNkUXRjWDdIY1lieWlmMzMtNkRKbVEzMG9yX1NtWjRYVmR0N0VEdG14djlmQ3l4VGZfamNLTjNzQWVMRTl2SE90U0E4blB4SUlHZjhJeWRWWUJKLXZFc21hbWJmT2ZhZTRf?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "41a3a788394c",
-      "title": "Court Order on Diversity Immigrant Visa Program Hold Policy - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFZLT285aUdCZjduQUJrZzZ4SEtNdDdzWWhWdVZQS0t0VGV3cTJHRHFCZzU4NVJJWUtMZHRCUGxjUlBRYkRuenVGWXhyeTBmaFZJUUhNRlBqQmdfbXBFcTJjMzdmRU9TUUVtSWIxNU9jb3d1SWc3OVQwQi0zdTYtdkFydUdSSU0zbE1CejhzRnF0MGNuTE5CZTh4WFR1UQ?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0080d4ec26b6",
-      "title": "DHS Announces Rule for Certain Children Born in the United States to Foreign Government Employees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdVgxYmFzMlE5cGo3S29IazU4ZElYX0tET2wzbE16LXY2OW83MmVPTEl4bHhwSHRKc2JFbndCNkFzaFhxWGs1Q3U5U3JfR3J5eUJISDFkdHFPUlJ2Tm1CT1JHcU8zQVFVd1IzQ0REUVhIQ3VFVThPTmR2aWNKMlFuUVZMUkNsWnVTT1ZVYTRoLS1kekVSdkc1QkRsbjdNUEs4bGxxX0cwazFaZm5UT2NzOERTc1VMaGZoNk4yS1ZmQXJ6ZDRrUlhUVzVTYXQ2N2hT?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "8041de1d4621",
-      "title": "Affidavit of Support - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2ZpLXJxbHRaWWY0bktLMGpDcmtaQWtsOTR4N0pablphNjJVY0c5MWNia2xZVmhMQXhXZkJSX2pjSUNUZEwtc01FbkU0VEZDYzZhNE5rd1hRUTNfem42ZjluczdQdjA5Z2xPOERKTm12MHIwV2x6eEdob1NQeGhzN3pub2FCR201a1RGUEpnWHJFUlE?oc=5",
-      "desc": "Affidavit of Support&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1a89522390a3",
-      "title": "I-864A, Contract Between Sponsor and Household Member - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE94c0NQa3RaelVmTWtneHQxVTc1OG03cHg0SHdPMTVpbUt2S0RPNTQ3Z0lCTm9JaE9QRmxxUlhjNGZVQQ?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "235e6437f5b9",
-      "title": "I-864EZ, Affidavit of Support Under Section 213A of the INA - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8xekQ3bGt0V3N5VHdPQ0xmQzliTVRHV3RNcnZyR1c5TExrZ3Y1c1VqdlZLN242SjBJNUZqQW9BY1k1SEU?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3bd1b0f65c79",
-      "title": "Alien Registration Requirement - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1GMFR1UUROdnQ4RXo2cUJsbjAwV0RCb3E3XzVmNjBmck5CN2gzMERyaHZHbHJFb3o1Mi1qWVlsZ0V6bjhPQlZWYTNMdVRFa19m?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a5189d34cb89",
-      "title": "Green Card Eligibility Categories - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90dXpvU0lrcHR1TjNkUXRjWDdIY1lieWlmMzMtNkRKbVEzMG9yX1NtWjRYVmR0N0VEdG14djlmQ3l4VGZfamNLTjNzQWVMRTl2SE90U0E4blB4SUlHZjhJeWRWWUJKLXZFc21hbWJmT2ZhZTRf?oc=5",
-      "desc": "",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4f73479e3b91",
-      "title": "Affidavit of Support - uscis.gov",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2ZpLXJxbHRaWWY0bktLMGpDcmtaQWtsOTR4N0pablphNjJVY0c5MWNia2xZVmhMQXhXZkJSX2pjSUNUZEwtc01FbkU0VEZDYzZhNE5rd1hRUTNfem42ZjluczdQdjA5Z2xPOERKTm12MHIwV2x6eEdob1NQeGhzN3pub2FCR201a1RGUEpnWHJFUlE?oc=5",
-      "desc": "Affidavit of Support&nbsp;&nbsp;uscis.gov",
-      "date": "2026-09-04",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
