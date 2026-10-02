@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-01T14:23:00Z",
+  "updated": "2026-10-02T13:46:01Z",
   "items": [
+    {
+      "id": "28b49735a66b",
+      "title": "US Department of Labor awards $10.2 million to 67 organizations to promote workplace safety and health training",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261001-0",
+      "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor’s Occupational Safety and Health Administration today announced the award approximately $10.2 million in grant funds to 67 organizations across the nation to support education and training focused on worker safety to help employees a",
+      "date": "2026-10-01",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "fce68bbe66de",
+      "title": "US Labor Department finds railroad illegally terminated employee who refused to work during severe weather",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261001",
+      "desc": "LITTLE ROCK, AR – A U.S. Department of Labor&nbsp;Occupational Safety and Health Administration whistleblower investigation has concluded that Union Pacific Railroad Co. violated the&nbsp;Federal Railroad Safety Act when it removed from service and later terminated a North Little",
+      "date": "2026-10-01",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "5d80ab6cf8eb",
       "title": "US Department of Labor awards $43 million to 7 states to support skills training in shipbuilding, manufacturing, aerospace, other critical industries",
@@ -32,6 +50,15 @@
       "id": "de3ac1b9fed9",
       "title": "USCIS Announces FY 2027 Inflation Increase for Certain Immigration-Related Fees - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWHd2RlYyX1VadFdqZ1VFU2h1OEhyOHpxazRYRjBvRWZfdUhnRzhxOGVkRFpUd0h2TzY0V3hQaVU5TFJXYW9xa25DOUVOQXc5OVk3R3FrLUdybU9jejg3azFqWUhBUjlyYm9mc0I0Z0RXV3YwdGh5SVZ6bFFHTTJRbzd6cG5yUWdTUjI0dExfTXMwREsxSlFQMDFzaHQwbkFKa3F3bk9EZGYyMnBWRzBNTEg4ZkhNRUpO?oc=5",
+      "desc": "",
+      "date": "2026-09-30",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
       "desc": "",
       "date": "2026-09-30",
       "source": "USCIS",
@@ -335,15 +362,6 @@
       "category": "dol"
     },
     {
-      "id": "d1732a553612",
-      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
-      "desc": "",
-      "date": "2026-09-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "5fde27c164bb",
       "title": "Policy Alert - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaXRadGh3VTRqWmQ5bnNwV2VWbVRMX29VZGhkQXY5NloxUjd3akNyeEs2QzBobnhhcXlyUHczQks3NEQwcEtRWEpYQ2VaWloyUlJWNlZLUVZCR3N2VmI0eVloVzU1UkNMYnQzVGpmMXJiWWgyQkdsd29mYndJN1BPOHFHN2lEWkVIRzlNWTRrLWk2OC0yOWc5Y0xINzN6WTlOSThpUl93TWc?oc=5",
@@ -522,24 +540,6 @@
       "date": "2026-09-08",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "2f0afcabfdf3",
-      "title": "This Labor Day, the US Department of Labor celebrates 250 years of the American worker, our nation’s greatest asset",
-      "link": "http://www.dol.gov/newsroom/releases/dol/dol20260907",
-      "desc": "WASHINGTON – As America celebrates Labor Day and its 250th anniversary, the U.S. Department of Labor is honoring the generations of American workers whose skill, strength, ingenuity, and determination built the greatest nation and most powerful economy the world has ever known.Fo",
-      "date": "2026-09-07",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "72fcf6f9bf69",
-      "title": "Acting Secretary Sonderling statement on August jobs report",
-      "link": "http://www.dol.gov/newsroom/releases/osec/osec20260904",
-      "desc": "WASHINGTON&nbsp;– Acting Secretary of Labor Keith Sonderling issued the following statement regarding the August 2026 Employment Situation Report:“President Trump’s economic comeback continues to deliver for American workers and businesses, as this Administration has now surpasse",
-      "date": "2026-09-04",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
