@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-02T13:46:01Z",
+  "updated": "2026-10-03T12:24:41Z",
   "items": [
+    {
+      "id": "4a852cbff82b",
+      "title": "Secretary Sonderling statement on September jobs report",
+      "link": "http://www.dol.gov/newsroom/releases/osec/osec20261002",
+      "desc": "WASHINGTON&nbsp;– Secretary of Labor Keith Sonderling issued the following statement regarding the September 2026 Employment Situation Report:“President Trump’s economic agenda continues to deliver for American workers and businesses. Construction employment rose 11,000 in Septem",
+      "date": "2026-10-02",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "0a351a9b8f50",
+      "title": "Federal Grand Jury Indicts Ten Aliens for Voter Fraud in Minnesota Elections - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHNNWUliTWdmczJNSDFlTXZsTk4yTzRnMERlT3lLRDQ1NUpJVldST0FmbGNpS2tLaTljS1ZIMUsxODlwd0RvdnB5c0YxYnJ2REQwNG1saWdZOG5Qd0NoZmJjWlRsTFNzc3BCd2hleUFkalgzUEdoN3BrV1V2MFVhME1rY3RSdE1kTFBfamwzSUI3R2pJb1Q4Y3lmaE04Y0Nrbkp5ODU5QVVLeHB6bWc4WU45SjgzS1ZVTms3Z0pB?oc=5",
+      "desc": "",
+      "date": "2026-10-02",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "28b49735a66b",
       "title": "US Department of Labor awards $10.2 million to 67 organizations to promote workplace safety and health training",
@@ -18,6 +36,15 @@
       "date": "2026-10-01",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "098a3bda6833",
+      "title": "G-1055, Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-01",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "5d80ab6cf8eb",
@@ -59,6 +86,15 @@
       "id": "d1732a553612",
       "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
+      "desc": "",
+      "date": "2026-09-30",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d701375c78e5",
+      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
       "desc": "",
       "date": "2026-09-30",
       "source": "USCIS",
@@ -380,15 +416,6 @@
       "category": "uscis"
     },
     {
-      "id": "d701375c78e5",
-      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
-      "desc": "",
-      "date": "2026-09-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "317da3f02f01",
       "title": "US Department of Labor debars Louisiana employer from H-2A visa program for federal violations",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260914",
@@ -470,15 +497,6 @@
       "category": "uscis"
     },
     {
-      "id": "098a3bda6833",
-      "title": "G-1055, Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
-      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-09",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "d1c6c266383a",
       "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
@@ -522,24 +540,6 @@
       "date": "2026-09-08",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "95a2cffd27c6",
-      "title": "Expedite Requests - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IZnJwNDhpcWlBanpiM0hGTnRqOC02a1RHUVV2cUN1bUlBNzNxbVI5anVvM1ktVzdBSWxoQ19IcHhKVHZPVUloVmt5djc3X1RMLXRMNUItVlFXM1pKbFZHTC1zWGVuS2JoX0RqWjFB?oc=5",
-      "desc": "Expedite Requests&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-08",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d5f948b5990e",
-      "title": "Immigration and Citizenship Data - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQd3F6bU8xVEtEU2lrOUplZTlqQU4yM19LUWVxWThHcW4teGlXZERwNUpKaHRERURKRDlHMmh2cHl0aTNDN2dDTFF0MXdXLUpFWUlvbTlERDhGbTRxaHUwWTdCYU02UHBhVnp2NDBjalFKdUxPNklaQ3AtVzNJNEFXVllUcExYdWV3QWxuQm1LTEticUxkZ3o0RWZURl8zMnBvZFhlblFOb1FMUXphT0swX2hibXF2VU1ZdU5vQ1d6OXo3WFJlZGdEanRDYnpwTU9LbTBTRjZTMS1iVHdaWUlVS1hFUTBCU0ZsbjU1SFJiNnpmbGh6U3ZRSQ?oc=5",
-      "desc": "",
-      "date": "2026-09-08",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
