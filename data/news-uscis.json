@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-07T14:23:06Z",
+  "updated": "2026-10-08T14:30:39Z",
   "items": [
+    {
+      "id": "4be5ac1d63e5",
+      "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "bb6bd709f629",
+      "title": "US Department of Labor cites Pennsylvania excavation employer for failing to provide trench protection following fatal trench cave-in",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261007",
+      "desc": "CHAMBERSBURG,&nbsp;PA&nbsp;– The U.S. Department of Labor has cited an excavation contractor for willful and serious safety violations after a young worker was fatally injured in a trench collapse.&nbsp;The department’s Occupational Safety and Health Administration opened an inve",
+      "date": "2026-10-07",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "c3cac7ed6c1f",
+      "title": "I-130, Petition for Alien Relative - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBVLXZfTlNic0RpSzhQZFBTWXAyWF85eTcwdU9raU1VN2VOYkdaUExZb3ZXcHIwRlpVSXh5OHB6RTA?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "085169a025c3",
+      "title": "Online Filing Options - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56ZTBsRVJIVWs0eWgzYTlWcnl6SFcyWXJDQlJDQnVXVHRfWno4bmdvVTBncTRoS0NqdkNVeWRnc0F5c0RrT3hIbGQ4eng3eTlGNlpiOXl3?oc=5",
+      "desc": "Online Filing Options&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e86150f3af31",
+      "title": "Italian Alien Charged With Voting in 2024 General Election and Lying About It - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNWE5dGJwUDVTeF9Tdm84WGdLOUVDbEhjSVdFSC05MUloQ3VUSXFoaEpNQnlMdkdKZFA4Y0c2aF9OWjBINGstdTdFX3hpdEdKNDVRelJnWXBhcFN5S21qbHdJdEFhZE9hYl9VN2ZSTk9Tak1tRXFtN05ZUzJ5NnFnWk1mUVJQc3JzTVZiRm5ULWpOeDBtaEx5bFo1S2toRFNwTm01Q04wNmFUeXQtMDV3N1BYSlc5elVxV1hYeGdzaw?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
@@ -149,6 +194,15 @@
       "id": "d701375c78e5",
       "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
+      "desc": "",
+      "date": "2026-09-30",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "413c4c680225",
+      "title": "I-821, Application for Temporary Protected Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OYnZMRTZLcTdSX2lGbjYwX212ZG1adHByYUpuZXUydks0NWY5M2FZeWZtWlNmc3ZvakY5c3ZuM2Y?oc=5",
       "desc": "",
       "date": "2026-09-30",
       "source": "USCIS",
@@ -461,15 +515,6 @@
       "category": "uscis"
     },
     {
-      "id": "4be5ac1d63e5",
-      "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
-      "desc": "",
-      "date": "2026-09-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "317da3f02f01",
       "title": "US Department of Labor debars Louisiana employer from H-2A visa program for federal violations",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20260914",
@@ -493,51 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY1NTSmxtTHFKVWR4YzJibUNNZFpTX01lZnBaTmw2eGV6MHlZSl9OY1hYaUJGdVpTYTZOYi10OTZuWVRMaHRfT2NwUGlUYy0xbFVFWkxONlVvalRKdnQ3YmtldlFGUmEydWFhN1VvYkZsLUdaOXhGU1BZZUdlWDQtTGVpT3c0NFVZemFhYXJxYw?oc=5",
       "desc": "",
       "date": "2026-09-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "9d468b67f45a",
-      "title": "Department of Justice Removes Alien Terrorist in First Use of United States Alien Terrorist Removal Court - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY0JZVGZmUzYxd3JwMWR1RUVlNHh4OHk0aWVnVWlDRU9HdG1sbTlGUEpHM19uNzc1UnBHcDh4MTZWOVVmanJrSmFuVE1UcTktaVRhc196Q1EyeTh1cEZDV0txT2ZqS0dkSktoX2JabG9OT3V4STJGVl95TXdoWF9RQTdSZ3dIeWhZR1B3ckRCdGdDTjF0N05ZdmQweXNUMm83RE9RU280cklSUlJQS0NXeWdUNHpKQlhxYzFIV0wxRXVHZ0hnSW01UklKSHFiTERCZ3YyTDFfclBsR3NC?oc=5",
-      "desc": "",
-      "date": "2026-09-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ff7912e1f814",
-      "title": "Cap Count for H-2B Nonimmigrants - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdU4xWHBZWGl3THNnYlNQb3BrN0ZsNXgyZDE3YkNBb2N3LVlfMjhWVHVhSE1oRi1NSHpsTVFPYnBJWjhFTzhiMmhJNEQyaDM1a1M1V3k5OV9NMmdwRFBnNm14ZVZVSmhMZFk3UmEtZmpXSDFnMi1ldnFHeFRYd2t3N1ZHU1R4ZzhJRzRyTDlyNV9fUW1mNW5DRzFOWGVjcV9wX2JMazlwNWJWZVoxQ1ZhZW9xX3ZfTWk4R3kzc0FDRUw3MHhONWFVM3RmSQ?oc=5",
-      "desc": "",
-      "date": "2026-09-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "c0c0fe70c6f9",
-      "title": "Completing Form I-9 - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FS0dWTlExbGNvRkE3SG02RnlHU3lucTl5NmN2Z3h5NHFYd1lvMHptZlMxNG11Y194c0VXMFVCUTdEUm9jMjQtVkFrNnNQQnphNGZ2WFZ3TnpyUm9xT1l5UnY2MA?oc=5",
-      "desc": "Completing Form I-9&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ecb45f2f4d9d",
-      "title": "H-2B Temporary Non-Agricultural Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVFMbkxpRTJQd3I0UEh3a015bTFhZ0hpR3NxQ3NVZXdEREIyR0lpMWoxblhVWGE4d1FSRVk5b0FyVHpWTVJRelFCR2FJNHNRNGYyLVhvWGtTSzhaQXlGVUVxeDFJOENKQ0RNZ0pVakk5bDBzbTVUR1ZlOG9ZV0dDM1dUWnF5c3ZvTzhMdU5tRmlJYzU2YkRJOXk0SGxvaEl0ZkdleXFUcG0zYTJE?oc=5",
-      "desc": "",
-      "date": "2026-09-11",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "9224da8ddf09",
-      "title": "H and L Filing Fees for Form I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0ZEUzFzRVpXMjIxbExsa2dHNHIxUVVSd3VPSGNrWTNDaDNyMTJqOTJ4NXFtcE53NnVFclc5NFJtaFFtM3NZdEJaZXNtcVBZR01pVG02NnlNOGdJWXZlNTY3VlMyRjlWUkd2OU1CMDJqQXJBNUR5b181M0R2Ry1Cd2Rjc0tjRTFXaDF4ZW5DQTNZXzZ2UFhiRnRDQUhyN29GZ0tWbnZJVzlmb0U?oc=5",
-      "desc": "",
-      "date": "2026-09-09",
       "source": "USCIS",
       "category": "uscis"
     }
