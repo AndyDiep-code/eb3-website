@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T14:30:39Z",
+  "updated": "2026-10-09T14:17:26Z",
   "items": [
     {
       "id": "4be5ac1d63e5",
@@ -47,10 +47,91 @@
       "category": "uscis"
     },
     {
+      "id": "098a3bda6833",
+      "title": "G-1055, Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "27c2e1114f6a",
+      "title": "G-1055 Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
+      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7c8e1899effd",
+      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3c5de086de7b",
+      "title": "I-90, Application to Replace Permanent Resident Card (Green Card) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBoeVQ4YmoyakxtU1ZhYkUteUJiSWVMWENzc0Y1dWc1TGl3N3VVZWp0bU81RWtMZVhUYjF1bGhCQQ?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2dbd81e92814",
+      "title": "I-102, Application for Replacement/Initial Nonimmigrant Arrival-Departure Document - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OV3QyTjFBSm5ab0IxdlB5YlhSZU93Mzd5cG1YNG1qekxnS3dJTjlLNEZoSTNnakNQdGcyTmoxZnA?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "10a3e320cc5d",
+      "title": "I-907, Request for Premium Processing Service - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5vQ2Z6Y0dpS0lJbmNDOWRaLUlIVmU0NDFvN256NW9LZ2dPMF95MjVvUDBQaWEzcG9XSThaaDItblo?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "db7895f05877",
+      "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOXYyX0J6TEhBLVdlUE9TeVY3eEtySzY2VTNIVHNROWdmT2FHcHI4Vm1hY0lDam9JZTB2Ni00N1ZOUkN0Ym5SMzVIWnUtT3BLTmlZTVZoZ0Q2QWhfbkpzTTlYVXkydnh2Y29HNWt3OTI?oc=5",
       "desc": "Form I-9 Acceptable Documents&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ced81b6de508",
+      "title": "Humanitarian or Significant Public Benefit Parole for Aliens Outside the United States - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zNlAzWTFLekdDb3BPZ1pCUjVhR2hBdlNBZTgxM3NNUHRDT2pMM0xiTTN6NkdSVmRWWE95aFl6eFFlOFhZSjVxal9WdjBiX21yOFlIV2tBV1FfOENXdm94RXBNdEo?oc=5",
+      "desc": "",
       "date": "2026-10-05",
       "source": "USCIS",
       "category": "uscis"
@@ -101,28 +182,10 @@
       "category": "dol"
     },
     {
-      "id": "098a3bda6833",
-      "title": "G-1055, Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
-      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "d09afcebd867",
       "title": "Calculate Your Fees - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
       "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "27c2e1114f6a",
-      "title": "G-1055 Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
-      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-01",
       "source": "USCIS",
       "category": "uscis"
@@ -176,15 +239,6 @@
       "id": "de3ac1b9fed9",
       "title": "USCIS Announces FY 2027 Inflation Increase for Certain Immigration-Related Fees - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWHd2RlYyX1VadFdqZ1VFU2h1OEhyOHpxazRYRjBvRWZfdUhnRzhxOGVkRFpUd0h2TzY0V3hQaVU5TFJXYW9xa25DOUVOQXc5OVk3R3FrLUdybU9jejg3azFqWUhBUjlyYm9mc0I0Z0RXV3YwdGh5SVZ6bFFHTTJRbzd6cG5yUWdTUjI0dExfTXMwREsxSlFQMDFzaHQwbkFKa3F3bk9EZGYyMnBWRzBNTEg4ZkhNRUpO?oc=5",
-      "desc": "",
-      "date": "2026-09-30",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d1732a553612",
-      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
       "desc": "",
       "date": "2026-09-30",
       "source": "USCIS",
@@ -407,15 +461,6 @@
       "category": "uscis"
     },
     {
-      "id": "7c8e1899effd",
-      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
-      "desc": "",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "bd8f88a09a67",
       "title": "Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yOWhnTnFONld1Tl9wOGRTZVZaNHBhbW5kNDNoZFN6THhRZ2kwbTVEV0I5ZnFXU21McEN6bnBQZ0xKTjhTU0twZ19EenhhbFBZSEVCeFRMNDRJaUx2QUthNmd5YlEyRVJhMEswSFBjVWo3X0tD?oc=5",
@@ -493,51 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3ZZdTBJcmhfLUFhMUhRQmlJaHM4eVBoR3ZDeURBXzJpNHlNN2xmRUtFSmVNMGtMZ2ExSnBvT3JmMFRTbzR5aXZtMGQyT3VweXZQVE5sUUlfYjRzVHlCbDdZWTB4SG5sWUFqekk2c0Z0RHpVOW1DaC1nSHZLX1l4NlRrV0p2Tm5pSDhTREh5Ykx6YTlkZFFmTWFJTk9SRmJxQWRsNFVCQjlWR2JwcWpjOWtab3Bfb1c1UzNFcUx0ZVhETHlBSXJ5SHgzQ2xOb1dRVDZtUk55ZzRSN28?oc=5",
       "desc": "",
       "date": "2026-09-16",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "419df2a9f33e",
-      "title": "US Department of Labor investigation finds Chicago construction employer exposed workers to continued safety hazards, proposes $265K in penalties",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260915",
-      "desc": "CHICAGO – The U.S. Department of Labor has cited a Calumet City-based residential construction and carpentry employer after two separate investigations into its continued failure to provide fall protection for workers.&nbsp;The department’s Occupational Safety and Health Administ",
-      "date": "2026-09-15",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "5fde27c164bb",
-      "title": "Policy Alert - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaXRadGh3VTRqWmQ5bnNwV2VWbVRMX29VZGhkQXY5NloxUjd3akNyeEs2QzBobnhhcXlyUHczQks3NEQwcEtRWEpYQ2VaWloyUlJWNlZLUVZCR3N2VmI0eVloVzU1UkNMYnQzVGpmMXJiWWgyQkdsd29mYndJN1BPOHFHN2lEWkVIRzlNWTRrLWk2OC0yOWc5Y0xINzN6WTlOSThpUl93TWc?oc=5",
-      "desc": "Policy Alert&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "317da3f02f01",
-      "title": "US Department of Labor debars Louisiana employer from H-2A visa program for federal violations",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20260914",
-      "desc": "NEW ORLEANS – The U.S. Department of Labor debarred a Calcasieu Parish farmer from participating in the H-2A visa program for one year, after an investigation discovered multiple violations under the H-2A program.The department’s&nbsp;Wage and Hour Division determined that Jevon ",
-      "date": "2026-09-14",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "7286e94b0acd",
-      "title": "Peruvian Alien Indicted for Illegally Voting - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTTluYU9KOHlEbzROVVdOX0VkdUY0WmUwb1JJaVdxbEVBdHBhWHA3NDdlQnc2UmhzeWduRlVxUm5kSVBSXzctQ0ktX2MtbFlhdXRyelpsNU1Rb2cxUEFHNGhTVk9Xa0hoNEU1eUM0cTItWWQ5RW9YTGMzR2RCQ2JqekU0N2xMSjhGbkJzbjdzU2Y4YkE?oc=5",
-      "desc": "",
-      "date": "2026-09-14",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "fc022f6bcbb4",
-      "title": "USCIS Reaches H-2B Cap for First Half of FY 2027 - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY1NTSmxtTHFKVWR4YzJibUNNZFpTX01lZnBaTmw2eGV6MHlZSl9OY1hYaUJGdVpTYTZOYi10OTZuWVRMaHRfT2NwUGlUYy0xbFVFWkxONlVvalRKdnQ3YmtldlFGUmEydWFhN1VvYkZsLUdaOXhGU1BZZUdlWDQtTGVpT3c0NFVZemFhYXJxYw?oc=5",
-      "desc": "",
-      "date": "2026-09-11",
       "source": "USCIS",
       "category": "uscis"
     }
