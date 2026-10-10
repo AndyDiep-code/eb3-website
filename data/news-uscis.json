@@ -1,6 +1,42 @@
 {
-  "updated": "2026-10-09T14:17:26Z",
+  "updated": "2026-10-10T13:30:37Z",
   "items": [
+    {
+      "id": "c46e97eb549c",
+      "title": "Keith Sonderling sworn in as 31st US Secretary of Labor",
+      "link": "http://www.dol.gov/newsroom/releases/osec/osec20261009",
+      "desc": "WASHINGTON – Keith Sonderling was sworn in today as the 31st U.S. Secretary of Labor during a ceremony administered by U.S. Treasury Secretary Scott Bessent in the Oval Office.&nbsp;Sonderling has led the U.S. Department of Labor as Acting Secretary since April 2026. He previousl",
+      "date": "2026-10-09",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "d270212ceb40",
+      "title": "Cuban Alien Arrested for Unlawfully Voting - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlgyQ0t5eTBxQ1p4WEd2Q1Fnb1pQZjVoYkFJYUV4eHRDSWdFRzR1NDhNSkN1WmNqQjAzVkdCdDZPMHdFZ1ludzZYQk14ZXpoZTNvWmY0c3VYRUoyaGJhdHhuQ0JyNnVzcmFQN0Zvc0JBZ3Z4UGx1dGdvQUUzdWxDT0JObkRBUFdLdkRHLUdRMnE?oc=5",
+      "desc": "",
+      "date": "2026-10-09",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "c5314661a349",
+      "title": "Former Medical Doctor Convicted of Naturalization Fraud - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUFsQUx0eUl3eXlhNUFWMnlBODY2RjVUX1JtVHo1MndpYUZRRlBOQlZORml1TE5JdmI0VUZtUHcyTGVjT1NWeUxaNjZzUEdsd1JFdWl0ejU3UVNuYnAtanQtSnMwd0pXWkQ5STE2NG5tbXU0S2ZGR3d0NFI4YmFyLUpRdUdRWEtXd0drclpjNWhVazJtZlgzdVR6VXB1RENUUVE?oc=5",
+      "desc": "",
+      "date": "2026-10-09",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3c1e9e718d92",
+      "title": "USCIS Opens Asylum Office in Charlotte - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSGlBbndjYTBndmpiWmhOdjNXTmRQX01HSWhTMDBndG5ZZ0xraDQ5RnRlSmptTnVoVlktblBjbnQyUlVDeFlYZ3h5QzE2R3U3TjM4OUQzalhpc2tlOEU3SThDazRoOTJUWG1uLXRPUWZvbl9iVzZXRnpsaVcxQVdKWWt3?oc=5",
+      "desc": "",
+      "date": "2026-10-09",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "4be5ac1d63e5",
       "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
@@ -119,6 +155,60 @@
       "category": "uscis"
     },
     {
+      "id": "d09afcebd867",
+      "title": "Calculate Your Fees - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
+      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d1c6c266383a",
+      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3979dc61ad3f",
+      "title": "I-601, Application for Waiver of Grounds of Inadmissibility - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBLM1lERjZPWVVDQ2xZUVd2cXNEY24tamxOeE5Ba0V0Ym1XQzVIbWkwVXZEZFZnQkRvbzN2LWNMSzY?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "22fcf5360295",
+      "title": "Direct Filing Addresses for Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWWtkSjR0b0NjSjRLV3FUS1RGcV85R3hMRW82czRPOEVkbzJicmJqMGltWFMyMWZiTC1JZjhmdl9TbUY1WTRwYmJ4V2JzbHl6SUJ0aDI5eUJrXzJhVmhGVnQtY2ZoYXR3Y0UyeWU1VHBmdk9qYXVKc19RcVEwZV90QTBEbUp4MkQtRWFxb3JQR0c5eGxiazVDdnBhZjNSc3pWR2o0aTBkWjhQNVNId3NiTENxOGpEamxaTVRSdUI3SndPeHZDT0RSekdNQ1o2WjJsV3lV?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "fd46c8518f77",
+      "title": "Application for Permission to Reapply for Admission into the United States After Deportation or Removal - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9hRVhZSllEcVV3RjVRMXVOV0lKbHFoQzRqMGlTdXlIQ1ZpMXJDaHYwWm5PTHVCS3U4Y2x5U2Z2aTc?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "28395092dcde",
+      "title": "I-290B, Notice of Appeal or Motion - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE92OE9HeGhSQXFPVzFqYnBLREpCcjJXanZWbXNmaWh4THY1Rk1PZmtpcVVoX1lObDRnVUd4SG11am43dw?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOXYyX0J6TEhBLVdlUE9TeVY3eEtySzY2VTNIVHNROWdmT2FHcHI4Vm1hY0lDam9JZTB2Ni00N1ZOUkN0Ym5SMzVIWnUtT3BLTmlZTVZoZ0Q2QWhfbkpzTTlYVXkydnh2Y29HNWt3OTI?oc=5",
@@ -180,15 +270,6 @@
       "date": "2026-10-01",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "d09afcebd867",
-      "title": "Calculate Your Fees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
-      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-01",
-      "source": "USCIS",
-      "category": "uscis"
     },
     {
       "id": "969579eb0a2b",
@@ -457,87 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaEZXMG1za3d2V0U4TFRBdUNhd2owMXlVck5kQ0REaTdfdzVyMEpRckdQTjhEcGRic0xyc29CQU1RRm11THBDN2lrTV9NOHN4VWc0clJndWt4RWNlNDBYUUNIUnN0a3R0YWNRS3luRU5KV1h4OWwzcXRlSWZmSUJFbzZrRnE3NExDcWhMbDJFQnpidnJ5eHA0bTRpZkpDRzdzX0M1d2hGeWMzeFNFTDdXN2FBaG1ZVW1maFRYWW5CR04yLTJsd3Y1UVp2S0NaLUtRZThRMVRUblRJeDVT?oc=5",
       "desc": "",
       "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "bd8f88a09a67",
-      "title": "Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yOWhnTnFONld1Tl9wOGRTZVZaNHBhbW5kNDNoZFN6THhRZ2kwbTVEV0I5ZnFXU21McEN6bnBQZ0xKTjhTU0twZ19EenhhbFBZSEVCeFRMNDRJaUx2QUthNmd5YlEyRVJhMEswSFBjVWo3X0tD?oc=5",
-      "desc": "",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "410d50c9638d",
-      "title": "I-356, Request for Cancellation of Public Charge Bond - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1CSkpzSmU0Nzk5enFQNmMxbm1XWmR6TDhqWGRLQ3Y4blpwRVNsUzNXSHFla1hjT0R2bUNkNGptNWw?oc=5",
-      "desc": "",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a2046ec227c2",
-      "title": "Employment Authorization Extensions - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaHVQZExUXzFCbzVFRUJoZ3NRbFFqcjk1R0hoSTQ2ZnhFSVpQc280TzIyc002bVJTQzhHa1BTdkRERFNDbmtST05VRmdfbXBUYnVxX3U5SDlQYnoyYmd3ZjVQTWVfdGUyWkJZMEJDYzdleXNieE9HUjNrVkFOa25ybjhpSW95cFNXWU11VzdQcUhpTmVFMW9VaFZtcEtEcjQy?oc=5",
-      "desc": "",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "40b3d364ac33",
-      "title": "Receipts - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKVjhvOTgtcmViNms5b1RJYkhlXzJWYUE2aDhrQU9ncWJqTjV2TU5GUDAxQ2dqZzRWck92SjF6bkhNdk9OLXJUaWFpMFc1UktKQzdiMFF6VklwMXBkZHNITWliajFNMndPUzNJT3pmN0ZwbnhGTjJNSElzbGU?oc=5",
-      "desc": "Receipts&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ead94ad043f9",
-      "title": "Preventing Discrimination - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWk1SS1VCVlc2bzBlUDJrVDk4bVRjOVBDWGNiM2JhZ2doZGNYS3dxdlNPbTctSjJKMkdkWE94TFFPZGN2cWVvUWdBaG5IRVY1VTluVU5NRTFPSmJjVXhodHZ6Uk9Ka3k2WjF0QnhUeF95VDhzajM2azhVcG1SaE5yOTYwalpQUXNXOHM3Q1BFYlM1ZUU?oc=5",
-      "desc": "Preventing Discrimination&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2a7b88be5371",
-      "title": "I-485 Supplement J, Confirmation of Valid Job Offer or Request for Job Portability Under INA Section 204(j) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE51TEZEVG93aW8zZE1kM0xlNnVuWFRfMkNRTHhfQXc1U1dQZTlpZ1JUcnRMcHVXaEFvT0MyTHhoOXlZeGhsX1E?oc=5",
-      "desc": "",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "c907ebcfe534",
-      "title": "Completing Section 2, Employer Review and Attestation - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTVRYVdFdU94V2FNaGZtSGJ1b09CWVBINDlRekFrTFlQOE5XTkNKLUhQdG1pbEJnaFhSelZtR0pTTUU2UzhBX0IzQWVqelNOWW1XbVFzMUFCd3piaUtKYkF4VXliRGN0TXIyZXN6bkR5d2VvYlRmQmxhNF9WdTFUX0o1TkNGUVdyb0NhSHRITm9IVTNIR2lqZXlIdzZqMkN5Y0ZveUsteVc4dw?oc=5",
-      "desc": "",
-      "date": "2026-09-18",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ed91c94dec25",
-      "title": "Immigration Attorney Arrested in Alleged Fraud Scheme - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEc4YXFtaTc4UU1DU09pLUtmVDVhLVZCRjg3eE5JLVdKNGhnaVFTc3FDUlgzNUlHZ0JPWDRNTXZ3VDJuV2RPem9ueGFnT1gxZ2pTTkFyZUdIdHlEalY4SmRFTzd4cmNjSlJlZkR2eENWLXhTNURvbTcyZVBJRG5mMl9peEQyR0VlMmFrY19mdFpLbENyVWs1TVdRZlp6N3c?oc=5",
-      "desc": "",
-      "date": "2026-09-17",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "f1e1fbcd856c",
-      "title": "Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3ZZdTBJcmhfLUFhMUhRQmlJaHM4eVBoR3ZDeURBXzJpNHlNN2xmRUtFSmVNMGtMZ2ExSnBvT3JmMFRTbzR5aXZtMGQyT3VweXZQVE5sUUlfYjRzVHlCbDdZWTB4SG5sWUFqekk2c0Z0RHpVOW1DaC1nSHZLX1l4NlRrV0p2Tm5pSDhTREh5Ykx6YTlkZFFmTWFJTk9SRmJxQWRsNFVCQjlWR2JwcWpjOWtab3Bfb1c1UzNFcUx0ZVhETHlBSXJ5SHgzQ2xOb1dRVDZtUk55ZzRSN28?oc=5",
-      "desc": "",
-      "date": "2026-09-16",
       "source": "USCIS",
       "category": "uscis"
     }
