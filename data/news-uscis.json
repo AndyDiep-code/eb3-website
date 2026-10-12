@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T13:54:18Z",
+  "updated": "2026-10-12T16:39:25Z",
   "items": [
     {
       "id": "c46e97eb549c",
@@ -32,6 +32,15 @@
       "id": "3c1e9e718d92",
       "title": "USCIS Opens Asylum Office in Charlotte - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSGlBbndjYTBndmpiWmhOdjNXTmRQX01HSWhTMDBndG5ZZ0xraDQ5RnRlSmptTnVoVlktblBjbnQyUlVDeFlYZ3h5QzE2R3U3TjM4OUQzalhpc2tlOEU3SThDazRoOTJUWG1uLXRPUWZvbl9iVzZXRnpsaVcxQVdKWWt3?oc=5",
+      "desc": "",
+      "date": "2026-10-09",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2c1c0b0f9d48",
+      "title": "I-140G, Immigrant Petition for the Gold Card Program - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1GdjdGeHRHbHc5b2pnSXB6eThFWjNqVnk0a3Y4aFN5YTVmeWNTSzBhOHpfMGNRRXNnMTdMM0FBOFphdw?oc=5",
       "desc": "",
       "date": "2026-10-09",
       "source": "USCIS",
@@ -218,6 +227,24 @@
       "category": "uscis"
     },
     {
+      "id": "16da7b50e72a",
+      "title": "USCIS Lockbox Filing Locations Chart for Certain Non-Family-Based Forms - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iN3NDczM4TWktR0tEOWlWV1VQQ1J4cnFNaFZUMGdrRmZZQWZQeGFuSWNabTNxNng5RzBJY1A4UXV0dHNrbDZfS1pMLWFWZnNPeVFVUElpdGhBY3FnWGxMWHZ5NmdyNFdwTHc?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "6e6cdaa31e62",
+      "title": "Tips for Filing Forms Online - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52Qk9iRXZMTXdTZmhCRjFKbVo5ei1qeE83dVplbjhJQzRYYUZqekRrQjBKTHo0ZENwRlF4UHVHQ2lRcE16LV9MYWYzaXg2NElxb1dDeTE5RHJnSm1yOFExRlM0T2FiTGk0TjJCWWcwQQ?oc=5",
+      "desc": "Tips for Filing Forms Online&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOXYyX0J6TEhBLVdlUE9TeVY3eEtySzY2VTNIVHNROWdmT2FHcHI4Vm1hY0lDam9JZTB2Ni00N1ZOUkN0Ym5SMzVIWnUtT3BLTmlZTVZoZ0Q2QWhfbkpzTTlYVXkydnh2Y29HNWt3OTI?oc=5",
@@ -398,6 +425,15 @@
       "category": "uscis"
     },
     {
+      "id": "d5f948b5990e",
+      "title": "Immigration and Citizenship Data - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQd3F6bU8xVEtEU2lrOUplZTlqQU4yM19LUWVxWThHcW4teGlXZERwNUpKaHRERURKRDlHMmh2cHl0aTNDN2dDTFF0MXdXLUpFWUlvbTlERDhGbTRxaHUwWTdCYU02UHBhVnp2NDBjalFKdUxPNklaQ3AtVzNJNEFXVllUcExYdWV3QWxuQm1LTEticUxkZ3o0RWZURl8zMnBvZFhlblFOb1FMUXphT0swX2hibXF2VU1ZdU5vQ1d6OXo3WFJlZGdEanRDYnpwTU9LbTBTRjZTMS1iVHdaWUlVS1hFUTBCU0ZsbjU1SFJiNnpmbGh6U3ZRSQ?oc=5",
+      "desc": "",
+      "date": "2026-09-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "54179ec24858",
       "title": "United States Seeks Mexico’s Review of Alleged Denial of Workers’ Rights at Yokohama Tire Manufacturing Mexico, S.A. de C.V.",
       "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20260925",
@@ -502,42 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNmEzakM0bHlfd2dyTkg5M3JFX0tmT2dzRFJxcmNlUHdUQkRIQ184YmdTd1k0SXUzX3dSQVdrdk9RQVIxTEdFLWc1WlFWX0NmYnI2Y2lHdm5OandBdUUzZDI4SHM5bWZ0R25pREZYUEtVNDZrWHZzR1h6YzRja1pTUEVrQ3FQcU9MOW5NWlN2NWpPSFJmdXMwMjViaTgwcjRwM2NyV3lpU1hxdkYtRHc?oc=5",
       "desc": "",
       "date": "2026-09-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "a629d3fbd0c8",
-      "title": "Discretionary Options for Military Members, Enlistees and Their Families - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM3ByRklQdk1aQkt1bzRWTXVmMEkySXR2T29YX1pYVjBsOGFUS05Sdk9tdldIYzZuNVVVZVZ3cWxoN0JNVzdmVkQ0ZVBDU1kzQnA3Q043a1o1SmxEd0U2UjhscUlzTkhfNHdQcmFUT1ZSNVFGY3lmcHFvVVNXbEoybTFOV2lERUxEUUl2ekJmS2JkTGR1QVN6TG5RX3JYcjdaWmVKcw?oc=5",
-      "desc": "",
-      "date": "2026-09-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1fffde47bbd6",
-      "title": "Special Immigrant Religious Workers - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQd3I1Z2ZPUzJrbjBQSjlUWFhrLVJCZXJyV1VKLVVZX1JCdlhKUzE1bHNPQl80VnNXVFcxaldWaGM4TDljX2ZpVWZlZUJIWjFoaXhPdzlUdmJadnVnbUxGWXlyX3dKUlNiMTNJdlp4ZGVobUFfaDR5QzgyV0RrTVlINlNhbHBrWTJoN0o3NmxIc0I2anFVNVdIM2h0TlBoZ2hnblNKMEtXcGR1Q3J6VFhmck1jdE1hanBMTjJfVXo1cEF4TWpPdkNqLUc2ZWFCZEVQcVZSZnhILXJGSVplLXU2TFhZbGx6cG1ETWZpbA?oc=5",
-      "desc": "",
-      "date": "2026-09-21",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "9d865fd419b8",
-      "title": "H-1B Specialty Occupations - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTnBwRDlycE5hYlp5NG15c2otOUFyUWhnZjJzOVJkV2xRWDVXc0NRb091aE1pdzRvQ2JoX1NpYXYtMXNxLW13eGVvNkduM1RzdkhCZEpsUTJ5YlNwYno2TjNWSXV2TTlJMW5UV3k0aW5JMHlUcGMtQk92bE5XMWlJMXVqTQ?oc=5",
-      "desc": "H-1B Specialty Occupations&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-21",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4590071633e8",
-      "title": "H-1B Cap Season - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU2xVT0Y5MEpIaU1UX0N4MTRUQ0VMOExWNzlnYUNiS29PUlpKMXhtcDdPZkoxOTBTTndxQ0Y5UTZKb0M2SklycHZJb1NSblBseEJKNEpUcFZ4MHJDc0pQVzZRdlBkNW1qN1FrUk54VzdlTzdLNWtOLVIxWVZKUVM3U1lSeHp2SDVyaHkxaUdxX0QyNnZUUXpraHpZRXBUenR4cVgtNjF4ZVg4YmY0c0JHVg?oc=5",
-      "desc": "H-1B Cap Season&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-09-21",
       "source": "USCIS",
       "category": "uscis"
     }
