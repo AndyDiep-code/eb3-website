@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T12:48:35Z",
+  "updated": "2026-10-15T12:34:49Z",
   "items": [
     {
       "id": "051f578ef518",
@@ -290,6 +290,15 @@
       "category": "uscis"
     },
     {
+      "id": "d58c67fa50e2",
+      "title": "Forms Available to File Online - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UYTRrY0l0X2hKLUowRkQ3emlseU9kcFlyTjc4dU80UGxaQ2V1LS05RUJYMmZGM3dxczBHLVVfam9MZVkwbHZfRHJYaUJxUW16bjllMWkxS2pTSFQ1Yk04ZFoxc29yaHVBY1p1cDJ0RFBHQQ?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOXYyX0J6TEhBLVdlUE9TeVY3eEtySzY2VTNIVHNROWdmT2FHcHI4Vm1hY0lDam9JZTB2Ni00N1ZOUkN0Ym5SMzVIWnUtT3BLTmlZTVZoZ0Q2QWhfbkpzTTlYVXkydnh2Y29HNWt3OTI?oc=5",
@@ -302,6 +311,15 @@
       "id": "ced81b6de508",
       "title": "Humanitarian or Significant Public Benefit Parole for Aliens Outside the United States - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zNlAzWTFLekdDb3BPZ1pCUjVhR2hBdlNBZTgxM3NNUHRDT2pMM0xiTTN6NkdSVmRWWE95aFl6eFFlOFhZSjVxal9WdjBiX21yOFlIV2tBV1FfOENXdm94RXBNdEo?oc=5",
+      "desc": "",
+      "date": "2026-10-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d8ca2c3def6e",
+      "title": "I-730, Refugee/Asylee Relative Petition - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE4zdUlnSUcxX3pBSmtMcDJDcmZUNmRHNUNqTU1KZ1VSX2lfbWxuM0J6clhqS2FVcFpVUFZHTkRFYXU?oc=5",
       "desc": "",
       "date": "2026-10-05",
       "source": "USCIS",
@@ -520,24 +538,6 @@
       "link": "http://www.dol.gov/newsroom/releases/osha/osha20260924",
       "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor’s Occupational Safety and Health Administration today released a fact sheet to help employers and workers rapidly respond to opioid-related overdose emergencies in the workplace.Opioid emergencies can happen anywhere,&nbsp;including ",
       "date": "2026-09-24",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "c094b97c271b",
-      "title": "US Department of Labor cites New Jersey car wash for willfully exposing workers to safety hazards, proposes more than $446K in fines",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260923-0",
-      "desc": "SICKLERVILLE, NJ&nbsp;– The U.S. Department of Labor has cited a New Jersey car wash service for willfully exposing workers to safety hazards related to hazardous energy and excessive noise levels, proposing $446,864 in penalties.The department’s&nbsp;Occupational Safety and Heal",
-      "date": "2026-09-23",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "cb3acb462ecb",
-      "title": "US Department of Labor cites Florida pipeline installation contractor for willfully exposing workers to safety hazards after March fatality",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260923",
-      "desc": "ORLANDO, FL&nbsp;– The U.S. Department of Labor has cited an Orlando-based pipeline installation contractor for willfully exposing employees to safety hazards after an incident claimed the life of a worker at a New Smyrna Beach worksite in March 2026.The department’s Occupational",
-      "date": "2026-09-23",
       "source": "DOL",
       "category": "dol"
     }
