@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-15T12:34:49Z",
+  "updated": "2026-10-16T12:14:31Z",
   "items": [
+    {
+      "id": "709ff22a863a",
+      "title": "Liberian Child Rapist Convicted of Naturalization Fraud, Denaturalized, and Judicially Ordered Removed from the U.S. - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNenFGenM0VEZscnI2Ykpwa1g0NlUzekY3M09lVTJSSFl1Vl9tbHd5bzhfcTluMjRCMXFzYWNUNlkwODg5b0FRLThOMUVkQ0NhYVlnanFpb3ZIWkphaDdwWW1GMHhNUnNnREhMWmdQanVfbUpPcVY1bWJldnFYSlFHNjJFczAwZy13TkRsZWhuRzkzMEdEcUhINC1xVGtaTHAyeUp1MEx0Z3BnRG9MbmNPQlhCcThYbzBCbF83dHBXS05mamY4R0JsM00wc2MwR0RqekhDbm1LcDQzdmdhOXc?oc=5",
+      "desc": "",
+      "date": "2026-10-15",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "051f578ef518",
       "title": "US Labor Department finds 6 New York, New Jersey construction employers exposed workers to safety hazards, assesses combined $648K in penalties",
@@ -531,15 +540,6 @@
       "date": "2026-09-25",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "1b9efc6bbe87",
-      "title": "US Department of Labor releases new workplace guidance to prepare employers, workers for opioid emergencies",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20260924",
-      "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor’s Occupational Safety and Health Administration today released a fact sheet to help employers and workers rapidly respond to opioid-related overdose emergencies in the workplace.Opioid emergencies can happen anywhere,&nbsp;including ",
-      "date": "2026-09-24",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
