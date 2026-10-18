@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T11:31:18Z",
+  "updated": "2026-10-18T12:00:38Z",
   "items": [
     {
       "id": "53844cdcd004",
@@ -9,6 +9,15 @@
       "date": "2026-10-16",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "098a3bda6833",
+      "title": "G-1055, Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-16",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "709ff22a863a",
@@ -141,15 +150,6 @@
       "title": "Italian Alien Charged With Voting in 2024 General Election and Lying About It - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNWE5dGJwUDVTeF9Tdm84WGdLOUVDbEhjSVdFSC05MUloQ3VUSXFoaEpNQnlMdkdKZFA4Y0c2aF9OWjBINGstdTdFX3hpdEdKNDVRelJnWXBhcFN5S21qbHdJdEFhZE9hYl9VN2ZSTk9Tak1tRXFtN05ZUzJ5NnFnWk1mUVJQc3JzTVZiRm5ULWpOeDBtaEx5bFo1S2toRFNwTm01Q04wNmFUeXQtMDV3N1BYSlc5elVxV1hYeGdzaw?oc=5",
       "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "098a3bda6833",
-      "title": "G-1055, Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
-      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-07",
       "source": "USCIS",
       "category": "uscis"
@@ -320,6 +320,15 @@
       "id": "d58c67fa50e2",
       "title": "Forms Available to File Online - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UYTRrY0l0X2hKLUowRkQ3emlseU9kcFlyTjc4dU80UGxaQ2V1LS05RUJYMmZGM3dxczBHLVVfam9MZVkwbHZfRHJYaUJxUW16bjllMWkxS2pTSFQ1Yk04ZFoxc29yaHVBY1p1cDJ0RFBHQQ?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1e25d4138d6e",
+      "title": "Direct Filing Addresses for Form I-140, Immigrant Petition for Alien Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWG1ZaHZid2JadXZNYXJHaWt2aWkzSnZuYzcxRTFRU0pZLVNYZUcwbXB3cHZOSzhySUNzNUdOQXdrc2ZkdTVLOU9YcDdHeGMwXzIwUlprcEFnWUppQ3BNdTI1WC1LUVl5X2lvdmoyZjZrYkpfc2lfaFFZNEVlbmUyNjNQVGE0TTFXUHBJLUtrMFg5eXdGTUctNUpmTUsyUEs1Ylh6VWFpQWRIRk5POWVJVGRB?oc=5",
       "desc": "",
       "date": "2026-10-07",
       "source": "USCIS",
@@ -531,15 +540,6 @@
       "date": "2026-09-25",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "1aff0fc77792",
-      "title": "Aliens Charged with Illegally Voting and Making False Statements While Applying for US Citizenship - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM0lacFVCYXk1ZDlWS0JDVXJuNEREZjJCVFVhbXVHMDJVLTBFbmZLbXp1ZVdRanJZVU9tN1g4TFUtamZiR25yMUctd3VVa2tVMG9tOFREbzN1Wlh5WHFMa2RKM2xPS3h1clYyc0x5cWZzQkVhMHJ6enNReDFYSGN6QlZjNFdMXzNBczRWVkQ3Yld4TDg2RzdtdTVnWXlQVkFhcFE0a2NUeklGOXJwbWFoZEZfcW93aVlaVVRyVVl3Zk51NWtDSHlKQWFBQ2RMR3BfNVhueHpDTTFqaTQ?oc=5",
-      "desc": "",
-      "date": "2026-09-25",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
