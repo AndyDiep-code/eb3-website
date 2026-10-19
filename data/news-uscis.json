@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T12:00:38Z",
+  "updated": "2026-10-19T14:33:03Z",
   "items": [
     {
       "id": "53844cdcd004",
@@ -15,6 +15,24 @@
       "title": "G-1055, Fee Schedule - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
       "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "27c2e1114f6a",
+      "title": "G-1055 Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
+      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-16",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d09afcebd867",
+      "title": "Calculate Your Fees - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
+      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-16",
       "source": "USCIS",
       "category": "uscis"
@@ -50,6 +68,15 @@
       "id": "bfa473d6351b",
       "title": "Justice Department Moves to Strip Citizenship from 40 Criminals in Largest Single-Period Filing Under the Trump Administration - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWVptRGY1MTZEb3ZfeTF6QzZCVnpYbGFrQTYwaGtZd2Y2TXI2WmRWZXVHd3ZGRDBfRERHa0dSS3hPMy1ac2RIVVJ5RXRQczM2VURLWlJ6UmtQbjB2Yk1IZVNHNkFJYjJSakw1Q01DZUlLOHNVOUF0YTZnVU5NcElEWERGMVFvSGdRSG12NFFna3FZNWFsVmhmci1JdzhRX3ZUbWFRdmF6blBGTVdRRjhuM1g3ZXlwXzhMS3JmeVFlWmtFT0kyRFFWbGFqa3YzSWp4c2hEUlY5cw?oc=5",
+      "desc": "",
+      "date": "2026-10-13",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "35bca25298f7",
+      "title": "I-407, Record of Abandonment of Lawful Permanent Resident Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9ETDRBRUsxa1M0Sm83V0NQTkdYZ3l6X0stWm1EYnZXNC1BSnlDelpvdFh1dk0xZkZZZVoxVDBqWWo?oc=5",
       "desc": "",
       "date": "2026-10-13",
       "source": "USCIS",
@@ -155,15 +182,6 @@
       "category": "uscis"
     },
     {
-      "id": "27c2e1114f6a",
-      "title": "G-1055 Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
-      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "d1732a553612",
       "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
@@ -213,15 +231,6 @@
       "title": "Temporary Protected Status Designated Country: El Salvador - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN01PaF9qVV9zWktFcktDSHlkZ1ZJdld3dUl5Z3Zaa2VCQll1ZHpFWXBJYlRZdFh2ekJ1MVhzNkJpYU1NSkxyTUxOdlcta2xYRC13MXdhYVc1OTM4SnA4dVRNd2RXb3VMR2l1amdnVWpCMDByZ0pIWGloNUt3VGpvQU8tMW5GY24zeHNtWVFDZHhZbGFCOE5BSDV3dTJHZmdRcVE2cVdKVjJBbDFqdkYyWXNoOFFZLXJSbjlF?oc=5",
       "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d09afcebd867",
-      "title": "Calculate Your Fees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
-      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-07",
       "source": "USCIS",
       "category": "uscis"
@@ -357,6 +366,15 @@
       "title": "I-730, Refugee/Asylee Relative Petition - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE4zdUlnSUcxX3pBSmtMcDJDcmZUNmRHNUNqTU1KZ1VSX2lfbWxuM0J6clhqS2FVcFpVUFZHTkRFYXU?oc=5",
       "desc": "",
+      "date": "2026-10-05",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "426ee343af12",
+      "title": "AAO Processing Times - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5vM2lvYVlQRzJWTVBzZW5wbk5Ld1E2RFRRalBqY1B6NXpxUEJhbW5Ock9XRklNZC1CWEZfMEF3TGs1d0RoUWxkcmotSzE0VENSWHVwYnkzTU5UR2JnbkRtSUlFMVpqMmpEWnhEbFo0MXAxZUE?oc=5",
+      "desc": "AAO Processing Times&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-05",
       "source": "USCIS",
       "category": "uscis"
@@ -522,24 +540,6 @@
       "date": "2026-09-28",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "d5f948b5990e",
-      "title": "Immigration and Citizenship Data - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQd3F6bU8xVEtEU2lrOUplZTlqQU4yM19LUWVxWThHcW4teGlXZERwNUpKaHRERURKRDlHMmh2cHl0aTNDN2dDTFF0MXdXLUpFWUlvbTlERDhGbTRxaHUwWTdCYU02UHBhVnp2NDBjalFKdUxPNklaQ3AtVzNJNEFXVllUcExYdWV3QWxuQm1LTEticUxkZ3o0RWZURl8zMnBvZFhlblFOb1FMUXphT0swX2hibXF2VU1ZdU5vQ1d6OXo3WFJlZGdEanRDYnpwTU9LbTBTRjZTMS1iVHdaWUlVS1hFUTBCU0ZsbjU1SFJiNnpmbGh6U3ZRSQ?oc=5",
-      "desc": "",
-      "date": "2026-09-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "54179ec24858",
-      "title": "United States Seeks Mexico’s Review of Alleged Denial of Workers’ Rights at Yokohama Tire Manufacturing Mexico, S.A. de C.V.",
-      "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20260925",
-      "desc": "WASHINGTON – The Office of the United States Trade Representative&nbsp;has invoked the Rapid Response Labor Mechanism (RRM) in the United States-Mexico-Canada Agreement (USMCA)&nbsp;to review whether workers at Yokohama Tire Manufacturing Mexico, S.A. de C.V. (Yokohama), located&",
-      "date": "2026-09-25",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
