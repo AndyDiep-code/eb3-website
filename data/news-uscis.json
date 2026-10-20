@@ -1,6 +1,60 @@
 {
-  "updated": "2026-10-19T14:33:03Z",
+  "updated": "2026-10-20T12:39:22Z",
   "items": [
+    {
+      "id": "f0d2c7a4682f",
+      "title": "US Department of Labor announces field assistance bulletin withdrawing 3 opinion letters on tipped employees",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261019-0",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Wage and Hour Division today announced the issuance of a new field assistance bulletin addressing the treatment of related duties performed by tipped employees under the&nbsp;Fair Labor Standards Act.&nbsp;Field Assistance Bulletin",
+      "date": "2026-10-19",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "2181159faeb8",
+      "title": "US Department of Labor awards $95.5M in grants to support innovative programs for reskilling, reemploying dislocated workers",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20261019",
+      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $95.5&nbsp;million in funding to&nbsp;support the creation of innovative models of training and employment services that connect workers affected by layoffs to high-growth industries.Administered by the depart",
+      "date": "2026-10-19",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "7aa3aa90ce3d",
+      "title": "US Department of Labor awards more than $10.5M in grants to support mine safety, health training across the nation",
+      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261019",
+      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor announced today that its Mine Safety and Health Administration has awarded more than $10.5 million in grants to reduce mining accidents, injuries, and illnesses by supporting training and education programs.The agency is awarding the",
+      "date": "2026-10-19",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "ab8e7ba50ed4",
+      "title": "Consent judgment orders California-based home appliance company to pay $800K to 339 employees denied overtime pay",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261019",
+      "desc": "LOS ANGELES&nbsp;– The U.S. Department of Labor has obtained a consent judgment requiring a home appliance company to pay $800,000 in back wages and damages to 339 employees after an investigation found the company violated federal wage laws.The judgment comes after the departmen",
+      "date": "2026-10-19",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "08b3c8485191",
+      "title": "Massachusetts Man Charged for His Role in Marriage and Immigration Document Fraud - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY1RNV0pldEdsSGUtYUY1bWhqVDNHWFllU0NhNElUYlh3dGMwcEtSRU9VX2ZkWVFOd2tvRmVuUkF0ZGZtZjFrc19GS0F5TjllZHowWnBIY0E3VXY1NDRTQWRoUHJCbjg0SEh0Y0JBUklqYmpNV0ZRZko4YWdCSVo0Y1c2UFpkTl80ZmNoMkxuVS1JRDB3cUlGLUF1cWxaYlBkWW52Vi16VTFrRVYycHptQl95THBDUnZTSTZwLV9yVUp2YzF0?oc=5",
+      "desc": "",
+      "date": "2026-10-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "a8aea392a609",
+      "title": "Providence Immigration Attorney Pleads Guilty to Wire Fraud and Tax Evasion - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnlJYW9KLWVuTkd1YVdfQmFvSWNlNmRmN1BhY2lSVHRCRW5IMGxxWE9MMjJBNG1NMkxZeU1YOHBySC1kNUtZbjlwX0FXdS1aU21MVFY5OTZNdm5jZ3RNZzkwam1tZkRWQmUya0tmbGJ6cXl4UTVKQUNKSUR5b0ltVmU2R0N5RjhyR0dfbUE5Sy14V05iNlZsb21IWG1qZjI0WktkQlZzV2xXSC03Tm5MWFE2SlpqaG5JS1V4eg?oc=5",
+      "desc": "",
+      "date": "2026-10-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "53844cdcd004",
       "title": "US Department of Labor awards $81.5M in grants to support industry-driven job training programs in rural communities",
@@ -344,6 +398,15 @@
       "category": "uscis"
     },
     {
+      "id": "e775c4a184cb",
+      "title": "I-824, Application for Action on an Approved Application or Petition - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9sQ2ZDdjVSVUNOZnJKRnBFQ3FiNTJ6MWNhNWNpYjhMZ3dMYnR0TkJzWVljZ3VJcUVWRWFoR0Q4eS0?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOXYyX0J6TEhBLVdlUE9TeVY3eEtySzY2VTNIVHNROWdmT2FHcHI4Vm1hY0lDam9JZTB2Ni00N1ZOUkN0Ym5SMzVIWnUtT3BLTmlZTVZoZ0Q2QWhfbkpzTTlYVXkydnh2Y29HNWt3OTI?oc=5",
@@ -407,6 +470,15 @@
       "category": "uscis"
     },
     {
+      "id": "27ef62fe372c",
+      "title": "SAVE - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE53czlrUDZ3Z0JrbnBJYTRSYkhaOUQydEVfZ1Mtdl9HbkowUTBVR1NSOUFYMXFtV2lZby1fX056cw?oc=5",
+      "desc": "SAVE&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-02",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "28b49735a66b",
       "title": "US Department of Labor awards $10.2 million to 67 organizations to promote workplace safety and health training",
       "link": "http://www.dol.gov/newsroom/releases/osha/osha20261001-0",
@@ -443,6 +515,15 @@
       "category": "uscis"
     },
     {
+      "id": "76563967cd6f",
+      "title": "I-9 Central - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKa19LdVFRNUpFOTRtU1l1em8xVDRmVWtzZDB6SS1reVdRNEJDSy0zVG14TzVxdmdTTHRVaWMxbjFzNmVKaEJfUA?oc=5",
+      "desc": "I-9 Central&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-01",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "5d80ab6cf8eb",
       "title": "US Department of Labor awards $43 million to 7 states to support skills training in shipbuilding, manufacturing, aerospace, other critical industries",
       "link": "http://www.dol.gov/newsroom/releases/eta/eta20260930",
@@ -459,87 +540,6 @@
       "date": "2026-09-30",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "27d3ce1d3113",
-      "title": "Former union officials charged with wire fraud, conspiracy to commit wire fraud for embezzling approximately $350K in member funds over 5 years",
-      "link": "http://www.dol.gov/newsroom/releases/olms/olms20260930",
-      "desc": "CLEVELAND – An investigation by the U.S. Department of Labor has led to criminal charges for two former union officials who allegedly embezzled approximately $350,000 from the union members they swore to serve.An investigation by the department’s Office of Labor-Management Standa",
-      "date": "2026-09-30",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "de3ac1b9fed9",
-      "title": "USCIS Announces FY 2027 Inflation Increase for Certain Immigration-Related Fees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWHd2RlYyX1VadFdqZ1VFU2h1OEhyOHpxazRYRjBvRWZfdUhnRzhxOGVkRFpUd0h2TzY0V3hQaVU5TFJXYW9xa25DOUVOQXc5OVk3R3FrLUdybU9jejg3azFqWUhBUjlyYm9mc0I0Z0RXV3YwdGh5SVZ6bFFHTTJRbzd6cG5yUWdTUjI0dExfTXMwREsxSlFQMDFzaHQwbkFKa3F3bk9EZGYyMnBWRzBNTEg4ZkhNRUpO?oc=5",
-      "desc": "",
-      "date": "2026-09-30",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d701375c78e5",
-      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
-      "desc": "",
-      "date": "2026-09-30",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "413c4c680225",
-      "title": "I-821, Application for Temporary Protected Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OYnZMRTZLcTdSX2lGbjYwX212ZG1adHByYUpuZXUydks0NWY5M2FZeWZtWlNmc3ZvakY5c3ZuM2Y?oc=5",
-      "desc": "",
-      "date": "2026-09-30",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "345be9d2b3f3",
-      "title": "United States, Mexico Announce Successful Resolution of Rapid Response Labor Mechanism Matter at Akwel Juárez México Facility",
-      "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20260929",
-      "desc": "WASHINGTON&nbsp;– The United States and Mexico today announced the successful resolution of the United States-Mexico-Canada Agreement (USMCA) facility-specific Rapid Response Labor Mechanism (RRM) matter regarding theAkwel&nbsp;Juárez México, S.A. de C.V. (Akwel or&nbsp;the compa",
-      "date": "2026-09-29",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "e144da61d20e",
-      "title": "When to File Your Adjustment of Status Application for Family-Sponsored or Employment-Based Preference Visas: October 2026 - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOS3M3RTN1Ukl1X25lRG9HQjQ4MThzMHY3OEpfN0xtVGlEb1lZUnRkUVAyaG5ScE93NkZFanI1S3FiV0FnLTlIcm9JY0kzODczbUxOY2RMQmlWUmxOZlQ5NEN4VFQtWm9pSE5BU19LdXpDVkFqRENqWmlJWXlZWXRVb19fRndmM2FfVU9ySHROZDB1MzQyeVhCMEpwd1hKTzZ0VFVMYndDZzUtTERET2dBREtQdHZocXM0VzRDOTh0NG1zd3I0b0hTdHBTU3NfSHBEYWVlS0xPX3ZFZkFXcDI4U2FuX2l6N1Q2UzNQUGYtWVVmT3BpZ2p2U2tqUlU2VEtJNnJFSVFMejhRWWpaZEw4OTNfbDU5U2JqamdzVmR0S0l0ajA?oc=5",
-      "desc": "",
-      "date": "2026-09-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7781dcb7096b",
-      "title": "USCIS Adjusts EB-5 Fees to Cover Program Costs and Strengthen Integrity Measures - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelRMWG1NcXY0SzZaUDRvb2xETGVMc2lmdm5Hb1JPbzRhb01iR3o3aTBZM1J6ZFVhWXJCaHNIV084OEFoRl9sWGZpMDEwSUJXb182OGhjNTJvald1blZpOFdTTVY1b2dIY0x3SVhzc3FpWjd2OTdlSXhTVDBqOUJySlBBT3JjMjhNelF2U2R5Ql9JTURjU3h2eGZMVm85WHdVSnEya29CMElDeFNYcUg2Y2E3LWV4ZHQtSHc?oc=5",
-      "desc": "",
-      "date": "2026-09-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "dc2cd0b3af32",
-      "title": "USCIS Assists Florida Investigation Leading to Charges for Unlawful Voting - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZDFxT1BSeHZPWGZPakZ5eFFSVG1HS04xNGMxUE1XODhtN2xrZTVkcEIzdVVPSHc1aC1vcnNUNlBwLTdwcjlveGxnMW1IYkJGcDhDTk9NT3RURVlBU0dfbVJqdnJSS0tHS3h0NG54cDFDVnJUbEstd0FLS25EWXhnSU5RRk13dEczYzg3bmhJQmdHVHhXV3dvalBqdFZScUN3NWlTcVMzRlY1WG5iSVBPbWVTYzFMTi0yOUU4?oc=5",
-      "desc": "",
-      "date": "2026-09-29",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "77747694ed91",
-      "title": "Cuban Alien Convicted for International Alien Smuggling and Money Laundering Conspiracy - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOalBlZXJMTU9HaGwySVVLUlBpRE5uVy05eFlqcjBnako3T0xuUjF3VHUwR2Q3NElCLTE3aGtWdVZBU0p2TW5jOFNUQmIxSFZhSVZQS1RrVER3b2lpWndmajduV2NnSEdjal9DeTdJYVUwUmtlS3d2OTFhdURnM3pCQmxTRS1JdUxoU2paNDlOd2l4NVc4MmJveW4wMjZqQlJQWGRTOHI1OVB6ZDlEUy1tUUktV1E4UHBwQktXRm1lVVMxanhYY1BPSXRlc3U?oc=5",
-      "desc": "",
-      "date": "2026-09-28",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
