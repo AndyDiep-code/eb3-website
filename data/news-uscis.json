@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-20T12:39:22Z",
+  "updated": "2026-10-21T12:51:00Z",
   "items": [
+    {
+      "id": "99238a973f0c",
+      "title": "Canadian Alien Charged with Illegal Voting - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdG1tM0NHcE9RYW1XR0JnTUlrMHV6OFNzbXNXTmF4eUszR3owajgtOU9fTndVSmEtVmFwdi0xWXJMRFNDZHNsTGZMQkRRT2dfNm5MRldXbGd2c2UzSFA1czE0QVJQZTBfMkVPZjBmcG51UlA2SEQ3NGgwM282Z1RwZHJsMUVXS2VrNDJ4VjJVdzY?oc=5",
+      "desc": "",
+      "date": "2026-10-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "74996815825c",
+      "title": "Massachusetts Man Pleads Guilty to Wire Fraud and the Fraudulent Use of Government Seals - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGZoak01Zlh2OUtaakw3SjRLVmk0QS1mbFJBTUQ2OWFuS0hteVROX3BMcjRaM2puZF9tSzBCaUFWMlplQmdEeVNFVUR2MFEzOFc0N2lYdktDZm5aZ2pzbTc3VnEzQkxsTkRCcnZZc29yRm9qQTJUQllYeGRwZFBLeU14eHhrT2w4bHYtODZFR3dYTEpIRGc0MlBvaGg1ZHpZX2RISUhORTJDbDUtSmFiM2VvSGtfOTgwekJCWjI1VkktekRTZm1PSnV5NGJHUQ?oc=5",
+      "desc": "",
+      "date": "2026-10-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "f0d2c7a4682f",
       "title": "US Department of Labor announces field assistance bulletin withdrawing 3 opinion letters on tipped employees",
@@ -50,6 +68,15 @@
       "id": "a8aea392a609",
       "title": "Providence Immigration Attorney Pleads Guilty to Wire Fraud and Tax Evasion - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnlJYW9KLWVuTkd1YVdfQmFvSWNlNmRmN1BhY2lSVHRCRW5IMGxxWE9MMjJBNG1NMkxZeU1YOHBySC1kNUtZbjlwX0FXdS1aU21MVFY5OTZNdm5jZ3RNZzkwam1tZkRWQmUya0tmbGJ6cXl4UTVKQUNKSUR5b0ltVmU2R0N5RjhyR0dfbUE5Sy14V05iNlZsb21IWG1qZjI0WktkQlZzV2xXSC03Tm5MWFE2SlpqaG5JS1V4eg?oc=5",
+      "desc": "",
+      "date": "2026-10-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "b78520ffecc0",
+      "title": "Temporary Protected Status Designated Country: Ukraine - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01bjVhU3dSMmVjSW5CNWxrRFlOUG9zbHk4TVZFWXR4ZVoxelBQcUF3YklSOHJhVm5qOGxKVjI2S19mZW5YMEoxTlF6c0VnOG9PV21qLTQtdkh3N18xUTFoNWFsYlFYdVNDaHlCYU4waERQamRjQ3B2NW81d0d0QQ?oc=5",
       "desc": "",
       "date": "2026-10-19",
       "source": "USCIS",
@@ -513,33 +540,6 @@
       "date": "2026-10-01",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "76563967cd6f",
-      "title": "I-9 Central - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKa19LdVFRNUpFOTRtU1l1em8xVDRmVWtzZDB6SS1reVdRNEJDSy0zVG14TzVxdmdTTHRVaWMxbjFzNmVKaEJfUA?oc=5",
-      "desc": "I-9 Central&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "5d80ab6cf8eb",
-      "title": "US Department of Labor awards $43 million to 7 states to support skills training in shipbuilding, manufacturing, aerospace, other critical industries",
-      "link": "http://www.dol.gov/newsroom/releases/eta/eta20260930",
-      "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor today announced the award of $43 million in Industry-Driven Skills Training Fund grants to seven states to invest in employer-driven skills training programs for critical industries like shipbuilding, advanced manufacturing, and nucl",
-      "date": "2026-09-30",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "b106ad4038c6",
-      "title": "US Labor Department obtains court order naming independent fiduciary  for 401(k) plan of defunct WA-based aerospace company",
-      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20260930",
-      "desc": "SEATTLE – The U.S. Department of Labor has secured a court order to appoint an independent fiduciary to manage the abandoned 401(k) plan of a defunct Arlington-based aerospace company.The order, entered in the U.S. District Court for the Western District of Washington, appoints A",
-      "date": "2026-09-30",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
