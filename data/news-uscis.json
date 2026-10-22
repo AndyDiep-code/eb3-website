@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-21T12:51:00Z",
+  "updated": "2026-10-22T12:53:56Z",
   "items": [
+    {
+      "id": "279f46dbd04c",
+      "title": "US Department of Labor cites Illinois utility construction company for repeated exposure to trenching hazards",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261021",
+      "desc": "CHICAGO – The U.S. Department of Labor has cited a Frankfort-based utility construction company for repeatedly exposing employees to excavation safety hazards after federal investigators observed employees working in an unprotected trench.The department’s Occupational Safety and ",
+      "date": "2026-10-21",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "5b5daa64a486",
+      "title": "US departments of Labor, Health and Human Services expand efforts to help employees access health benefits",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261021",
+      "desc": "WASHINGTON&nbsp;– The departments of Labor and Health and Human Services announced that representatives from several large employers with self-insured health plans signed a statement of support for the expansion of electronic prior authorization reform to the self-insured markets",
+      "date": "2026-10-21",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "99238a973f0c",
       "title": "Canadian Alien Charged with Illegal Voting - USCIS (.gov)",
@@ -15,6 +33,15 @@
       "title": "Massachusetts Man Pleads Guilty to Wire Fraud and the Fraudulent Use of Government Seals - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGZoak01Zlh2OUtaakw3SjRLVmk0QS1mbFJBTUQ2OWFuS0hteVROX3BMcjRaM2puZF9tSzBCaUFWMlplQmdEeVNFVUR2MFEzOFc0N2lYdktDZm5aZ2pzbTc3VnEzQkxsTkRCcnZZc29yRm9qQTJUQllYeGRwZFBLeU14eHhrT2w4bHYtODZFR3dYTEpIRGc0MlBvaGg1ZHpZX2RISUhORTJDbDUtSmFiM2VvSGtfOTgwekJCWjI1VkktekRTZm1PSnV5NGJHUQ?oc=5",
       "desc": "",
+      "date": "2026-10-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1cf755b9d784",
+      "title": "Temporary Protected Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
+      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-20",
       "source": "USCIS",
       "category": "uscis"
@@ -434,6 +461,15 @@
       "category": "uscis"
     },
     {
+      "id": "9aa90471c538",
+      "title": "Direct Filing Addresses for Form I-824, Application for Action on an Approved Application or Petition - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1fMjV1emVhWThwejNQZG1KYmRVRllJN0NZNTJSaTBVRzNWNmdSbGxUWUx0RzBsWFJLWkxHa2xoOHZOVjNJWWRaem94ZU52UQ?oc=5",
+      "desc": "",
+      "date": "2026-10-07",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8a701b6c759c",
       "title": "Form I-9 Acceptable Documents - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOXYyX0J6TEhBLVdlUE9TeVY3eEtySzY2VTNIVHNROWdmT2FHcHI4Vm1hY0lDam9JZTB2Ni00N1ZOUkN0Ym5SMzVIWnUtT3BLTmlZTVZoZ0Q2QWhfbkpzTTlYVXkydnh2Y29HNWt3OTI?oc=5",
@@ -502,42 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE53czlrUDZ3Z0JrbnBJYTRSYkhaOUQydEVfZ1Mtdl9HbkowUTBVR1NSOUFYMXFtV2lZby1fX056cw?oc=5",
       "desc": "SAVE&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "28b49735a66b",
-      "title": "US Department of Labor awards $10.2 million to 67 organizations to promote workplace safety and health training",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261001-0",
-      "desc": "WASHINGTON –&nbsp;The U.S. Department of Labor’s Occupational Safety and Health Administration today announced the award approximately $10.2 million in grant funds to 67 organizations across the nation to support education and training focused on worker safety to help employees a",
-      "date": "2026-10-01",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "fce68bbe66de",
-      "title": "US Labor Department finds railroad illegally terminated employee who refused to work during severe weather",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261001",
-      "desc": "LITTLE ROCK, AR – A U.S. Department of Labor&nbsp;Occupational Safety and Health Administration whistleblower investigation has concluded that Union Pacific Railroad Co. violated the&nbsp;Federal Railroad Safety Act when it removed from service and later terminated a North Little",
-      "date": "2026-10-01",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "969579eb0a2b",
-      "title": "Adjustment of Status Filing Charts from the Visa Bulletin - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
-      "desc": "",
-      "date": "2026-10-01",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "b04d77428414",
-      "title": "Form I-9 Related News - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuWmd4QThsUEVZNFg5dlJnLWFYN0NWbHBPSG1rNWQxNFVRaVJ3ZENvQlU4NlNROExjMFVXWHhzNXoxd2JucHZ4YThKNVhSdTlOQjR0b1J1UDBlNDcyNjJpbjJfb0QtZw?oc=5",
-      "desc": "Form I-9 Related News&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-01",
       "source": "USCIS",
       "category": "uscis"
     }
