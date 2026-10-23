@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-22T12:53:56Z",
+  "updated": "2026-10-23T12:32:33Z",
   "items": [
+    {
+      "id": "dfb1944dfaad",
+      "title": "US Department of Labor secures court order requiring New Jersey employer to pay $700K in back wages, damages to 48 workers denied overtime pay",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261022",
+      "desc": "VOORHEES, NJ&nbsp;–&nbsp;The U.S. Department of Labor has obtained a consent judgment and final order in federal district court requiring a New Jersey drywall installer to pay $725,000 in back wages, damages, and civil money penalties after denying 48 workers overtime pay.The dep",
+      "date": "2026-10-22",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "8eddab5c248b",
+      "title": "Six Charged in Large-Scale Marriage Fraud Ring - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFNzWmg3YzczTDJNSUhjM19yN1FCRU5YUVVBczMtU19IYWpzYnBmUkNERWIta2x0eDNVUmJLX1RRQlJmRDVDUW9VQnl0THM3MGJrMzJobHRXX0Zld3BNaGxhX0NMcDAtZWJPeHZ6bk5pcllhWGFicnMzc3dtWlprY09Pb19QYXVkUHp6ZnJFLXduNzNQd3c?oc=5",
+      "desc": "",
+      "date": "2026-10-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "357f7984b96d",
+      "title": "Alien from South Africa Charged with Unlawful Voting - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ2lwU1VGczF1dEZHTUllSTQyVWJiLXl2UmlxeTRqM05Pd0l5NWpyZ2tpVEQxUUoxS2pUWFBERkNDNmRrNDREWUVxX1VtcVBXRHZ5U2ZKYW1tY3Y5eUdVdXQ1dW9idVh0UWdTOGFQUllzTlhYWkJKRUY1Tkc2YnRFMG9WUS00eDFFdzdRSGpyRk1MYjVYUER5VjVsQUprZw?oc=5",
+      "desc": "",
+      "date": "2026-10-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "0420c1ad6425",
+      "title": "Aliens in Idaho Charged for Illegal Voting - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdnNYdHVyZElOQ0N3OGdBVVFZOGNoRlhqSFF2TUQ2TWdjS2JpaG1LdUoxRzE5cy1oSlZtemxtdC1GOXF5ZEwyVWt3RVNiZDdRekZlcndtOS1qQmRnbTRTelRPY2FqM2xZbTU5eE43c1FPX0dNSjRjbUpqb2tuVUFadzd2c0JkWXc5ZFZpYlpRRDc?oc=5",
+      "desc": "",
+      "date": "2026-10-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "f83f11361129",
+      "title": "Grocery Store Manager Convicted of Immigration Document Fraud, Obstruction of Two Federal Labor Investigations, and Conspiracy - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNFhKRlJMRUJvTkdxVzhpZmJ6Tl8zUUQyMEx2cjY3Y0lwOTZ4NTlhUk9feExDQjhQaG9IOUhHdzdPU1ptYkdnWlpmMXBIU3ZqckFpMlM2dVBBSXIydXYwS3ducnYtdE52Wmx6X0xVd19mZENycDB6UzA3aXhLbkdnbmNKU2lUelJHQWwzNXNfbjdyelByTzVKN3l3RGM5aHYzOXpQRF9VX0FOOXJkR1BubXVVM3Jkc2hlaEd1YU9EOW9YclpyWlRZUkdQWGx2NGtfS0pWRTlB?oc=5",
+      "desc": "",
+      "date": "2026-10-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "279f46dbd04c",
       "title": "US Department of Labor cites Illinois utility construction company for repeated exposure to trenching hazards",
@@ -42,6 +87,15 @@
       "title": "Temporary Protected Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
       "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ecd29e702187",
+      "title": "Temporary Protected Status Designated Country: Venezuela - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNXzl5SEZZQ3V6QUJRX2JjeDNOOVNfeFdGR1BrTld2dWpIMmJMMW43UlZRRU0yQXRXZG91QXFZLTJaTE8zeURlbFAwdjU2T0pmNDhfMlctNm8ybFoxd1F5MVVxV0tpTi10ZF8zYkNvSXg1b2xUR1lwMmRjUWxIbFdEYlhqUnB2Q2trTUpHZV9QNU9PSEZjbk94V3BlXzltWkdLbW9IVnZpSGlrMXlHb1lTYVE0SzZMZk1Q?oc=5",
+      "desc": "",
       "date": "2026-10-20",
       "source": "USCIS",
       "category": "uscis"
@@ -484,60 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zNlAzWTFLekdDb3BPZ1pCUjVhR2hBdlNBZTgxM3NNUHRDT2pMM0xiTTN6NkdSVmRWWE95aFl6eFFlOFhZSjVxal9WdjBiX21yOFlIV2tBV1FfOENXdm94RXBNdEo?oc=5",
       "desc": "",
       "date": "2026-10-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d8ca2c3def6e",
-      "title": "I-730, Refugee/Asylee Relative Petition - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE4zdUlnSUcxX3pBSmtMcDJDcmZUNmRHNUNqTU1KZ1VSX2lfbWxuM0J6clhqS2FVcFpVUFZHTkRFYXU?oc=5",
-      "desc": "",
-      "date": "2026-10-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "426ee343af12",
-      "title": "AAO Processing Times - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5vM2lvYVlQRzJWTVBzZW5wbk5Ld1E2RFRRalBqY1B6NXpxUEJhbW5Ock9XRklNZC1CWEZfMEF3TGs1d0RoUWxkcmotSzE0VENSWHVwYnkzTU5UR2JnbkRtSUlFMVpqMmpEWnhEbFo0MXAxZUE?oc=5",
-      "desc": "AAO Processing Times&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-05",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4a852cbff82b",
-      "title": "Secretary Sonderling statement on September jobs report",
-      "link": "http://www.dol.gov/newsroom/releases/osec/osec20261002",
-      "desc": "WASHINGTON&nbsp;– Secretary of Labor Keith Sonderling issued the following statement regarding the September 2026 Employment Situation Report:“President Trump’s economic agenda continues to deliver for American workers and businesses. Construction employment rose 11,000 in Septem",
-      "date": "2026-10-02",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "0a351a9b8f50",
-      "title": "Federal Grand Jury Indicts Ten Aliens for Voter Fraud in Minnesota Elections - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcHNNWUliTWdmczJNSDFlTXZsTk4yTzRnMERlT3lLRDQ1NUpJVldST0FmbGNpS2tLaTljS1ZIMUsxODlwd0RvdnB5c0YxYnJ2REQwNG1saWdZOG5Qd0NoZmJjWlRsTFNzc3BCd2hleUFkalgzUEdoN3BrV1V2MFVhME1rY3RSdE1kTFBfamwzSUI3R2pJb1Q4Y3lmaE04Y0Nrbkp5ODU5QVVLeHB6bWc4WU45SjgzS1ZVTms3Z0pB?oc=5",
-      "desc": "",
-      "date": "2026-10-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "02ca98862c24",
-      "title": "Former Syrian Prison Official Sentenced for Torture and Immigration Fraud - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWVwTHo1cGlMTy03TWVZcTdGTE5DRlpabDBzMG1xZ0l2Nk12Wm56d1dYTTJhU2Q4SE44YUlQb1NWUDhYakhZRF9VOXJJaWtGMW0wQnRSMmhlenZucFRiRmVLQ1NuNUtQVGduenItMTItdHM1VmVqZUlSb2lSSEFkQWVqb0diNHhLaE11Z0xFOGliTWhqZUJzMVVfRlJnQVhOSDJFa2ZZcFRvR0U3c1BVV2lJRVVFbjhIWEE?oc=5",
-      "desc": "",
-      "date": "2026-10-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "27ef62fe372c",
-      "title": "SAVE - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE53czlrUDZ3Z0JrbnBJYTRSYkhaOUQydEVfZ1Mtdl9HbkowUTBVR1NSOUFYMXFtV2lZby1fX056cw?oc=5",
-      "desc": "SAVE&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-02",
       "source": "USCIS",
       "category": "uscis"
     }
