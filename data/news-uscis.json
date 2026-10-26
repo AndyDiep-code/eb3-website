@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T12:27:49Z",
+  "updated": "2026-10-26T14:05:26Z",
   "items": [
     {
       "id": "ab5f6a587ec0",
@@ -60,6 +60,15 @@
       "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
       "desc": "",
+      "date": "2026-10-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7f518ebe38cc",
+      "title": "Newsroom - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pMTJUd3B2LWk1MVZGSFRZMGpZR1NDdjdlM0IyOVRnM05rMjM2MVNJenNIb3g0dXFDQ1JfajVPODdNZXYw?oc=5",
+      "desc": "Newsroom&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-22",
       "source": "USCIS",
       "category": "uscis"
@@ -317,6 +326,15 @@
       "category": "uscis"
     },
     {
+      "id": "d3e8e62f2769",
+      "title": "I-918, Petition for U Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBaVHpuNVlybWNTQ2FlWTVBWVhXZDVMREZHdkpBbzhzVWNVR3R2T1NRUHltQzk4YzhmWjRGblhzaWs?oc=5",
+      "desc": "",
+      "date": "2026-10-09",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "8240a0f1c21d",
       "title": "Completing Supplement B, Reverification and Rehires (formerly Section 3) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmp0ZGhFTUJuVHhqY0Q3QVc2cFctYmMxMXUxVlpxY1NCN1Rxc0hrWDZtVDZVOWFqLTlIazN0ZlczSmozR2R5eFY0SVlLY3JiU0s1enlmazlZUTFHV2ZyQjJ6V1VsY1JPN1ZTbUJieWZHWmVSbHFZTVdtT3Qyc01SVW8zaEVaZVFzUnVCdVo1Q2c5UUMyN01nSWpkRHpEWlREa0Yxbzh1YkRMel9EcDEtZjUyN3hhMUR1QnUwaElVcUU?oc=5",
@@ -518,24 +536,6 @@
       "id": "d58c67fa50e2",
       "title": "Forms Available to File Online - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UYTRrY0l0X2hKLUowRkQ3emlseU9kcFlyTjc4dU80UGxaQ2V1LS05RUJYMmZGM3dxczBHLVVfam9MZVkwbHZfRHJYaUJxUW16bjllMWkxS2pTSFQ1Yk04ZFoxc29yaHVBY1p1cDJ0RFBHQQ?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1e25d4138d6e",
-      "title": "Direct Filing Addresses for Form I-140, Immigrant Petition for Alien Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWG1ZaHZid2JadXZNYXJHaWt2aWkzSnZuYzcxRTFRU0pZLVNYZUcwbXB3cHZOSzhySUNzNUdOQXdrc2ZkdTVLOU9YcDdHeGMwXzIwUlprcEFnWUppQ3BNdTI1WC1LUVl5X2lvdmoyZjZrYkpfc2lfaFFZNEVlbmUyNjNQVGE0TTFXUHBJLUtrMFg5eXdGTUctNUpmTUsyUEs1Ylh6VWFpQWRIRk5POWVJVGRB?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e775c4a184cb",
-      "title": "I-824, Application for Action on an Approved Application or Petition - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9sQ2ZDdjVSVUNOZnJKRnBFQ3FiNTJ6MWNhNWNpYjhMZ3dMYnR0TkJzWVljZ3VJcUVWRWFoR0Q4eS0?oc=5",
       "desc": "",
       "date": "2026-10-07",
       "source": "USCIS",
