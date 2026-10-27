@@ -1,6 +1,33 @@
 {
-  "updated": "2026-10-26T14:05:26Z",
+  "updated": "2026-10-27T13:06:40Z",
   "items": [
+    {
+      "id": "0d2b40241620",
+      "title": "US Department of Labor obtains consent order against retirement plan fiduciaries of defunct Chicago law firm for failing to distribute $6.4M in assets",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261026",
+      "desc": "CHICAGO&nbsp;–&nbsp;Following a complaint filed by the U.S. Department of Labor, a defunct Chicago law firm’s retirement plan distributed $6,498,858 in retirement plan assets to 40 employees. The plan’s fiduciaries failed to properly terminate the plan and disburse those funds as",
+      "date": "2026-10-26",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "00ab2711d981",
+      "title": "US Department of Labor awards $250,000 in Brookwood-Sago Grants to promote mine safety, health education",
+      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261026",
+      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $250,000 in Brookwood-Sago grant funding to two organizations to support education and training initiatives that will help identify and prevent unsafe working conditions in and around the nation’s mines.Admini",
+      "date": "2026-10-26",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "6f1a03c416c2",
+      "title": "Litigation-Related Update: Sileiri Doe Class Members May Request Reopening or Reconsideration of an Adverse Decision Without a Fee - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN2cyWUZuSk8wcm9LcTdPdUdiT2NicTI3bE5BWmh0ZmU2WEgtWDN0OFZyeTI1MWNLMGtyTzVKaHJUdnByZmRJbEgwTmVIOTE1LXp6amFJX2dycEtOSWRjbEFpVGlrRXA5SUprb3lJeHpxMjR0dS1GeDNoWWh5UkMwZFBZbmV4RGpJdmkzaEpHM1l4OHJNSG0xYWJGdlFWQ0tSWUxMQThwT0xIa2FLNk5acmpGaVdoOHJTT3dZbVNiWkNkdXhVQjMtbk5SdmY3ZW1Tdnc?oc=5",
+      "desc": "",
+      "date": "2026-10-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "ab5f6a587ec0",
       "title": "US Department of Labor, US Trade Representative secure another USMCA enforcement victory in Amphenol case",
@@ -74,6 +101,15 @@
       "category": "uscis"
     },
     {
+      "id": "979de9c14b4e",
+      "title": "G-325R, Biographic Information (Registration) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96VUlMZXVOek4tQ1NuZ1JxOGM4Tzh0NXRjOGUxczBzc3ViU1J4YXY0a0h2Z1hMN0FTajRaUlY2UGUwNF8yeXJ5aTZ2Zl9xcXZRVFhZNlhLdw?oc=5",
+      "desc": "",
+      "date": "2026-10-22",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "279f46dbd04c",
       "title": "US Department of Labor cites Illinois utility construction company for repeated exposure to trenching hazards",
       "link": "http://www.dol.gov/newsroom/releases/osha/osha20261021",
@@ -90,6 +126,15 @@
       "date": "2026-10-21",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "e19a09a38187",
+      "title": "G-1450, Authorization for Credit Card Transactions - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ZZUhvUVk4NDl4TVdVT0FvMG9TeFZ6YVNDblZUVTIxMktiRnNELW9wUzNSSE1LRVR2M09xay1RLWFrdw?oc=5",
+      "desc": "",
+      "date": "2026-10-21",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "99238a973f0c",
@@ -276,6 +321,15 @@
       "title": "I-407, Record of Abandonment of Lawful Permanent Resident Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9ETDRBRUsxa1M0Sm83V0NQTkdYZ3l6X0stWm1EYnZXNC1BSnlDelpvdFh1dk0xZkZZZVoxVDBqWWo?oc=5",
       "desc": "",
+      "date": "2026-10-13",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ae0a6ac33f0e",
+      "title": "USCIS Contact Center - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBETHBGMDM2Qk0zd3MxbmVIdUhucUpQTnNyV3FwVVdxRGo4OENFUTRwQk82Wl9pNzd0MG05UFVrWV9rMGZranBMZVUtZw?oc=5",
+      "desc": "USCIS Contact Center&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-13",
       "source": "USCIS",
       "category": "uscis"
@@ -482,60 +536,6 @@
       "id": "28395092dcde",
       "title": "I-290B, Notice of Appeal or Motion - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE92OE9HeGhSQXFPVzFqYnBLREpCcjJXanZWbXNmaWh4THY1Rk1PZmtpcVVoX1lObDRnVUd4SG11am43dw?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3cc327120b25",
-      "title": "Filing Addresses for Form I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05aU1LMVJuQVhsLVYzTWxoWTBmbGUyemNZVG5zMVhDYXF2ZV9mNnp4b29qOGV1cURWNDc1T2pNQmY5Mi1vcU1idEs4QVRoZw?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "16da7b50e72a",
-      "title": "USCIS Lockbox Filing Locations Chart for Certain Non-Family-Based Forms - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iN3NDczM4TWktR0tEOWlWV1VQQ1J4cnFNaFZUMGdrRmZZQWZQeGFuSWNabTNxNng5RzBJY1A4UXV0dHNrbDZfS1pMLWFWZnNPeVFVUElpdGhBY3FnWGxMWHZ5NmdyNFdwTHc?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "6e6cdaa31e62",
-      "title": "Tips for Filing Forms Online - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52Qk9iRXZMTXdTZmhCRjFKbVo5ei1qeE83dVplbjhJQzRYYUZqekRrQjBKTHo0ZENwRlF4UHVHQ2lRcE16LV9MYWYzaXg2NElxb1dDeTE5RHJnSm1yOFExRlM0T2FiTGk0TjJCWWcwQQ?oc=5",
-      "desc": "Tips for Filing Forms Online&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0252cd903009",
-      "title": "I-192, Application for Advance Permission to Enter as a Nonimmigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1RcVNNY01pMF9Cb0ZnejBwR2NKYUVlaGlOb2E0eV9rbTBoWlBVQk1uYUNWQ1BBaUZHQVpGRENuVTU?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "e44902aaaba4",
-      "title": "Direct Filing Addresses for Form I-360, Immigrant Petition for Amerasian, Widow(er) or Special Immigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTmpwOVN6WDFPejJoNEx1eXlxY3ptUzctb3VhZk44NXNwZTRSRmhUYUZqbklhdXhDOEJza3l3YUpnVjdOYzkzSVlyYU13RHNVUk0zVV85ZmNKWGxSbEtsUHY3UkhnX2VVRDBSZ3FTRzBlbDJ1VEJNcFJRTTYzb2tleGFZdzM1bXVnMWxkMWR0bFA0cE5wVzE3bGFERUxXOFFVUi1iTkNOUkdNZjhWMjR0MWxhVTgxcnUzRVhCMUZhWGpUSy1UVHR3TkZMV2NoRjZzS19fMA?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d58c67fa50e2",
-      "title": "Forms Available to File Online - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UYTRrY0l0X2hKLUowRkQ3emlseU9kcFlyTjc4dU80UGxaQ2V1LS05RUJYMmZGM3dxczBHLVVfam9MZVkwbHZfRHJYaUJxUW16bjllMWkxS2pTSFQ1Yk04ZFoxc29yaHVBY1p1cDJ0RFBHQQ?oc=5",
       "desc": "",
       "date": "2026-10-07",
       "source": "USCIS",
