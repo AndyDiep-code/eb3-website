@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-29T14:04:58Z",
+  "updated": "2026-10-30T13:57:14Z",
   "items": [
+    {
+      "id": "fb160dde5f4e",
+      "title": "US Department of Labor finalizes pharmacy benefit manager transparency rule, delivering big win for American workers, families",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261029",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s Employee Benefits Security Administration today finalized a landmark rule that will require pharmacy benefit managers and their affiliated brokers and consultants to disclose their fees and compensation to large employers’ self-insured ",
+      "date": "2026-10-29",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "20d04e32736b",
+      "title": "Under President Trump’s Leadership, USCIS Takes Unprecedented 2.2 Million Enforcement Actions Protecting Americans Across the Nation - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR3JMc052R1VkUXJfSExvdDVtOWFyY3NIMGpTWkg1R2MzUzRDUGU5MjVPM2liOG41c2pIdHZZU0dacElSS3J4S1ZQdHBOeUJqODF4WkJMTVluMHVGODgybXF1YktVM213Wi1FRFNoNnI4bjVFekR3alp1UHNYWjBYYlRXQTNrXzZLVjBHaEg0eEFLTFdjQVZQdGxzQTRlaFdJMklZZUpFYkV3YlhJcFpQbXA4QjhvUkhlLW1tX1JZbGhyUE5uRndVNERDWXBMN1M4?oc=5",
+      "desc": "",
+      "date": "2026-10-29",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "a36be8cb1e0f",
       "title": "US Department of Labor recovers $603K for 829 workers  denied overtime pay by Indiana auto parts manufacturer",
@@ -20,6 +38,15 @@
       "category": "uscis"
     },
     {
+      "id": "098a3bda6833",
+      "title": "G-1055, Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "cae0adb40e7c",
       "title": "US Department of Labor finds none of nation’s 12,000 mining operations met criteria for pattern of violations in fiscal year 2026",
       "link": "http://www.dol.gov/newsroom/releases/msha/msha20261027",
@@ -33,6 +60,24 @@
       "title": "Policy Alert - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXN3QW9zbWhzWGM3azJkcDRNdmprdHI1bXBUVVJsSHhmRjZCbGZIUHpsZlU0V0FXZ2czQUw1Q0YyR2RXS3hIZTdsTjNLUlNrQ2JWRG1zWlNDNXlQb2ZjcjNMNmJ5NVdwQjJSb3lKRmhnYklDRk5sY2cwdzR2WlluS0h5SXlUWE9OSW05eHg1VDZXakZVV0pSWjl3d1BrSDY5RlRlX0FzcThKLWZFSFBocERB?oc=5",
       "desc": "Policy Alert&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-27",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7ac7f68ec1fd",
+      "title": "Updates - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1czJKbVAtcDd0VmlaTWxocV9vbmlmRmE4UGNvRE9NYTlselZRaFBLTExVb1h3TF9OZjdJSDRtci1ORFlRanhBRk1sdy1pNkpaa21fQVl3?oc=5",
+      "desc": "Updates&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-27",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "34cf5a0121d0",
+      "title": "Asylum - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
+      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-27",
       "source": "USCIS",
       "category": "uscis"
@@ -78,15 +123,6 @@
       "title": "I-290B, Notice of Appeal or Motion - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE92OE9HeGhSQXFPVzFqYnBLREpCcjJXanZWbXNmaWh4THY1Rk1PZmtpcVVoX1lObDRnVUd4SG11am43dw?oc=5",
       "desc": "",
-      "date": "2026-10-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "098a3bda6833",
-      "title": "G-1055, Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
-      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-26",
       "source": "USCIS",
       "category": "uscis"
@@ -500,42 +536,6 @@
       "id": "d1732a553612",
       "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7c8e1899effd",
-      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "3c5de086de7b",
-      "title": "I-90, Application to Replace Permanent Resident Card (Green Card) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBoeVQ4YmoyakxtU1ZhYkUteUJiSWVMWENzc0Y1dWc1TGl3N3VVZWp0bU81RWtMZVhUYjF1bGhCQQ?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "2dbd81e92814",
-      "title": "I-102, Application for Replacement/Initial Nonimmigrant Arrival-Departure Document - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OV3QyTjFBSm5ab0IxdlB5YlhSZU93Mzd5cG1YNG1qekxnS3dJTjlLNEZoSTNnakNQdGcyTmoxZnA?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "10a3e320cc5d",
-      "title": "I-907, Request for Premium Processing Service - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5vQ2Z6Y0dpS0lJbmNDOWRaLUlIVmU0NDFvN256NW9LZ2dPMF95MjVvUDBQaWEzcG9XSThaaDItblo?oc=5",
       "desc": "",
       "date": "2026-10-07",
       "source": "USCIS",
