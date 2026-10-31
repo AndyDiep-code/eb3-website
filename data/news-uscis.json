@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T13:57:14Z",
+  "updated": "2026-10-31T13:31:19Z",
   "items": [
     {
       "id": "fb160dde5f4e",
@@ -42,6 +42,24 @@
       "title": "G-1055, Fee Schedule - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
       "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7f518ebe38cc",
+      "title": "Newsroom - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pMTJUd3B2LWk1MVZGSFRZMGpZR1NDdjdlM0IyOVRnM05rMjM2MVNJenNIb3g0dXFDQ1JfajVPODdNZXYw?oc=5",
+      "desc": "Newsroom&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-28",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d09afcebd867",
+      "title": "Calculate Your Fees - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
+      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-28",
       "source": "USCIS",
       "category": "uscis"
@@ -200,15 +218,6 @@
       "category": "uscis"
     },
     {
-      "id": "7f518ebe38cc",
-      "title": "Newsroom - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pMTJUd3B2LWk1MVZGSFRZMGpZR1NDdjdlM0IyOVRnM05rMjM2MVNJenNIb3g0dXFDQ1JfajVPODdNZXYw?oc=5",
-      "desc": "Newsroom&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "979de9c14b4e",
       "title": "G-325R, Biographic Information (Registration) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96VUlMZXVOek4tQ1NuZ1JxOGM4Tzh0NXRjOGUxczBzc3ViU1J4YXY0a0h2Z1hMN0FTajRaUlY2UGUwNF8yeXJ5aTZ2Zl9xcXZRVFhZNlhLdw?oc=5",
@@ -360,15 +369,6 @@
       "date": "2026-10-16",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "d09afcebd867",
-      "title": "Calculate Your Fees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
-      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-16",
-      "source": "USCIS",
-      "category": "uscis"
     },
     {
       "id": "709ff22a863a",
