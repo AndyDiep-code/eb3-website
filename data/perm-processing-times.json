@@ -1,19 +1,13 @@
 {
-  "source_as_of": "10/21/2026",
+  "source_as_of": "10/31/2026",
   "queue": {
-    "analyst_review": "January 2026",
-    "audit_review": "December 2025",
-    "reconsideration_review": "May 2026"
+    "analyst_review": "Last 90 Days",
+    "audit_review": null,
+    "reconsideration_review": null
   },
   "average_days": {
-    "analyst_review": {
-      "month": "August 2026",
-      "days": 303
-    },
-    "audit_review": {
-      "month": "August 2026",
-      "days": null
-    }
+    "analyst_review": null,
+    "audit_review": null
   },
-  "updated": "2026-11-02T19:13:24Z"
+  "updated": "2026-11-03T16:50:45Z"
 }
