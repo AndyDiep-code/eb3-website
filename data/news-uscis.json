@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-02T16:57:57Z",
+  "updated": "2026-11-03T14:58:10Z",
   "items": [
+    {
+      "id": "103368194389",
+      "title": "US Department of Labor launches Registered Apprenticeship incentive payments for high-growth industries",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20261102",
+      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor announced today that Registered Apprenticeship sponsors can begin applying for direct payments of up to $6,000 per apprentice through the&nbsp;Pay-for-Performance Incentive Payments Program. The opening of applications follows Presid",
+      "date": "2026-11-02",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "2f3a72fa4949",
+      "title": "Homeland Security Task Force Investigation Yields Federal Charges for 13 Aliens Charged with Fraud Against the United States - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSk91R3ZzVzNETDNGNVZudW9rd3g3ZHhVV1BDOWF4N0M4T3ZtVXdGUGNzZmttM3NVcWhDWTZLM0w3QmRqRVlJTzJKVU5WbHN3OURacHBQRXBQd3Q3RHNlZWFENHhXRk1Pd0NkQjJpZEVFWW1wZkhsTTF6NG1XQUNvQ3FKRk9BSUlVaTFiX1BPWF9kMjNWUmtyal9kMXJEMWxGM3BZQTN3Z2lzbktlUkxtRlgtaTctNF9vNnE1NmxZYzV5MXhUb1RhZEk3R1pqMVU0V1BYQlV3MEIxZ3M?oc=5",
+      "desc": "",
+      "date": "2026-11-02",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "d1c6c266383a",
       "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
@@ -168,6 +186,15 @@
       "title": "G-1055 Fee Schedule - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
       "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-10-26",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "b42f6d4a9e8c",
+      "title": "I-914, Application for T Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMG1HTG9MSmF0WFJnM0hodHZxc3UwMTJLNnRXano4SVFiVWltSlBhb1JlY2RBanVBSTVRcHAtR0c?oc=5",
+      "desc": "",
       "date": "2026-10-26",
       "source": "USCIS",
       "category": "uscis"
@@ -510,33 +537,6 @@
       "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
       "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "bb6bd709f629",
-      "title": "US Department of Labor cites Pennsylvania excavation employer for failing to provide trench protection following fatal trench cave-in",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261007",
-      "desc": "CHAMBERSBURG,&nbsp;PA&nbsp;– The U.S. Department of Labor has cited an excavation contractor for willful and serious safety violations after a young worker was fatally injured in a trench collapse.&nbsp;The department’s Occupational Safety and Health Administration opened an inve",
-      "date": "2026-10-07",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "c3cac7ed6c1f",
-      "title": "I-130, Petition for Alien Relative - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBVLXZfTlNic0RpSzhQZFBTWXAyWF85eTcwdU9raU1VN2VOYkdaUExZb3ZXcHIwRlpVSXh5OHB6RTA?oc=5",
-      "desc": "",
-      "date": "2026-10-07",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "085169a025c3",
-      "title": "Online Filing Options - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56ZTBsRVJIVWs0eWgzYTlWcnl6SFcyWXJDQlJDQnVXVHRfWno4bmdvVTBncTRoS0NqdkNVeWRnc0F5c0RrT3hIbGQ4eng3eTlGNlpiOXl3?oc=5",
-      "desc": "Online Filing Options&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-07",
       "source": "USCIS",
       "category": "uscis"
