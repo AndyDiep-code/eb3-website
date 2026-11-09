@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-08T14:12:41Z",
+  "updated": "2026-11-09T17:21:41Z",
   "items": [
+    {
+      "id": "a7ddbcc51ed7",
+      "title": "G-325A, Biographic Information (for Deferred Action) - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBXbzIwbFo4VHdOandZUFNLelBtdUEzcWVVUkMyUDFvUW1PNGJ5MUJ4ZTZOdVR5cGNWUV9yMktYYWs2Zw?oc=5",
+      "desc": "",
+      "date": "2026-11-09",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "76b98c8beabf",
       "title": "US secures labor victory in Alimentos Grole case in Mexico, advancing fair competition for American workers",
@@ -531,15 +540,6 @@
       "date": "2026-10-09",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "d270212ceb40",
-      "title": "Cuban Alien Arrested for Unlawfully Voting - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlgyQ0t5eTBxQ1p4WEd2Q1Fnb1pQZjVoYkFJYUV4eHRDSWdFRzR1NDhNSkN1WmNqQjAzVkdCdDZPMHdFZ1ludzZYQk14ZXpoZTNvWmY0c3VYRUoyaGJhdHhuQ0JyNnVzcmFQN0Zvc0JBZ3Z4UGx1dGdvQUUzdWxDT0JObkRBUFdLdkRHLUdRMnE?oc=5",
-      "desc": "",
-      "date": "2026-10-09",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
