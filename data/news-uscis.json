@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T17:21:41Z",
+  "updated": "2026-11-10T15:30:11Z",
   "items": [
     {
       "id": "a7ddbcc51ed7",
@@ -9,6 +9,15 @@
       "date": "2026-11-09",
       "source": "USCIS",
       "category": "uscis"
+    },
+    {
+      "id": "9c6772cfef7e",
+      "title": "US Department of Labor publishes proposed rule setting national minimum weekly work search requirement for unemployment insurance",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20261109",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Employment and Training Administration today announced a proposed rule designed to improve the integrity and accountability of the Federal-State Unemployment Insurance Program by establishing a national minimum weekly work search s",
+      "date": "2026-11-09",
+      "source": "DOL",
+      "category": "dol"
     },
     {
       "id": "76b98c8beabf",
@@ -60,6 +69,15 @@
       "title": "Newsroom - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pMTJUd3B2LWk1MVZGSFRZMGpZR1NDdjdlM0IyOVRnM05rMjM2MVNJenNIb3g0dXFDQ1JfajVPODdNZXYw?oc=5",
       "desc": "Newsroom&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-03",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "34cf5a0121d0",
+      "title": "Asylum - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
+      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-11-03",
       "source": "USCIS",
       "category": "uscis"
@@ -186,15 +204,6 @@
       "title": "Updates - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1czJKbVAtcDd0VmlaTWxocV9vbmlmRmE4UGNvRE9NYTlselZRaFBLTExVb1h3TF9OZjdJSDRtci1ORFlRanhBRk1sdy1pNkpaa21fQVl3?oc=5",
       "desc": "Updates&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-27",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "34cf5a0121d0",
-      "title": "Asylum - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
-      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-27",
       "source": "USCIS",
       "category": "uscis"
@@ -531,15 +540,6 @@
       "date": "2026-10-13",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "c46e97eb549c",
-      "title": "Keith Sonderling sworn in as 31st US Secretary of Labor",
-      "link": "http://www.dol.gov/newsroom/releases/osec/osec20261009",
-      "desc": "WASHINGTON – Keith Sonderling was sworn in today as the 31st U.S. Secretary of Labor during a ceremony administered by U.S. Treasury Secretary Scott Bessent in the Oval Office.&nbsp;Sonderling has led the U.S. Department of Labor as Acting Secretary since April 2026. He previousl",
-      "date": "2026-10-09",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
