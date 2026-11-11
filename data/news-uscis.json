@@ -1,6 +1,33 @@
 {
-  "updated": "2026-11-10T15:30:11Z",
+  "updated": "2026-11-11T15:01:22Z",
   "items": [
+    {
+      "id": "894fc00ae7a2",
+      "title": "US Department of Labor announces plans to update employment resources for service members transitioning to civilian life",
+      "link": "http://www.dol.gov/newsroom/releases/vets/vets20261110",
+      "desc": "WASHINGTON&nbsp;–&nbsp;The departments of Labor, War, and Veterans Affairs today announced plans to update assistance programs for&nbsp;veterans leaving the military and entering civilian life to ensure they have timely access to career opportunities and benefits.&nbsp;The initia",
+      "date": "2026-11-10",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "f57dda2cb35e",
+      "title": "US Department of Labor continues to implement President Trump’s deregulatory agenda, announces 5 final rules related to mine safety, health",
+      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261110-0",
+      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor’s&nbsp;Mine Safety and Health Administration today announced it is furthering President Trump’s executive order aimed at eliminating unnecessary, outdated, and burdensome regulations by issuing five final rules related to mine safety",
+      "date": "2026-11-10",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "f6d2d181dbcd",
+      "title": "US Department of Labor unveils updated proposed rule designed to protect miners’ health from silica dust exposures",
+      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261110",
+      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor’s&nbsp;Mine Safety and Health Administration today unveiled a proposed rule to better protect the nation’s miners from health hazards associated with exposure to crystalline silica, also known as silica dust or quartz dust.The propos",
+      "date": "2026-11-10",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "a7ddbcc51ed7",
       "title": "G-325A, Biographic Information (for Deferred Action) - USCIS (.gov)",
@@ -513,33 +540,6 @@
       "date": "2026-10-13",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "bfa473d6351b",
-      "title": "Justice Department Moves to Strip Citizenship from 40 Criminals in Largest Single-Period Filing Under the Trump Administration - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWVptRGY1MTZEb3ZfeTF6QzZCVnpYbGFrQTYwaGtZd2Y2TXI2WmRWZXVHd3ZGRDBfRERHa0dSS3hPMy1ac2RIVVJ5RXRQczM2VURLWlJ6UmtQbjB2Yk1IZVNHNkFJYjJSakw1Q01DZUlLOHNVOUF0YTZnVU5NcElEWERGMVFvSGdRSG12NFFna3FZNWFsVmhmci1JdzhRX3ZUbWFRdmF6blBGTVdRRjhuM1g3ZXlwXzhMS3JmeVFlWmtFT0kyRFFWbGFqa3YzSWp4c2hEUlY5cw?oc=5",
-      "desc": "",
-      "date": "2026-10-13",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "35bca25298f7",
-      "title": "I-407, Record of Abandonment of Lawful Permanent Resident Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9ETDRBRUsxa1M0Sm83V0NQTkdYZ3l6X0stWm1EYnZXNC1BSnlDelpvdFh1dk0xZkZZZVoxVDBqWWo?oc=5",
-      "desc": "",
-      "date": "2026-10-13",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ae0a6ac33f0e",
-      "title": "USCIS Contact Center - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBETHBGMDM2Qk0zd3MxbmVIdUhucUpQTnNyV3FwVVdxRGo4OENFUTRwQk82Wl9pNzd0MG05UFVrWV9rMGZranBMZVUtZw?oc=5",
-      "desc": "USCIS Contact Center&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-13",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
