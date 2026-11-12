@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:01:22Z",
+  "updated": "2026-11-12T15:54:20Z",
   "items": [
     {
       "id": "894fc00ae7a2",
@@ -27,6 +27,96 @@
       "date": "2026-11-10",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "d1c6c266383a",
+      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "28395092dcde",
+      "title": "I-290B, Notice of Appeal or Motion - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE92OE9HeGhSQXFPVzFqYnBLREpCcjJXanZWbXNmaWh4THY1Rk1PZmtpcVVoX1lObDRnVUd4SG11am43dw?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "1e25d4138d6e",
+      "title": "Direct Filing Addresses for Form I-140, Immigrant Petition for Alien Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWG1ZaHZid2JadXZNYXJHaWt2aWkzSnZuYzcxRTFRU0pZLVNYZUcwbXB3cHZOSzhySUNzNUdOQXdrc2ZkdTVLOU9YcDdHeGMwXzIwUlprcEFnWUppQ3BNdTI1WC1LUVl5X2lvdmoyZjZrYkpfc2lfaFFZNEVlbmUyNjNQVGE0TTFXUHBJLUtrMFg5eXdGTUctNUpmTUsyUEs1Ylh6VWFpQWRIRk5POWVJVGRB?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "c3cac7ed6c1f",
+      "title": "I-130, Petition for Alien Relative - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBVLXZfTlNic0RpSzhQZFBTWXAyWF85eTcwdU9raU1VN2VOYkdaUExZb3ZXcHIwRlpVSXh5OHB6RTA?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2ff4741392c6",
+      "title": "How Do I Request Premium Processing? - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hMlNwd3B0Qnc0bUprektXUHlMeURqWG5lV2tZc3NDNEZrMzFQYTJxUE5sRGs0VVA1WkxrNWwtal9BcXNsdEhXb296QnBGQjltcVhud1pucWp3aktVOC1PXzJMaXhBeUFzb00tVmphRGEwNV9GV19MemFBcFpadw?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "7c8e1899effd",
+      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "10a3e320cc5d",
+      "title": "I-907, Request for Premium Processing Service - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5vQ2Z6Y0dpS0lJbmNDOWRaLUlIVmU0NDFvN256NW9LZ2dPMF95MjVvUDBQaWEzcG9XSThaaDItblo?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3a473d58dd2e",
+      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "4be5ac1d63e5",
+      "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "a7ddbcc51ed7",
@@ -133,15 +223,6 @@
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
       "desc": "",
       "date": "2026-11-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d1c6c266383a",
-      "title": "I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE40LWVkdE1HcGNvbUE0UmVndkkwMlNTMk5YR2VSSll0SjBhYS1YZGV5TFplX045MmVDRjZLZmlFdVY?oc=5",
-      "desc": "",
-      "date": "2026-10-30",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -272,15 +353,6 @@
       "category": "uscis"
     },
     {
-      "id": "28395092dcde",
-      "title": "I-290B, Notice of Appeal or Motion - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE92OE9HeGhSQXFPVzFqYnBLREpCcjJXanZWbXNmaWh4THY1Rk1PZmtpcVVoX1lObDRnVUd4SG11am43dw?oc=5",
-      "desc": "",
-      "date": "2026-10-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "27c2e1114f6a",
       "title": "G-1055 Fee Schedule - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
@@ -306,15 +378,6 @@
       "date": "2026-10-23",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "1e25d4138d6e",
-      "title": "Direct Filing Addresses for Form I-140, Immigrant Petition for Alien Worker - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWG1ZaHZid2JadXZNYXJHaWt2aWkzSnZuYzcxRTFRU0pZLVNYZUcwbXB3cHZOSzhySUNzNUdOQXdrc2ZkdTVLOU9YcDdHeGMwXzIwUlprcEFnWUppQ3BNdTI1WC1LUVl5X2lvdmoyZjZrYkpfc2lfaFFZNEVlbmUyNjNQVGE0TTFXUHBJLUtrMFg5eXdGTUctNUpmTUsyUEs1Ylh6VWFpQWRIRk5POWVJVGRB?oc=5",
-      "desc": "",
-      "date": "2026-10-23",
-      "source": "USCIS",
-      "category": "uscis"
     },
     {
       "id": "dfb1944dfaad",
@@ -477,69 +540,6 @@
       "date": "2026-10-19",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "a8aea392a609",
-      "title": "Providence Immigration Attorney Pleads Guilty to Wire Fraud and Tax Evasion - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnlJYW9KLWVuTkd1YVdfQmFvSWNlNmRmN1BhY2lSVHRCRW5IMGxxWE9MMjJBNG1NMkxZeU1YOHBySC1kNUtZbjlwX0FXdS1aU21MVFY5OTZNdm5jZ3RNZzkwam1tZkRWQmUya0tmbGJ6cXl4UTVKQUNKSUR5b0ltVmU2R0N5RjhyR0dfbUE5Sy14V05iNlZsb21IWG1qZjI0WktkQlZzV2xXSC03Tm5MWFE2SlpqaG5JS1V4eg?oc=5",
-      "desc": "",
-      "date": "2026-10-19",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "b78520ffecc0",
-      "title": "Temporary Protected Status Designated Country: Ukraine - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01bjVhU3dSMmVjSW5CNWxrRFlOUG9zbHk4TVZFWXR4ZVoxelBQcUF3YklSOHJhVm5qOGxKVjI2S19mZW5YMEoxTlF6c0VnOG9PV21qLTQtdkh3N18xUTFoNWFsYlFYdVNDaHlCYU4waERQamRjQ3B2NW81d0d0QQ?oc=5",
-      "desc": "",
-      "date": "2026-10-19",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "183a34611c0a",
-      "title": "Temporary Protected Status Designated Country: Sudan - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdVh1Q2FaRUR0TmUxODJmWkJNblV0ZWNxVkFvZlpZWG1mdXJIUDk0M1ZOM3pZQ1FNSHNBMUQtRG5qSXBTTk5POGNhZlVGakdKMHBfUkNka00yZ2ZkNkhtT01sMHk5VExGRjlIdzV0Y24zYWZWazJJdFpFakcyeXIxQzZwZHZlSGdHVDFTRXdmd3B5blZxRjl3VzQzNmlEcGRNX0sycElDNnpIbWQtRUZERFNTWQ?oc=5",
-      "desc": "",
-      "date": "2026-10-19",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "53844cdcd004",
-      "title": "US Department of Labor awards $81.5M in grants to support industry-driven job training programs in rural communities",
-      "link": "http://www.dol.gov/newsroom/releases/eta/eta20261016",
-      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $81.5 million in funding to&nbsp;address the critical workforce needs of employers in high-growth and emerging industries across the Appalachian, Delta,&nbsp;and Northern Border regions.&nbsp;Administered by t",
-      "date": "2026-10-16",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "709ff22a863a",
-      "title": "Liberian Child Rapist Convicted of Naturalization Fraud, Denaturalized, and Judicially Ordered Removed from the U.S. - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNenFGenM0VEZscnI2Ykpwa1g0NlUzekY3M09lVTJSSFl1Vl9tbHd5bzhfcTluMjRCMXFzYWNUNlkwODg5b0FRLThOMUVkQ0NhYVlnanFpb3ZIWkphaDdwWW1GMHhNUnNnREhMWmdQanVfbUpPcVY1bWJldnFYSlFHNjJFczAwZy13TkRsZWhuRzkzMEdEcUhINC1xVGtaTHAyeUp1MEx0Z3BnRG9MbmNPQlhCcThYbzBCbF83dHBXS05mamY4R0JsM00wc2MwR0RqekhDbm1LcDQzdmdhOXc?oc=5",
-      "desc": "",
-      "date": "2026-10-15",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "381540c30fa5",
-      "title": "Additional Information on Filing a Fee Waiver - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSThNMVA5RjNQeTBJeHVTZGpmZC0yM3ItdVR5N0loU0tFZ3VnOTU5UWR0QjgzYUlxY3Byc2hvWWxfYVl5eURtNnBtdVcyQnBmSmxrX1l5cEpMeVprcXVEdEhrcXdCN1FxY0VfdVVQLWpvZERjYWh6SGZ1SWNTekxCdWVQRXF3UUluRWFJRW9B?oc=5",
-      "desc": "",
-      "date": "2026-10-14",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "051f578ef518",
-      "title": "US Labor Department finds 6 New York, New Jersey construction employers exposed workers to safety hazards, assesses combined $648K in penalties",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261013",
-      "desc": "MONROE, NY – The U.S. Department of Labor has cited six construction employers for willful and serious safety violations involving excavation hazards at the site of a planned 408,000 square-foot mixed-use commercial building and proposed a combined $648,094 in penalties.&nbsp;The",
-      "date": "2026-10-13",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
