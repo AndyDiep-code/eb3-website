@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:54:20Z",
+  "updated": "2026-11-13T15:15:49Z",
   "items": [
     {
       "id": "894fc00ae7a2",
@@ -113,6 +113,51 @@
       "id": "4be5ac1d63e5",
       "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "22fcf5360295",
+      "title": "Direct Filing Addresses for Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWWtkSjR0b0NjSjRLV3FUS1RGcV85R3hMRW82czRPOEVkbzJicmJqMGltWFMyMWZiTC1JZjhmdl9TbUY1WTRwYmJ4V2JzbHl6SUJ0aDI5eUJrXzJhVmhGVnQtY2ZoYXR3Y0UyeWU1VHBmdk9qYXVKc19RcVEwZV90QTBEbUp4MkQtRWFxb3JQR0c5eGxiazVDdnBhZjNSc3pWR2o0aTBkWjhQNVNId3NiTENxOGpEamxaTVRSdUI3SndPeHZDT0RSekdNQ1o2WjJsV3lV?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "16da7b50e72a",
+      "title": "USCIS Lockbox Filing Locations Chart for Certain Non-Family-Based Forms - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iN3NDczM4TWktR0tEOWlWV1VQQ1J4cnFNaFZUMGdrRmZZQWZQeGFuSWNabTNxNng5RzBJY1A4UXV0dHNrbDZfS1pMLWFWZnNPeVFVUElpdGhBY3FnWGxMWHZ5NmdyNFdwTHc?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ca92e10f725f",
+      "title": "Direct Filing Addresses for Form I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RZFZYd3luRzBteW9UWTk3VXdab0FUYmJ4TkRIWU5oWVRxNHJDMkFsT0UyT09yZGhxN2VXV21uRXFmdGtpRVlhZU1DN28yUQ?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d3e8e62f2769",
+      "title": "I-918, Petition for U Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBaVHpuNVlybWNTQ2FlWTVBWVhXZDVMREZHdkpBbzhzVWNVR3R2T1NRUHltQzk4YzhmWjRGblhzaWs?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "4c2ec72d361f",
+      "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
       "desc": "",
       "date": "2026-11-10",
       "source": "USCIS",
@@ -493,51 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNXzl5SEZZQ3V6QUJRX2JjeDNOOVNfeFdGR1BrTld2dWpIMmJMMW43UlZRRU0yQXRXZG91QXFZLTJaTE8zeURlbFAwdjU2T0pmNDhfMlctNm8ybFoxd1F5MVVxV0tpTi10ZF8zYkNvSXg1b2xUR1lwMmRjUWxIbFdEYlhqUnB2Q2trTUpHZV9QNU9PSEZjbk94V3BlXzltWkdLbW9IVnZpSGlrMXlHb1lTYVE0SzZMZk1Q?oc=5",
       "desc": "",
       "date": "2026-10-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "f0d2c7a4682f",
-      "title": "US Department of Labor announces field assistance bulletin withdrawing 3 opinion letters on tipped employees",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261019-0",
-      "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Wage and Hour Division today announced the issuance of a new field assistance bulletin addressing the treatment of related duties performed by tipped employees under the&nbsp;Fair Labor Standards Act.&nbsp;Field Assistance Bulletin",
-      "date": "2026-10-19",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "2181159faeb8",
-      "title": "US Department of Labor awards $95.5M in grants to support innovative programs for reskilling, reemploying dislocated workers",
-      "link": "http://www.dol.gov/newsroom/releases/eta/eta20261019",
-      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $95.5&nbsp;million in funding to&nbsp;support the creation of innovative models of training and employment services that connect workers affected by layoffs to high-growth industries.Administered by the depart",
-      "date": "2026-10-19",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "7aa3aa90ce3d",
-      "title": "US Department of Labor awards more than $10.5M in grants to support mine safety, health training across the nation",
-      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261019",
-      "desc": "WASHINGTON&nbsp;– The U.S. Department of Labor announced today that its Mine Safety and Health Administration has awarded more than $10.5 million in grants to reduce mining accidents, injuries, and illnesses by supporting training and education programs.The agency is awarding the",
-      "date": "2026-10-19",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "ab8e7ba50ed4",
-      "title": "Consent judgment orders California-based home appliance company to pay $800K to 339 employees denied overtime pay",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261019",
-      "desc": "LOS ANGELES&nbsp;– The U.S. Department of Labor has obtained a consent judgment requiring a home appliance company to pay $800,000 in back wages and damages to 339 employees after an investigation found the company violated federal wage laws.The judgment comes after the departmen",
-      "date": "2026-10-19",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "08b3c8485191",
-      "title": "Massachusetts Man Charged for His Role in Marriage and Immigration Document Fraud - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY1RNV0pldEdsSGUtYUY1bWhqVDNHWFllU0NhNElUYlh3dGMwcEtSRU9VX2ZkWVFOd2tvRmVuUkF0ZGZtZjFrc19GS0F5TjllZHowWnBIY0E3VXY1NDRTQWRoUHJCbjg0SEh0Y0JBUklqYmpNV0ZRZko4YWdCSVo0Y1c2UFpkTl80ZmNoMkxuVS1JRDB3cUlGLUF1cWxaYlBkWW52Vi16VTFrRVYycHptQl95THBDUnZTSTZwLV9yVUp2YzF0?oc=5",
-      "desc": "",
-      "date": "2026-10-19",
       "source": "USCIS",
       "category": "uscis"
     }
