@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-13T15:15:49Z",
+  "updated": "2026-11-14T14:02:31Z",
   "items": [
+    {
+      "id": "d2cad2f85945",
+      "title": "US Department of Labor issues guidance to employers, plan fiduciaries on inaccurate health network provider directories",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261113",
+      "desc": "WASHINGTON&nbsp;–&nbsp;As part of its effort to protect workers, retirees, and their families, the U.S. Department of Labor today issued&nbsp;an enforcement alert to help employers and plan fiduciaries ensure plan participants and beneficiaries are receiving accurate provider dir",
+      "date": "2026-11-13",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "f6757ac9fc4c",
+      "title": "US Department of Labor honors 772 employers committed to veterans’ employment with 2026 HIRE Vets Medallion Awards",
+      "link": "http://www.dol.gov/newsroom/releases/vets/vets20261113",
+      "desc": "WASHINGTON – The U.S. Department of Labor recognized 772 employers for their commitment to employing and supporting the nation’s service members by presenting them with the 2026 Honoring Investments in Recruiting and Employing American Military Veterans Medallion Award.U.S. Secre",
+      "date": "2026-11-13",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "894fc00ae7a2",
       "title": "US Department of Labor announces plans to update employment resources for service members transitioning to civilian life",
@@ -158,6 +176,33 @@
       "id": "4c2ec72d361f",
       "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e775c4a184cb",
+      "title": "I-824, Application for Action on an Approved Application or Petition - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9sQ2ZDdjVSVUNOZnJKRnBFQ3FiNTJ6MWNhNWNpYjhMZ3dMYnR0TkJzWVljZ3VJcUVWRWFoR0Q4eS0?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3cc327120b25",
+      "title": "Filing Addresses for Form I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05aU1LMVJuQVhsLVYzTWxoWTBmbGUyemNZVG5zMVhDYXF2ZV9mNnp4b29qOGV1cURWNDc1T2pNQmY5Mi1vcU1idEs4QVRoZw?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "2dbd81e92814",
+      "title": "I-102, Application for Replacement/Initial Nonimmigrant Arrival-Departure Document - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OV3QyTjFBSm5ab0IxdlB5YlhSZU93Mzd5cG1YNG1qekxnS3dJTjlLNEZoSTNnakNQdGcyTmoxZnA?oc=5",
       "desc": "",
       "date": "2026-11-10",
       "source": "USCIS",
@@ -495,51 +540,6 @@
       "date": "2026-10-21",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "e19a09a38187",
-      "title": "G-1450, Authorization for Credit Card Transactions - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ZZUhvUVk4NDl4TVdVT0FvMG9TeFZ6YVNDblZUVTIxMktiRnNELW9wUzNSSE1LRVR2M09xay1RLWFrdw?oc=5",
-      "desc": "",
-      "date": "2026-10-21",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "99238a973f0c",
-      "title": "Canadian Alien Charged with Illegal Voting - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdG1tM0NHcE9RYW1XR0JnTUlrMHV6OFNzbXNXTmF4eUszR3owajgtOU9fTndVSmEtVmFwdi0xWXJMRFNDZHNsTGZMQkRRT2dfNm5MRldXbGd2c2UzSFA1czE0QVJQZTBfMkVPZjBmcG51UlA2SEQ3NGgwM282Z1RwZHJsMUVXS2VrNDJ4VjJVdzY?oc=5",
-      "desc": "",
-      "date": "2026-10-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "74996815825c",
-      "title": "Massachusetts Man Pleads Guilty to Wire Fraud and the Fraudulent Use of Government Seals - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGZoak01Zlh2OUtaakw3SjRLVmk0QS1mbFJBTUQ2OWFuS0hteVROX3BMcjRaM2puZF9tSzBCaUFWMlplQmdEeVNFVUR2MFEzOFc0N2lYdktDZm5aZ2pzbTc3VnEzQkxsTkRCcnZZc29yRm9qQTJUQllYeGRwZFBLeU14eHhrT2w4bHYtODZFR3dYTEpIRGc0MlBvaGg1ZHpZX2RISUhORTJDbDUtSmFiM2VvSGtfOTgwekJCWjI1VkktekRTZm1PSnV5NGJHUQ?oc=5",
-      "desc": "",
-      "date": "2026-10-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "1cf755b9d784",
-      "title": "Temporary Protected Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaNXJvMXFVWXZoM0tuSkhRYkxGeTBLdXNKaXZSMUwteFdBbTQ3aUFIWU9RN29UTEhHMmFNQzJMZHNCNjFITHdMRzd4aXZTbDFVcXJKaEZaMG9HTVdsT3REdHNGWi1VSEMxbUlNWjN3?oc=5",
-      "desc": "Temporary Protected Status&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-20",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "ecd29e702187",
-      "title": "Temporary Protected Status Designated Country: Venezuela - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNXzl5SEZZQ3V6QUJRX2JjeDNOOVNfeFdGR1BrTld2dWpIMmJMMW43UlZRRU0yQXRXZG91QXFZLTJaTE8zeURlbFAwdjU2T0pmNDhfMlctNm8ybFoxd1F5MVVxV0tpTi10ZF8zYkNvSXg1b2xUR1lwMmRjUWxIbFdEYlhqUnB2Q2trTUpHZV9QNU9PSEZjbk94V3BlXzltWkdLbW9IVnZpSGlrMXlHb1lTYVE0SzZMZk1Q?oc=5",
-      "desc": "",
-      "date": "2026-10-20",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
