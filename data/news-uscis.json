@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-16T16:55:05Z",
+  "updated": "2026-11-17T16:48:42Z",
   "items": [
+    {
+      "id": "9e21610aa5b2",
+      "title": "US Department of Labor applauds federal appeals court decision on administrative exhaustion requirement under federal benefits law",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261116",
+      "desc": "WASHINGTON – The U.S. Department of Labor applauded a federal appeals court decision allowing employees to bring legal claims directly to federal court if they reasonably suspect fiduciary violations in their employee benefit plans covered under the Employee Retirement Income Sec",
+      "date": "2026-11-16",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "5cadcd21a995",
+      "title": "US Department of Labor proposes to modernize permanent labor certification recruitment, strengthening protections for American workers",
+      "link": "http://www.dol.gov/newsroom/releases/eta/eta20261116",
+      "desc": "WASHINGTON – The U.S. Department of Labor today issued a proposed rule that would enhance American worker protections when&nbsp;employers&nbsp;apply for certification to hire foreign workers permanently in the United States.&nbsp;The proposed rule modernizes&nbsp;the Permanent La",
+      "date": "2026-11-16",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "03e0cf38a3f3",
+      "title": "US Department of Labor cites powder coating company for willful toxic substance exposures, repeat violations, proposes more than $1.6M in penalties",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261116",
+      "desc": "HOUSTON&nbsp;–&nbsp;The U.S. Department of Labor has cited a powder coating and furniture&nbsp;restoration company for willfully and repeatedly exposing workers to toxic substances and other safety and health hazards.The department’s Occupational Safety and Health Administration ",
+      "date": "2026-11-16",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "1382c815d8f5",
+      "title": "US Labor Department cites New Jersey pastry maker, staffing agency for endangering workers after 2 injuries in 3 months; proposes $351K in fines",
+      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261116-0",
+      "desc": "PEDRICKTOWN, NJ – The U.S. Department of Labor has cited a pastry manufacturer and a staffing agency for endangering employees by exposing them to hazardous energy and amputation hazards.Investigators with the Occupational Safety and Health Administration responded to an April 28",
+      "date": "2026-11-16",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "d2cad2f85945",
       "title": "US Department of Labor issues guidance to employers, plan fiduciaries on inaccurate health network provider directories",
@@ -18,6 +54,15 @@
       "date": "2026-11-13",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "cda893af24cb",
+      "title": "Direct Filing Addresses for Form I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSLV8tcHZJdUJZRjk5M2lmMkc5MUpoTFY0STRRMy1NQ1hPVnRRSVlJbW9SRGVkeUtDLXVucndlRUVWcnRSZTZ1eE9NLVZXdw?oc=5",
+      "desc": "",
+      "date": "2026-11-12",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "894fc00ae7a2",
@@ -203,6 +248,15 @@
       "id": "2dbd81e92814",
       "title": "I-102, Application for Replacement/Initial Nonimmigrant Arrival-Departure Document - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9OV3QyTjFBSm5ab0IxdlB5YlhSZU93Mzd5cG1YNG1qekxnS3dJTjlLNEZoSTNnakNQdGcyTmoxZnA?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3979dc61ad3f",
+      "title": "I-601, Application for Waiver of Grounds of Inadmissibility - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBLM1lERjZPWVVDQ2xZUVd2cXNEY24tamxOeE5Ba0V0Ym1XQzVIbWkwVXZEZFZnQkRvbzN2LWNMSzY?oc=5",
       "desc": "",
       "date": "2026-11-10",
       "source": "USCIS",
@@ -486,60 +540,6 @@
       "date": "2026-10-22",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "357f7984b96d",
-      "title": "Alien from South Africa Charged with Unlawful Voting - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ2lwU1VGczF1dEZHTUllSTQyVWJiLXl2UmlxeTRqM05Pd0l5NWpyZ2tpVEQxUUoxS2pUWFBERkNDNmRrNDREWUVxX1VtcVBXRHZ5U2ZKYW1tY3Y5eUdVdXQ1dW9idVh0UWdTOGFQUllzTlhYWkJKRUY1Tkc2YnRFMG9WUS00eDFFdzdRSGpyRk1MYjVYUER5VjVsQUprZw?oc=5",
-      "desc": "",
-      "date": "2026-10-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0420c1ad6425",
-      "title": "Aliens in Idaho Charged for Illegal Voting - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdnNYdHVyZElOQ0N3OGdBVVFZOGNoRlhqSFF2TUQ2TWdjS2JpaG1LdUoxRzE5cy1oSlZtemxtdC1GOXF5ZEwyVWt3RVNiZDdRekZlcndtOS1qQmRnbTRTelRPY2FqM2xZbTU5eE43c1FPX0dNSjRjbUpqb2tuVUFadzd2c0JkWXc5ZFZpYlpRRDc?oc=5",
-      "desc": "",
-      "date": "2026-10-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "f83f11361129",
-      "title": "Grocery Store Manager Convicted of Immigration Document Fraud, Obstruction of Two Federal Labor Investigations, and Conspiracy - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNFhKRlJMRUJvTkdxVzhpZmJ6Tl8zUUQyMEx2cjY3Y0lwOTZ4NTlhUk9feExDQjhQaG9IOUhHdzdPU1ptYkdnWlpmMXBIU3ZqckFpMlM2dVBBSXIydXYwS3ducnYtdE52Wmx6X0xVd19mZENycDB6UzA3aXhLbkdnbmNKU2lUelJHQWwzNXNfbjdyelByTzVKN3l3RGM5aHYzOXpQRF9VX0FOOXJkR1BubXVVM3Jkc2hlaEd1YU9EOW9YclpyWlRZUkdQWGx2NGtfS0pWRTlB?oc=5",
-      "desc": "",
-      "date": "2026-10-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "979de9c14b4e",
-      "title": "G-325R, Biographic Information (Registration) - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96VUlMZXVOek4tQ1NuZ1JxOGM4Tzh0NXRjOGUxczBzc3ViU1J4YXY0a0h2Z1hMN0FTajRaUlY2UGUwNF8yeXJ5aTZ2Zl9xcXZRVFhZNlhLdw?oc=5",
-      "desc": "",
-      "date": "2026-10-22",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "279f46dbd04c",
-      "title": "US Department of Labor cites Illinois utility construction company for repeated exposure to trenching hazards",
-      "link": "http://www.dol.gov/newsroom/releases/osha/osha20261021",
-      "desc": "CHICAGO – The U.S. Department of Labor has cited a Frankfort-based utility construction company for repeatedly exposing employees to excavation safety hazards after federal investigators observed employees working in an unprotected trench.The department’s Occupational Safety and ",
-      "date": "2026-10-21",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "5b5daa64a486",
-      "title": "US departments of Labor, Health and Human Services expand efforts to help employees access health benefits",
-      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261021",
-      "desc": "WASHINGTON&nbsp;– The departments of Labor and Health and Human Services announced that representatives from several large employers with self-insured health plans signed a statement of support for the expansion of electronic prior authorization reform to the self-insured markets",
-      "date": "2026-10-21",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
