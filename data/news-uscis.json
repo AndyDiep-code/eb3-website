@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-17T16:48:42Z",
+  "updated": "2026-11-18T16:20:24Z",
   "items": [
+    {
+      "id": "579427656df5",
+      "title": "US Department of Labor issues opinion letters addressing Fair Labor Standards Act exemption, Family and Medical Leave Act hours of service",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261117",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s Wage and Hour Division today issued two opinion letters that address real-world questions related to the Fair Labor Standards Act and the Family and Medical Leave Act.The two opinion letters address the applicability of the exemption fo",
+      "date": "2026-11-17",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "16786c90b413",
+      "title": "US Department of Labor proposes new class exemption for qualified professional asset managers to protect retirement plans from disruptions",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261117",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s Employee Benefits Security Administration today proposed a class exemption that would streamline the process for qualified professional asset managers to continue engaging in transactions permitted under Prohibited Transaction Class Exe",
+      "date": "2026-11-17",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "9e21610aa5b2",
       "title": "US Department of Labor applauds federal appeals court decision on administrative exhaustion requirement under federal benefits law",
@@ -522,24 +540,6 @@
       "date": "2026-10-23",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "dfb1944dfaad",
-      "title": "US Department of Labor secures court order requiring New Jersey employer to pay $700K in back wages, damages to 48 workers denied overtime pay",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261022",
-      "desc": "VOORHEES, NJ&nbsp;–&nbsp;The U.S. Department of Labor has obtained a consent judgment and final order in federal district court requiring a New Jersey drywall installer to pay $725,000 in back wages, damages, and civil money penalties after denying 48 workers overtime pay.The dep",
-      "date": "2026-10-22",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "8eddab5c248b",
-      "title": "Six Charged in Large-Scale Marriage Fraud Ring - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFNzWmg3YzczTDJNSUhjM19yN1FCRU5YUVVBczMtU19IYWpzYnBmUkNERWIta2x0eDNVUmJLX1RRQlJmRDVDUW9VQnl0THM3MGJrMzJobHRXX0Zld3BNaGxhX0NMcDAtZWJPeHZ6bk5pcllhWGFicnMzc3dtWlprY09Pb19QYXVkUHp6ZnJFLXduNzNQd3c?oc=5",
-      "desc": "",
-      "date": "2026-10-22",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
