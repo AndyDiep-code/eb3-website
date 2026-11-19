@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-18T16:20:24Z",
+  "updated": "2026-11-19T16:28:50Z",
   "items": [
+    {
+      "id": "17a54e814443",
+      "title": "US Department of Labor obtains court order requiring NJ-based  construction contractor to pay $2.2M in back wages, damages, penalties",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261118",
+      "desc": "ENGLEWOOD CLIFFS, NJ – The U.S. Department of Labor has obtained a consent judgment requiring a construction contractor to pay more than $2 million in back wages and damages to 323 construction workers.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entered Nov. 16, 2026, in the U.S. District Cour",
+      "date": "2026-11-18",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "579427656df5",
       "title": "US Department of Labor issues opinion letters addressing Fair Labor Standards Act exemption, Family and Medical Leave Act hours of service",
@@ -72,6 +81,15 @@
       "date": "2026-11-13",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "34cf5a0121d0",
+      "title": "Asylum - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
+      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-13",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "cda893af24cb",
@@ -353,15 +371,6 @@
       "category": "uscis"
     },
     {
-      "id": "34cf5a0121d0",
-      "title": "Asylum - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hdnlMalhaN0JBd2wxakhVWnZUbjMyUWlKdlBOMlRXVGVySEw1Tzc0aDBFTWUxNzlKNU43SVhENEJ1LWdyclhxRk9XQ0Jod19QM09Id1lWVlZTbFdnXzY2WnVhenB6UjlSdlFNajZ3?oc=5",
-      "desc": "Asylum&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-11-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "103368194389",
       "title": "US Department of Labor launches Registered Apprenticeship incentive payments for high-growth industries",
       "link": "http://www.dol.gov/newsroom/releases/eta/eta20261102",
@@ -531,15 +540,6 @@
       "date": "2026-10-26",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "ab5f6a587ec0",
-      "title": "US Department of Labor, US Trade Representative secure another USMCA enforcement victory in Amphenol case",
-      "link": "http://www.dol.gov/newsroom/releases/ilab/ilab20261023",
-      "desc": "WASHINGTON –&nbsp;The United States today announced the successful resolution of the USMCA Rapid Response Labor Mechanism (RRM) matter at the Amphenol Optimize México, S.A. de C.V.&nbsp;facility located in Nogales, Sonora, Mexico, which manufactures&nbsp;automotive and aerospace ",
-      "date": "2026-10-23",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
