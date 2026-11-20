@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-19T16:28:50Z",
+  "updated": "2026-11-20T15:59:59Z",
   "items": [
+    {
+      "id": "3d3656394d60",
+      "title": "US Department of Labor announces final rule clarifying employee, independent contractor status under federal wage and hour laws",
+      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261119",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Wage and Hour Division today announced a&nbsp;final rule to revise its analysis for distinguishing between employees and independent contractors under the Fair Labor Standards Act and two related federal laws. The new final rule pr",
+      "date": "2026-11-19",
+      "source": "DOL",
+      "category": "dol"
+    },
     {
       "id": "17a54e814443",
       "title": "US Department of Labor obtains court order requiring NJ-based  construction contractor to pay $2.2M in back wages, damages, penalties",
@@ -528,15 +537,6 @@
       "title": "G-1055 Fee Schedule - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
       "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "b42f6d4a9e8c",
-      "title": "I-914, Application for T Nonimmigrant Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMG1HTG9MSmF0WFJnM0hodHZxc3UwMTJLNnRXano4SVFiVWltSlBhb1JlY2RBanVBSTVRcHAtR0c?oc=5",
-      "desc": "",
       "date": "2026-10-26",
       "source": "USCIS",
       "category": "uscis"
