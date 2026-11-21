@@ -1,6 +1,15 @@
 {
-  "updated": "2026-11-20T15:59:59Z",
+  "updated": "2026-11-21T15:14:43Z",
   "items": [
+    {
+      "id": "65ef2e4587b7",
+      "title": "Policy Alert - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEllcU1oTUN5dGpiNEZKdi0xelBJcjAwc2JvNG14OFM3V2Z3OUlOLUNNWlEybkg1SHhOanp5RFNzYkRDcV9kckdLaEZxdjc0WjVnbDdmbWlKcG9KX2gtOEEtcXY4cTFxdHFzRURKNHRtSG8yUVRrNGNwVklDUUlRTm9NQTVOSVFVaVFOeXZCUDV3ZkRBX3dSUy01WFNsVjQ?oc=5",
+      "desc": "Policy Alert&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-21",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "3d3656394d60",
       "title": "US Department of Labor announces final rule clarifying employee, independent contractor status under federal wage and hour laws",
@@ -9,6 +18,33 @@
       "date": "2026-11-19",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
+      "desc": "",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "098a3bda6833",
+      "title": "G-1055, Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
+      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "27c2e1114f6a",
+      "title": "G-1055 Fee Schedule - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
+      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "17a54e814443",
@@ -185,15 +221,6 @@
       "id": "7c8e1899effd",
       "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d1732a553612",
-      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
       "desc": "",
       "date": "2026-11-10",
       "source": "USCIS",
@@ -452,15 +479,6 @@
       "category": "uscis"
     },
     {
-      "id": "098a3bda6833",
-      "title": "G-1055, Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
-      "desc": "G-1055, Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "d09afcebd867",
       "title": "Calculate Your Fees - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
@@ -519,24 +537,6 @@
       "title": "Litigation-Related Update: Sileiri Doe Class Members May Request Reopening or Reconsideration of an Adverse Decision Without a Fee - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN2cyWUZuSk8wcm9LcTdPdUdiT2NicTI3bE5BWmh0ZmU2WEgtWDN0OFZyeTI1MWNLMGtyTzVKaHJUdnByZmRJbEgwTmVIOTE1LXp6amFJX2dycEtOSWRjbEFpVGlrRXA5SUprb3lJeHpxMjR0dS1GeDNoWWh5UkMwZFBZbmV4RGpJdmkzaEpHM1l4OHJNSG0xYWJGdlFWQ0tSWUxMQThwT0xIa2FLNk5acmpGaVdoOHJTT3dZbVNiWkNkdXhVQjMtbk5SdmY3ZW1Tdnc?oc=5",
       "desc": "",
-      "date": "2026-10-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "d701375c78e5",
-      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
-      "desc": "",
-      "date": "2026-10-26",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "27c2e1114f6a",
-      "title": "G-1055 Fee Schedule - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0X3dKSXluWWRTcW9vWFI4dzhWTVU5eGp5SFdKelRvWTZ5b2ZpZmlyUzhXSWFMdzFXeFZQNVV0VWNadEpIT1Zqb2ZldHVxa085Nlp1cGZoQ0FjdHJwSVdCc1F1Q1pFUG5MWnVaLVFzRWo3eGxlbVE?oc=5",
-      "desc": "G-1055 Fee Schedule&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-26",
       "source": "USCIS",
       "category": "uscis"
