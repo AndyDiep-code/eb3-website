@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T15:14:43Z",
+  "updated": "2026-11-22T15:11:05Z",
   "items": [
     {
       "id": "65ef2e4587b7",
@@ -7,6 +7,15 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEllcU1oTUN5dGpiNEZKdi0xelBJcjAwc2JvNG14OFM3V2Z3OUlOLUNNWlEybkg1SHhOanp5RFNzYkRDcV9kckdLaEZxdjc0WjVnbDdmbWlKcG9KX2gtOEEtcXY4cTFxdHFzRURKNHRtSG8yUVRrNGNwVklDUUlRTm9NQTVOSVFVaVFOeXZCUDV3ZkRBX3dSUy01WFNsVjQ?oc=5",
       "desc": "Policy Alert&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-11-21",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3a473d58dd2e",
+      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
+      "desc": "",
+      "date": "2026-11-20",
       "source": "USCIS",
       "category": "uscis"
     },
@@ -47,6 +56,51 @@
       "category": "uscis"
     },
     {
+      "id": "4c2ec72d361f",
+      "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
+      "desc": "",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d09afcebd867",
+      "title": "Calculate Your Fees - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
+      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3bd1b0f65c79",
+      "title": "Alien Registration Requirement - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1GMFR1UUROdnQ4RXo2cUJsbjAwV0RCb3E3XzVmNjBmck5CN2gzMERyaHZHbHJFb3o1Mi1qWVlsZ0V6bjhPQlZWYTNMdVRFa19m?oc=5",
+      "desc": "",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3d462a61721c",
+      "title": "Filing Fees - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UVGdfZlhWQXpzODY5YlpYQUZnOWhSRks1dG1tdWRFdXJaYWZGNzhmM2xnbDJWSVctOGZXZHRXYmtVRGlwRlB3bFBDOUNnemR0?oc=5",
+      "desc": "Filing Fees&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "d701375c78e5",
+      "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
+      "desc": "",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "17a54e814443",
       "title": "US Department of Labor obtains court order requiring NJ-based  construction contractor to pay $2.2M in back wages, damages, penalties",
       "link": "http://www.dol.gov/newsroom/releases/whd/whd20261118",
@@ -54,6 +108,15 @@
       "date": "2026-11-18",
       "source": "DOL",
       "category": "dol"
+    },
+    {
+      "id": "16da7b50e72a",
+      "title": "USCIS Lockbox Filing Locations Chart for Certain Non-Family-Based Forms - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iN3NDczM4TWktR0tEOWlWV1VQQ1J4cnFNaFZUMGdrRmZZQWZQeGFuSWNabTNxNng5RzBJY1A4UXV0dHNrbDZfS1pMLWFWZnNPeVFVUElpdGhBY3FnWGxMWHZ5NmdyNFdwTHc?oc=5",
+      "desc": "",
+      "date": "2026-11-18",
+      "source": "USCIS",
+      "category": "uscis"
     },
     {
       "id": "579427656df5",
@@ -236,15 +299,6 @@
       "category": "uscis"
     },
     {
-      "id": "3a473d58dd2e",
-      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "4be5ac1d63e5",
       "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
@@ -263,15 +317,6 @@
       "category": "uscis"
     },
     {
-      "id": "16da7b50e72a",
-      "title": "USCIS Lockbox Filing Locations Chart for Certain Non-Family-Based Forms - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iN3NDczM4TWktR0tEOWlWV1VQQ1J4cnFNaFZUMGdrRmZZQWZQeGFuSWNabTNxNng5RzBJY1A4UXV0dHNrbDZfS1pMLWFWZnNPeVFVUElpdGhBY3FnWGxMWHZ5NmdyNFdwTHc?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "ca92e10f725f",
       "title": "Direct Filing Addresses for Form I-129, Petition for a Nonimmigrant Worker - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5RZFZYd3luRzBteW9UWTk3VXdab0FUYmJ4TkRIWU5oWVRxNHJDMkFsT0UyT09yZGhxN2VXV21uRXFmdGtpRVlhZU1DN28yUQ?oc=5",
@@ -284,15 +329,6 @@
       "id": "d3e8e62f2769",
       "title": "I-918, Petition for U Nonimmigrant Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBaVHpuNVlybWNTQ2FlWTVBWVhXZDVMREZHdkpBbzhzVWNVR3R2T1NRUHltQzk4YzhmWjRGblhzaWs?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "4c2ec72d361f",
-      "title": "I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1FVVhjZ2xKNmp6T25Bd29wSFBIRUd3WHFiM3h4OXlhV1poTE9PZ1RESy1wdXc3WFpkcHZGaElQODg?oc=5",
       "desc": "",
       "date": "2026-11-10",
       "source": "USCIS",
@@ -479,15 +515,6 @@
       "category": "uscis"
     },
     {
-      "id": "d09afcebd867",
-      "title": "Calculate Your Fees - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43eUdBNEs0b1JPUm1kRGxfSEg3ZUlPdVhnQnQxUHV0Q2tYR1NEWTZHRFhVYUNZRWNRVXpoa0JsRUptZ1pWS192Q2Z4UQ?oc=5",
-      "desc": "Calculate Your Fees&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "cae0adb40e7c",
       "title": "US Department of Labor finds none of nation’s 12,000 mining operations met criteria for pattern of violations in fiscal year 2026",
       "link": "http://www.dol.gov/newsroom/releases/msha/msha20261027",
@@ -511,33 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1czJKbVAtcDd0VmlaTWxocV9vbmlmRmE4UGNvRE9NYTlselZRaFBLTExVb1h3TF9OZjdJSDRtci1ORFlRanhBRk1sdy1pNkpaa21fQVl3?oc=5",
       "desc": "Updates&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-10-27",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "0d2b40241620",
-      "title": "US Department of Labor obtains consent order against retirement plan fiduciaries of defunct Chicago law firm for failing to distribute $6.4M in assets",
-      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261026",
-      "desc": "CHICAGO&nbsp;–&nbsp;Following a complaint filed by the U.S. Department of Labor, a defunct Chicago law firm’s retirement plan distributed $6,498,858 in retirement plan assets to 40 employees. The plan’s fiduciaries failed to properly terminate the plan and disburse those funds as",
-      "date": "2026-10-26",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "00ab2711d981",
-      "title": "US Department of Labor awards $250,000 in Brookwood-Sago Grants to promote mine safety, health education",
-      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261026",
-      "desc": "WASHINGTON – The U.S. Department of Labor today announced the award of $250,000 in Brookwood-Sago grant funding to two organizations to support education and training initiatives that will help identify and prevent unsafe working conditions in and around the nation’s mines.Admini",
-      "date": "2026-10-26",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "6f1a03c416c2",
-      "title": "Litigation-Related Update: Sileiri Doe Class Members May Request Reopening or Reconsideration of an Adverse Decision Without a Fee - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN2cyWUZuSk8wcm9LcTdPdUdiT2NicTI3bE5BWmh0ZmU2WEgtWDN0OFZyeTI1MWNLMGtyTzVKaHJUdnByZmRJbEgwTmVIOTE1LXp6amFJX2dycEtOSWRjbEFpVGlrRXA5SUprb3lJeHpxMjR0dS1GeDNoWWh5UkMwZFBZbmV4RGpJdmkzaEpHM1l4OHJNSG0xYWJGdlFWQ0tSWUxMQThwT0xIa2FLNk5acmpGaVdoOHJTT3dZbVNiWkNkdXhVQjMtbk5SdmY3ZW1Tdnc?oc=5",
-      "desc": "",
-      "date": "2026-10-26",
       "source": "USCIS",
       "category": "uscis"
     }
