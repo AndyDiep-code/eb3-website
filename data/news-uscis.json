@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T15:11:05Z",
+  "updated": "2026-11-23T19:09:11Z",
   "items": [
     {
       "id": "65ef2e4587b7",
@@ -11,9 +11,18 @@
       "category": "uscis"
     },
     {
-      "id": "3a473d58dd2e",
-      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
+      "id": "cd1fc820941e",
+      "title": "Special Immigrant Juveniles - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mMjhQWUpTY3VYUG9yN05aX1dpTjgySWZMeTJHWkt4X1VoN3NSLWlhc0h2MDExVjAwWE9TUjhlQnI5UDJTaVFERkhqcG9Yb0FSbTRsWXpn?oc=5",
+      "desc": "Special Immigrant Juveniles&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "e06253b7db1e",
+      "title": "Special Immigrant Juvenile (SIJ) Frequently Asked Questions - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOWmdLUDU5Y1ZvZlEwbEU3OW9RbG9SWlZoSEw5M3BIT196U29DUEozRV9ZaXkxUFdOVUxlQkUzeFFKQm1rblZnUU5ZX2gzdFBTcVhHQzB0TVd5cmNiX3I5SHZPbGJGcVNvMXU1QjZxNXVFSUJ1cTFCRWFCbC15OHJsUUJTM3I1QUFxMk44MGR6MHh1WVhLOGRtY2JaR2RFNkF6WEsySU9JOUFLQnlUUTlnT3ZlZVF4d21zVi1hSnAwUS02S0wwakV4ZDFhRUdoTEcwSFZNdTY0UW90Q25lY3dBRnNmLVNKN3BRdXFfYzVSLWZHYWRISVVuWFhUdllJY01BRXQ3MXAwOWJZMVVUeFJOUGYweGpfbUJXaXlYZTczdndqU3VHTDRWT3J5blBtUWM?oc=5",
       "desc": "",
       "date": "2026-11-20",
       "source": "USCIS",
@@ -209,6 +218,15 @@
       "category": "uscis"
     },
     {
+      "id": "3a473d58dd2e",
+      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "894fc00ae7a2",
       "title": "US Department of Labor announces plans to update employment resources for service members transitioning to civilian life",
       "link": "http://www.dol.gov/newsroom/releases/vets/vets20261110",
@@ -275,15 +293,6 @@
       "id": "2ff4741392c6",
       "title": "How Do I Request Premium Processing? - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hMlNwd3B0Qnc0bUprektXUHlMeURqWG5lV2tZc3NDNEZrMzFQYTJxUE5sRGs0VVA1WkxrNWwtal9BcXNsdEhXb296QnBGQjltcVhud1pucWp3aktVOC1PXzJMaXhBeUFzb00tVmphRGEwNV9GV19MemFBcFpadw?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7c8e1899effd",
-      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
       "desc": "",
       "date": "2026-11-10",
       "source": "USCIS",
@@ -371,6 +380,15 @@
       "category": "uscis"
     },
     {
+      "id": "cb02e22696d2",
+      "title": "Direct Filing Addresses for Form I-130, Petition for Alien Relative - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DQmhOTG41bUxBVi1FMVhoYnVtQ3Z4ZGY0aEdNWVRiUm42SlhWZEI2UDFKU3FpWHBvZ2ZnQmZvc0dWTmZQR0VoZDktOVdGQQ?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "a7ddbcc51ed7",
       "title": "G-325A, Biographic Information (for Deferred Action) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBXbzIwbFo4VHdOandZUFNLelBtdUEzcWVVUkMyUDFvUW1PNGJ5MUJ4ZTZOdVR5cGNWUV9yMktYYWs2Zw?oc=5",
@@ -416,6 +434,15 @@
       "category": "uscis"
     },
     {
+      "id": "7f518ebe38cc",
+      "title": "Newsroom - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pMTJUd3B2LWk1MVZGSFRZMGpZR1NDdjdlM0IyOVRnM05rMjM2MVNJenNIb3g0dXFDQ1JfajVPODdNZXYw?oc=5",
+      "desc": "Newsroom&nbsp;&nbsp;USCIS (.gov)",
+      "date": "2026-11-06",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "dabd8794bfdd",
       "title": "Policy Memorandum - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1Q4azVBUGhIVkVwOFZGOE5uX3FOaDU4T05Jb0o0OGpVTHFodURTQVhmRWZ2eXZKN2FxN01CWjd5Vk9RWUtSRWZlZlBrUWhvMVgxVVEzdjBGNnltYXBPb2dJUHlSeDJ6eDdSS205YjVmT2QzWVVfa244dVo0WDdhb1NURnNDVlVpeUZFX3JubXZYdWZsQUdMa3NoeTd0bm1tWUZLWXRHbjdZZw?oc=5",
@@ -429,15 +456,6 @@
       "title": "Alien from Canada Charged with Falsely Claiming to be a US Citizen to Register to Vote - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZGJZTFVwc09IblNDWHFBa0s0MThQUmZVQ0FQQ1Fna0twSzZ3d0JpcS11c21iR3paeXFXa1ZMQTJSQV9hOXR6QlBEb21ZZnJRSnJ3cTBGdGRRSW5QVkticlc3a0c4allpVmNvUHA1bTc2aHN0VHdtMmprcHNOaHkzcTBjUjlwR2d0azdTZm43SE5QcmVDUVdNV0NjalNvOFk5WkJUNmYwYnBjYmd4SG9aSF85STM3UVFPMG9oWWFaRDRpcU00RG5sbW02TQ?oc=5",
       "desc": "",
-      "date": "2026-11-03",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7f518ebe38cc",
-      "title": "Newsroom - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9pMTJUd3B2LWk1MVZGSFRZMGpZR1NDdjdlM0IyOVRnM05rMjM2MVNJenNIb3g0dXFDQ1JfajVPODdNZXYw?oc=5",
-      "desc": "Newsroom&nbsp;&nbsp;USCIS (.gov)",
       "date": "2026-11-03",
       "source": "USCIS",
       "category": "uscis"
@@ -522,24 +540,6 @@
       "date": "2026-10-27",
       "source": "DOL",
       "category": "dol"
-    },
-    {
-      "id": "dd9c5451af46",
-      "title": "Policy Alert - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXN3QW9zbWhzWGM3azJkcDRNdmprdHI1bXBUVVJsSHhmRjZCbGZIUHpsZlU0V0FXZ2czQUw1Q0YyR2RXS3hIZTdsTjNLUlNrQ2JWRG1zWlNDNXlQb2ZjcjNMNmJ5NVdwQjJSb3lKRmhnYklDRk5sY2cwdzR2WlluS0h5SXlUWE9OSW05eHg1VDZXakZVV0pSWjl3d1BrSDY5RlRlX0FzcThKLWZFSFBocERB?oc=5",
-      "desc": "Policy Alert&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-27",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "7ac7f68ec1fd",
-      "title": "Updates - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1czJKbVAtcDd0VmlaTWxocV9vbmlmRmE4UGNvRE9NYTlselZRaFBLTExVb1h3TF9OZjdJSDRtci1ORFlRanhBRk1sdy1pNkpaa21fQVl3?oc=5",
-      "desc": "Updates&nbsp;&nbsp;USCIS (.gov)",
-      "date": "2026-10-27",
-      "source": "USCIS",
-      "category": "uscis"
     }
   ]
 }
