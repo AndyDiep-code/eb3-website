@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-23T19:09:11Z",
+  "updated": "2026-11-24T18:47:37Z",
   "items": [
+    {
+      "id": "e09081b68399",
+      "title": "US Department of Labor proposes to update fiduciary rule to affirm Employee Retirement Income Security Act’s exclusive purpose rule",
+      "link": "http://www.dol.gov/newsroom/releases/ebsa/ebsa20261123",
+      "desc": "WASHINGTON – The U.S. Department of Labor’s Employee Benefits Security Administration today issued proposed amendments to the investment duties regulation to clarify the fiduciary duty of loyalty under the Employee Retirement Income Security Act.The proposed rule seeks to end the",
+      "date": "2026-11-23",
+      "source": "DOL",
+      "category": "dol"
+    },
+    {
+      "id": "9229c0ffc44f",
+      "title": "Oakdale Visa Fraud Scheme Ringleader Sentenced to 10 Years in Federal Prison; Four Co-Conspirators Also Sentenced to Five Years Each - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVi1ESllldDBmbGl1T0JIT1dZVDEzbnM0UTAyLUcteUFCRTI1TExMU2xlTk04V2JDaVcyTTg0SGRBcHVRaDg4dUpCanFPOVhTYTNqeHJiSDlpTFM3OGZHSkxCaVB5cTlCX1BpMVhFdS1GSnkzbjZ6NndsenVKMU1mNTVCbi1HTGxtSDNDU0FiTkswWU1OdE5JcDRpd3RDYmQwYXhmWTUzODFCMWFiV0FuTXhHSnZRY05MTHpveDlRWTJLWDJsVV9mTjkzUWVYQm56ZFhlS05HcHczdw?oc=5",
+      "desc": "",
+      "date": "2026-11-23",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "65ef2e4587b7",
       "title": "Policy Alert - USCIS (.gov)",
@@ -23,6 +41,15 @@
       "id": "e06253b7db1e",
       "title": "Special Immigrant Juvenile (SIJ) Frequently Asked Questions - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOWmdLUDU5Y1ZvZlEwbEU3OW9RbG9SWlZoSEw5M3BIT196U29DUEozRV9ZaXkxUFdOVUxlQkUzeFFKQm1rblZnUU5ZX2gzdFBTcVhHQzB0TVd5cmNiX3I5SHZPbGJGcVNvMXU1QjZxNXVFSUJ1cTFCRWFCbC15OHJsUUJTM3I1QUFxMk44MGR6MHh1WVhLOGRtY2JaR2RFNkF6WEsySU9JOUFLQnlUUTlnT3ZlZVF4d21zVi1hSnAwUS02S0wwakV4ZDFhRUdoTEcwSFZNdTY0UW90Q25lY3dBRnNmLVNKN3BRdXFfYzVSLWZHYWRISVVuWFhUdllJY01BRXQ3MXAwOWJZMVVUeFJOUGYweGpfbUJXaXlYZTczdndqU3VHTDRWT3J5blBtUWM?oc=5",
+      "desc": "",
+      "date": "2026-11-20",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "3a473d58dd2e",
+      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
       "desc": "",
       "date": "2026-11-20",
       "source": "USCIS",
@@ -218,15 +245,6 @@
       "category": "uscis"
     },
     {
-      "id": "3a473d58dd2e",
-      "title": "I-360, Petition for Amerasian, Widow(er), or Special Immigrant - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKdk8wWl9vaUtYV3JOTUVwdDJpZVhGdG9VblBMLWs2d05UbDQ3UDZleENaZVZieThCNmNueHAzU08?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "894fc00ae7a2",
       "title": "US Department of Labor announces plans to update employment resources for service members transitioning to civilian life",
       "link": "http://www.dol.gov/newsroom/releases/vets/vets20261110",
@@ -389,6 +407,15 @@
       "category": "uscis"
     },
     {
+      "id": "7c8e1899effd",
+      "title": "I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YRDVXMzBna3dyMDNnMkUwc25idTYtNnpDcTJHZDdwV2tHNFJHcTl5d1Z4UFI3NEdvb1BUWVUxMDc?oc=5",
+      "desc": "",
+      "date": "2026-11-10",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
       "id": "a7ddbcc51ed7",
       "title": "G-325A, Biographic Information (for Deferred Action) - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBXbzIwbFo4VHdOandZUFNLelBtdUEzcWVVUkMyUDFvUW1PNGJ5MUJ4ZTZOdVR5cGNWUV9yMktYYWs2Zw?oc=5",
@@ -513,33 +540,6 @@
       "date": "2026-10-29",
       "source": "USCIS",
       "category": "uscis"
-    },
-    {
-      "id": "a36be8cb1e0f",
-      "title": "US Department of Labor recovers $603K for 829 workers  denied overtime pay by Indiana auto parts manufacturer",
-      "link": "http://www.dol.gov/newsroom/releases/whd/whd20261028",
-      "desc": "INDIANAPOLIS&nbsp;–&nbsp;The U.S. Department of Labor has recovered $603,953 in back wages for 829 workers after an investigation found an Indianapolis-area vehicle parts manufacturer failed to properly calculate overtime wages.Investigators with the department’s Wage and Hour Di",
-      "date": "2026-10-28",
-      "source": "DOL",
-      "category": "dol"
-    },
-    {
-      "id": "f16757016182",
-      "title": "Suburban Chicago Man Sentenced for Staging Robberies to Help Others Fraudulently Apply for Immigration Visas - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMUVyRzFycVdVeHZlSU03eVFzNFk4d19XSnRXN21zR3lQb2llMlltcVYyRHNaZEtsX3NYUUEyeUQ5TEZCdFZnZHhfUVRxRlNUWVEyTnRXVWVWS2pOdjBRdXNQcktDZlZkRGQ0eFFqa0hIRlBCWXVXTlMtVnA0Q3F6Umo3bFVRdlFKU3hXMkdETE91aWl4R2Z1b2NwMF9BOVEtREk2Y2RwcEZYUGdINy1sbVhLYng3cERmVktfMHZ1NWR5S1YtMGFzUmhuU1VRODBB?oc=5",
-      "desc": "",
-      "date": "2026-10-28",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "cae0adb40e7c",
-      "title": "US Department of Labor finds none of nation’s 12,000 mining operations met criteria for pattern of violations in fiscal year 2026",
-      "link": "http://www.dol.gov/newsroom/releases/msha/msha20261027",
-      "desc": "WASHINGTON – The U.S. Department of Labor’s&nbsp;Mine Safety and Health Administration announced today that none of the nation’s 12,000 mining operations met the criteria for a pattern of violations notice, one of the agency’s toughest enforcement tools.In MSHA’s annual screening",
-      "date": "2026-10-27",
-      "source": "DOL",
-      "category": "dol"
     }
   ]
 }
