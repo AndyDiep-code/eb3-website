@@ -1,6 +1,24 @@
 {
-  "updated": "2026-11-25T17:54:15Z",
+  "updated": "2026-11-26T17:39:14Z",
   "items": [
+    {
+      "id": "d1732a553612",
+      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
+      "desc": "",
+      "date": "2026-11-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "4be5ac1d63e5",
+      "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
+      "desc": "",
+      "date": "2026-11-24",
+      "source": "USCIS",
+      "category": "uscis"
+    },
     {
       "id": "e09081b68399",
       "title": "US Department of Labor proposes to update fiduciary rule to affirm Employee Retirement Income Security Act’s exclusive purpose rule",
@@ -83,15 +101,6 @@
       "category": "dol"
     },
     {
-      "id": "d1732a553612",
-      "title": "I-765, Application for Employment Authorization - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5TRWFkTlhXdW5DMk1aLTQ3eUJIc0QtQlVLNlB6T29nOGZTeE11U2swbEh2Mlo4Nk9BWDNrVlZYdUU?oc=5",
-      "desc": "",
-      "date": "2026-11-19",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "098a3bda6833",
       "title": "G-1055, Fee Schedule - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE15NGZua3BBZEtGNy1CeGo4cDdCZXBvd1NZTFM1UE1aRTU4VXZENUpMVERWazhaZGxxOHJEeGc3dFdQUQ?oc=5",
@@ -149,6 +158,15 @@
       "id": "d701375c78e5",
       "title": "I-589, Application for Asylum and for Withholding of Removal - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE16dnQ3T0JRSDlDeVJsRmlrUnBVMk4wR3lwUGs3Rlg2WmxyZ3lQSExPUWJHd1BBZnJ4Tlpfcm1HTDQ?oc=5",
+      "desc": "",
+      "date": "2026-11-19",
+      "source": "USCIS",
+      "category": "uscis"
+    },
+    {
+      "id": "ca0f77a5be70",
+      "title": "Direct Filing Addresses for Form I-131, Application for Travel Documents, Parole Documents, and Arrival/Departure Records - USCIS (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5abUFSQVN0ZEFqUTZBalpacVpIVG9oanQyZE1kaXFMNV84Rk9BWThkQ0ZRU2VkSUJ4eG9mYWlOYjgyOTRvQUR1Nk54WVRIUQ?oc=5",
       "desc": "",
       "date": "2026-11-19",
       "source": "USCIS",
@@ -344,15 +362,6 @@
       "category": "uscis"
     },
     {
-      "id": "4be5ac1d63e5",
-      "title": "I-539, Application to Extend/Change Nonimmigrant Status - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE96dENaVm5YM0JWM0U5ejZmbVZINl9iS25uNnhJbXBHQnZZQU9mTC1PZVgtdzU0OTN2MDNQRENqRVA?oc=5",
-      "desc": "",
-      "date": "2026-11-10",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
       "id": "22fcf5360295",
       "title": "Direct Filing Addresses for Form I-485, Application to Register Permanent Residence or Adjust Status - USCIS (.gov)",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWWtkSjR0b0NjSjRLV3FUS1RGcV85R3hMRW82czRPOEVkbzJicmJqMGltWFMyMWZiTC1JZjhmdl9TbUY1WTRwYmJ4V2JzbHl6SUJ0aDI5eUJrXzJhVmhGVnQtY2ZoYXR3Y0UyeWU1VHBmdk9qYXVKc19RcVEwZV90QTBEbUp4MkQtRWFxb3JQR0c5eGxiazVDdnBhZjNSc3pWR2o0aTBkWjhQNVNId3NiTENxOGpEamxaTVRSdUI3SndPeHZDT0RSekdNQ1o2WjJsV3lV?oc=5",
@@ -529,15 +538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQd2lmX1dBVG9UN3hJalRzczJfRW80Ri00eWtLdDdON2dSbjNkZ2xBQmt0UG5hSlBoRnkzZ1huY2ZNY1h2V0d0MVFWSHVULUxPRDFpNldGQ2JEX0V5NVRsNm5jc2g4aThVWDFpTmo5WjBOQkhjbXRrdnExQUpYY29uWGFrN3ZyaWFjN0Jib0VwZnBMRjFWNHhINmFZcEwyQUlhcnBtU3pleTRzOVhUX0thNGZyNWwteDVQWnd3eUY5bnkyWi1iTGhnQWhSMHY0WWZDbGlOLVFHWXVaVWE4al9CR3lxTmszXzM1UVhMSUZwcEw?oc=5",
       "desc": "",
       "date": "2026-11-02",
-      "source": "USCIS",
-      "category": "uscis"
-    },
-    {
-      "id": "cf99a4e9d9d7",
-      "title": "Request Records through the Freedom of Information Act or Privacy Act - USCIS (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbmhjRjVYdE1ZaS10c2cxUHpmcm5URzJVcGFXcW5mU2RQRlMxa19WZmtGUzVKa1ZKVjBHWnFQNXhlc0dSYnNUY0lFN3NmczdwSkhUaXBrMkZOZEIzTkNLQ1I2WkR6SDduODN6SzNhUGUyQzRwMjBUTHVwYndyZUNKb2xWUGYtYW83LXlDaHRxNldZOGZtUXpPeFRJbHIwODNC?oc=5",
-      "desc": "",
-      "date": "2026-10-30",
       "source": "USCIS",
       "category": "uscis"
     }
